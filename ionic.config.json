@@ -1,0 +1,7 @@
+{
+  "name": "OCTcases",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}

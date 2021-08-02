@@ -1,6 +1,15 @@
 /* Ionic Variables and Theming. For more info, please see:
 http://ionicframework.com/docs/theming/ */
 
+/* custom styles */
+ion-text {
+    font-size: 1.1rem;
+    hyphens: auto;
+}
+
+ion-card-title {
+  font-size: 1.2rem;
+}
 /** Ionic CSS Variables **/
 :root {
   /** primary **/

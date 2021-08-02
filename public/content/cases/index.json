@@ -1,0 +1,20 @@
+{
+    "0": {
+        "caseID": "retina1",
+        "category": "retina",
+        "title": "Case 1",
+        "description": "67M presenting with acute unilateral vision loss OD"
+    },
+    "1": {
+        "caseID": "uveitis1",
+        "category": "uveitis",
+        "title": "Case 1",
+        "description": "68M presenting with acute unilateral vision loss OD"
+    },
+    "2": {
+        "caseID": "retina2",
+        "category": "retina",
+        "title": "Case 2",
+        "description": "77F presenting with decreased vision and metamorphopsia OD"
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "caseID": "uveitis1",
+    "category": "uveitis",
+    "title": "Case 2",
+    "description": "68M presenting with acute unilateral vision loss OD",
+    "patientPresentation": {
+      "text": "A 68-year-old male presents to an emergency eye clinic with decreased unilateral vision loss from 20/50 to 20/100 OD since last visit. He had cataract surgery one month prior in this right eye. His most recent HbA1C was 5.4%. The patient's OCT is shown below.",
+      "image": null
+    },
+    "questions": {
+      "0": {
+        "q": {
+          "title": "Question 1",
+          "text": "What abnormalities do you visualize in the patient's OCT image?",
+          "image": "/content/media/case1-q1.png"
+        },
+        "a": {
+          "0": {
+            "correct": false,
+            "answerText": "Loss of Foveal Contour and Epi-retinal Membrane",
+            "explanation": null
+          },
+          "1": {
+            "correct": false,
+            "answerText": "Intra-retinal Cysts",
+            "explanation": null
+          },
+          "2": {
+            "correct": false,
+            "answerText": "Sub-retinal Fluid",
+            "explanation": null
+          },
+          "3": {
+            "correct": true,
+            "answerText": "All of the above",
+            "explanation": {
+              "text": "**The abnormalities on the OCT are:** \n1) Loss of foveal contour and epi-retinal membrane\n2) Well-defined intra-retinal cysts\n3) Sub-retinal fluid",
+              "image": null
+            }
+          }
+        }
+      },
+      "1": {
+        "q": {
+          "title": "Question 2",
+          "text": "What abnormalities do you visualize in the patient's OCT image?",
+          "image": "/content/media/case1-q2.png"
+        },
+        "a": {
+          "0": {
+            "correct": false,
+            "answerText": "Loss of Foveal Contour and Epi-retinal Membrane",
+            "explanation": null
+          },
+          "1": {
+            "correct": false,
+            "answerText": "Intra-retinal Cysts",
+            "explanation": null
+          },
+          "2": {
+            "correct": false,
+            "answerText": "Sub-retinal Fluid",
+            "explanation": null
+          },
+          "3": {
+            "correct": true,
+            "answerText": "All of the above",
+            "explanation": {
+              "text": "The abnormalities on the OCT are:\n1) Loss of foveal contour and epi-retinal membrane\n2) Well-defined intra-retinal cysts\n3) Sub-retinal fluid",
+              "image": null
+            }
+          }
+        }
+      }
+    }
+  }

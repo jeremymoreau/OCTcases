@@ -49,7 +49,7 @@ export default defineComponent({
     Header,
   },
   setup() {
-    const caseIndex = getJSON("/content/cases/index.json");
+    const caseIndex = getJSON("/assets/index/case_index.json");
     return { caseIndex };
   },
 

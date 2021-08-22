@@ -35,7 +35,7 @@ collections:
             allow_add: true
             fields:
               - {label: "Answer", name: "answerText", widget: "string"}
-              - {label: "Correct Answer?", name: "correct", widget: "boolean"}
-              - {label: "Explanation", name: "text", widget: "markdown", required: false, hint: "Explanation will only be displayed for correct answer"}
+              - {label: "Correct Answer?", name: "correct", widget: "boolean", required: false}
+              - {label: "Explanation", name: "explanation", widget: "markdown", required: false, hint: "Explanation will only be displayed for correct answer"}
       - {label: "Footer", name: "footer", widget: "markdown", required: false, hint: "This content will be displayed below the questions (e.g. references, learning objectives)"}
               

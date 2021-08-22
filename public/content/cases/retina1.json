@@ -12,7 +12,7 @@
         {
           "answerText": "A. blue",
           "correct": true,
-          "text": "Correct answer!\n\n![](/content/media/case-retina1-q1-ans.png)"
+          "explanation": "Correct answer!\n\n![](/content/media/case-retina1-q1-ans.png)"
         },
         {
           "answerText": "B. green",

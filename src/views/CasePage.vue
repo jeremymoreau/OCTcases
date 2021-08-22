@@ -6,52 +6,41 @@
       <ion-content overflow-scroll="true" scrollEvents="true" id="content">
         <ion-card>
           <ion-card-header>
-            <ion-card-subtitle> {{ caseData.category }} </ion-card-subtitle>
+            <ion-card-subtitle> {{ category }} </ion-card-subtitle>
             <ion-card-title class="case-title">
-              {{ caseData.title }}
+              {{ caseTitle }}
             </ion-card-title>
           </ion-card-header>
 
           <ion-card-content>
-            <img
-              v-bind:src="caseData.patientPresentation.image"
-              v-if="caseData.patientPresentation.image"
-            />
-            <ion-text v-if="caseData.patientPresentation.text">
-              {{ caseData.patientPresentation.text }}</ion-text
-            >
+            <ion-text v-if="patientPresentation" v-html="patientPresentation">
+            </ion-text>
           </ion-card-content>
         </ion-card>
 
-        <template v-for="question in caseData.questions" :key="question">
+        <template v-for="question in questions" :key="question">
           <ion-card>
             <ion-card-header>
               <ion-card-title class="q-title">
-                {{ question.q.title }}
+                {{ question.title }}
               </ion-card-title>
             </ion-card-header>
             <ion-card-content>
-              <!-- question image -->
-              <img v-bind:src="question.q.image" v-if="question.q.image" />
-              <!-- question text -->
-              <ion-text v-if="question.q.text">
-                {{ question.q.text }}
+              <ion-text
+                v-if="question.text"
+                v-html="$options.filters.markdown(question.text)"
+              >
               </ion-text>
 
               <!-- answer buttons -->
-              <template v-for="answer in question.a" :key="answer">
+              <template v-for="answer in question.answers" :key="answer">
                 <ion-button
                   class="q-btn"
                   expand="block"
                   fill="outline"
                   v-if="answer.answerText"
                   @click="
-                    openModal(
-                      answer.correct,
-                      'Correct!',
-                      answer.explanation.text,
-                      answer.explanation.image
-                    )
+                    openModal(answer.correct, 'Correct!', answer.explanation)
                   "
                 >
                   {{ answer.answerText }}
@@ -127,6 +116,10 @@ export default defineComponent({
   data() {
     return {
       caseData: null,
+      caseTitle: null,
+      category: null,
+      questions: null,
+      patientPresentation: "",
     };
   },
 
@@ -140,39 +133,53 @@ export default defineComponent({
   },
 
   methods: {
-    fetchData() {
+    async fetchData() {
       const caseID = this.$route.params.caseID;
       if (caseID != null) {
         const casePath = ["/content/cases/", caseID, ".json"].join("");
         const caseData = getJSON(casePath);
-        this.caseData = caseData;
-        // console.log(this.caseData)
+        console.log(caseData.title);
+        this.caseTitle = caseData.title;
+        this.category = caseData.category;
+        this.patientPresentation = marked(caseData.patientPresentation);
+        this.questions = caseData.questions;
+        console.log(this.caseTitle);
       }
     },
     async openModal(
       answerCorrect: boolean,
       title: string,
-      content: string,
-      image: string
+      explanation: string
     ) {
-      if (answerCorrect == false) {
+      // If answer is correct
+      if (answerCorrect === true) {
+        // If answer is correct and there is an explanation, display it
+        if (explanation != null) {
+          const modal = await modalController.create({
+            component: AnswerModal,
+            componentProps: {
+              title: title,
+              content: marked(explanation, { breaks: true }),
+            },
+          });
+          return modal.present();
+        } else {
+          // If answer is correct, but there is no explanation
+          const toast = await toastController.create({
+            message: title,
+            color: "success",
+            duration: 2000,
+          });
+          return toast.present();
+        }
+      } else {
+        // If answer is wrong
         const toast = await toastController.create({
           message: "Incorrect. Try again!",
           color: "danger",
           duration: 2000,
         });
         return toast.present();
-      } else {
-        // console.log(marked(content));
-        const modal = await modalController.create({
-          component: AnswerModal,
-          componentProps: {
-            title: title,
-            content: marked(content, { breaks: true }),
-            image: image,
-          },
-        });
-        return modal.present();
       }
     },
 
@@ -224,6 +231,12 @@ export default defineComponent({
       }
       // console.log(currentCaseIndex)
       // console.log(categCases[currentCaseIndex + 2]);
+    },
+  },
+  filters: {
+    markdown: function (rawMarkdown: string) {
+      console.log(rawMarkdown);
+      return marked(rawMarkdown);
     },
   },
 });

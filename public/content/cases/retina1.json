@@ -34,8 +34,7 @@
       "answers": [
         {
           "answerText": "A. Yes",
-          "correct": true,
-          "text": ""
+          "correct": true
         },
         {
           "answerText": "B. No"

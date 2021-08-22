@@ -11,13 +11,31 @@ logo_url: /assets/OCTcases-logo.svg
 collections:
   - name: "cases"
     label: "Cases"
-    identifier_field: CaseID
+    identifier_field: "caseID"
     extension: json
     folder: "public/content/cases"
     create: true
     slug: "{{slug}}"  # url-safe version of the post's title
     fields:
-      - {label: "Case ID", name: "caseID", widget: "string", pattern: ["^[a-z]+[0-9]+$", "Format must be category+number, all lowercase with no spaces or symbols (e.g. retina42)"]}
-      - {label: "Category", name: "category", widget: "string", pattern: ["^[a-z]+$", "All lowercase with no spaces or symbols"]}
+      - {label: "Case ID", name: "caseID", widget: "string", hint: "Unique Case ID (e.g. retina42). Must be different for each case.",  pattern: ["^[a-z]+[0-9]+$", "Format must be category+number, all lowercase with no spaces or symbols (e.g. retina42)"]}
+      - {label: "Category", name: "category", widget: "select", options: ["retina", "neuro-ophthalmology", "uveitis", "glaucoma", "ocular oncology"]}
       - {label: "Title", name: "title", widget: "string", pattern: ["^.{1,50}$", "Must be less than 50 characters"]}
-      - {label: "Description", name: "description", widget: "string", pattern: ["^.{1,150}$", "Must be less than 150 characters"]}
+      - {label: "Short Description", name: "description", widget: "string", pattern: ["^.{1,150}$", "Must be less than 150 characters"]}
+      - {label: "Patient Presentation", name: "patientPresentation", widget: "markdown"}
+      - label: "Questions"
+        name: "questions"
+        widget: "list"
+        allow_add: true
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Question", name: "text", widget: "markdown"}
+          - label: "Answers"
+            name: "answers"
+            widget: "list"
+            allow_add: true
+            fields:
+              - {label: "Answer", name: "answerText", widget: "string"}
+              - {label: "Correct Answer?", name: "correct", widget: "boolean"}
+              - {label: "Explanation", name: "text", widget: "markdown", required: false, hint: "Explanation will only be displayed for correct answer"}
+      - {label: "Footer", name: "footer", widget: "markdown", required: false, hint: "This content will be displayed below the questions (e.g. references, learning objectives)"}
+              

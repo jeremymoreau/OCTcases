@@ -27,6 +27,20 @@
           "correct": false
         }
       ]
+    },
+    {
+      "title": "Question 2",
+      "text": "Yes or no?",
+      "answers": [
+        {
+          "answerText": "A. Yes",
+          "correct": true,
+          "text": ""
+        },
+        {
+          "answerText": "B. No"
+        }
+      ]
     }
   ],
   "footer": "#### Learning objectives\n\n* This is a **list**\n* *Continued*"

@@ -184,7 +184,7 @@ export default defineComponent({
     },
 
     async gotoPreviousNextPage(previousOrNext: string) {
-      const caseIndex = Object.values(getJSON("/content/cases/index.json"));
+      const caseIndex = Object.values(getJSON("/assets/index/case_index.json"));
       // get all cases in the current category (e.g. all retina cases)
       const categCases = caseIndex.filter(
         (ptCase: any) => ptCase.category === this.$route.params.caseCategory

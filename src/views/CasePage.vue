@@ -138,12 +138,10 @@ export default defineComponent({
       if (caseID != null) {
         const casePath = ["/content/cases/", caseID, ".json"].join("");
         const caseData = getJSON(casePath);
-        console.log(caseData.title);
         this.caseTitle = caseData.title;
         this.category = caseData.category;
         this.patientPresentation = marked(caseData.patientPresentation);
         this.questions = caseData.questions;
-        console.log(this.caseTitle);
       }
     },
     async openModal(
@@ -235,7 +233,6 @@ export default defineComponent({
   },
   filters: {
     markdown: function (rawMarkdown: string) {
-      console.log(rawMarkdown);
       return marked(rawMarkdown);
     },
   },

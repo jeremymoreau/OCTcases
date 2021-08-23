@@ -1,0 +1,44 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A",
+          "explanation": "answer"
+        },
+        {
+          "correct": false,
+          "answerText": "B"
+        },
+        {
+          "correct": false,
+          "answerText": "C"
+        },
+        {
+          "correct": false,
+          "answerText": "D"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What?"
+    },
+    {
+      "title": "Question 2",
+      "text": "2nd *question*\n\n* *a*\n* *b*\n* *c*",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "1. a\n2. b\n3. c"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina2",
+  "category": "retina",
+  "title": "Case 2",
+  "description": "test case 2",
+  "patientPresentation": "test **test** *test*\n\n> *this is a test*",
+  "footer": "#### References\n\n* A et al.\n* B et al.\n\n#### Learning Objectives\n\n* a\n* b\n* c"
+}

@@ -3,5 +3,8 @@
   "integrations": {
     "capacitor": {}
   },
-  "type": "vue"
+  "type": "vue",
+  "hooks": {
+    "build:before": "./scripts/generate_index.js"
+  }
 }

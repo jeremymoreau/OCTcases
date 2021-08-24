@@ -46,6 +46,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string", pattern: ["^.{1,50}$", "Must be less than 50 characters"]}
+      - {label: "Short Description", name: "description", widget: "string", pattern: ["^.{1,150}$", "Must be less than 150 characters"]}
       - {label: "Article", name: "article", widget: "markdown"}
   - name: "atlas"
     label: "Atlas"

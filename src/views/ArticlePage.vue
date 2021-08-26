@@ -18,7 +18,7 @@
           </ion-card-content>
         </ion-card>
 
-        <div v-if="question">
+        <div v-if="questions">
         <template v-for="question in questions" :key="question">
           <ion-card>
             <ion-card-header>

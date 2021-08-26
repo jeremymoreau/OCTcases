@@ -1,0 +1,42 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A",
+          "explanation": "answer"
+        },
+        {
+          "correct": false,
+          "answerText": "B"
+        },
+        {
+          "correct": false,
+          "answerText": "C"
+        },
+        {
+          "correct": false,
+          "answerText": "D"
+        }
+      ],
+      "title": "question 1",
+      "text": "What?"
+    },
+    {
+      "title": "question 2",
+      "text": "This is a **test**",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "answer"
+        }
+      ]
+    }
+  ],
+  "title": "Another test article",
+  "description": "this is another test article",
+  "article": "## title\n\n* a\n* b\n* c\n\nThis is a test ***article***\n\n![](/content/media/case-retina1-q1-ans.png)",
+  "footer": "This is a test **footer**."
+}

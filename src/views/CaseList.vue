@@ -29,6 +29,12 @@
           >
             <ion-label> Glaucoma </ion-label>
           </ion-item>
+          <ion-item
+            button="true"
+            @click="gotoPage('CaseListCategory', 'ocular oncology')"
+          >
+            <ion-label> Ocular Oncology </ion-label>
+          </ion-item>
         </ion-list>
       </ion-content>
 

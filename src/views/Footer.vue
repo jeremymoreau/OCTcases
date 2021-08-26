@@ -11,7 +11,7 @@
             <ion-label>Home</ion-label>
           </ion-tab-button>
 
-          <ion-tab-button tab="articles" @click="gotoPage('Articles')">
+          <ion-tab-button tab="articles" @click="gotoPage('ArticleList')">
             <ion-icon :icon="reader"></ion-icon>
             <ion-label>Articles</ion-label>
           </ion-tab-button>

@@ -5,15 +5,11 @@
 
       <ion-content overflow-scroll="true">
         <ion-list id="array-rendering" lines="full">
-          <ion-list-header class="category-title">{{
-            $route.params.caseCategory
-          }}</ion-list-header>
 
-          <template v-for="item in caseIndex" :key="item">
+          <template v-for="item in articleIndex" :key="item">
             <ion-item
               button="true"
-              v-if="item.category == $route.params.caseCategory"
-              @click="gotoPage('CasePage', item.caseID)"
+              @click="gotoPage('ArticlePage', item.slug)"
             >
               <ion-label>
                 <h2 class="list-title">{{ item.title }}</h2>
@@ -48,15 +44,15 @@ export default defineComponent({
     Header,
   },
   setup() {
-    const caseIndex = getJSON("/assets/index/case_index.json");
-    return { caseIndex };
+    const articleIndex = getJSON("/assets/index/article_index.json");
+    return { articleIndex };
   },
 
   methods: {
-    gotoPage(pageName: string, caseID: string) {
+    gotoPage(pageName: string, slug: string) {
       this.$router.push({
         name: pageName,
-        params: { caseID: caseID },
+        params: { slug: slug },
       });
     },
   },

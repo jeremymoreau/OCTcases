@@ -48,6 +48,23 @@ collections:
       - {label: "Title", name: "title", widget: "string", pattern: ["^.{1,50}$", "Must be less than 50 characters"]}
       - {label: "Short Description", name: "description", widget: "string", pattern: ["^.{1,150}$", "Must be less than 150 characters"]}
       - {label: "Article", name: "article", widget: "markdown"}
+      - label: "Review Questions"
+        name: "questions"
+        widget: "list"
+        allow_add: true
+        required: false
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Question", name: "text", widget: "markdown"}
+          - label: "Answers"
+            name: "answers"
+            widget: "list"
+            allow_add: true
+            fields:
+              - {label: "Answer", name: "answerText", widget: "string"}
+              - {label: "Correct Answer?", name: "correct", widget: "boolean", default: false}
+              - {label: "Explanation", name: "explanation", widget: "markdown", required: false, hint: "Explanation will only be displayed for correct answer"}
+      - {label: "Footer", name: "footer", widget: "markdown", required: false, hint: "This content will be displayed below the review questions (e.g. references, learning objectives)"}
   - name: "atlas"
     label: "Atlas"
     extension: json

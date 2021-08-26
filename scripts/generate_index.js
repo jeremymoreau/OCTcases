@@ -37,7 +37,7 @@ module.exports = function generateIndex(ctx) {
             const jsonData = JSON.parse(fs.readFileSync(filePath))
             
             const currentArticle = {
-                "slug": file,
+                "slug": file.slice(0, -5), // remove .json from string
                 "title": jsonData.title,
                 "description": jsonData.description
             }

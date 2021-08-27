@@ -3,6 +3,7 @@ import { RouteRecordRaw } from 'vue-router';
 import Home from '../views/Home.vue'
 import ArticleList from '../views/ArticleList.vue'
 import ArticlePage from '../views/ArticlePage.vue'
+import AtlasList from '../views/AtlasList.vue'
 import CaseList from '../views/CaseList.vue'
 import CaseListCategory from '../views/CaseListCategory.vue'
 import CasePage from '../views/CasePage.vue'
@@ -26,6 +27,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/articles/:slug',
     name: 'ArticlePage',
     component: ArticlePage
+  },
+  {
+    path: '/atlas',
+    name: 'AtlasList',
+    component: AtlasList
   },
   {
     path: '/cases',

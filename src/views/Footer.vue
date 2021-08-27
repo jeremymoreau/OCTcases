@@ -16,7 +16,7 @@
             <ion-label>Articles</ion-label>
           </ion-tab-button>
 
-          <ion-tab-button tab="atlas" @click="gotoPage('Atlas')">
+          <ion-tab-button tab="atlas" @click="gotoPage('AtlasList')">
             <ion-icon :icon="search"></ion-icon>
             <ion-label>Atlas</ion-label>
           </ion-tab-button>

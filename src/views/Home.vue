@@ -8,15 +8,7 @@
           <ion-card-header> </ion-card-header>
 
           <ion-card-content>
-            <picture>
-              <source
-                srcset="/assets/img/OCTcases-logo-dark.png"
-                media="(prefers-color-scheme: dark)"
-              />
-              <img src="/assets/img/OCTcases-logo-light.png" />
-            </picture>
-            <!-- <img src="/content/media/OCTcases-logo.png"> -->
-            <!-- <img src="/content/media/home-sample-image.png"> -->
+            <img src="/assets/img/OCTcases-logo-light.png" />
             <ion-text>
               OCTcases is a high-yield, free resource created for medical
               students, optometry students, residents, and eye care
@@ -113,9 +105,6 @@ export default defineComponent({
     IonPage,
     Footer,
     Header,
-  },
-  setup() {
-    return {};
   },
 
   methods: {},

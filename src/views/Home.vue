@@ -8,7 +8,9 @@
           <ion-card-header> </ion-card-header>
 
           <ion-card-content>
-            <img src="/assets/img/OCTcases-logo-light.png" />
+            <ion-row>
+              <img src="/assets/img/OCTcases-logo-light.png" />
+            </ion-row>
             <ion-text>
               OCTcases is a high-yield, free resource created for medical
               students, optometry students, residents, and eye care
@@ -27,7 +29,9 @@
 
           <ion-card-content>
             <h1>Real Patients</h1>
-            <img src="/assets/img/home-features1.png" />
+            <ion-row>
+              <img src="/assets/img/home-features1.png" />
+            </ion-row>
             <ion-text
               >All cases presented on OCTcases are from our own clinical
               practice, and thus are reflective of real patient
@@ -35,7 +39,9 @@
             >
 
             <h1 class="feature-title">Interactive</h1>
-            <img src="/assets/img/home-features2.png" />
+            <ion-row>
+              <img src="/assets/img/home-features2.png" />
+            </ion-row>
             <ion-text
               >Our diagrams are immersive and built for our users. Our images
               are labelled with accompanying descriptions and clinical
@@ -43,7 +49,9 @@
             >
 
             <h1 class="feature-title">Detailed Answers</h1>
-            <img src="/assets/img/home-features3.png" />
+            <ion-row>
+              <img src="/assets/img/home-features3.png" />
+            </ion-row>
             <ion-text
               >All questions are carefully crafted and high yield. Each question
               comes with labelled diagrams and detailed explanations.</ion-text

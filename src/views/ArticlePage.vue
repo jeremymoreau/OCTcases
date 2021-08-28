@@ -54,7 +54,7 @@
         <!-- Footer Card -->
         <ion-card v-if="footerText">
           <ion-card-content>
-            <ion-text v-if="footerText" v-html="footerText">
+            <ion-text class="footer-text" v-if="footerText" v-html="footerText">
             </ion-text>
           </ion-card-content>
         </ion-card>
@@ -220,5 +220,27 @@ export default defineComponent({
     margin-left: auto;
     margin-right: auto;
     width: 95%;
+}
+
+.footer-text h1 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.footer-text h2 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.footer-text h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.footer-text h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: italic;
+    padding-top: 1rem;
+}
+.footer-text p {
+    font-size: 1rem;
 }
 </style>

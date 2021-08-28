@@ -48,6 +48,15 @@
             </ion-card-content>
           </ion-card>
         </template>
+
+        <!-- Footer Card -->
+        <ion-card v-if="footerText">
+          <ion-card-content>
+            <ion-text class="footer-text" v-if="footerText" v-html="footerText">
+            </ion-text>
+          </ion-card-content>
+        </ion-card>
+
         <ion-grid>
           <ion-row>
             <ion-col col-6>
@@ -118,6 +127,7 @@ export default defineComponent({
       category: null,
       questions: null,
       patientPresentation: "",
+      footerText: ""
     };
   },
 
@@ -140,6 +150,9 @@ export default defineComponent({
         this.category = caseData.category;
         this.patientPresentation = marked(caseData.patientPresentation);
         this.questions = caseData.questions;
+        if (caseData.footer != null) {
+            this.footerText = marked(caseData.footer);
+        }
       }
     },
     async openModal(

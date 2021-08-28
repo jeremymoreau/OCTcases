@@ -149,7 +149,7 @@ export default defineComponent({
           const toast = await toastController.create({
             message: title,
             color: "success",
-            duration: 2000,
+            duration: 1000,
           });
           return toast.present();
         }
@@ -158,7 +158,7 @@ export default defineComponent({
         const toast = await toastController.create({
           message: "Incorrect. Try again!",
           color: "danger",
-          duration: 2000,
+          duration: 500,
         });
         return toast.present();
       }

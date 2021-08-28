@@ -47,8 +47,8 @@ export default defineComponent({
 /* body {
     font-size: 1.3rem;
 } */
-.answer-text > * {
-  font-size: 1.1rem !important;
+.answer-text p {
+  font-size: 1rem;
 }
 .ans-image {
   padding-bottom: 10px;

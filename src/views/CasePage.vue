@@ -12,7 +12,7 @@
           </ion-card-header>
 
           <ion-card-content>
-            <ion-text v-if="patientPresentation" v-html="patientPresentation">
+            <ion-text class='question-text' v-if="patientPresentation" v-html="patientPresentation">
             </ion-text>
           </ion-card-content>
         </ion-card>
@@ -25,7 +25,7 @@
               </ion-card-title>
             </ion-card-header>
             <ion-card-content>
-              <ion-text
+              <ion-text class='question-text'
                 v-if="question.text"
                 v-html="$options.filters.markdown(question.text)"
               >
@@ -238,9 +238,6 @@ export default defineComponent({
 </script>
 
 <style>
-.answer-text p {
-  margin-bottom: 10px;
-}
 .case-title {
   font-size: 1.2rem;
 }

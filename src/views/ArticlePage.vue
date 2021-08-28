@@ -175,17 +175,23 @@ export default defineComponent({
 
 <style>
 .article-text p {
+  font-size: 1rem;
+}
+.article-text p {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
 .article-text h2 {
+  font-size: 1.1rem;
   font-weight: bold;
 }
 .article-text h3 {
+  font-size: 1.1rem;
   font-weight: bold;
   padding-top: 1rem;
 }
 .article-text h4 {
+  font-size: 1rem;
   font-weight: 600;
   font-style: italic;
   padding-top: 1rem;
@@ -206,6 +212,9 @@ export default defineComponent({
     width: 95%;
 }
 
+.question-text p {
+  font-size: 1.1rem;
+}
 .question-text img {
     display: block;
     margin-left: auto;

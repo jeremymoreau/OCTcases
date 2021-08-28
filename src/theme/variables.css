@@ -6,10 +6,12 @@ ion-text {
     font-size: 1.1rem;
     hyphens: auto;
 }
-
 ion-card-title {
   font-size: 1.2rem;
 }
+ion-button {
+  text-transform: none;
+ }
 /** Ionic CSS Variables **/
 :root {
   /** primary **/

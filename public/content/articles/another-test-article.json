@@ -38,5 +38,6 @@
   "title": "Another test article",
   "description": "this is another test article",
   "article": "## title\n\n* a\n* b\n* c\n\nThis is a test ***article***\n\n![](/content/media/case-retina1-q1-ans.png)",
-  "footer": "This is a test **footer**."
+  "footer": "This is a test **footer**.",
+  "sortOrder": 3
 }

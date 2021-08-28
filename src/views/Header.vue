@@ -6,12 +6,12 @@
       </ion-buttons>
 
       <ion-buttons slot="primary">
-        <ion-button v-if="darkModeIcon" @click="toggleDarkMode()">
-          <ion-icon :icon="moon"></ion-icon>
+        <ion-button @click="toggleDarkMode()">
+          <ion-icon :icon="darkModeIcon"></ion-icon>
         </ion-button>
-        <ion-button v-else @click="toggleDarkMode()">
+        <!-- <ion-button v-else @click="toggleDarkMode()">
           <ion-icon :icon="moonOutline"></ion-icon>
-        </ion-button>
+        </ion-button> -->
       </ion-buttons>
 
       <ion-title class="app-title">OCTcases</ion-title>
@@ -36,24 +36,48 @@ export default defineComponent({
     return {
       helpCircle,
       moon,
-      moonOutline
+      moonOutline,
     };
   },
-  data() {
-    // Check darkMode var in localstorage (option 'on' or 'off')
-    // Set 'dark' class and darkModeIcon = true if darkMode === 'on'
-    const darkMode = localStorage.getItem('darkMode')
-    let darkModeIcon = false
-    if (darkMode === 'on') {
-      document.body.classList.add('dark');
-      darkModeIcon = true
-    } else {
-      document.body.classList.remove('dark');
-    }
-    // console.log(darkModeIcon)
+   data() {
     return {
-      darkModeIcon
-    }  
+      darkModeIcon: moonOutline
+    };
+  },
+  watch: {
+    '$route': function() {
+      // console.log(this.$route)
+      // Set 'dark' class and darkModeIcon = true if darkMode === 'on'
+      const darkMode = localStorage.getItem("darkMode");
+      // console.log(darkMode);
+      // let darkModeIcon = false
+      if (darkMode === "on") {
+        // console.log('dark mode')
+        // document.body.classList.add('dark');
+        this.darkModeIcon = moon;
+        // console.log(this.darkModeIcon);
+      } else {
+        // console.log('light mode')
+        this.darkModeIcon = moonOutline;
+        // document.body.classList.remove('dark');
+      }
+    },
+  },
+  mounted() {
+    // Set 'dark' class and darkModeIcon = true if darkMode === 'on'
+      const darkMode = localStorage.getItem("darkMode");
+      // console.log(darkMode);
+      // let darkModeIcon = false
+      if (darkMode === "on") {
+        // console.log('dark mode')
+        document.body.classList.add('dark');
+        this.darkModeIcon = moon;
+        // console.log(this.darkModeIcon);
+      } else {
+        // console.log('light mode')
+        this.darkModeIcon = moonOutline;
+        document.body.classList.remove('dark');
+      }
   },
   methods: {
     gotoPage(pageName: string) {
@@ -63,13 +87,13 @@ export default defineComponent({
     },
     // toggle dark class and set darkMode = 'on' or 'off' in localstorage
     toggleDarkMode() {
-      document.body.classList.toggle('dark');
-      if (localStorage.getItem('darkMode') === 'on') {
-        localStorage.setItem('darkMode', 'off');
-        this.darkModeIcon = false
+      document.body.classList.toggle("dark");
+      if (localStorage.getItem("darkMode") === "on") {
+        localStorage.setItem("darkMode", "off");
+        this.darkModeIcon = moonOutline;
       } else {
-        localStorage.setItem('darkMode', 'on');
-        this.darkModeIcon = true
+        localStorage.setItem("darkMode", "on");
+        this.darkModeIcon = moon;
       }
     },
   },

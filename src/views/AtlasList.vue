@@ -1,6 +1,5 @@
 <template>
   <ion-page>
-    <ion-app>
       <Header></Header>
 
       <ion-content overflow-scroll="true">
@@ -10,7 +9,6 @@
       </ion-content>
 
       <Footer></Footer>
-    </ion-app>
   </ion-page>
 </template>
 

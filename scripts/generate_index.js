@@ -7,8 +7,7 @@ const path = require('path')
 
 module.exports = function generateIndex(ctx) {
     // Generate and Index JSON file of all the cases in /public/content/cases
-    const caseIndex = {}
-    let i = 0
+    const caseIndex = []
     fs.readdirSync("./public/content/cases").forEach((file) => {
         if (file.endsWith('json')) {
             const filePath = path.join('./public/content/cases/', file)
@@ -20,8 +19,7 @@ module.exports = function generateIndex(ctx) {
                 "title": jsonData.title,
                 "description": jsonData.description
             }
-            caseIndex[i] = currentCase
-            i++
+            caseIndex.push(currentCase)
         }
     })
 
@@ -29,8 +27,7 @@ module.exports = function generateIndex(ctx) {
     fs.writeFileSync(indexFilePath, JSON.stringify(caseIndex));
 
     // Generate and Index JSON file of all the articles in /public/content/articles
-    const articleIndex = {}
-    let j = 0
+    const articleIndex = []
     fs.readdirSync("./public/content/articles").forEach((file) => {
         if (file.endsWith('json')) {
             const filePath = path.join('./public/content/articles/', file)
@@ -39,12 +36,16 @@ module.exports = function generateIndex(ctx) {
             const currentArticle = {
                 "slug": file.slice(0, -5), // remove .json from string
                 "title": jsonData.title,
-                "description": jsonData.description
+                "description": jsonData.description,
+                "sortOrder": jsonData.sortOrder
             }
-            articleIndex[j] = currentArticle
-            j++
+            articleIndex.push(currentArticle)
         }
     })
+    // Sort articleIndex in ascending order of sortOrder
+    articleIndex.sort(function(a, b){
+        return a.sortOrder - b.sortOrder;
+    });
 
     const articleIndexFilePath = './public/assets/index/article_index.json'
     fs.writeFileSync(articleIndexFilePath, JSON.stringify(articleIndex));

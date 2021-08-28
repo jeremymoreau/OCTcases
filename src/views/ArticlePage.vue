@@ -12,7 +12,7 @@
           </ion-card-header>
 
           <ion-card-content>
-            <ion-text v-if="article" v-html="article">
+            <ion-text class='article-text' v-if="article" v-html="article">
             </ion-text>
           </ion-card-content>
         </ion-card>
@@ -26,7 +26,7 @@
               </ion-card-title>
             </ion-card-header>
             <ion-card-content>
-              <ion-text
+              <ion-text class='question-text'
                 v-if="question.text"
                 v-html="$options.filters.markdown(question.text)"
               >
@@ -52,7 +52,7 @@
         </div>
 
         <!-- Footer Card -->
-        <ion-card>
+        <ion-card v-if="footerText">
           <ion-card-content>
             <ion-text v-if="footerText" v-html="footerText">
             </ion-text>
@@ -174,4 +174,42 @@ export default defineComponent({
 </script>
 
 <style>
+.article-text p {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.article-text h2 {
+  font-weight: bold;
+}
+.article-text h3 {
+  font-weight: bold;
+  padding-top: 1rem;
+}
+.article-text h4 {
+  font-weight: 600;
+  font-style: italic;
+  padding-top: 1rem;
+}
+.article-text ol {
+    padding-inline-start: 20px;
+
+}
+.article-text ul li p {
+    padding-top: 0px;
+    padding-bottom: 0.2rem;
+}
+
+.article-text img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+.question-text img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
 </style>

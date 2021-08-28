@@ -47,6 +47,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string", pattern: ["^.{1,50}$", "Must be less than 50 characters"]}
       - {label: "Short Description", name: "description", widget: "string", pattern: ["^.{1,150}$", "Must be less than 150 characters"]}
+      - {label: "Sort Order", name: "sortOrder", widget: "number", min: 1, value_type: "int", hint: "Sort order (articles will be displayed in ascending order based on this value)"}
       - {label: "Article", name: "article", widget: "markdown"}
       - label: "Review Questions"
         name: "questions"

@@ -1,7 +1,7 @@
 /* Ionic Variables and Theming. For more info, please see:
 http://ionicframework.com/docs/theming/ */
 
-/* custom styles */
+/***** custom styles *****/
 ion-text {
     font-size: 1.1rem;
     hyphens: auto;
@@ -12,6 +12,12 @@ ion-card-title {
 ion-button {
   text-transform: none;
  }
+ #octcases-logo {
+  content: url("/assets/img/OCTcases-logo-light.png")
+ }
+ .dark #octcases-logo {
+  content: url("/assets/img/OCTcases-logo-dark.png")
+}
 
  /* Markdown text style */
  .md-text p {

@@ -6,7 +6,7 @@
       <ion-card>
         <ion-card-content>
           <ion-row>
-            <img src="/assets/img/OCTcases-logo-light.png" />
+            <img id="octcases-logo" />
           </ion-row>
           <ion-text class="md-text">
             <p>

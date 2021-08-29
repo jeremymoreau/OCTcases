@@ -13,10 +13,15 @@ ion-button {
   text-transform: none;
  }
  #octcases-logo {
-  content: url("/assets/img/OCTcases-logo-light.png")
+  content: url("/assets/img/OCTcases-logo-light.png");
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  padding-bottom: 1rem;
  }
  .dark #octcases-logo {
-  content: url("/assets/img/OCTcases-logo-dark.png")
+  content: url("/assets/img/OCTcases-logo-dark.png");
 }
 
  /* Markdown text style */

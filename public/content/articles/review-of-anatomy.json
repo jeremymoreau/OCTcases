@@ -1,5 +1,86 @@
 {
-  "questions": [],
+  "questions": [
+    {
+      "title": "Question 1",
+      "text": "Name the layers of the retina!\n\n![](/content/media/review-of-anatomy-q1.png)",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show Answer",
+          "explanation": "![](/content/media/review-of-anatomy-q1a.jpg)"
+        }
+      ]
+    },
+    {
+      "title": "Question 2",
+      "text": "Which of the following is a function of label \"X\" as indicated by this OCT image?\n\n![](/content/media/review-of-anatomy-q2.png)",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Forms the outer blood-retinal barrier"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Absorbs light passing neurosensory retina"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Maintains sub-retinal space"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the above",
+          "explanation": "Layer X as indicated on the OCT image highlights the **Retinal Pigment Epithelial (RPE)** layer. The functions of the RPE include:\n\n1. The RPE acts as a barrier between the choroid and the sub-retinal space.​\n2. The RPE consists of melanosomes which are comprised of melanin distributed on protein fibres. This allows the RPE to function as a biological light absorber.\n3. The RPE contains a pump function to prevent fluid build-up in the sub-retinal space.\n4. The RPE cells contain lysosomes which help degrade phagocytosed photoreceptor-shed discs."
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "A patient with a 12-year history of diabetic macular edema presents with decreased visual acuity. You compare the patient's OCT images over time. Which of the following layers or zones is the best predictor of visual outcome in this patient?\n\n![](/content/media/review-of-anatomy-q3.png)",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Retinal Pigment Epithelium"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Ellipsoid Zone (IS/OS Junction)",
+          "explanation": "The ellipsoid zone on OCT does not correlate with a specific layer of the retina. It is thought to be formed by the densely packed mitochondria of the outer zone of the inner segment of photoreceptors. It is often referred to as the IS/OS junction.\n\nThe integrity of the ellipsoid zone has been implicated as a marker of visual outcome in a number of retinal diseases such as idiopathic macular hole, epiretinal membrane, central serous chorioretinopathy, retinal vein occlusion, and diabetic macular edema among others."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Nerve Fibre Layer"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Interdigitation Zone"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What layer of the retina is the yellow arrow pointing to?\n\n![](/content/media/review-of-anatomy-q4.png)",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Inner Nuclear Layer",
+          "explanation": "![](/content/media/review-of-anatomy-q4a.png)\n\nThe yellow arrow is pointing towards the inner nuclear layer. Low coherence scatter leads to a dark appearance. The layer consists of cell bodies of amacrine, bipolar and horizontal cells.​\n\nBelow, the red arrow is pointing towards the outer nuclear layer. It also has a low coherence scatter leading to a dark appearance. It consists of photoreceptor cell bodies."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Ellipsoid Zone (IS/OS Junction)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Nerve Fibre Layer"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Interdigitation Zone"
+        }
+      ]
+    }
+  ],
   "title": "Review of Anatomy",
   "description": "Overview to retinal anatomy using optical coherence tomography",
   "sortOrder": 1,

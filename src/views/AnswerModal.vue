@@ -9,7 +9,7 @@
   </ion-header>
   <ion-content>
     <ion-card>
-      <ion-card-content>
+      <ion-card-content class="md-text">
         <img class="ans-image" v-bind:src="image" v-if="image" />
         <div class="answer-text" v-html="content"></div>
         <ion-button

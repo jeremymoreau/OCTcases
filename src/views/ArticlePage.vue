@@ -12,7 +12,7 @@
           </ion-card-header>
 
           <ion-card-content>
-            <ion-text class='article-text' v-if="article" v-html="article">
+            <ion-text class='md-text' v-if="article" v-html="article">
             </ion-text>
           </ion-card-content>
         </ion-card>
@@ -26,7 +26,7 @@
               </ion-card-title>
             </ion-card-header>
             <ion-card-content>
-              <ion-text class='question-text'
+              <ion-text class='md-text'
                 v-if="question.text"
                 v-html="$options.filters.markdown(question.text)"
               >
@@ -54,7 +54,7 @@
         <!-- Footer Card -->
         <ion-card v-if="footerText">
           <ion-card-content>
-            <ion-text class="footer-text" v-if="footerText" v-html="footerText">
+            <ion-text class="md-text footer-text" v-if="footerText" v-html="footerText">
             </ion-text>
           </ion-card-content>
         </ion-card>
@@ -174,73 +174,4 @@ export default defineComponent({
 </script>
 
 <style>
-.article-text p {
-  font-size: 1rem;
-}
-.article-text p {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-.article-text h2 {
-  font-size: 1.1rem;
-  font-weight: bold;
-}
-.article-text h3 {
-  font-size: 1.1rem;
-  font-weight: bold;
-  padding-top: 1rem;
-}
-.article-text h4 {
-  font-size: 1rem;
-  font-weight: 600;
-  font-style: italic;
-  padding-top: 1rem;
-}
-.article-text ol {
-    padding-inline-start: 20px;
-
-}
-.article-text ul li p {
-    padding-top: 0px;
-    padding-bottom: 0.2rem;
-}
-
-.article-text img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 95%;
-}
-
-.question-text p {
-  font-size: 1.1rem;
-}
-.question-text img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 95%;
-}
-
-.footer-text h1 {
-    font-size: 1.1rem;
-    font-weight: bold;
-}
-.footer-text h2 {
-    font-size: 1.1rem;
-    font-weight: bold;
-}
-.footer-text h3 {
-    font-size: 1.1rem;
-    font-weight: bold;
-}
-.footer-text h4 {
-    font-size: 1rem;
-    font-weight: 600;
-    font-style: italic;
-    padding-top: 1rem;
-}
-.footer-text p {
-    font-size: 1rem;
-}
 </style>

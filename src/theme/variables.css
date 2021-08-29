@@ -12,6 +12,63 @@ ion-card-title {
 ion-button {
   text-transform: none;
  }
+
+ /* Markdown text style */
+ .md-text p {
+  font-size: 1rem;
+  padding-top: 0rem;
+  padding-bottom: 0.5rem;
+  color:#333333;
+}
+.dark .md-text p {
+  color: #e2e2e2;
+}
+.md-text li {
+  color: #333333;
+}
+.dark .md-text li {
+  color: #e2e2e2;
+}
+.md-text em {
+  font-size: 0.9rem;
+}
+.md-text h2 {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.md-text h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+.md-text h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  font-style: italic;
+  padding-top: 0.6rem;
+  padding-bottom: 0.4rem;
+}
+.md-text ol {
+    padding-inline-start: 20px;
+
+}
+.md-text ul li p {
+    padding-top: 0px;
+    padding-bottom: 0.2rem;
+}
+
+.md-text img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+/* No top padding for headings in footer */
+.footer-text :is(h1, h2, h3, h4, h5, h6) {
+  padding-top: 0px;
+}
+
 /** Ionic CSS Variables **/
 :root {
   /** primary **/

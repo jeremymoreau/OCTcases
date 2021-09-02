@@ -19,7 +19,7 @@
   </ion-header>
 </template>
 
-<script lang='ts'>
+<script lang='js'>
 import { IonIcon, IonToolbar, IonTitle } from "@ionic/vue";
 
 import { helpCircle, moon, moonOutline } from "ionicons/icons";
@@ -80,7 +80,7 @@ export default defineComponent({
       }
   },
   methods: {
-    gotoPage(pageName: string) {
+    gotoPage(pageName) {
       this.$router.push({
         name: pageName,
       });

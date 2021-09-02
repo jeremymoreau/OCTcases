@@ -31,7 +31,7 @@
   </ion-footer>
 </template>
 
-<script lang='ts'>
+<script lang='js'>
 import {
   IonIcon,
   IonLabel,
@@ -67,7 +67,7 @@ export default defineComponent({
   },
 
   methods: {
-    gotoPage(pageName: string) {
+    gotoPage(pageName) {
       this.$router.push({
         name: pageName,
       });

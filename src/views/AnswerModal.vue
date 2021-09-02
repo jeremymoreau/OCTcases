@@ -24,9 +24,10 @@
   </ion-content>
 </template>
 
-<script lang='ts'>
+<script lang='js'>
 import { IonHeader, IonTitle, IonToolbar, modalController } from "@ionic/vue";
 import { defineComponent } from "vue";
+import { makeImagesZoomable } from "./helpers";
 
 export default defineComponent({
   name: "AnswerModal",
@@ -34,6 +35,9 @@ export default defineComponent({
     title: { type: String, default: "" },
     content: { type: String, default: "" },
     image: { type: String, default: "" },
+  },
+   mounted() {
+    makeImagesZoomable()
   },
   methods: {
     async closeModal() {

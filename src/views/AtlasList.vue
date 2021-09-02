@@ -12,7 +12,7 @@
   </ion-page>
 </template>
 
-<script lang='ts'>
+<script lang='js'>
 import { IonPage, IonList } from "@ionic/vue";
 import { getJSON } from "./helpers";
 
@@ -34,7 +34,7 @@ export default defineComponent({
   },
 
   methods: {
-    gotoPage(pageName: string, slug: string) {
+    gotoPage(pageName, slug) {
       this.$router.push({
         name: pageName,
         params: { slug: slug },

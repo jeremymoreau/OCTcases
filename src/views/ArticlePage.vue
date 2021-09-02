@@ -65,7 +65,7 @@
   </ion-page>
 </template>
 
-<script lang='ts'>
+<script lang='js'>
 import {
   IonCard,
   IonCardContent,
@@ -81,7 +81,7 @@ import marked from "marked";
 import Header from "./Header.vue";
 import Footer from "./Footer.vue";
 import AnswerModal from "./AnswerModal.vue";
-import { getJSON } from "./helpers";
+import { getJSON, makeImagesZoomable } from "./helpers";
 
 export default defineComponent({
   name: "CasePage",
@@ -111,7 +111,9 @@ export default defineComponent({
     // call again the method if the route changes
     $route: "fetchData",
   },
-
+  updated() {
+    makeImagesZoomable()
+  },
   methods: {
     async fetchData() {
       const slug = this.$route.params.slug;
@@ -128,9 +130,9 @@ export default defineComponent({
     },
 
     async openModal(
-      answerCorrect: boolean,
-      title: string,
-      explanation: string
+      answerCorrect,
+      title,
+      explanation
     ) {
       // If answer is correct
       if (answerCorrect === true) {
@@ -166,7 +168,7 @@ export default defineComponent({
 
   },
   filters: {
-    markdown: function (rawMarkdown: string) {
+    markdown: function (rawMarkdown) {
       return marked(rawMarkdown);
     },
   },

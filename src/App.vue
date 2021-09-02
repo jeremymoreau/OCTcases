@@ -7,6 +7,7 @@
 <script lang="ts">
 import { IonApp, IonRouterOutlet } from '@ionic/vue';
 import { defineComponent } from 'vue';
+import 'viewerjs/dist/viewer.css'
 
 export default defineComponent({
   name: 'App',

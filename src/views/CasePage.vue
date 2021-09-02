@@ -85,7 +85,7 @@
   </ion-page>
 </template>
 
-<script lang='ts'>
+<script lang='js'>
 import {
   IonCard,
   IonCardContent,
@@ -104,7 +104,7 @@ import marked from "marked";
 import Header from "./Header.vue";
 import Footer from "./Footer.vue";
 import AnswerModal from "./AnswerModal.vue";
-import { getJSON } from "./helpers";
+import { getJSON, makeImagesZoomable } from "./helpers";
 
 export default defineComponent({
   name: "CasePage",
@@ -134,7 +134,9 @@ export default defineComponent({
   created() {
     this.fetchData();
   },
-
+   updated() {
+    makeImagesZoomable()
+  },
   watch: {
     // call again the method if the route changes
     $route: "fetchData",
@@ -156,9 +158,9 @@ export default defineComponent({
       }
     },
     async openModal(
-      answerCorrect: boolean,
-      title: string,
-      explanation: string
+      answerCorrect,
+      title,
+      explanation
     ) {
       // If answer is correct
       if (answerCorrect === true) {
@@ -192,16 +194,16 @@ export default defineComponent({
       }
     },
 
-    async gotoPreviousNextPage(previousOrNext: string) {
+    async gotoPreviousNextPage(previousOrNext) {
       const caseIndex = Object.values(getJSON("/assets/index/case_index.json"));
       // get all cases in the current category (e.g. all retina cases)
       const categCases = caseIndex.filter(
-        (ptCase: any) => ptCase.category === this.$route.params.caseCategory
+        (ptCase) => ptCase.category === this.$route.params.caseCategory
       );
       const currentCaseIndex = categCases.findIndex(
-        (ptCase: any) => ptCase.caseID === this.$route.params.caseID
+        (ptCase) => ptCase.caseID === this.$route.params.caseID
       );
-      let nextCase: any;
+      let nextCase;
       if (previousOrNext === "next") {
         nextCase = categCases[currentCaseIndex + 1];
       } else {
@@ -243,7 +245,7 @@ export default defineComponent({
     },
   },
   filters: {
-    markdown: function (rawMarkdown: string) {
+    markdown: function (rawMarkdown) {
       return marked(rawMarkdown);
     },
   },

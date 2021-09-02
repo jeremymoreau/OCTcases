@@ -41,7 +41,7 @@
   </ion-page>
 </template>
 
-<script lang='ts'>
+<script lang='js'>
 import { IonPage, IonList } from "@ionic/vue";
 
 import { defineComponent } from "vue";
@@ -61,7 +61,7 @@ export default defineComponent({
   },
 
   methods: {
-    gotoPage(pageName: string, category: string) {
+    gotoPage(pageName, category) {
       this.$router.push({
         name: pageName,
         params: { caseCategory: category },

@@ -100,7 +100,7 @@
   </ion-page>
 </template>
 
-<script lang='ts'>
+<script lang='js'>
 import { IonCard, IonCardContent, IonPage } from "@ionic/vue";
 
 import { defineComponent } from "vue";

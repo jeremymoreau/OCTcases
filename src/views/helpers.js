@@ -12,6 +12,12 @@ export function getJSON(path) {
 export function makeImagesZoomable() {
     const images = document.querySelectorAll('img');
     for (const image of images) {
-        new Viewer(image, { navbar: false, button: false, toolbar: false, title: false, tooltip: false})
+        const viewer = new Viewer(image, {
+            navbar: false, button: false, toolbar: false, title: false, tooltip: false, rotatable: false,
+            viewed() {
+                viewer.zoomTo(1.25);
+            },
+        },
+        )
     }
 }

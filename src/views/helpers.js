@@ -15,7 +15,7 @@ export function makeImagesZoomable() {
         const viewer = new Viewer(image, {
             navbar: false, button: false, toolbar: false, title: false, tooltip: false, rotatable: false,
             viewed() {
-                viewer.zoomTo(1.25);
+                viewer.zoomTo(1);
             },
         },
         )

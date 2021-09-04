@@ -13,7 +13,7 @@ ion-button {
   text-transform: none;
  }
  #octcases-logo {
-  content: url("/assets/img/OCTcases-logo-light.png");
+  content: url("/assets/img/octcases-logo-light.svg");
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -21,7 +21,7 @@ ion-button {
   padding-bottom: 1rem;
  }
  .dark #octcases-logo {
-  content: url("/assets/img/OCTcases-logo-dark.png");
+  content: url("/assets/img/octcases-logo-dark.svg");
 }
 
  /* Markdown text style */

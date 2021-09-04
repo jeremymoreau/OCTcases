@@ -14,7 +14,7 @@
             button="true"
             @click="gotoPage('CaseListCategory', 'neuro-ophthalmology')"
           >
-            <ion-label> Neuro-opthalmology </ion-label>
+            <ion-label> Neuro-ophthalmology </ion-label>
           </ion-item>
           <ion-item
             button="true"

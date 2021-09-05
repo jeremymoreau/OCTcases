@@ -80,6 +80,15 @@ ion-button {
   padding-top: 0px;
 }
 
+/* AtlasList view */
+.atlas-card {
+  margin-top: 0px;
+}
+.atlas-card-header {
+  padding-top: 0.6rem;
+  padding-bottom: 0.5rem;
+}
+
 /** Ionic CSS Variables **/
 :root {
   /** primary **/

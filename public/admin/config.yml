@@ -19,7 +19,7 @@ collections:
     fields:
       - {label: "Case ID", name: "caseID", widget: "string", hint: "Unique Case ID (e.g. retina42). Must be different for each case.",  pattern: ["^[a-z]+[0-9]+$", "Format must be category+number, all lowercase with no spaces or symbols (e.g. retina42)"]}
       - {label: "Category", name: "category", widget: "select", options: ["retina", "neuro-ophthalmology", "uveitis", "glaucoma", "ocular oncology"]}
-      - {label: "Title", name: "title", widget: "string", pattern: ["^.{1,50}$", "Must be less than 50 characters"]}
+      - {label: "Title", name: "title", widget: "string", pattern: ["^.{1,80}$", "Must be less than 80 characters"]}
       - {label: "Short Description", name: "description", widget: "string", pattern: ["^.{1,150}$", "Must be less than 150 characters"]}
       - {label: "Patient Presentation", name: "patientPresentation", widget: "markdown"}
       - label: "Questions"
@@ -46,7 +46,7 @@ collections:
     slug: "{{slug}}"
     sortable_fields: ['sortOrder', 'title', 'commit_author', 'commit_date']
     fields:
-      - {label: "Title", name: "title", widget: "string", pattern: ["^.{1,50}$", "Must be less than 50 characters"]}
+      - {label: "Title", name: "title", widget: "string", pattern: ["^.{1,80}$", "Must be less than 80 characters"]}
       - {label: "Short Description", name: "description", widget: "string", pattern: ["^.{1,150}$", "Must be less than 150 characters"]}
       - {label: "Sort Order", name: "sortOrder", widget: "number", min: 1, value_type: "int", hint: "Sort order (articles will be displayed in ascending order based on this value)"}
       - {label: "Article", name: "article", widget: "markdown"}
@@ -74,7 +74,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: "string", pattern: ["^.{1,50}$", "Must be less than 50 characters"]}
+      - {label: "Title", name: "title", widget: "string", pattern: ["^.{1,80}$", "Must be less than 80 characters"]}
       - {label: "Main Image", name: "mainImage", widget: "image", hint: "Image that will be displayed in Atlas gallery"}
       - {label: "Short Description", name: "description", widget: "string", pattern: ["^.{1,280}$", "Must be less than 280 characters"]}
       - {label: "Article", name: "article", widget: "markdown", required: false}

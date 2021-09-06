@@ -64,7 +64,6 @@ module.exports = function generateIndex(ctx) {
             atlasIndex.push(currentAtlas)
         }
     })
-
     const atlasIndexFilePath = './public/assets/index/atlas_index.json'
     fs.writeFileSync(atlasIndexFilePath, JSON.stringify(atlasIndex));
 }

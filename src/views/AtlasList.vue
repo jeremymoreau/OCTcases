@@ -4,42 +4,23 @@
 
     <ion-content overflow-scroll="true">
       <IonSearchbar></IonSearchbar>
-      <ion-card class="atlas-card" @click="openTest()">
-        <img src="/content/media/retina2-q1.png" />
-        <ion-card-header class="atlas-card-header">
+      <template v-for="item in atlasIndex" :key="item">
+        <ion-card class="atlas-card" @click="openTest()">
+          <img :src="item.mainImage" />
+          <ion-card-header class="atlas-card-header">
           <!-- <ion-card-subtitle>test</ion-card-subtitle> -->
           <ion-card-title class="atlas-card-title">
-            Acute Annular Outer Retinopathy
+            {{ item.title }}
           </ion-card-title>
         </ion-card-header>
 
         <ion-card-content>
           <ion-text class="md-text">
-            AAOR is characterised by thinning or atrophy of the outer
-            retina/ONL, including disruption of the EZ within the annular area
-            of RPE destruction.
+            {{ item.description }}
           </ion-text>
         </ion-card-content>
-      </ion-card>
-      <ion-card class="atlas-card" @click="openTest()">
-        <img src="/content/media/retina2-q1.png" />
-        <ion-card-header class="atlas-card-header">
-          <!-- <ion-card-subtitle>test</ion-card-subtitle> -->
-          <ion-card-title class="atlas-card-title">
-            Acute Posterior Multifocal Placoid Pigment Epitheliopathy
-          </ion-card-title>
-        </ion-card-header>
-
-        <ion-card-content>
-          <ion-text class="md-text">
-            AAOR is characterised by thinning or atrophy of the outer
-            retina/ONL, including disruption of the EZ within the annular area
-            of RPE destruction.
-          </ion-text>
-        </ion-card-content>
-      </ion-card>
-
-      <ion-list id="array-rendering" lines="full"> </ion-list>
+        </ion-card>
+      </template>
     </ion-content>
 
     <Footer></Footer>
@@ -47,7 +28,7 @@
 </template>
 
 <script lang='js'>
-import { IonPage, IonList, IonSearchbar, IonCard } from "@ionic/vue";
+import { IonPage, IonSearchbar, IonCard } from "@ionic/vue";
 import { getJSON } from "./helpers";
 
 import { defineComponent } from "vue";
@@ -58,15 +39,14 @@ export default defineComponent({
   name: "AtlasList",
   components: {
     IonPage,
-    IonList,
     IonSearchbar,
     IonCard,
     Footer,
     Header,
   },
   setup() {
-    const articleIndex = getJSON("/assets/index/article_index.json");
-    return { articleIndex };
+    const atlasIndex = getJSON("/assets/index/atlas_index.json");
+    return { atlasIndex };
   },
 
   methods: {

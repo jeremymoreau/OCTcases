@@ -3,22 +3,21 @@
     <Header></Header>
 
     <ion-content overflow-scroll="true">
-      <IonSearchbar></IonSearchbar>
-      <template v-for="item in atlasIndex" :key="item">
-        <ion-card class="atlas-card" @click="openTest()">
+      <IonSearchbar v-model="searchInput"></IonSearchbar>
+      <template v-for="item in filteredIndex" :key="item">
+        <ion-card v-if="item.title" class="atlas-card" @click="openTest()">
           <img :src="item.mainImage" />
           <ion-card-header class="atlas-card-header">
-          <!-- <ion-card-subtitle>test</ion-card-subtitle> -->
-          <ion-card-title class="atlas-card-title">
-            {{ item.title }}
-          </ion-card-title>
-        </ion-card-header>
+            <ion-card-title class="atlas-card-title">
+              {{ item.title }}
+            </ion-card-title>
+          </ion-card-header>
 
-        <ion-card-content>
-          <ion-text class="md-text">
-            {{ item.description }}
-          </ion-text>
-        </ion-card-content>
+          <ion-card-content>
+            <ion-text class="md-text">
+              {{ item.description }}
+            </ion-text>
+          </ion-card-content>
         </ion-card>
       </template>
     </ion-content>
@@ -42,13 +41,24 @@ export default defineComponent({
     IonSearchbar,
     IonCard,
     Footer,
-    Header,
+    Header
+  },
+  data() {
+    return {
+      searchInput: ''
+    }
   },
   setup() {
     const atlasIndex = getJSON("/assets/index/atlas_index.json");
     return { atlasIndex };
   },
-
+  computed: {
+    filteredIndex () {
+        const filteredAtlasIndex = this.atlasIndex.filter(
+          o => (o.title.toLowerCase() + o.description.toLowerCase()).includes(this.searchInput.toLowerCase()));
+        return filteredAtlasIndex
+    } 
+},
   methods: {
     gotoPage(pageName, slug) {
       this.$router.push({

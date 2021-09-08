@@ -5,8 +5,8 @@
     <ion-content overflow-scroll="true">
       <IonSearchbar v-model="searchInput"></IonSearchbar>
       <template v-for="item in filteredIndex" :key="item">
-        <ion-card v-if="item.title" class="atlas-card" @click="openTest()">
-          <img :src="item.mainImage" />
+        <ion-card v-if="item.title" class="atlas-card" @click="gotoPage('AtlasPage', item.slug)">
+          <img class="atlas-header-img" :src="item.mainImage" />
           <ion-card-header class="atlas-card-header">
             <ion-card-title class="atlas-card-title">
               {{ item.title }}
@@ -65,9 +65,6 @@ export default defineComponent({
         name: pageName,
         params: { slug: slug },
       });
-    },
-    openTest() {
-      console.log('test')
     }
   },
 });

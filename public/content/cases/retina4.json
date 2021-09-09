@@ -1,0 +1,44 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Intra-retinal cyst"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Sub-retinal hyper-reflective material"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Epi-retinal membrane"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Retinoschisis",
+          "explanation": "![](/content/media/case-4-image.png)\n\nThe only finding NOT on this OCT macula is retinoschisis.\n​\nThe following 3 findings are seen on this OCT:\n\n1. Epi-retinal membrane (yellow arrow)\n2. Intra-retinal cysts/fluid (red star)\n3. Sub-retinal hyper-reflective material (blue)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What abnormalities are NOT seen in the patient's OCT image?\n\n![](/content/media/case-4-q.webp)"
+    },
+    {
+      "title": "Question 2",
+      "text": "What is the likely diagnosis?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The Diagnosis is Exudative Age-Related Macular Degeneration.  With the history of drusen in both eyes in combination with the OCT findings, the likely diagnosis is exudative (wet) age-related macular degeneration with choroidal neovascular membrane (CNVM). The sub-retinal hyper-reflective material (blue) likely corresponds to the CNV complex.\n\nIf left untreated, CNVM can progress to permanent vision loss through central disciform scars. Approximately 10-20% of dry age-related macular degeneration cases progress to exudative states. \n\n![](/content/media/case-4-image.png)"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina4",
+  "category": "retina",
+  "title": "Case 4",
+  "description": "84M presenting with metamorphopsia and central scotoma OD",
+  "patientPresentation": "Patient Presentation: An 84-year-old male with a history of bilateral cataract surgery presenting with metamorphopsia and central scotoma OD. His vision is 20/100 OD and 20/40 OS. Fundus examination demonstrates drusen in the macula of both eyes.",
+  "footer": "### Learning Objectives:​\n\n1. Recognize the OCT findings in wet AMD with corresponding CNVM."
+}

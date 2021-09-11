@@ -2,16 +2,16 @@
   <ion-header>
     <ion-toolbar>
       <ion-buttons slot="start">
-        <ion-menu-button auto-hide="false"></ion-menu-button>
+        <ion-menu-button
+          auto-hide="false"
+          @click="openMenu()"
+        ></ion-menu-button>
       </ion-buttons>
 
       <ion-buttons slot="primary">
         <ion-button @click="toggleDarkMode()">
           <ion-icon :icon="darkModeIcon"></ion-icon>
         </ion-button>
-        <!-- <ion-button v-else @click="toggleDarkMode()">
-          <ion-icon :icon="moonOutline"></ion-icon>
-        </ion-button> -->
       </ion-buttons>
 
       <ion-title class="app-title">OCTcases</ion-title>
@@ -20,7 +20,7 @@
 </template>
 
 <script lang='js'>
-import { IonIcon, IonToolbar, IonTitle } from "@ionic/vue";
+import { IonIcon, IonToolbar, IonTitle, menuController } from "@ionic/vue";
 
 import { helpCircle, moon, moonOutline } from "ionicons/icons";
 import { defineComponent } from "vue";
@@ -30,7 +30,7 @@ export default defineComponent({
   components: {
     IonIcon,
     IonToolbar,
-    IonTitle,
+    IonTitle
   },
   setup() {
     return {
@@ -84,6 +84,10 @@ export default defineComponent({
       this.$router.push({
         name: pageName,
       });
+    },
+      openMenu() {
+      menuController.enable(true, "side-menu");
+      menuController.open("side-menu");
     },
     // toggle dark class and set darkMode = 'on' or 'off' in localstorage
     toggleDarkMode() {

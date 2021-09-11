@@ -14,7 +14,7 @@
         </ion-button>
       </ion-buttons>
 
-      <ion-title class="app-title">OCTcases</ion-title>
+      <ion-title class="app-title"><div class="header-box"><img class="header-logo"/> <span class="header-text">OCTcases</span></div></ion-title>
     </ion-toolbar>
   </ion-header>
 </template>

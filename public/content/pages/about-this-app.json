@@ -1,0 +1,5 @@
+{
+  "pageID": "about-this-app",
+  "title": "About this App",
+  "pageContent": "To learn about the team behind OCTcases see the <a @click=\"gotoPage('AboutUs', 'about-us')>About Us</a> page.\n\nApp developed by: [Jeremy Moreau](https://jeremymoreau.com)\n\nFor feedback, suggestions, or bug reports about this app send an email to: <a href=\"{{ jeremyContactLink }}\"><span>{{ jeremyContact }}</span></a> \n\nIssues and pull requests are also welcome on the project GitHub: [github.com/jeremymoreau/OCTcases](https://github.com/jeremymoreau/OCTcases)\n\n### Open Source Acknowledgments\n- [core-js (MIT)](https://github.com/zloirock/core-js)\n- [Ionic Framework (MIT)](https://github.com/ionic-team/ionic-framework)\n- [Marked (MIT)](https://github.com/markedjs/marked)\n- [Vue (MIT)](https://github.com/vuejs/vue-next)\n- [Vue Router (MIT)](https://github.com/vuejs/vue-router-next)\n- [Viewer.js (MIT)](https://github.com/fengyuanchen/viewerjs)\n"
+}

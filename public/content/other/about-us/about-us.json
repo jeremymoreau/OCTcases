@@ -1,0 +1,151 @@
+{
+  "groups": [
+    {
+      "title": "Our Founders",
+      "person": [
+        {
+          "name": "Jason Kwok, MD",
+          "subtitle1": "Ophthalmology Resident",
+          "subtitle2": "University of Toronto",
+          "photo": "/content/media/aboutus-jason-kwok.jpg"
+        },
+        {
+          "subtitle1": "Ophthalmology Resident",
+          "subtitle2": "University of Toronto",
+          "name": "Austin Pereira, MD",
+          "photo": "/content/media/aboutus-austin-pereira.png"
+        }
+      ]
+    },
+    {
+      "title": "Our Staff Supervisors",
+      "person": [
+        {
+          "name": "Peng Yan, MD FRCSC",
+          "subtitle1": "Vitreoretinal Surgeon",
+          "subtitle2": "University of Toronto",
+          "photo": "/content/media/aboutus-peng-yan.jpg"
+        },
+        {
+          "subtitle2": "University of Toronto",
+          "name": "Jonathan Micieli, MD ",
+          "photo": "/content/media/aboutus-jonathan-micieli.png",
+          "subtitle1": "Neuro-Ophthalmologist"
+        },
+        {
+          "subtitle2": "University of Toronto",
+          "name": "Matthew Schlenker, MD FRCSC",
+          "photo": "/content/media/aboutus-matthew-schlenker.jpg",
+          "subtitle1": "Glaucoma Surgeon"
+        },
+        {
+          "subtitle2": "University of Toronto",
+          "name": "Alex Kaplan, MD FRCSC",
+          "photo": "/content/media/aboutus-alex-kaplan.jpeg",
+          "subtitle1": "Uveitis and Ocular Immunologist"
+        },
+        {
+          "subtitle2": "Vitreous ​Retina Macula Specialists of Toronto",
+          "name": "Netan Choudhry, MD FRCSC",
+          "subtitle1": "Vitreoretinal Surgeon",
+          "photo": "/content/media/aboutus-netan-choudhry.jpg"
+        },
+        {
+          "name": "Panos Christakis, MD FRCSC",
+          "subtitle1": "Medical Retina and Uveitis Specialist",
+          "subtitle2": "University of Toronto",
+          "photo": "/content/media/aboutus-panos-christakis.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Our Leadership Team",
+      "person": [
+        {
+          "name": "Daniel Park, MD",
+          "subtitle1": "Research Fellow",
+          "subtitle2": "Grant and Content Lead",
+          "photo": "/content/media/aboutus-daniel-park.jpg"
+        },
+        {
+          "name": "Yusuf Ahmed, MD(C)",
+          "subtitle1": "Medical Student",
+          "subtitle2": "Content Lead",
+          "photo": "/content/media/aboutus-yusuf-ahmed.png"
+        },
+        {
+          "name": "John Liu, MD",
+          "subtitle1": "Ophthalmology Resident",
+          "photo": "/content/media/aboutus-john-liu.jpg",
+          "subtitle2": "Content Lead"
+        },
+        {
+          "name": "Fahmeeda Murtaza, MD(C)",
+          "subtitle1": "Medical Student",
+          "subtitle2": "Website and Design Lead",
+          "photo": "/content/media/aboutus-fahmeeda-murtaza.jpg"
+        },
+        {
+          "name": "Jeremy Moreau, MD(C), PhD",
+          "subtitle1": "Medical Student",
+          "subtitle2": "IT and App Design Lead",
+          "photo": "/content/media/aboutus-jeremy-moreau.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "Our Contributors",
+      "person": [
+        {
+          "name": "Hatim Batawi, MD",
+          "subtitle1": "Ophthalmology Resident",
+          "subtitle2": "University of Toronto"
+        },
+        {
+          "subtitle2": "University of Toronto",
+          "name": "Sultan Aldrees, MD",
+          "subtitle1": "Ophthalmology Resident"
+        },
+        {
+          "subtitle2": "University of Toronto",
+          "name": "Bryon McKay, MD, PhD",
+          "subtitle1": "Ophthalmology Resident"
+        },
+        {
+          "subtitle2": "University of Toronto",
+          "name": "Eli Kisilevsky, MD",
+          "subtitle1": "Ophthalmology Resident"
+        },
+        {
+          "name": "Chloe Gottlieb, MD, FRCSC",
+          "subtitle1": "Uveitis & Medical Retina",
+          "subtitle2": "University of Ottawa"
+        },
+        {
+          "name": "Marko Tien",
+          "subtitle1": "Medical Student",
+          "subtitle2": "University of British Columbia"
+        },
+        {
+          "name": "Kamiar Mireskandari , MD, FRCSC",
+          "subtitle1": "Paediatric Ophthalmology",
+          "subtitle2": "University of Toronto"
+        },
+        {
+          "name": "Jobanpreet Dhillon",
+          "subtitle1": "Medical Student",
+          "subtitle2": "McGill University"
+        },
+        {
+          "name": "Shaan Bhambra",
+          "subtitle1": "Medical Student",
+          "subtitle2": "McGill University"
+        }
+      ]
+    }
+  ],
+  "pageID": "about-us",
+  "title": "About Us",
+  "pageHeader": "OCTcases is a medical education training platform based out of the University of Toronto, Department of Ophthalmology and Vision Sciences. This website will provide you with the skillset of interpreting Optical Coherence Tomography (OCT) images, as well as an easy method of testing your skills through various real life cases.",
+  "pageFooter": "### Our Ophthalmic Photographers\n\nA special thanks to all the ophthalmic photographers and technicians at the University of Toronto across the different hospitals (Hospital of Sick Children, Toronto Western Hospital, Sunnybrook Health Sciences Center, Kensington Eye Institute, St. Michael's Hospital, Mount Sinai Hospital) for the images on this website. Without their dedication and  skill in ophthalmic photography, this website site would not be possible!\n\n"
+}

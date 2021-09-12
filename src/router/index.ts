@@ -8,6 +8,8 @@ import AtlasPage from '../views/AtlasPage.vue'
 import CaseList from '../views/CaseList.vue'
 import CaseListCategory from '../views/CaseListCategory.vue'
 import CasePage from '../views/CasePage.vue'
+import AboutUs from '../views/AboutUs.vue'
+import GeneralPage from '../views/GeneralPage.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -53,7 +55,17 @@ const routes: Array<RouteRecordRaw> = [
     path: '/cases/:caseCategory/:caseID',
     name: 'CasePage',
     component: CasePage
-  }
+  },
+  {
+    path: '/pages/about-us',
+    name: 'AboutUs',
+    component: AboutUs
+  },
+  {
+    path: '/pages/:slug',
+    name: 'GeneralPage',
+    component: GeneralPage
+  },
 ]
 
 const router = createRouter({

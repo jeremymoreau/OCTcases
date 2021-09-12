@@ -79,3 +79,41 @@ collections:
       - {label: "Short Description", name: "description", widget: "text", pattern: ["^.{1,280}$", "Must be less than 280 characters"]}
       - {label: "Article", name: "article", widget: "markdown", required: false}
       - {label: "Case ID of linked practice cases", name: "caseID", widget: "string", required: false, hint: "Unique Case IDs of practice cases to link at bottom of article. Separate Case IDs with a comma (e.g. retina42,retina43) to include multiple cases.",  pattern: ["^([a-z]+[0-9]+,?)+$", "Format must be category+number, all lowercase with no spaces or symbols (e.g. retina42). Separate cases with a comma, no spaces"]}
+  - name: "pages"
+    label: "Pages"
+    identifier_field: "pageID"
+    extension: json
+    folder: "public/content/pages"
+    create: false
+    slug: "{{slug}}"  # url-safe version of the post's title
+    fields:
+      - {label: "Page ID", name: "pageID", widget: "hidden"}
+      - {label: "Title", name: "title", widget: "string", pattern: ["^.{1,80}$", "Must be less than 80 characters"]}
+      - {label: "Page Content", name: "pageContent", widget: "markdown"}
+  - name: "about-us"
+    label: "About Us"
+    identifier_field: "pageID"
+    extension: json
+    folder: "public/content/other/about-us"
+    create: false
+    slug: "{{slug}}"  # url-safe version of the post's title
+    fields:
+      - {label: "Page ID", name: "pageID", widget: "hidden"}
+      - {label: "Title", name: "title", widget: "string", pattern: ["^.{1,80}$", "Must be less than 80 characters"]}
+      - {label: "Header", name: "pageHeader", widget: "markdown"}
+      - label: "Groups"
+        name: "groups"
+        widget: "list"
+        allow_add: true
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - label: "Person"
+            name: "person"
+            widget: "list"
+            allow_add: true
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Photo", name: "photo", widget: "image", required: false}
+              - {label: "Subtitle line 1", name: "subtitle1", widget: "string"}
+              - {label: "Subtitle line 2", name: "subtitle2", widget: "string"}
+      - {label: "Footer", name: "pageFooter", widget: "markdown"}

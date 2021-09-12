@@ -1,87 +1,96 @@
 <template>
   <ion-page>
-      <Header></Header>
+    <Header></Header>
 
-      <ion-content overflow-scroll="true" scrollEvents="true" id="content">
+    <ion-content overflow-scroll="true" scrollEvents="true" id="content">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-subtitle> {{ category }} </ion-card-subtitle>
+          <ion-card-title class="case-title">
+            {{ caseTitle }}
+          </ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content>
+          <ion-text
+            class="md-text"
+            v-if="patientPresentation"
+            v-html="patientPresentation"
+          >
+          </ion-text>
+        </ion-card-content>
+      </ion-card>
+
+      <template v-for="question in questions" :key="question">
         <ion-card>
           <ion-card-header>
-            <ion-card-subtitle> {{ category }} </ion-card-subtitle>
-            <ion-card-title class="case-title">
-              {{ caseTitle }}
+            <ion-card-title class="q-title">
+              {{ question.title }}
             </ion-card-title>
           </ion-card-header>
-
           <ion-card-content>
-            <ion-text class='md-text' v-if="patientPresentation" v-html="patientPresentation">
+            <ion-text
+              class="md-text"
+              v-if="question.text"
+              v-html="$options.filters.markdown(question.text)"
+            >
             </ion-text>
-          </ion-card-content>
-        </ion-card>
 
-        <template v-for="question in questions" :key="question">
-          <ion-card>
-            <ion-card-header>
-              <ion-card-title class="q-title">
-                {{ question.title }}
-              </ion-card-title>
-            </ion-card-header>
-            <ion-card-content>
-              <ion-text class='md-text'
-                v-if="question.text"
-                v-html="$options.filters.markdown(question.text)"
-              >
-              </ion-text>
-
-              <!-- answer buttons -->
-              <template v-for="answer in question.answers" :key="answer">
-                <ion-button
-                  class="q-btn"
-                  expand="block"
-                  fill="outline"
-                  v-if="answer.answerText"
-                  @click="
-                    openModal(answer.correct, 'Correct!', answer.explanation)
-                  "
-                >
-                  {{ answer.answerText }}
-                </ion-button>
-              </template>
-            </ion-card-content>
-          </ion-card>
-        </template>
-
-        <!-- Footer Card -->
-        <ion-card v-if="footerText">
-          <ion-card-content>
-            <ion-text class="md-text footer-text" v-if="footerText" v-html="footerText">
-            </ion-text>
-          </ion-card-content>
-        </ion-card>
-
-        <ion-grid>
-          <ion-row>
-            <ion-col col-6>
+            <!-- answer buttons -->
+            <template v-for="answer in question.answers" :key="answer">
               <ion-button
+                class="q-btn"
                 expand="block"
                 fill="outline"
-                @click="gotoPreviousNextPage('previous')"
+                v-if="answer.answerText"
+                @click="
+                  openModal(answer.correct, 'Correct!', answer.explanation)
+                "
               >
-                Previous Case
+                {{ answer.answerText }}
               </ion-button>
-            </ion-col>
-            <ion-col col-6>
-              <ion-button
-                expand="block"
-                fill="outline"
-                @click="gotoPreviousNextPage('next')"
-              >
-                Next Case
-              </ion-button>
-            </ion-col>
-          </ion-row>
-        </ion-grid>
-      </ion-content>
+            </template>
+          </ion-card-content>
+        </ion-card>
+      </template>
 
-      <Footer></Footer>
+      <!-- Footer Card -->
+      <ion-card v-if="footerText">
+        <ion-card-content>
+          <ion-text
+            class="md-text footer-text"
+            v-if="footerText"
+            v-html="footerText"
+          >
+          </ion-text>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-grid>
+        <ion-row>
+          <ion-col col-6>
+            <ion-button
+              expand="block"
+              fill="outline"
+              @click="gotoPreviousNextPage('previous')"
+            >
+              Previous Case
+            </ion-button>
+          </ion-col>
+          <ion-col col-6>
+            <ion-button
+              expand="block"
+              fill="outline"
+              @click="gotoPreviousNextPage('next')"
+            >
+              Next Case
+            </ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-content>
+
+    <Footer></Footer>
   </ion-page>
 </template>
 
@@ -144,6 +153,8 @@ export default defineComponent({
 
   methods: {
     async fetchData() {
+      // Only fetch json if url includes 'articles'
+      if (this.$route.path.includes('cases')) {
       const caseID = this.$route.params.caseID;
       if (caseID != null) {
         const casePath = ["/content/cases/", caseID, ".json"].join("");
@@ -156,6 +167,7 @@ export default defineComponent({
             this.footerText = marked(caseData.footer);
         }
       }
+    }
     },
     async openModal(
       answerCorrect,

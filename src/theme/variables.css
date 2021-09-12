@@ -69,11 +69,13 @@ ion-button {
 .md-text h2 {
   font-size: 1.1rem;
   font-weight: bold;
+  hyphens: none;
 }
 .md-text h3 {
   font-size: 1.1rem;
   font-weight: bold;
-  padding-top: 1rem;
+  padding-top: 0.6rem;
+  hyphens: none;
 }
 .md-text h4 {
   font-size: 1rem;
@@ -81,9 +83,11 @@ ion-button {
   font-style: italic;
   padding-top: 0.6rem;
   padding-bottom: 0.4rem;
+  hyphens: none;
 }
 .md-text ol {
-    padding-inline-start: 20px;
+  margin-top: 0px;
+  padding-inline-start: 20px;
 }
 .md-text ul {
   margin-top: 0px;
@@ -102,6 +106,13 @@ ion-button {
 .md-text a {
   text-decoration: none;
 }
+.md-text table {
+  width: 100%
+}
+.md-text td {
+  text-align: center;
+}
+
 .atlas-header-img {
   width: 100%;
 }

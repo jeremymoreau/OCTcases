@@ -57,7 +57,7 @@ const routes: Array<RouteRecordRaw> = [
     component: CasePage
   },
   {
-    path: '/pages/about-us',
+    path: '/about-us',
     name: 'AboutUs',
     component: AboutUs
   },

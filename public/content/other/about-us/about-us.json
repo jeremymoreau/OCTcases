@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "title": "Our Founders",
+      "person": [
+        {
+          "name": "Jason Kwok, MD",
+          "subtitle1": "Ophthalmology Resident",
+          "subtitle2": "University of Toronto"
+        },
+        {
+          "subtitle1": "Ophthalmology Resident",
+          "subtitle2": "University of Toronto",
+          "name": "Austin Pereira, MD"
+        }
+      ]
+    },
+    {
+      "title": "Our Staff Supervisors"
+    },
+    {
+      "title": "Our Leadership Team"
+    },
+    {
+      "title": "Our Contributors"
+    }
+  ],
+  "pageID": "about-us",
+  "title": "About Us",
+  "pageHeader": "OCTcases is a medical education training platform based out of the University of Toronto, Department of Ophthalmology and Vision Sciences. This website will provide you with the skillset of interpreting Optical Coherence Tomography (OCT) images, as well as an easy method of testing your skills through various real life cases.",
+  "pageFooter": "### Our Ophthalmic Photographers\n\nA special thanks to all the ophthalmic photographers and technicians at the University of Toronto across the different hospitals (Hospital of Sick Children, Toronto Western Hospital, Sunnybrook Health Sciences Center, Kensington Eye Institute, St. Michael's Hospital, Mount Sinai Hospital) for the images on this website. Without their dedication and  skill in ophthalmic photography, this website site would not be possible!\n\n"
+}

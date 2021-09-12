@@ -1,23 +1,22 @@
 <template>
   <ion-page>
-      <Header></Header>
+    <Header></Header>
 
-      <ion-content overflow-scroll="true" scrollEvents="true" id="content">
-        <ion-card>
-          <ion-card-header>
-            <ion-card-subtitle> {{ category }} </ion-card-subtitle>
-            <ion-card-title class="case-title">
-              {{ articleTitle }}
-            </ion-card-title>
-          </ion-card-header>
+    <ion-content overflow-scroll="true" scrollEvents="true" id="content">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-subtitle> {{ category }} </ion-card-subtitle>
+          <ion-card-title class="case-title">
+            {{ articleTitle }}
+          </ion-card-title>
+        </ion-card-header>
 
-          <ion-card-content>
-            <ion-text class='md-text' v-if="article" v-html="article">
-            </ion-text>
-          </ion-card-content>
-        </ion-card>
+        <ion-card-content>
+          <ion-text class="md-text" v-if="article" v-html="article"> </ion-text>
+        </ion-card-content>
+      </ion-card>
 
-        <div v-if="questions">
+      <div v-if="questions">
         <template v-for="question in questions" :key="question">
           <ion-card>
             <ion-card-header>
@@ -26,7 +25,8 @@
               </ion-card-title>
             </ion-card-header>
             <ion-card-content>
-              <ion-text class='md-text'
+              <ion-text
+                class="md-text"
                 v-if="question.text"
                 v-html="$options.filters.markdown(question.text)"
               >
@@ -49,19 +49,22 @@
             </ion-card-content>
           </ion-card>
         </template>
-        </div>
+      </div>
 
-        <!-- Footer Card -->
-        <ion-card v-if="footerText">
-          <ion-card-content>
-            <ion-text class="md-text footer-text" v-if="footerText" v-html="footerText">
-            </ion-text>
-          </ion-card-content>
-        </ion-card>
+      <!-- Footer Card -->
+      <ion-card v-if="footerText">
+        <ion-card-content>
+          <ion-text
+            class="md-text footer-text"
+            v-if="footerText"
+            v-html="footerText"
+          >
+          </ion-text>
+        </ion-card-content>
+      </ion-card>
+    </ion-content>
 
-      </ion-content>
-
-      <Footer></Footer>
+    <Footer></Footer>
   </ion-page>
 </template>
 
@@ -116,9 +119,12 @@ export default defineComponent({
   },
   methods: {
     async fetchData() {
+      // Only fetch json if url includes 'articles'
+      if (this.$route.path.includes('articles')) {
       const slug = this.$route.params.slug;
       if (slug != null) {
         const articlePath = ["/content/articles/", slug, ".json"].join("");
+        console.log(articlePath)
         const articleData = getJSON(articlePath);
         this.articleTitle = articleData.title;
         this.article = marked(articleData.article);
@@ -126,6 +132,7 @@ export default defineComponent({
         if (articleData.footer != null) {
             this.footerText = marked(articleData.footer);
         }
+      }
       }
     },
 

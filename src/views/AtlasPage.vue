@@ -113,15 +113,19 @@ export default defineComponent({
   },
   methods: {
     async fetchData() {
+      // Only fetch json if url includes 'atlas'
+      if (this.$route.path.includes('atlas')) {
       const slug = this.$route.params.slug;
       if (slug != null) {
         const atlasPath = ["/content/atlas/", slug, ".json"].join("");
+        console.log(atlasPath)
         const atlasData = getJSON(atlasPath);
         this.description = atlasData.description;
         this.atlasTitle = atlasData.title;
         this.article = marked(atlasData.article);
         this.mainImage = atlasData.mainImage;
       }
+    }
     },
   },
   filters: {

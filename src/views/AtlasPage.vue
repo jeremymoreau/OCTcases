@@ -17,40 +17,21 @@
         </ion-card-content>
       </ion-card>
 
-      <div v-if="questions">
-        <template v-for="question in questions" :key="question">
-          <ion-card>
-            <ion-card-header>
-              <ion-card-title class="q-title">
-                {{ question.title }}
-              </ion-card-title>
-            </ion-card-header>
-            <ion-card-content>
-              <ion-text
-                class="md-text"
-                v-if="question.text"
-                v-html="$options.filters.markdown(question.text)"
-              >
-              </ion-text>
-
-              <!-- answer buttons -->
-              <template v-for="answer in question.answers" :key="answer">
-                <ion-button
-                  class="q-btn"
-                  expand="block"
-                  fill="outline"
-                  v-if="answer.answerText"
-                  @click="
-                    openModal(answer.correct, 'Correct!', answer.explanation)
-                  "
-                >
-                  {{ answer.answerText }}
-                </ion-button>
-              </template>
-            </ion-card-content>
-          </ion-card>
-        </template>
-      </div>
+      <!-- Question links -->
+      <ion-card v-if="linkedCases">
+        <ion-card-header>
+          <ion-card-title class="case-title">
+            Related Practice Cases
+          </ion-card-title>
+        </ion-card-header>
+          
+        <ion-card-content>
+          <template v-for="linkedCaseID in linkedCases" :key="linkedCaseID">
+            <ion-button @click="gotoPage('CasePage', linkedCaseID)"
+                        expand="block" fill="outline" class="atlas-link-btn">Case {{ linkedCaseID }} </ion-button>
+          </template>
+        </ion-card-content>
+      </ion-card>
 
       <!-- Footer Card -->
       <ion-card v-if="footerText">
@@ -97,6 +78,7 @@ export default defineComponent({
     return {
       atlasTitle: null,
       atlas: "",
+      linkedCases: null
     };
   },
 
@@ -124,9 +106,20 @@ export default defineComponent({
         this.atlasTitle = atlasData.title;
         this.article = marked(atlasData.article);
         this.mainImage = atlasData.mainImage;
+        if (atlasData.caseID != null) {
+          this.linkedCases = atlasData.caseID.split(",");  // caseIDs are , separated
+        }
       }
     }
     },
+    gotoPage(pageName, caseID) {
+      const caseCateg = caseID.replace(/[0-9]/g, '');
+      this.$router.push({
+        name: pageName,
+        params: { caseCategory: caseCateg, caseID: caseID },
+      });
+    },
+
   },
   filters: {
     markdown: function (rawMarkdown) {
@@ -136,5 +129,9 @@ export default defineComponent({
 });
 </script>
 
-<style>
+<style scoped>
+.atlas-link-btn {
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
 </style>

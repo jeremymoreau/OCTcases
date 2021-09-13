@@ -70,24 +70,34 @@
         </ion-card-header>
 
         <ion-card-content>
-          <a href="https://www.bayer.com/en/" target="_blank">
-            <img
-              class="logos"
-              id="logo-bayer"
-              src="/assets/img/home-logo-bayer.png"
-          /></a>
-          <a href="http://www.eyeguru.org/" target="_blank">
-            <img class="logos" src="/assets/img/home-logo-eyeguru.png"
-          /></a>
-          <a href="https://ophthalmology.utoronto.ca/" target="_blank">
-            <img class="logos" src="/assets/img/home-logo-uoft.png"
-          /></a>
-          <a
-            href="https://www.cosprc.ca/optical-coherence-tomography-oct-learning-website/"
-            target="_blank"
-          >
-            <img class="logos" src="/assets/img/home-logo-prc.png"
-          /></a>
+          <ion-grid>
+            <ion-row class="logo-row">
+            <ion-col text-center>
+              <a href="https://www.bayer.com/en/" target="_blank">
+                <img id="logo-bayer" src="/assets/img/home-logo-bayer.png" /></a>
+            </ion-col>
+            <ion-col>
+              <a href="https://www.zeiss.ca/corporate/en/home.html" target="_blank">
+                <img id="logo-zeiss" src="/assets/img/home-logo-zeiss.svg"/></a>
+            </ion-col>
+          </ion-row>
+          <ion-row class="logo-row">
+            <a href="http://www.eyeguru.org/" target="_blank">
+            <img class="logos" src="/assets/img/home-logo-eyeguru.png" /></a>
+          </ion-row>
+          <ion-row class="logo-row">
+            <a href="https://www.cosprc.ca/optical-coherence-tomography-oct-learning-website/" target="_blank">
+            <img class="logos" id="logo-cos-prc" src="/assets/img/home-logo-cos-prc.svg" /></a>
+          </ion-row>
+          <ion-row class="logo-row">
+            <a href="https://ophthalmology.utoronto.ca/" target="_blank">
+            <img class="logos" src="/assets/img/home-logo-uoft.png" /></a>
+          </ion-row>
+          <ion-row class="logo-row">
+            <a href="https://www.tcpophthalmology.com/copy-of-tcp-ppt" target="_blank">
+            <img class="logos" id="logo-tcp-ophtho-mcgill" src="/assets/img/home-logo-tcp-ophtho-mcgill.svg" /></a>
+          </ion-row>
+          </ion-grid>
         </ion-card-content>
       </ion-card>
       <ion-text class="copyright" color="dark"
@@ -139,14 +149,28 @@ h1 {
 }
 
 #logo-bayer {
-  width: 50%;
+  height: 90px;
+}
+#logo-zeiss {
+  height: 90px;
+}
+#logo-cos-prc {
+  width: 90%;
+}
+#logo-tcp-ophtho-mcgill {
+  width: 80%;
+}
+.logo-row {
+  text-align: center;
+  justify-content: center;
 }
 .logos {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
-  padding-bottom: 30px;
+  width: 70%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .feature-title {
   padding-top: 20px;

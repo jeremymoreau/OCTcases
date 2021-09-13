@@ -131,6 +131,29 @@ ion-button {
   padding-bottom: 0.5rem;
 }
 
+/* About Us */
+.aboutus-avatar-item {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.aboutus-avatar {
+  height: 100px;
+  width: 100px;
+  margin-right: 10px;
+}
+.md-text .aboutus-title {
+  padding-top: 0px;
+  font-size: 0.95rem;
+}
+.md-text .aboutus-subtitle {
+  padding-bottom: 0px;
+  font-size: 0.9rem;
+}
+.aboutus-label {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 /** Ionic CSS Variables **/
 :root {
   /** primary **/

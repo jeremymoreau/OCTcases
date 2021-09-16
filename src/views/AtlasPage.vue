@@ -104,7 +104,9 @@ export default defineComponent({
         const atlasData = getJSON(atlasPath);
         this.description = atlasData.description;
         this.atlasTitle = atlasData.title;
-        this.article = marked(atlasData.article);
+        if (atlasData.article != null) {
+          this.article = marked(atlasData.article);
+        }
         this.mainImage = atlasData.mainImage;
         if (atlasData.caseID != null) {
           this.linkedCases = atlasData.caseID.split(",");  // caseIDs are , separated

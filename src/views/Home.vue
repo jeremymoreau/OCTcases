@@ -111,7 +111,7 @@
 </template>
 
 <script lang='js'>
-import { IonCard, IonCardContent, IonPage } from "@ionic/vue";
+import { IonCard, IonCardContent, IonPage, alertController } from "@ionic/vue";
 
 import { defineComponent } from "vue";
 import Header from "./Header.vue";
@@ -127,7 +127,40 @@ export default defineComponent({
     Header,
   },
 
-  methods: {},
+  mounted() {
+    // Notify large screens
+    if (window.matchMedia("(min-width: 1000px)").matches) {
+      this.presentAlertConfirm()
+    }
+  },
+
+  methods: {
+    // alert for large screens
+    async presentAlertConfirm() {
+      const alert = await alertController
+        .create({
+          header: 'This app is optimised for smartphones',
+          message: 'Would you like to be redirected to our desktop website instead?',
+          buttons: [
+            {
+              text: 'No',
+              cssClass: 'secondary',
+              handler: () => {
+                console.log("no")
+              },
+            },
+            {
+              text: 'Yes',
+              handler: () => {
+                window.location.replace("https://www.octcases.com/")
+              },
+            },
+          ],
+        });
+      return alert.present();
+    },
+    //
+  },
 });
 </script>
 

@@ -1,9 +1,8 @@
 <template>
   <ion-page>
     <Header></Header>
-
+    <IonSearchbar v-model="searchInput"></IonSearchbar>
     <ion-content overflow-scroll="true">
-      <IonSearchbar v-model="searchInput"></IonSearchbar>
       <template v-for="item in filteredIndex" :key="item">
         <ion-card v-if="item.title" class="atlas-card" @click="gotoPage('AtlasPage', item.slug)">
           <img class="atlas-header-img" :src="item.mainImage" />

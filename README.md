@@ -1,4 +1,4 @@
 # OCTcases
-Progressive Web App for https://octcases.com
+Progressive Web App for OCTcases: https://app.octcases.com
 
 [Work in progress]

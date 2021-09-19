@@ -8,14 +8,14 @@ http://ionicframework.com/docs/theming/ */
   align-items: center;
 }
 .header-logo {
-  content: url("/assets/img/header-logo-light.svg");
+  content: url("/assets/img/header-logo-light.svg") / "OCTcases logo";
   display: block;
   height: 25px;
   padding-right: 3px;
   margin-left: auto;
 }
 .dark .header-logo {
-  content: url("/assets/img/header-logo-dark.svg");
+  content: url("/assets/img/header-logo-dark.svg") / "OCTcases logo";
 }
 .header-text {
   margin-right: auto;
@@ -33,7 +33,7 @@ ion-button {
   text-transform: none;
  }
  #octcases-logo {
-  content: url("/assets/img/octcases-logo-light.svg");
+  content: url("/assets/img/octcases-logo-light.svg") / "OCTcases logo";
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -41,7 +41,7 @@ ion-button {
   padding-bottom: 1rem;
  }
  .dark #octcases-logo {
-  content: url("/assets/img/octcases-logo-dark.svg");
+  content: url("/assets/img/octcases-logo-dark.svg") / "OCTcases logo";
 }
 
  /* Markdown text style */

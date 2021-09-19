@@ -74,28 +74,28 @@
             <ion-row class="logo-row">
             <ion-col text-center>
               <a href="https://www.bayer.com/en/" target="_blank">
-                <img id="logo-bayer" src="/assets/img/home-logo-bayer.png" /></a>
+                <img id="logo-bayer" alt="Bayer logo" src="/assets/img/home-logo-bayer.png" /></a>
             </ion-col>
             <ion-col>
               <a href="https://www.zeiss.ca/corporate/en/home.html" target="_blank">
-                <img id="logo-zeiss" src="/assets/img/home-logo-zeiss.svg"/></a>
+                <img id="logo-zeiss" alt="Zeiss logo" src="/assets/img/home-logo-zeiss.svg"/></a>
             </ion-col>
           </ion-row>
           <ion-row class="logo-row">
             <a href="http://www.eyeguru.org/" target="_blank">
-            <img class="logos" src="/assets/img/home-logo-eyeguru.png" /></a>
+            <img class="logos" alt="eyeguru.org logo" src="/assets/img/home-logo-eyeguru.png" /></a>
           </ion-row>
           <ion-row class="logo-row">
             <a href="https://www.cosprc.ca/optical-coherence-tomography-oct-learning-website/" target="_blank">
-            <img class="logos" id="logo-cos-prc" src="/assets/img/home-logo-cos-prc.svg" /></a>
+            <img class="logos" id="logo-cos-prc" alt="Canadian Ophthalmological Society Practice Resource Centre logo" src="/assets/img/home-logo-cos-prc.svg" /></a>
           </ion-row>
           <ion-row class="logo-row">
             <a href="https://ophthalmology.utoronto.ca/" target="_blank">
-            <img class="logos" src="/assets/img/home-logo-uoft.png" /></a>
+            <img class="logos" alt="University of Toronto logo" src="/assets/img/home-logo-uoft.png" /></a>
           </ion-row>
           <ion-row class="logo-row">
             <a href="https://www.tcpophthalmology.com/copy-of-tcp-ppt" target="_blank">
-            <img class="logos" id="logo-tcp-ophtho-mcgill" src="/assets/img/home-logo-tcp-ophtho-mcgill.svg" /></a>
+            <img class="logos" id="logo-tcp-ophtho-mcgill" alt="TCP Ophthalmology Online Learning Platform McGill logo" src="/assets/img/home-logo-tcp-ophtho-mcgill.svg" /></a>
           </ion-row>
           </ion-grid>
         </ion-card-content>

@@ -6,23 +6,23 @@
         @ionTabsDidChange="afterTabChange"
       >
         <ion-tab-bar slot="bottom" id="bottomNav">
-          <ion-tab-button tab="home" @click="gotoPage('Home')">
-            <ion-icon :icon="home" />
+          <ion-tab-button href="/home" tab="home" @click="gotoPage('Home')">
+            <ion-icon alt="Home icon" :icon="home" />
             <ion-label>Home</ion-label>
           </ion-tab-button>
 
-          <ion-tab-button tab="articles" @click="gotoPage('ArticleList')">
-            <ion-icon :icon="reader"></ion-icon>
+          <ion-tab-button href="/articles" tab="articles" @click="gotoPage('ArticleList')">
+            <ion-icon alt="Articles icon" :icon="reader"></ion-icon>
             <ion-label>Articles</ion-label>
           </ion-tab-button>
 
-          <ion-tab-button tab="atlas" @click="gotoPage('AtlasList')">
-            <ion-icon :icon="search"></ion-icon>
+          <ion-tab-button href="/atlas" tab="atlas" @click="gotoPage('AtlasList')">
+            <ion-icon alt="Atlas icon" :icon="search"></ion-icon>
             <ion-label>Atlas</ion-label>
           </ion-tab-button>
 
-          <ion-tab-button tab="cases" @click="gotoPage('CaseList')">
-            <ion-icon :icon="helpCircle"></ion-icon>
+          <ion-tab-button href="/cases" tab="cases" @click="gotoPage('CaseList')">
+            <ion-icon alt="Cases icon" :icon="helpCircle"></ion-icon>
             <ion-label>Cases</ion-label>
           </ion-tab-button>
         </ion-tab-bar>

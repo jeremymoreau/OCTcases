@@ -29,7 +29,7 @@
         <ion-card-content class="md-text">
           <h1>Real Patients</h1>
           <ion-row>
-            <img src="/assets/img/home-features1.png" />
+            <img alt="Fundus photo" src="/assets/img/home-features1.png" />
           </ion-row>
           <ion-text>
             <p>
@@ -40,7 +40,7 @@
 
           <h1 class="feature-title">Interactive</h1>
           <ion-row>
-            <img src="/assets/img/home-features2.png" />
+            <img alt="OCT labelled" src="/assets/img/home-features2.png" />
           </ion-row>
           <ion-text>
             <p>
@@ -51,7 +51,7 @@
 
           <h1 class="feature-title">Detailed Answers</h1>
           <ion-row>
-            <img src="/assets/img/home-features3.png" />
+            <img alt="OCTcases screenshots" src="/assets/img/home-features3.png" />
           </ion-row>
           <ion-text
             ><p>
@@ -73,28 +73,28 @@
           <ion-grid>
             <ion-row class="logo-row">
             <ion-col text-center>
-              <a href="https://www.bayer.com/en/" target="_blank">
+              <a href="https://www.bayer.com/en/" target="_blank" rel="noopener">
                 <img id="logo-bayer" alt="Bayer logo" src="/assets/img/home-logo-bayer.png" /></a>
             </ion-col>
             <ion-col>
-              <a href="https://www.zeiss.ca/corporate/en/home.html" target="_blank">
+              <a href="https://www.zeiss.ca/corporate/en/home.html" target="_blank" rel="noopener">
                 <img id="logo-zeiss" alt="Zeiss logo" src="/assets/img/home-logo-zeiss.svg"/></a>
             </ion-col>
           </ion-row>
           <ion-row class="logo-row">
-            <a href="http://www.eyeguru.org/" target="_blank">
+            <a href="http://www.eyeguru.org/" target="_blank" rel="noopener">
             <img class="logos" alt="eyeguru.org logo" src="/assets/img/home-logo-eyeguru.png" /></a>
           </ion-row>
           <ion-row class="logo-row">
-            <a href="https://www.cosprc.ca/optical-coherence-tomography-oct-learning-website/" target="_blank">
+            <a href="https://www.cosprc.ca/optical-coherence-tomography-oct-learning-website/" target="_blank" rel="noopener">
             <img class="logos" id="logo-cos-prc" alt="Canadian Ophthalmological Society Practice Resource Centre logo" src="/assets/img/home-logo-cos-prc.svg" /></a>
           </ion-row>
           <ion-row class="logo-row">
-            <a href="https://ophthalmology.utoronto.ca/" target="_blank">
+            <a href="https://ophthalmology.utoronto.ca/" target="_blank" rel="noopener">
             <img class="logos" alt="University of Toronto logo" src="/assets/img/home-logo-uoft.png" /></a>
           </ion-row>
           <ion-row class="logo-row">
-            <a href="https://www.tcpophthalmology.com/copy-of-tcp-ppt" target="_blank">
+            <a href="https://www.tcpophthalmology.com/copy-of-tcp-ppt" target="_blank" rel="noopener">
             <img class="logos" id="logo-tcp-ophtho-mcgill" alt="TCP Ophthalmology Online Learning Platform McGill logo" src="/assets/img/home-logo-tcp-ophtho-mcgill.svg" /></a>
           </ion-row>
           </ion-grid>
@@ -158,8 +158,7 @@ export default defineComponent({
           ],
         });
       return alert.present();
-    },
-    //
+    }
   },
 });
 </script>

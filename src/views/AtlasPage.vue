@@ -99,13 +99,21 @@ export default defineComponent({
       if (this.$route.path.includes('atlas')) {
       const slug = this.$route.params.slug;
       if (slug != null) {
+        // add target="_blank" and rel="noopener" to links in markdown
+        const renderer = new marked.Renderer();
+        const linkRenderer = renderer.link;
+        renderer.link = (href, title, text) => {
+            const html = linkRenderer.call(renderer, href, title, text);
+            return html.replace(/^<a /, '<a target="_blank" rel="noopener" ');
+        };
+
         const atlasPath = ["/content/atlas/", slug, ".json"].join("");
         console.log(atlasPath)
         const atlasData = getJSON(atlasPath);
         this.description = atlasData.description;
         this.atlasTitle = atlasData.title;
         if (atlasData.article != null) {
-          this.article = marked(atlasData.article);
+          this.article = marked(atlasData.article, { renderer });
         }
         this.mainImage = atlasData.mainImage;
         if (atlasData.caseID != null) {

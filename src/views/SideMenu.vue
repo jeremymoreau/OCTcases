@@ -43,6 +43,7 @@
           button="true"
           class="menu-item"
           href="https://www.facebook.com/OCTcases/"
+          rel="noopener"
         >
           <ion-icon :icon="logoFacebook" slot="start"></ion-icon>
           <ion-label>Facebook</ion-label>
@@ -51,6 +52,7 @@
           button="true"
           class="menu-item"
           href="https://www.instagram.com/octcases/"
+          rel="noopener"
         >
           <ion-icon :icon="logoInstagram" slot="start"></ion-icon>
           <ion-label>Instagram</ion-label>

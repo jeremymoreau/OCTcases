@@ -4,7 +4,7 @@
 
     <ion-content overflow-scroll="true" scrollEvents="true" id="content">
       <ion-card>
-        <img class="atlas-header-img" :src="mainImage" />
+        <img class="atlas-header-img" :src="mainImage" :alt="atlasTitle" />
         <ion-card-header>
           <ion-card-title class="case-title">
             {{ atlasTitle }}

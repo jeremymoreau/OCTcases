@@ -5,7 +5,7 @@
     <ion-content overflow-scroll="true">
       <template v-for="item in filteredIndex" :key="item">
         <ion-card v-if="item.title" class="atlas-card" @click="gotoPage('AtlasPage', item.slug)">
-          <img class="atlas-header-img" :src="item.mainImage" />
+          <img class="atlas-header-img" :src="item.mainImage" :alt="item.title" />
           <ion-card-header class="atlas-card-header">
             <ion-card-title class="atlas-card-title">
               {{ item.title }}

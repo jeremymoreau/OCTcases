@@ -1,7 +1,9 @@
 <template>
   <ion-page>
     <Header></Header>
-    <IonSearchbar v-model="searchInput"></IonSearchbar>
+      <ion-toolbar>
+      <ion-searchbar class="atlas-searchbar" v-model="searchInput"></ion-searchbar>
+      </ion-toolbar>
     <ion-content overflow-scroll="true">
       <template v-for="item in filteredIndex" :key="item">
         <ion-card v-if="item.title" class="atlas-card" @click="gotoPage('AtlasPage', item.slug)">
@@ -80,5 +82,9 @@ export default defineComponent({
 .list-subtitle {
   font-size: 1rem;
   white-space: normal;
+}
+.ios .atlas-searchbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 </style>

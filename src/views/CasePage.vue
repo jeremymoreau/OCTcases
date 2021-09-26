@@ -157,14 +157,22 @@ export default defineComponent({
       if (this.$route.path.includes('cases')) {
       const caseID = this.$route.params.caseID;
       if (caseID != null) {
+        // add target="_blank" and rel="noopener" to links in markdown
+        const renderer = new marked.Renderer();
+        const linkRenderer = renderer.link;
+        renderer.link = (href, title, text) => {
+            const html = linkRenderer.call(renderer, href, title, text);
+            return html.replace(/^<a /, '<a target="_blank" rel="noopener" ');
+        };
+
         const casePath = ["/content/cases/", caseID, ".json"].join("");
         const caseData = getJSON(casePath);
         this.caseTitle = caseData.title;
         this.category = caseData.category;
-        this.patientPresentation = marked(caseData.patientPresentation);
+        this.patientPresentation = marked(caseData.patientPresentation, { renderer });
         this.questions = caseData.questions;
         if (caseData.footer != null) {
-            this.footerText = marked(caseData.footer);
+            this.footerText = marked(caseData.footer, { renderer });
         }
       }
     }
@@ -178,11 +186,18 @@ export default defineComponent({
       if (answerCorrect === true) {
         // If answer is correct and there is an explanation, display it
         if (explanation != null) {
+          // add target="_blank" and rel="noopener" to links in markdown
+          const renderer = new marked.Renderer();
+          const linkRenderer = renderer.link;
+          renderer.link = (href, title, text) => {
+              const html = linkRenderer.call(renderer, href, title, text);
+              return html.replace(/^<a /, '<a target="_blank" rel="noopener" ');
+          };
           const modal = await modalController.create({
             component: AnswerModal,
             componentProps: {
               title: title,
-              content: marked(explanation, { breaks: true }),
+              content: marked(explanation, { breaks: true, renderer }),
             },
           });
           return modal.present();
@@ -205,7 +220,7 @@ export default defineComponent({
         return toast.present();
       }
     },
-
+    // Go to previous/next page buttons
     async gotoPreviousNextPage(previousOrNext) {
       const caseIndex = Object.values(getJSON("/assets/index/case_index.json"));
       // get all cases in the current category (e.g. all retina cases)

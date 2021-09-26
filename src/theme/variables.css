@@ -162,6 +162,12 @@ ion-button {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+.dark .aboutus-avatar-item {
+  --ion-item-background: #1c1c1d;
+}
+.dark .aboutus-avatar-item {
+  background-color: #1c1c1d;
+}
 
 /** Ionic CSS Variables **/
 :root {

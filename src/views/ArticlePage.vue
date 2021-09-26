@@ -123,14 +123,22 @@ export default defineComponent({
       if (this.$route.path.includes('articles')) {
       const slug = this.$route.params.slug;
       if (slug != null) {
+        // add target="_blank" and rel="noopener" to links in markdown
+        const renderer = new marked.Renderer();
+        const linkRenderer = renderer.link;
+        renderer.link = (href, title, text) => {
+            const html = linkRenderer.call(renderer, href, title, text);
+            return html.replace(/^<a /, '<a target="_blank" rel="noopener" ');
+        };
+
         const articlePath = ["/content/articles/", slug, ".json"].join("");
         console.log(articlePath)
         const articleData = getJSON(articlePath);
         this.articleTitle = articleData.title;
-        this.article = marked(articleData.article);
+        this.article = marked(articleData.article, { renderer });
         this.questions = articleData.questions;
         if (articleData.footer != null) {
-            this.footerText = marked(articleData.footer);
+            this.footerText = marked(articleData.footer, { renderer });
         }
       }
       }
@@ -145,11 +153,19 @@ export default defineComponent({
       if (answerCorrect === true) {
         // If answer is correct and there is an explanation, display it
         if (explanation != null) {
+          // add target="_blank" and rel="noopener" to links in markdown
+          const renderer = new marked.Renderer();
+          const linkRenderer = renderer.link;
+          renderer.link = (href, title, text) => {
+              const html = linkRenderer.call(renderer, href, title, text);
+              return html.replace(/^<a /, '<a target="_blank" rel="noopener" ');
+          };
+
           const modal = await modalController.create({
             component: AnswerModal,
             componentProps: {
               title: title,
-              content: marked(explanation, { breaks: true }),
+              content: marked(explanation, { breaks: true, renderer }),
             },
           });
           return modal.present();

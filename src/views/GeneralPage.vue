@@ -63,16 +63,24 @@ export default defineComponent({
       if (this.$route.path.includes('pages')) {
       const slug = this.$route.params.slug;
       if (slug != null) {
+        // add target="_blank" and rel="noopener" to links in markdown
+        const renderer = new marked.Renderer();
+        const linkRenderer = renderer.link;
+        renderer.link = (href, title, text) => {
+            const html = linkRenderer.call(renderer, href, title, text);
+            return html.replace(/^<a /, '<a target="_blank" rel="noopener" ');
+        };
+
         const pagePath = ["/content/pages/", slug, ".json"].join("");
         console.log(pagePath)
         const pageData = getJSON(pagePath);
         this.pageTitle = pageData.title;
-        this.pageContent = marked(pageData.pageContent);
+        this.pageContent = marked(pageData.pageContent, { renderer });
       }
     }
     },
-
-    deObfsMail() {
+    // Obfs addresses (tap to reveal)
+    async deObfsMail() {
         const obfsList = document.getElementsByClassName("obfs-m")
         for (const obfsItem of obfsList) {
             obfsItem.onclick = function() {

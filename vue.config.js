@@ -15,7 +15,7 @@ module.exports = {
       // configure the workbox plugin
       workboxPluginMode: 'GenerateSW',
       workboxOptions: {
-        // ...other Workbox options...
+        exclude: ['_redirects'],
       }
     }
   }

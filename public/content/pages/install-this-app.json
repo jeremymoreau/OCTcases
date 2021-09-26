@@ -1,5 +1,5 @@
 {
   "pageID": "install-this-app",
   "title": "Installation instructions",
-  "pageContent": "Coming Soon."
+  "pageContent": "### iPhone (iOS)\n\n1. In Safari, tap the \"share\" icon at the bottom of the screen\n\n   ![iOS installation instructions screenshot step 1](/content/media/install-ios-step1.png)\n2. Select \"Add to Home Screen\"\n\n   ![iOS installation instructions screenshot step 2](/content/media/install-ios-step2.png)\n\n### Android\n\n1. In Google Chrome, tap the \"3 dots\" icon at the top right of the screen\n\n   ![Android installation instructions screenshot step 1](/content/media/install-android-step1.jpg)\n2. Select \"Install app\"\n\n   ![Android installation instructions screenshot step 2](/content/media/install-android-step2.jpg)"
 }

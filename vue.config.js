@@ -1,6 +1,7 @@
 module.exports = {
     pwa: {
       name: 'OCTcases',
+      startUrl: '/',
       themeColor: '#000000',
       backgroundColor: '#000000',
       msTileColor: '#000000',

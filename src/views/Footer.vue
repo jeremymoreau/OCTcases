@@ -1,5 +1,5 @@
 <template>
-  <ion-footer>
+  <ion-footer mode='md'>
     <ion-toolbar>
       <ion-tabs
         @ionTabsWillChange="beforeTabChange"

@@ -169,6 +169,11 @@ ion-button {
   background-color: #1c1c1d;
 }
 
+/* Using MD tab bar mode on ios to fix padding iissue. Remove Android-style dropshadow */
+.ios .footer-md::before {
+  background-image: none;
+}
+
 /** Ionic CSS Variables **/
 :root {
   /** primary **/

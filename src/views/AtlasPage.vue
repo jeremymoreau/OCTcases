@@ -78,7 +78,8 @@ export default defineComponent({
     return {
       atlasTitle: null,
       atlas: "",
-      linkedCases: null
+      linkedCases: null,
+      footerText: ""
     };
   },
 
@@ -118,6 +119,9 @@ export default defineComponent({
         this.mainImage = atlasData.mainImage;
         if (atlasData.caseID != null) {
           this.linkedCases = atlasData.caseID.split(",");  // caseIDs are , separated
+        }
+        if (atlasData.footer != null) {
+            this.footerText = marked(atlasData.footer, { renderer });
         }
       }
     }

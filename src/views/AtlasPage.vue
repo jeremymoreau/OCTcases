@@ -3,6 +3,7 @@
     <Header></Header>
 
     <ion-content overflow-scroll="true" scrollEvents="true" id="content">
+      <!-- Short description card -->
       <ion-card>
         <img class="atlas-header-img" :src="mainImage" :alt="atlasTitle" />
         <ion-card-header>
@@ -13,7 +14,6 @@
 
         <ion-card-content>
           <span class="md-text"> {{ description }} </span>
-          <span class="md-text" v-if="article" v-html="article"> </span>
         </ion-card-content>
       </ion-card>
 
@@ -30,6 +30,13 @@
             <ion-button @click="gotoPage('CasePage', linkedCaseID)"
                         expand="block" fill="outline" class="atlas-link-btn">Case {{ linkedCaseID }} </ion-button>
           </template>
+        </ion-card-content>
+      </ion-card>
+
+      <!-- Main article card -->
+      <ion-card>
+        <ion-card-content>
+          <span class="md-text" v-if="article" v-html="article"> </span>
         </ion-card-content>
       </ion-card>
 

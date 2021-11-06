@@ -79,7 +79,7 @@ collections:
       - {label: "Short Description", name: "description", widget: "text", pattern: ["^.{1,280}$", "Must be less than 280 characters"]}
       - {label: "Article", name: "article", widget: "markdown", required: false}
       - {label: "Case ID of linked practice cases", name: "caseID", widget: "string", required: false, hint: "Unique Case IDs of practice cases to link at bottom of article. Separate Case IDs with a comma (e.g. retina42,retina43) to include multiple cases.",  pattern: ["^([a-z]+[0-9]+,?)+$", "Format must be category+number, all lowercase with no spaces or symbols (e.g. retina42). Separate cases with a comma, no spaces"]}
-      - {label: "Footer", name: "footer", widget: "markdown", required: false, hint: "This content will be displayed below the related practice cases."}
+      - {label: "Footer", name: "footer", widget: "markdown", required: false, hint: "This content will be displayed in a separate card below the main article card."}
   - name: "pages"
     label: "Pages"
     identifier_field: "pageID"

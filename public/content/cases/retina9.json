@@ -1,0 +1,43 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Subretinal Fluid"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Intra-retinal Cysts"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Retinoschisis"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Subretinal Hyper-Reflective Foveal Material",
+          "explanation": "![](/content/media/optic-pit-maculopathy-labelled-.webp)\n\nThe abnormalities on the OCT are:\n\n1. Subretinal fluid (blue star)​\n2. Intra-retinal cysts (yellow arrow)\n3. Retinoschisis (red diamond)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "Given the decline in vision, an OCT macula OS was performed below:\n\n![](/content/media/retina-9-2.webp)\n\nWhat pathology is NOT present in the OCT shown to the left?"
+    },
+    {
+      "title": "Question 2",
+      "text": "What is the Diagnosis?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The Diagnosis is Optic Pit Maculopathy."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina9",
+  "category": "retina",
+  "title": "Case 9",
+  "description": "5M presenting with 3-months of worsening vision OS",
+  "patientPresentation": "A 5-year-old male presents with a 3-month history of gradually worsening vision in his left eye. Vision was 20/25 OD and 20/200 OS. There was no RAPD. The patient denied any recent history of ocular trauma and is otherwise healthy. There was a vague maternal family history of retinal detachment. The patient's fundus photograph is shown below:\n​\n\n![](/content/media/retina-9-1.webp)"
+}

@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Retinal Edema"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Venous Tortuosity",
+          "explanation": "The findings on the OCT are:\n\n1. Retinal edema\n\n2. Cherry red spot\n\n3. Perfused retina from cilioretinal artery\n​\nThe retinal veins appear to be normal in colour and contour. Venous tortuosity is not commonly found in this condition. The vessels that are affected in this condition are the retinal arteries.\n\n![](/content/media/retina-10-3.webp)\n\nFor the above fundus photo:​\n\n1. The orange arrow is pointing to an embolus in the retinal arteriole. \n2. The blue arrows are demonstrating filling defects in the retinal venules (boxcarring).\n3. The black arrow is demonstrating a spared cilioretinal artery with a small area of perfused retina"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Cherry Red Spot"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Patent Cilioretinal Artery"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What pathology is NOT present in the OD fundus photo shown?"
+    },
+    {
+      "title": "Question 2",
+      "text": "OCT macula OD was performed and shown below:\n\n![](/content/media/retina-10-2.webp)\n\n What section of the retina is abnormal on OCT?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Pre-retinal"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Inner Retina",
+          "explanation": "![](/content/media/retina-10-2.webp)\n\nThe abnormality in this OCT image is localized to the inner retina. There is increased hyper-reflectivity and thickness of the inner retinal  layers secondary to nerve fiber layer edema."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Sub-RPE"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Subretinal"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What is the Diagnosis?\n\n![](/content/media/retina-10-2.webp)",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The Diagnosis is Central Retinal Artery Occlusion\n\nCentral retinal artery occlusion (CRAO) occurs when the central retinal artery becomes obstructed at a point before entry into the optic nerve (although sometimes you can visualize small dislodged emboli as in a branch retinal artery occlusion). It is usually secondary to an embolic process. In the acute phase, the OCT will reveal hyper-reflectivity of the inner retinal layers as a result of nerve fiber layer edema. However, with resolution of edema, retinal atrophy and loss of the foveal depression may be seen in the chronic stages on OCT."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina10",
+  "category": "retina",
+  "title": "Case 10",
+  "description": "74F presenting with acute vision loss OD and RAPD",
+  "patientPresentation": "A 74-year-old female with no previous ocular pathology presented with acute vision loss OD. Vision was LP OD and 20/25 OS. There was a right RAPD. She denied any family history of ocular disease. Her medications included rosuvastatin, ramipril, metformin and sliding scale insulin. The patient's fundus photograph is shown below:\n​\n\n![](/content/media/retina-10-1.webp)",
+  "footer": "### Learning Objectives:\n\n1. Recognize the classic OCT finding of a CRAO: Increased hyper-reflectivity and thickness of the inner retinal layers, corresponding to the inner retinal edema secondary to ischemia."
+}

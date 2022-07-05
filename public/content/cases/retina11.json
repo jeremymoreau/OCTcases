@@ -1,0 +1,80 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Pre-retinal"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Sub-inner Limiting Membrane",
+          "explanation": "![](/content/media/retina-11-4.webp)\n\nThe yellow arrow is pointing towards the inner limiting membrane (ILM), a hyper-reflective line at the border of the inner retina and the pre-retinal space. There is a dense hyper-reflective area under the ILM that corresponds to the hemorrhage seen in the fundus photograph."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Intra-retinal"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Subretinal"
+        }
+      ],
+      "title": "Question 1",
+      "text": "The fundus photograph demonstrates a macular hemorrhage in the left eye. What layer of the retina is the hemorrhage situated in?"
+    },
+    {
+      "title": "Question 2",
+      "text": "![](/content/media/retina-11-3.webp)\n\nThe red arrow is pointing to an arrow of hypo-reflectivity underneath the hemorrhage. What does this represent?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Intra-retinal Hemorrhage"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Inner Nuclear Layer"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Intra-retinal Fluid"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Shadowing Effect",
+          "explanation": "![](/content/media/retina-11-3.webp)\n\nCertain ocular components can absorb light, which may induce a shadowing effect. In this case, the superficial macular hemorrhage has absorbed the light leading to an area of hypo-reflectivity due to the shadowing effect. This hides the intra-retinal and outer-retinal structures from view."
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Of the following choices, which can cause sub-ILM hemorrhages?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Valsalva Retinopathy"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Ocular Trauma"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Thrombocytopenia",
+          "explanation": ""
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the Above",
+          "explanation": "Sub-ILM hemorrhages have been described in a variety of clinical settings including all the choices listed above. In our case, the hemorrhage was thought to be secondary to her thrombocytopenia. Other causes include:\n\n1. Valsalva retinopathy\n2. Ocular trauma\n3. Terson's syndrome\n4. Retinal macroaneurysm"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina11",
+  "category": "retina",
+  "title": "Case 11",
+  "description": "27F presenting with 1-week history of decreased vision OS",
+  "patientPresentation": "A 27-year-old female presented to the ophthalmology clinic with a 1-week history of decreased vision in the left eye. She had a history of renal transplantation and was on immunosuppressive medications. Her most recent blood work demonstrated anemia and thrombocytopenia. She denied history of trauma. On examination, vision was 20/20 OD and 20/150 OS. Pupils were equal and reactive to light. Fundus photograph and OCT macula are shown below:\n​\n\n![](/content/media/retina-11-1.webp)\n\n![](/content/media/retina-11-2.webp)",
+  "footer": "### Learning Objectives:\n\n1. Recognize that OCT can provide valuable information regarding the location of retinal pathology.​\n2. Identify the inner limiting membrane on OCT."
+}

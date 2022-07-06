@@ -1,0 +1,90 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "![](/content/media/retina-13-3.webp)\n\nYes! It is the Left Eye. The yellow arrow is pointing towards the retinal nerve fiber layer (NFL) of the retina. As the NFL travels closer to the optic nerve (red arrow), it becomes thicker and more noticeable. By determining the position of the optic nerve relative to the position of the macula, it is often possible to identify whether an OCT is the right eye or left eye."
+        }
+      ],
+      "title": "Question 1",
+      "text": "Using the OCT above, can you determine if it is the right or left eye?"
+    },
+    {
+      "title": "Question 2",
+      "text": "![](/content/media/retina-13-1.webp)\n\nWhat section is abnormal on the above OCT image?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Vitreous"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Choroid"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Inner Retina"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Outer Retina",
+          "explanation": "![](/content/media/retina-13-2.webp)\n\nThere are areas of parafoveal outer-retinal thinning (black arrows), with loss of the outer retinal structures, giving the macula area an atypical appearance on OCT. The external limiting membrane is  visualized well sub-foveally but cannot be identified when followed outwards away from the fovea."
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Based on the patient's history and OCT findings, what medication(s) is the likely cause of this?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Tamoxifen"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Hydroxychloroquine",
+          "explanation": "Hydroxychloroquine (Plaquenil) is a medication commonly used in the treatment of various rheumatological diseases including lupus and rheumatoid arthritis. Both choroquine and hydroxychloroquine can result in irreversible macular toxicity and classically disrupts the outer retina parafoveally. When macular toxicity is evident clinically and on OCT, advanced disease is already present. Both OCT and multi-focal ERG are recommended screenings to rule out toxicity."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Chlorthalidone"
+        },
+        {
+          "correct": false,
+          "answerText": "D. All of the Above"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What sign on macula OCT is associated with this toxicity?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Saucer Sign",
+          "explanation": "![](/content/media/retina-13-4.webp)\n\nThe preferential loss of the outer retinal structures in the parafoveal area and the relative sparing of the subfoveal structures results in the classic \"Saucer Sign\" which is usually seen in advanced cases of plaquenil toxicity."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Babinski Sign"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Cullen's Sign"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Hegar's Sign"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina13",
+  "category": "retina",
+  "title": "Case 13",
+  "description": "56F presenting with 2-months of blurred central vision OU",
+  "patientPresentation": "A 56-year-old female was referred to ophthalmology after she noticed blurred central vision in both eyes over a period of 2 months. She is currently taking medications for rheumatoid arthritis. On examination, vision is 20/30 in both eyes. Fundus photographs demonstrate non-specific RPE changes in the macula. The OCT macula is shown below:\n​\n\n![](/content/media/retina-13-1.webp)",
+  "footer": "### Learning Objectives:\n\n1. Plaquenil toxicity results in disruption of the outer retinal layers. By the time macular toxicity is evident clinically on retinal examination or OCT, advanced disease is already present. \n2. Saucer sign is the classic OCT sign associated with plaquenil toxicity and occurs due to the relative sparing of the subfoveal structures relative to the para-foveal loss of the outer retinal structures."
+}

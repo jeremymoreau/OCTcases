@@ -1,0 +1,44 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Discordance of the retina and inner plexiform layer"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Disorganization of the retinal inner layers",
+          "explanation": "![](/content/media/dril-labelled.webp)\n\nDRIL stands for disorganization of the retinal inner layers. It is defined as a horizontal area where any boundaries between the IPL, INL, and OPL cannot be identified on OCT scan. DRIL occurs in patients with macula edema secondary to a variety of retinal vascular diseases such as diabetic macular edema (DME) and retinal vein occlusion (RVO).\n\nIn the OCT above, the yellow lines point towards the IPL, INL and OPL. Notice that when traced towards the fovea, these layers are not easily identifiable (red box)."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Disruption of the retinal inner nuclear layers"
+        },
+        {
+          "correct": false,
+          "answerText": "D. None of the above"
+        }
+      ],
+      "title": "Question 1",
+      "text": "DRIL is an OCT parameter that is increasingly used in retinal vascular disorders like diabetes and retinal vein occlusions (RVO). What does DRIL stand for?"
+    },
+    {
+      "title": "Question 2",
+      "text": "What is the significance of DRIL?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "DRIL has been found to correlate with worse visual outcomes. It is useful for clinicians to help prognosticate visual outcomes in patients with retinal vascular diseases and allow for setting realistic expectations with patients.\n​\n​\n\n![](/content/media/retina-15-3.webp)\n\nIn a study performed by Mimouni et al., the extent of DRIL in cases of RVO before and after treatment was found to be an additional SD-OCT parameter that may serve as a biomarker for patients with RVO-ME. The macula OCT of the right eye in this case is a great example of DRIL. Notice that the boundaries between the IPL, INL, and OPL are not easily identifiable in the image, and thus would explain his poor visual outcome. Another useful OCT parameter to look for is the disruption of the ellipsoid zone in the outer retina, which is also present in the OCT."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina15",
+  "category": "retina",
+  "title": "Case 15",
+  "description": "75M presenting with sudden painless vision loss OD",
+  "patientPresentation": "A 75-year-old male with history of hypertension and hyperlipidemia experienced sudden, painless vision loss in his right eye 1 year ago. He saw an ophthalmologist who diagnosed him with a central retinal vein occlusion in his right eye. He was treated with anti-VEGF injections for macular edema, but despite treatment, his vision has remained poor. He presents to clinic today for second opinion regarding his poor vision in his right eye. On examination, his vision is 20/400 OD and 20/20 OS. Slit lamp examination is normal with no signs of neovascularization of the iris/angle. Fundus examination and OCT are shown below:\n\n![](/content/media/retina-15-1.webp)\n\n![](/content/media/retina-15-2.webp)",
+  "footer": "### Learning Objectives:\n\n1. DRIL stands for disorganization of the retinal inner layers.\n2. DRIL occurs in patients with a variety of retinal vascular diseases, and has been found to correlate with worse visual outcomes."
+}

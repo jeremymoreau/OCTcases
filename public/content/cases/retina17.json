@@ -1,0 +1,55 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "![](/content/media/retina-17-3.webp)\n\nBilateral temporal atrophy/thinning (red arrows) on the OCT, which is characteristic of sickle cell maculopathy. It can be subtle and may not be evident on clinical examination. The exact etiology of thinning is not fully understood but thought to be secondary to ischemia and non-perfusion. The temporal macula is preferentially affected as it is a watershed zone (between the vascular arcades of the retinal circulation), and thus more susceptible to ischemia.\n\nReferences: ​Dell’Arti L, Barteselli G, Riva L, Carini E, Graziadei G, Benatti E, Invernizzi A, Cappellini MD, Viola F. Sickle cell maculopathy: identification of systemic risk factors, and microstructural analysis of individual retinal layers of the macula. PloS one. 2018;13(3)."
+        }
+      ],
+      "title": "Question 1",
+      "text": "What is the most notable abnormality in the OCT above?"
+    },
+    {
+      "title": "Question 2 ",
+      "text": "What is the significance of this OCT finding?\n​\n\n![](/content/media/retina-17-3.webp)",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The presence of temporal macular atrophy was found to have a high positive predictive value for identifying co-existing neovascularization and proliferative sickle cell retinopathy.\n\nReferences: Hood MP, Diaz RI, Sigler EJ, Calzada JI. Temporal macular atrophy as a predictor of neovascularization in sickle cell retinopathy. Ophthalmic Surgery, Lasers and Imaging Retina. 2016 Jan 5;47(1):27-34."
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What type of visual symptoms can patients with sickle cell-related temporal macular atrophy present with?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Asymptomatic"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Scotomas"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Impaired colour vision and contrast sensitivity"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the above",
+          "explanation": "Sickle cell patients with temporal macular atrophy can be asymptomatic, but can also present with scotomas, impaired color vision and loss of contrast sensitivity. Sickle cell maculopathy occurs more commonly in patients with HbSS > HbSC.\n\nReferences: Martin GC, Dénier C, Zambrowski O, et al. Visual function in asymptomatic patients with homozygous sickle cell disease and temporal macular atrophy. JAMA Ophthalmol 2017;135:1100–5. doi:10.1001/jamaophthalmol.2017.3008"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina17",
+  "category": "retina",
+  "title": "Case 17",
+  "description": "24M presenting with a history of sickle cell disease",
+  "patientPresentation": "A 24-year-old male with sickle cell disease (HbSS) presented to ophthalmology clinic for his annual eye examination. He does not endorse any visual complaints. On examination, visual acuity is 20/20 in both eyes. Slit lamp examination and fundus examination were normal with no obvious signs of sickle cell retinopathy. An OCT macula was performed demonstrating the following:\n\n![](/content/media/retina-17-1.webp)\n\n![](/content/media/retina-17-2.webp)",
+  "footer": "### Learning Objectives:\n\n1. Sickle cell maculopathy is characterized by focal thinning of the temporal macula.\n2. The presence of temporal macular atrophy is suggestive of co-existing proliferative sickle cell retinopathy."
+}

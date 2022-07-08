@@ -1,0 +1,44 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Pseudohole",
+          "explanation": "![](/content/media/retina-18-2.webp)\n\nThis OCT depicts a classic macular pseudohole (yellow lines). A macular pseudohole usually arises secondary to the tractional forces from an epi-retinal membrane (red arrow). The blue arrow highlights the released posterior hyaloid."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Lamellar Hole"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Macular Hole"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Cystoid Macular Edema"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What is the diagnosis?"
+    },
+    {
+      "title": "Question 2",
+      "text": "How do you differentiate a macular pseudohole from a macular hole and a lamellar hole?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "![](/content/media/retina-18-3-.webp)\n\n![](/content/media/retina-18-4.webp)\n\nIn contrast to a full thickness macular hole (blue line), a pseudohole does not involve the full thickness of the retina. OCT also allows for differentiation of pseudoholes and lamellar holes, which are often confused for one another as they both lack a full-thickness retinal defect. There is no loss of retinal tissue in pseudoholes, and they have a vertical profile (as highlighted by the yellow line). On the other hand, lamellar holes usually have an anvil-shaped appearance (red line) with loss of inner retinal tissue but preservation of the outer retinal layers. We will discuss lamellar holes in more detail in another case."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina18",
+  "category": "retina",
+  "title": "Case 18",
+  "description": "64M presenting with 3-months of metamorphopsia OD",
+  "patientPresentation": "A 64-year-old male with a previous history of cataract surgery presented to ophthalmology with a 3 month history of metamorphopsia in his right eye. On examination, his vision was 20/20 in both eyes. Slit lamp examination and fundus examination appeared normal. An OCT macula was performed on his right eye demonstrating the following:\n​\n\n![](/content/media/retina-18-1.webp)",
+  "footer": "### Learning Objectives:\n\n1. To differentiate macular pseudohole from a lamellar hole and a full thickness macular hole\n2. To identify the OCT features of a macular pseudohole, which have a vertical profile that does not involve the full thickness of the retina"
+}

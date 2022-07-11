@@ -2,6 +2,7 @@ backend:
   name: github
   repo: jeremymoreau/OCTcases
   branch: master
+  cms_label_prefix: netlify-cms/
 
 publish_mode: editorial_workflow
 media_folder: "public/content/media"

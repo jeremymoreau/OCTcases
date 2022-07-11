@@ -2,6 +2,7 @@
 /* eslint-disable */
 const fs = require('fs')
 const path = require('path')
+const orderBy = require('natural-orderby')
 /* eslint-enable */
 
 
@@ -22,8 +23,15 @@ module.exports = function generateIndex(ctx) {
             caseIndex.push(currentCase)
         }
     })
+
+    const sortedCaseIndex = orderBy.orderBy(
+        caseIndex,
+        [v => v.caseID],
+        ['asc']
+    )
+
     const indexFilePath = './public/assets/index/case_index.json'
-    fs.writeFileSync(indexFilePath, JSON.stringify(caseIndex));
+    fs.writeFileSync(indexFilePath, JSON.stringify(sortedCaseIndex));
 
     // Generate and Index JSON file of all the articles in /public/content/articles
     const articleIndex = []
@@ -41,12 +49,15 @@ module.exports = function generateIndex(ctx) {
             articleIndex.push(currentArticle)
         }
     })
-    // Sort articleIndex in ascending order of sortOrder
-    articleIndex.sort(function(a, b){
-        return a.sortOrder - b.sortOrder;
-    });
+    
+    const sortedArticleIndex = orderBy.orderBy(
+        articleIndex,
+        [v => v.sortOrder],
+        ['asc']
+    )
+
     const articleIndexFilePath = './public/assets/index/article_index.json'
-    fs.writeFileSync(articleIndexFilePath, JSON.stringify(articleIndex));
+    fs.writeFileSync(articleIndexFilePath, JSON.stringify(sortedArticleIndex));
 
     // Generate and Index JSON file of all the atlas in /public/content/atlas
     const atlasIndex = []
@@ -64,6 +75,13 @@ module.exports = function generateIndex(ctx) {
             atlasIndex.push(currentAtlas)
         }
     })
+
+    const sortedAtlasIndex = orderBy.orderBy(
+        atlasIndex,
+        [v => v.title],
+        ['asc']
+    )
+
     const atlasIndexFilePath = './public/assets/index/atlas_index.json'
-    fs.writeFileSync(atlasIndexFilePath, JSON.stringify(atlasIndex));
+    fs.writeFileSync(atlasIndexFilePath, JSON.stringify(sortedAtlasIndex));
 }

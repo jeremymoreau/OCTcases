@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "title": "Question 1",
+      "text": "Please describe this OCT?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "![](/content/media/retina-20-2.webp)\n\nThere is generalized thinning of the neurosensory retina in the foveal region with loss of the outer retinal layers (ONL, ELM, EZ, photoreceptors, RPE) and exaggerated foveal depression. Choroidal hyper-transmission (red box) is seen underneath the areas of thinning secondary to loss of RPE. There is no evidence of drusen on this OCT."
+        }
+      ]
+    },
+    {
+      "title": "Question 2",
+      "text": "Why does choroidal hyper-transmission occur?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Hyper-reflective deposits in the choroid"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Migration of the RPE into the choroid"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Increased OCT signal penetration",
+          "explanation": "![](/content/media/retina-20-3.webp)\n\nChoroidal hyper-transmission occurs due to increased signal penetration through areas of RPE loss. The area outlined in the red box denotes the choroidal hyper-transmission underneath the RPE."
+        },
+        {
+          "correct": false,
+          "answerText": "D. None of the above"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What is the likely diagnosis?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Geographic atrophy",
+          "explanation": "![](/content/media/retina-20-3.webp)\n\nThe OCT demonstrates geographic atrophy, which is seen in late stages of AMD or any advanced macular pathology. Clinically, it appears as a well-demarcated area of hypopigmentation with RPE loss and visible choroidal vessels."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Vitelliform macular dystrophy"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Choroidal neovascular membrane"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Vitreomacular adhesion"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0020",
+  "category": "retina",
+  "title": "Case 20 ",
+  "description": "73F presenting with long-standing poor central vision OS",
+  "patientPresentation": "A 73-year-old female presents to ophthalmology clinic for a routine follow-up appointment. Her vision is 20/20 in the right eye and 20/400 in the left eye. Her central vision in the left eye has been poor for many years. An OCT macula was performed in the left eye demonstrating the following:\n​\n\n![](/content/media/retina-20-1.webp)",
+  "footer": "### Learning Objectives:\n\n1. Identify OCT features of geographic atrophy\n2. Understand why choroidal transmission occurs in geographic atrophy"
+}

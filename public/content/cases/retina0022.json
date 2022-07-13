@@ -1,0 +1,43 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "![](/content/media/retina-22-1.webp)\n\nThe fundus exam demonstrates a blunted foveal reflex and a grayish discoloration in the parafoveal area with fine yellow-white intra-retinal spots."
+        }
+      ],
+      "title": "Question 1",
+      "text": "What is the most notable abnormality in the fundus photograph?"
+    },
+    {
+      "title": "Question 2",
+      "text": "An intravenous fluorescein angiogram was obtained next:\n\n![](/content/media/retina-22-2.webp)\n\nPattern of IVFA consistent with perifoveal hyper-fluoresence (leakage pattern). Next, an OCT macula was performed as shown below:\n\n![](/content/media/retina-22-3.webp)\n\nWhat layers of the retina are involved in this pathological process as shown in the OCT?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Inner Nuclear Layer and Inner Plexiform Layer ONLY"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Bruch's Membrane and RPE with outer retinal cysts"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Outer Nuclear Layer and Ellipsoid Zone with inner retinal cysts",
+          "explanation": "![](/content/media/retina-22-4.webp)\n\nThere are hypo-reflective cavities involving the inner retina with an overlying ILM (draping of ILM). There are focal areas of loss in the outer retinal layers, with disruption of the IS/OS junction."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Ganglion cell layer and External Limiting Membrane"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0022",
+  "category": "retina",
+  "title": "Case 22",
+  "description": "56M presenting with suspected diabetic macular edema",
+  "patientPresentation": "A 56-year-old male was referred to clinic for suspected diabetic macular edema. His past ocular history was unremarkable, and his past medical history is significant for type 2 diabetes that is controlled by diet only. He is otherwise healthy. On exam, vision is 20/50 OD, and 20/20 OS. Pupils were equal and reactive, with no relative afferent pupillary defect and IOP was 15mmHg in both eyes. Slit lamp examination was normal. The fundus photo of the right eye is below:\n​\n\n![](/content/media/retina-22-1.webp)"
+}

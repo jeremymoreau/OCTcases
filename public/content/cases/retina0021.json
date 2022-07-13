@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Macular hole"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Retinal detachment"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Retinal edema"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the above",
+          "explanation": "![](/content/media/retina-21-2.webp)\n\n**Rhegmatogenous retinal detachment secondary to a full thickness macular hole.**\n\nThe hypo-reflective space underneath the retina consists of sub-retinal fluid which connects to the vitreous cavity (above the macular hole). The RPE and choroidal layers are not included on this OCT scan as the neuro-sensory retina is detached. Associated intraretinal fluid and presence of vitreous debris around the macula hole are also evident on OCT."
+        }
+      ],
+      "title": "Question 1",
+      "text": "Based on the OCT, what is the diagnosis?"
+    },
+    {
+      "title": "Question 2",
+      "text": "What features on this OCT scan indicate that this is likely a chronic process?\n\n![](/content/media/retina-21-1.webp)",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Smooth outer retinal layers"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Intra-retinal cysts"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Vitreous inflammation"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the above",
+          "explanation": "![](/content/media/retina-21-4.webp)\n\nFeatures of chronicity in this OCT include presence of intra-retinal edema, a smooth outer retinal layer (with no corrugations), and presence of vitreous debris.\n\nReferences:\n\nAuger G, Winder S. Spectral domain OCT: an aid to diagnosis and surgical planning of retinal detachments. Journal of ophthalmology. 2011 Dec 29;2011."
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Surgery was performed. Post-operatively, his visual acuity was 20/200. The OCT below demonstrates the post-operative appearance of the retina. Based on the OCT, what are some potential visual prognostic findings?\n\n![](/content/media/retina-21-3.webp)",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "![](/content/media/retina-21-5.webp)\n\nPredictors of poor BCVA include disruption of ellipsoid zone and external limiting membrane, increased outer nuclear layer thickness, and retinal atrophy (decreased average and central macular thickness values). These are all features that are present in the OCT above, explaining the poor post-operative visual acuity of our patient.\n​\nReferences:\n\nSaber EE, Bayoumy AS, Elmohamady MN, Faramawi HM. Macular microstructure and visual acuity after macula-off retinal detachment repair by 23-gauge vitrectomy plus silicone endotamponade. Clinical Ophthalmology (Auckland, NZ). 2018;12:2005."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0021",
+  "category": "retina",
+  "title": "Case 21",
+  "description": "63M presenting with 2-months of decreased vision OS",
+  "patientPresentation": "A 63-year-old male presented to the ophthalmology office with a 2 month history of decreased vision in his left eye. On examination, his vision is CF in the left eye. Slit lamp examination was normal. Dilated fundus examination revealed the diagnosis. An OCT macula was performed revealing the following:\n​\n\n![](/content/media/retina-21-1.webp)",
+  "footer": "### Learning Objectives:\n\n1. List OCT features that correlate with poor visual outcomes post-retinal detachment repair​\n2. Recognize macular hole as a cause of a rhegmatogenous retinal detachment"
+}

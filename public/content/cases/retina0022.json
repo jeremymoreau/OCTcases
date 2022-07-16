@@ -33,11 +33,69 @@
           "answerText": "D. Ganglion cell layer and External Limiting Membrane"
         }
       ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What features on this OCT are atypical for DME?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Cysts are too small"
+        },
+        {
+          "correct": true,
+          "answerText": "B. The atypical cystic changes are cavitary, squared off with a draping off the ILM",
+          "explanation": "![](/content/media/retina-22-8.webp)\n\nThe peudocystic cavities in this OCT have a squared off appearance (red box) and do not distort the foveal contour. There is also an overlying ILM drape. These features are atypical for DME and are characteristic features of another retinal disorder."
+        },
+        {
+          "correct": false,
+          "answerText": "C. There is no break in Bruch's membrane"
+        },
+        {
+          "correct": false,
+          "answerText": "D. The interdigitation zone is drupted and it is never disrupted in DME"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "![](/content/media/retina-22-4.webp)\n\nWhat is the diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Sorsby Macular Dystrophy"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Macular Telangiectasia",
+          "explanation": "![](/content/media/retina-22-8.webp)\n\nThe diagnosis in this case is macular telangiectasia type 2. It is a bilateral disease characterized by abnormalities in the macular capillary network, particularly in the temporal parafoveal region. Vision loss is due to retinal atrophy and subsequent neovascularization. There are 3 sub-types of macular telangiectasia with type 2 (Mac Tel) being the most common."
+        },
+        {
+          "correct": false,
+          "answerText": "C. North Carolina Dystrophy"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Diabetic Macular Edema"
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "### Now that we know the diagnosis, let’s re-visit the clinical images from this case.\n\nIn the fundus photo, there is a grayish discoloration in the peri-foveal area, which is characteristic of macular telangiectasia type 2.\n\n![](/content/media/retina-22-1.webp)\n\nIn the IVFA, we can see ectatic, telangiectatic vessels in the temporal fovea that are classically seen in macular telangiectasia. These vessels (red arrow) often dive into the deeper retinal layers at a 90-degree angle.\n\n![](/content/media/retina-22-6.webp)\n\nFor more information about macular telangiectasia, a helpful review article by Issa et al. (2014) is available here: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3638089/.\n\nThe OCT features of macular telangiectasia are covered in their article: Issa PC, Gillies MC, Chew EY, Bird AC, Heeren TF, Peto T, Holz FG, Scholl HP. Macular telangiectasia type 2. Progress in retinal and eye research. 2013 May 1;34:49-77.\n\nThe OCT to the left demonstrates another patient with macular telangiectasia type 2. What additional OCT findings are present here that indicate a later stage of disease?\n\n![](/content/media/retina-22-7.webp)",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "![](/content/media/retina-22-7.webp)\n\nThe OCT demonstrates another case of macular telangiectasia type 2. Similar to the original OCT, there are hypo-reflective cavities in the inner retina. Additional OCT findings include hyper-reflective intra-retinal and sub-retinal lesions (that may represent pigment migration or neovascular membrane) and outer retinal atrophy, which are OCT features seen in the later stages of macular telangiectasia."
+        }
+      ]
     }
   ],
   "caseID": "retina0022",
   "category": "retina",
   "title": "Case 22",
   "description": "56M presenting with suspected diabetic macular edema",
-  "patientPresentation": "A 56-year-old male was referred to clinic for suspected diabetic macular edema. His past ocular history was unremarkable, and his past medical history is significant for type 2 diabetes that is controlled by diet only. He is otherwise healthy. On exam, vision is 20/50 OD, and 20/20 OS. Pupils were equal and reactive, with no relative afferent pupillary defect and IOP was 15mmHg in both eyes. Slit lamp examination was normal. The fundus photo of the right eye is below:\n​\n\n![](/content/media/retina-22-1.webp)"
+  "patientPresentation": "A 56-year-old male was referred to clinic for suspected diabetic macular edema. His past ocular history was unremarkable, and his past medical history is significant for type 2 diabetes that is controlled by diet only. He is otherwise healthy. On exam, vision is 20/50 OD, and 20/20 OS. Pupils were equal and reactive, with no relative afferent pupillary defect and IOP was 15mmHg in both eyes. Slit lamp examination was normal. The fundus photo of the right eye is below:\n​\n\n![](/content/media/retina-22-1.webp)",
+  "footer": "### Learning Objectives:\n\n1. Macular telangiectasia type 2 presents bilaterally and is characterized by abnormalities in the retinal capillary network.\n2. On OCT, it is frequently characterized by focal disruption in the outer retinal layers and hypo-reflective cavities in the inner retina with a characteristic draping of the ILM. The foveal contour is typically preserved."
 }

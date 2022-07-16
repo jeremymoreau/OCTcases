@@ -1,0 +1,121 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Serous detachment of the neurosensory retina",
+          "explanation": "![](/content/media/retina-26-2.webp)\n\n**Diagnosis**: Central Serous Chorioretinopathy (CSCR)\n\nOCT is an excellent tool for diagnosing CSCR. Characteristic OCT findings of CSCR include serous detachment of the neurosensory retina (aka subretinal fluid), serous detachment of the RPE and/or thickened choroid (pachy-choroid) (red line). In this OCT, there is serous detachment of the neuro-sensory retina with no associated pigment epithelial detachment. While the choroid is visualized in this OCT, the level of detail is sub-optimal. To allow for better visualization of the choroid, SS-OCT or EDI-OCT are preferred."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Serous detachment of retinal pigmented epithelium (RPE)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Vitreomacular traction"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Intra-retinal fluid"
+        }
+      ],
+      "title": "Question 1",
+      "text": "Based on this OCT what is your diagnosis?"
+    },
+    {
+      "title": "Question 2",
+      "text": "What in the history may have an association to the development of CSCR?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Hypertension"
+        },
+        {
+          "correct": false,
+          "answerText": "B. History of Asthma and Use of Inhaled Steroids"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Male Gender"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Patient's Age"
+        },
+        {
+          "correct": true,
+          "answerText": "E. All of the Above",
+          "explanation": "The exact etiology of CSCR is unknown. However, it is more commonly associated with exogenous or endogenous steroid use, male gender, type A personality, age between 20 – 55 and systemic hypertension."
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What is the most common and most characteristic IVFA patterns in cases of CSCR?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Expansile dot is the most common and smoke-stack is the most characteristic",
+          "explanation": "IVFA is a very useful tool in diagnosing and treating cases of CSCR. The most common IVFA pattern is an expansile dot that appears in early phases of the study and increases in size in late phases. Smoke-stack pattern is the most characteristic but only present in 10% of CSCR cases. It is characterized by a hyper-fluorescent dot that appears early in the study and spreads vertically as the study progress. This is thought to be due to convection currents within the sub-retinal fluid."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Expansile dot is the most characteristic and smoke-stack is the most common"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Diffuse pattern is the most common and most characteristic"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Expansile dot is most common and most characteristic"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "Which of the following can be used for the management of CSCR?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Photodynamic therapy"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Ketoconazole"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Intravitreal Lucentis"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Observe"
+        },
+        {
+          "correct": true,
+          "answerText": "E. All of the Above",
+          "explanation": "About 80-90% of cases of CSCR resolves spontaneously within 3-4 months. Therefore, observation is reasonable as initial approach and treatment can be indicated in certain cases such as severe vision loss, status of the other eye if damaged by previous CSCR, recurrent disease, or patient occupation (eg. pilot). All treatment options listed above have been reported in the management of CSCR."
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "You saw a patient earlier in the day with the same diagnosis. The OCT macula of this patient is shown to the left. What is the abnormality indicated by the yellow arrow?\n\n![](/content/media/retina-26-3.webp)",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "![](/content/media/retina-26-3.webp)\n\nThe yellow arrows are pointing towards accumulation of waste products in the photoreceptor outer segment of the detached retina. This has traditionally been referred to as a “brush border pattern” and can be found in >70% OCT images in patients with CSCR. The separation of the neurosensory retina from the RPE prevents the photoreceptor waste products from being processed by the RPE. If the waste products persist, they may become permanent sub-retinal deposits after sub-retinal fluid re-absorption and lead to poorer visual outcomes.\n\nReference: https://www.intechopen.com/books/a-practical-guide-to-clinical-application-of-oct-in-ophthalmology/new-landmarks-signs-and-findings-in-optical-coherence-tomography"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0026",
+  "category": "retina",
+  "title": "Case 26",
+  "description": "53M presenting for blurry vision OD",
+  "patientPresentation": "A 53-year old male presents to the emergency department with blurry vision in his right eye for 3 days. He denies a history of trauma. His past medical history is significant for eczema, asthma, hypercholesterolemia, and hypertension.  His medication list includes: Telmesartan, Flovent and Crestor. On examination, his vision is 20/30 in each eye, he has no afferent pupillary defect and he has normal intraocular pressures. Slit lamp exam is unremarkable and fundus exam shows blunted foveal reflex in the right eye. OCT macula of the right eye is performed and demonstrates the following:\n​\n\n![](/content/media/retina-26-1.webp)",
+  "footer": "### Learning Objectives:\n\n1. Identify the OCT features of CSCR\n2. Understand the cause of \"brush border pattern\" in CSCR"
+}

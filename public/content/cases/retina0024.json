@@ -1,0 +1,83 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Vitreomacular Traction"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Intra-retinal Cyst"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Epi-retinal Membrane"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the Above",
+          "explanation": "![](/content/media/retina-24-3.webp)\n\nVitreomacular traction (VMT) syndrome – Posterior hyaloid is firmly attached to the fovea and remains attached despite vitreous liquefaction and posterior vitreous detachment, with resulting traction and distortion in the foveal contour. An intra-retinal pseudocyst (hypo-reflective cavity) and trace extra-macula epi-retinal membrane are also noticed in the OCT.  The adherent posterior hyaloid is represented by the thickened hyper-reflective band anterior to the retina."
+        }
+      ],
+      "title": "Question 1",
+      "text": "What is the abnormality shown in the OCT above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "This pathological condition can be associated with:",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Cystoid Macular Edema"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Macular Schisis"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Sub-retinal Fluid"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Epiretinal Membrane"
+        },
+        {
+          "correct": true,
+          "answerText": "E. All of the Above",
+          "explanation": "VMT syndrome can be associated with cystoid macular edema, macular schisis, sub-retinal fluid, and epi-retinal membrane. VMT may resolve spontaneously, or progress to more serious retinal disease like a macular hole."
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What is the diagnosis highlighted by this OCT image?\n\n![](/content/media/retina-24-2.webp)",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Vitreomacular Traction",
+          "explanation": "![](/content/media/retina-24-4.webp)\n\nVMT can be distinguished from VMA by assessing the macular contour. Disruption of the normal macular contour from the posterior hyaloid is consistent with VMT. The OCT on the right displays vitreomacular adhesion with preservation of the foveal contour despite the attached posterior hyaloid."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Vitreomacular Adhesion"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Normal OCT"
+        },
+        {
+          "correct": false,
+          "answerText": "D. None of the Above"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0024",
+  "category": "retina",
+  "title": "Case 24",
+  "description": "63F presenting with 1-month of metamorphopsia OS",
+  "patientPresentation": "A 63-year-old female presents to the ophthalmology clinic for a routine appointment. When asked, she endorsed a 1 month history of metamorphopsias in the left eye, which does not really bother her. On examination, her vision is 20/20 OU. Slit lamp and fundus examination were normal. An OCT macula was performed demonstrating the following:\n​\n\n![](/content/media/retina-24-1.webp)",
+  "footer": "### Learning Objectives:\n\n1. Identify the OCT features of VMT​\n2. Differentiate VMT from VMA based on OCT findings"
+}

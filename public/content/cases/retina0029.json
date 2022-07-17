@@ -1,0 +1,94 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Drusen"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Hemorrhage"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Hard exudate"
+        },
+        {
+          "correct": true,
+          "answerText": "D. None of the above",
+          "explanation": "Structures appearing bright on the OCT are described to be hyper-reflective, while darker structures on OCT are described to be hypo-reflective. Whether a certain material is hyper-reflective or hypo-reflective depends on its ability to block light.\n\n​Hyper-reflective on OCT (optically dense material, light blocking, less beam penetration): blood, drusen, cotton-wool spots, inflammatory cells, hard exudate.\n\n​Hypo-reflective on OCT (optically clear, greater light penetration): fluid (vitreous cavity, intra-retinal/sub-retinal fluid)."
+        }
+      ],
+      "title": "Question 1",
+      "text": "Which of the following material does NOT appear hyper-reflective on OCT?"
+    },
+    {
+      "title": "Question 2",
+      "text": "Please describe the OCT of the left eye:",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "![](/content/media/retina-29-2.webp)\n\nPresence of subretinal hyper-reflective material (yellow arrow) in the sub-retinal space with preservation of the foveal contour and intact ellipsoid layer. There is no intra-retinal fluid. There is thinning of choroid (red bracket) as seen commonly in high myopia."
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Based on the clinical presentation and the OCT, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Myopic choroidal neovascular membrane",
+          "explanation": "Myopic choroidal neovascular membrane (mCNV) is the second most common cause of CNV after AMD and occurs secondary to disruption of the integrity of the RPE/Bruch’s membrane complex. Upwards of 10 percent of eyes with degenerative myopia may develop CNV.\n\n​In a study performed by Introni et al., it was found that outer retina characteristics (i.e. hyper-reflective lesion with fuzzy borders and absent/altered ISOS junction) are useful parameters in evaluating myopic CNVM activity. While mCNVM can have associated with sub-retinal or intra-retinal fluid, they are typically scarce or absent.\n\nReference:\n\n1. https://www.aao.org/eyenet/article/diagnosis-treatment-of-cnv-in-myopic-macular-degen\n\n2. Introini U, Casalino G, Querques G, Gimeno AT, Scotti F, Bandello F. Spectral-domain OCT in anti-VEGF treatment of myopic choroidal neovascularization. Eye. 2012 Jul;26(7):976-82."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Focal choroidal excavation"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Hard exudate"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Vitelliform macular dystrophy"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "Which of the following can be used in the treatment of mCNVM?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Laser photocoagulation"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Photodynamic therapy"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Anti-VEGF agents"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the above",
+          "explanation": "All the treatments listed above have been used in the management of mCNVM. Today, intravitreal anti-VEGF agents are considered first line in the management of mCNVM. Several major studies have looked at the safety and efficacy of anti-VEGF for this indication including the REPAIR, RADIANCE, and MYRROR studies, confirming the role of anti-VEGF agents for treating this condition."
+        }
+      ]
+    },
+    {
+      "text": "![](/content/media/retina-29-3.webp)\n\nThe patient in our case was treated with intravitreal anti-VEGF agent, and a repeat OCT was performed one month later, shown to the left. Notice that the sub-retinal hyper-reflective lesion has shrunken in size after treatment.",
+      "title": "Follow up"
+    }
+  ],
+  "caseID": "retina0029",
+  "category": "retina",
+  "title": "Case 29",
+  "description": "35F presenting with decreased vision OS for 3 days",
+  "patientPresentation": "A 35 year old healthy female presented to the eye clinic with decreased vision in her left eye x 3 days. Her past ocular history was significant for myopia. She denied any recent ocular trauma.\n​\nOn examination, vision was 20/20 in the right eye and 20/60 in the left eye. There was no relative afferent pupillary defect and she had normal intraocular pressures. Slit lamp examination was normal. Dilated fundus examination demonstrated peri-papillary atrophy and tilted nerves in both eyes. An OCT macula was performed in both eyes, shown below:\n\n![](/content/media/retina-29-1.webp)",
+  "footer": "### Learning Objectives:\n\n1. To review the OCT features of myopic CNVM\n2. To understand the OCT parameters in evaluating mCNVM activity"
+}

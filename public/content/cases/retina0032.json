@@ -1,0 +1,78 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Hypo-reflectivity in outer nuclear layer"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Loss of ellipsoid layer"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Intraretinal and subretinal fluid",
+          "explanation": "The abnormalities found on this OCT are:\n\n1. Ovoid hyporeflective spaces with hyperreflective borders in the outer nuclear layer\n\n2. Subretinal hyper-reflective material\n\n3. Loss of ellipsoid layer\n\nThere is no intra-retinal or subretinal fluid found on this OCT image.\n\n![](/content/media/ort-labelled.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Subretinal hyper-reflective material"
+        }
+      ],
+      "title": "Question 1",
+      "text": "\n\n![](/content/media/retina-32-1.webp)\n\nWhat abnormality is NOT visualized in the patient’s OCT image?"
+    },
+    {
+      "title": "Question 2",
+      "text": "![](/content/media/retina-32-3.webp)\n\nWhat structures are the yellow arrows pointing to?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The yellow arrow is designating outer retinal tubulations.\n\n​Outer retinal tubulations (ORT) are degenerated photoreceptor outer segment arranged on OCT in a circular or tubular shape. These areas of atrophy are associated with a variety of chronic macular diseases and occurs in outer retinal layer degenerative processes. The take home message here is not to misinterpret these ORTs as intra-retinal fluid. ORT are characterized by hypo-reflective spaces surrounded with a ring of hyper-reflectivity located specifically in the outer nuclear layer. Recently, the hyper-reflective borders have histologically been characterized as external limiting membrane and photoreceptor mitochondria.\n\nReferences: Litts KM, Messinger JD, Dellatorre K, Yannuzzi LA, Freund KB, Curcio CA. Clinicopathological correlation of outer retinal tubulation in age-related macular degeneration. JAMA Ophthalmol 2015;133(5):1353-67."
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What disease is commonly associated with outer retinal tubulations?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Open-angle glaucoma"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Nuclear sclerotic cataracts"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Neovascular AMD",
+          "explanation": "The incidence of outer retinal tubulations increases with time in patients with wet-AMD and other chronic macula diseases. One study, for example, found outer retinal tubulations in 7% of nAMD patients at 1 year of follow-up, whereas the incidence was 31% at year 3. Outer retinal tubulations are associated with worse visual acuity, larger area of atrophy and decreased contrast sensitivity in nAMD patients compared to eyes without outer retinal tubulations.\n\nReferences:\n\n1. Takagi S, Mandai M, Miyamoto N, Nishida A, Hirami Y, Uyama H, et al. Incidence of outer retinal tubulation in eyes with choroidal neovascularization under intravitreal anti-vascular endothelial growth factor therapy in a Japanese population. Clin Ophthalmol 2017;11:1219-25.\n\n2. Iaculli C, Barone A, Scudieri M, Giovanna Palumbo M, Delle Noci N. Outer Retinal Tubulation: Characteristics in Patients With Neovascular Age-Related Macular Degeneration. Retina 2015;35(10):1979-84."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Retinal detachment"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "![](/content/media/retina-32-4.webp)\n\nWhat is the treatment of choice for outer retinal tubulations?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "No treatment is required for patients with outer retinal tubulations as they remain stable over the course of time. Therefore, it is critical to differentiate these atrophic areas apart from intra-retinal fluid to minimize unnecessary treatment."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0032",
+  "category": "retina",
+  "title": "Case 32",
+  "description": "68F presenting with gradual decreased vision",
+  "patientPresentation": "A 68-year-old female with age-related macular degeneration is referred with gradual decreased vision. She was previously receiving anti-VEGF injections. The patient has no notable past medical or ocular history; Her vision is 20/25 OD and 20/400 OS. Her OS OCT macula is shown below",
+  "footer": "### Learning Objectives:\n\n1. To diagnose and recognize outer retinal tubulations by their location in the outer nuclear layer, hyper-reflective demarcation, and association with chronic outer retinal degenerative conditions."
+}

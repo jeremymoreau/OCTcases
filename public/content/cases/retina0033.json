@@ -76,14 +76,19 @@
         {
           "correct": true,
           "answerText": "D. Full thickness macular hole",
-          "explanation": "This case serves as a prime example of the importance of looking beyond the raster printout when assessing a patient with suspected macular pathology. When scrolling through the scans in the macular cube, only one scan demonstrates the pathology.\n\n![]()"
+          "explanation": "This case serves as a prime example of the importance of looking beyond the raster printout when assessing a patient with suspected macular pathology. When scrolling through the scans in the macular cube, only one scan demonstrates the pathology.\n\n![](/content/media/retina-33-10.webp)\n\nThe diagnosis for this patient is a small full thickness macular hole (yellow box), that was not initially seen on the raster protocol. There is also an operculum present over the hole.\n\n![](/content/media/retina-33-11.webp)"
         }
       ]
+    },
+    {
+      "title": "Recall",
+      "text": "Recall that in contrast to a macular pseudohole, a FTMH involves the full thickness of the retina.\n\n![](/content/media/retina-33-12.webp)"
     }
   ],
   "caseID": "retina0033",
   "category": "retina",
   "title": "Case 33",
   "description": "56M presenting with acute onset metamorphopsia for 3 days",
-  "patientPresentation": "A 56-year-old male presented to the eye clinic with acute onset of metamorphopsia x 3 days in the left eye. His past ocular history is significant for myopia. He was seen 7 months prior in eye clinic and had a stable eye examination. On examination today, his vision was 20/200 in the left eye compared to 20/60 at his last eye examination 7 months prior. There was no RAPD. His slit lamp examination demonstrated mild nuclear sclerosis. Fundus examination demonstrated a myopic fundus with no obvious new changes in the macula. An OCT macula was performed today and compared with the OCT seven months ago. \n\nHD 5 Line Raster: 7 Months Ago\n\n![](/content/media/retina-33-2.webp)\n\nHD 5 Line Raster: Today\n\n![](/content/media/retina-33-1.webp)"
+  "patientPresentation": "A 56-year-old male presented to the eye clinic with acute onset of metamorphopsia x 3 days in the left eye. His past ocular history is significant for myopia. He was seen 7 months prior in eye clinic and had a stable eye examination. On examination today, his vision was 20/200 in the left eye compared to 20/60 at his last eye examination 7 months prior. There was no RAPD. His slit lamp examination demonstrated mild nuclear sclerosis. Fundus examination demonstrated a myopic fundus with no obvious new changes in the macula. An OCT macula was performed today and compared with the OCT seven months ago. \n\nHD 5 Line Raster: 7 Months Ago\n\n![](/content/media/retina-33-2.webp)\n\nHD 5 Line Raster: Today\n\n![](/content/media/retina-33-1.webp)",
+  "footer": "### Learning Objectives:\n\n1. Review the OCT findings seen in a posterior staphyloma\n2. Understand the shortcomings of the raster protocol"
 }

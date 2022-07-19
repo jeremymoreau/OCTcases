@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The OCT macula of the patient’s left eye is shown. There are four distinct areas of hyper-reflectivity originating from inner retina causing a vertical shadowing effect."
+        }
+      ],
+      "title": "Question 1",
+      "text": "Please describe this OCT above"
+    },
+    {
+      "title": "Question 2",
+      "text": "![](/content/media/retina-39-2.webp)\n\nThe yellow arrows are pointing at which of the following structure?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Intra-retinal fluid"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Blood vessels",
+          "explanation": "Blood vessels appear hyper-reflective on OCT and the light absorbed can cause a vertical shadowing effect manifesting as vertical streaks of hypo-reflectivity (red box) on outer retinal layers.  Intra-retina fluid would appear hyporeflective.  Drusen would not appear in the inner retina zone.  Hard exudates do appear hyper-reflective on OCT and can cause a vertical shadowing effect but are often located in the inner and outer plexiform layers.\n\n![](/content/media/retina-39-3.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Drusen"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Hard exudates"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Which layer of the retina are the structures pointed by the yellow arrow located within?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Nerve fiber layer"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Inner nuclear layer"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Inner plexiform layer"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Ganglion cell layer",
+          "explanation": "The vasculature of the inner retina is provided by 4 main branches of the central retinal artery, each supplying a quadrant of the retina.  From a cross-sectional point of view, the inner retina is supplied by 4 layers of vascular plexuses that are derived from these branches – these include the radial peripapillary capillary plexus located in the nerve fiber layer, the superficial vascular plexus in the ganglion cell layer and the deep capillary plexus which can be sub-divided into 2 capillary networks, each on either side of the inner nuclear layer.\n\nThe vessels seen on this patient’s OCT is likely part of the superficial vascular plexus. A helpful tip is to remember that the two superficial layers of hyper-reflectivity are the nerve fibre layer and the inner plexiform layer (yellow arrows) as shown by the OCT below.\n\n![](/content/media/retina-39-4.webp)"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0039",
+  "category": "retina",
+  "title": "Case 39",
+  "description": "32M presenting for routine follow-up assessment",
+  "patientPresentation": "A 32-year-old male presents to the ophthalmology clinic for a routine follow-up assessment.  His vision is 20/20 OD and 20/20 OS. His fundus examination was normal. The patient’s OCT macula is shown below.\n\n![](/content/media/retina-39-1.webp)",
+  "footer": "### Learning Objectives:\n\n1. Recognize the layers of the retina that blood vessels are likely to reside on OCT"
+}

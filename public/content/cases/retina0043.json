@@ -1,0 +1,44 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Subretinal fluid"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Intraretinal fluid"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Subretinal hyper-reflective material"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the above",
+          "explanation": "The 5-line raster OCT macula below demonstrates subretinal fluid (A) at the macula with intraretinal fluid (B), subretinal hyper-reflective material (C) and marked retinal edema (D). The key is the subretinal hyper-reflective fibrovascular material.\n\n![](/content/media/retina-43-3.webp)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What pathology is seen in the OCT macula above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "![](/content/media/retina-43-4.webp)\n\nAn intravenous fluorescein angiography (IVFA) was conducted and demonstrated hyper-fluorescence that increases both in size and intensity in the late phase. What is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The diagnosis is **peripapillary choroidal neovascular membrane.**\n\nPeripapillary CNVMs are collections of new blood vessels originating from the choroid within one disc diameter from the optic nerve head that infiltrate into the retina resulting in bleeding in either the intra-retinal or subretinal space. Clinical manifestations of this disease occur when these choroidal blood vessels infiltrate into the retina. Anti-VEGF injections remain the hallmark treatment for this condition if macula is involved or threatened, leading to significantly improved visual acuity and improved anatomical retinal structures at the 12-month mark."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0043",
+  "category": "retina",
+  "title": "Case 43",
+  "description": "28F presenting for decreased vision OD",
+  "patientPresentation": "A 28-year-old female with no past ocular history presented to emergency clinic with decreased vision OD. Her visual acuity was 20/25 OD and 20/20 OS. Colour vision was 14/14 on Ishihara plates OU. Fundus photos and OCT macula OD is shown below:\n\n![](/content/media/retina-43-1.webp)\n\n![](/content/media/retina-43-2.webp)",
+  "footer": "References:​\n\n1. Jutley G, Jutley G, Tah V, Lindfield D, Menon G. Treating peripapillary choroidal neovascular membranes: a review of the evidence. Eye (Lond) 2011;25(6):675-81.\n2. SR Singh, AT Fung, S Fraser-Bell, et al. One-Year Outcomes of Anti-Vascular Endothelial Growth Factor Therapy in Peripapillary Choroidal Neovascularisation. Br J Ophthalmol 2019;EPub Ahead of Print.\n\n### Learning Objectives:\n\n1. To recognize clinical signs and treatment of peripaillary CNVM."
+}

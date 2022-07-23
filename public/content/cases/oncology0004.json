@@ -1,0 +1,102 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Ultrasonography"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Optical coherence tomography"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Fluorescein angiography"
+        },
+        {
+          "correct": false,
+          "answerText": "D. All of the above",
+          "explanation": "Ultrasonography is crucial in the diagnosis of choroidal tumours, as the acoustic nature of the lesion can help differentiate entities such as choroidal melanomas, metastasis, and hemangiomas. Optical coherence tomography is essential in characterizing the integrity of the outer retinal layers, retinal pigment epithelium, and features of the inner choroid. Fluorescein angiography is an important modality to characterize the staining pattern of lesions."
+        }
+      ],
+      "title": "Question 1",
+      "text": "What tests are crucial in aiding in the diagnosis of this lesion?"
+    },
+    {
+      "title": "Question 2",
+      "text": "A B-Scan ultrasound, with corresponding A-Scan, was completed and is shown below:\n\n![](/content/media/oncology-4-4.webp)\n\n![](/content/media/oncology-4-5.webp)\n\nThe B-Scan over the lesion demonstrates acoustic solidity, whereas the A-Scan notes medium -high reflectivity throughout the tumour thickness.\n\nAn OCT over the lesion was conducted and is shown below:\n\n![](/content/media/oncology-4-6.webp)\n\nWhat feature is NOT present in the OCT above?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Subretinal fluid"
+        },
+        {
+          "correct": false,
+          "answerText": "B. RPE attenuation"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Choriocapillaris compression",
+          "explanation": "![](/content/media/oncology-4-7.webp)\n\nThe OCT demonstrates subretinal fluid (blue arrow), overlying a region of RPE attenuation noted by the hyper-reflective RPE band losing confluence over the peak of the lesion (red arrow). A key diagnostic feature of this lesion is the presence of sub-RPE vascular regions (green arrow), rather than finding the choroidal vessels being fully compressed by the tumour."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Sub-RPE vascular spaces"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Fluorescein angiography is shown of a lesion with the same diagnosis, which demonstrates progressive fluorescence and late homogenous staining below:\n\n![](/content/media/oncology-4-8.webp)\n\nBased on the above imaging, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Choroidal hemangioma",
+          "explanation": "Choroidal hemangiomas are benign vascular hamartomas. Features that point to a choroidal hemanioma as the diagnosis include: orange-coloured lesion, solid hyper-echoic lesion with medium-high reflectivity on A-Scan ultrasound, sub-RPE patent vasculature on OCT, and progressive fluorescence with late staining on IVFA. Below is a comparison chart of the key features of choroidal hemangioma vs. melanoma.\n\n![](/content/media/oncology-4-9.webp)\n\n**References**\n\n1. Karimi S, Nourinia R, Mashayekhi A. Circumscribed Choroidal Hemangioma. J Ophthalmic Vis Res. 2015;10(3):320-328. doi:10.4103/2008-322X.170353"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Choroidal melanoma"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Choroidal nevus"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Choroidal lymphoma"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What is the treatment for choroidal hemangioma?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Photodynamic therapy"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Observation"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Radiotherapy"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the above",
+          "explanation": "Literature has demonstrated efficacious results in patients with symptomatic choroidal hemangiomas, typically to reduce the size of the lesion and prevent against complications such as retinal detachment. Observation can be implemented in asymptomatic cases that are not vision threatening. Photodynamic therapy and plaque and external beam radiotherapy have shown good results in indicated cases.\n\n**References**\n\n1. Madreperla SA. Choroidal Hemangioma Treated With Photodynamic Therapy Using Verteporfin. Arch Ophthalmol. 2001;119(11):1606–1610.\n2. ​Sen M, Honavar SG. Circumscribed choroidal hemangioma. Indian Journal of Ophthalmology 2019; 67(12):1965-1973."
+        }
+      ]
+    }
+  ],
+  "caseID": "oncology0004",
+  "category": "ocular oncology",
+  "title": "Case 4",
+  "patientPresentation": "A 64-year-old Caucasian female was referred to an ocular oncology clinic for a suspicious fundus lesion detected 3-weeks prior by an optometrist, as well as blurred vision OS. The patient’s past medical history included excision of a cervical pre-cancerous lesion.\n\nHer best-corrected distance visual acuity was 20/20 OD and 20/30 OS with pressures within normal limits. Anterior segment and fundus examination was unremarkable, except for the amelanotic choroidal lesion demonstrated by the fundus photo, optos widefield and fundus autofluorescence images below:\n\n![](/content/media/oncology-4-1.webp)\n\n![](/content/media/oncology-4-2.webp)\n\n![](/content/media/oncology-4-3.webp)",
+  "description": "64F referred for a fundus lesion and blurred vision OS",
+  "footer": "### Learning Objectives:\n\n1. ​Describe the OCT and multimodal imaging features of choroidal hemangiomas.\n2. Differentiate choroidal hemangiomas from melanomas and lymphomas."
+}

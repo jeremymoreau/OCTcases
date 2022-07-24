@@ -1,0 +1,90 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Choroidal vessel enlargement"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Pigment epithelial detachment"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Scleral-based enlargement expanding into choroid",
+          "explanation": "The OCT demonstrates a growth in the sclera pushing anteriorly into the choroid causing elevation of the overlying neurosensory retina. The RPE is attenuated, most likely due to the compression of the choroid leaving poor perfusion of the RPE cells."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Choroidal infiltration or metastasis"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What is the main finding in the 5-line raster OCT of the lesion above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "What is the most likely diagnosis based on the patient presentation and OCT imaging?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Choroidal osteoma"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Sclerochoroidal calcification",
+          "explanation": "This patient most likely presented with sclerochoroidal calcification. This disease process usually manifests in asymptomatic females in the midperipheral fundus due to stable deposition of calcium into the sclera. Due to the primarily scleral-based disease as demonstrated on OCT, this is unlikely a choroidal osteoma. Sclerochoroidal calcifications have been classified by “mountain-like” topographic patterns seen on EDI-OCT, with larger deposits causing more compression of the overlying RPE, EZ and ELM layers. Be careful as these calcifications can be mistaken for infiltrative or metastatic processes. Identifying the scleral indentation on OCT is crucial.\n\nReferences:\n\n1. Hasanreisoglu M, Saktanasate J, Shields PW, Shields CL. CLASSIFICATION OF SCLEROCHOROIDAL CALCIFICATION BASED ON ENHANCED DEPTH IMAGING OPTICAL COHERENCE TOMOGRAPHY \"MOUNTAIN-LIKE\" FEATURES. Retina. 2015 Jul;35(7):1407-14.\n2. Honavar SG, Shields CL, Demirci H, Shields JA. Sclerochoroidal calcification: clinical manifestations and systemic associations. Arch Ophthalmol. 2001 Jun;119(6):833-40."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Choroidal melanoma"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Choroidal nevus"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "The patient is concerned about this diagnosis and inquires further about the prognosis of this disease. What do you inform the patient about the course of this disease?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "Unlike choroidal osteoma, sclerochoroidal calcification is a stable deposition of calcium that has minimal risk for vision loss. In a retrospective chart review of 179 patients with sclerochoroidal calcification, no lesions demonstrated enlargement, related subretinal fluid/hemorrhage, choroidal neovascularization or vision loss during 4 years of follow-up. Focal choroidal atrophy and RPE atrophy were the only findings found in the largest sclerochoroidal calcification case, with no other complications appreciated. No treatments are required for these patients.\n\nReferences:\n\n1. Shields CL, Hasanreisoglu M, Saktanasate J, Shields PW, Seibel I, Shields JA. Sclerochoroidal calcification: clinical features, outcomes, and relationship with hypercalcemia and parathyroid adenoma in 179 eyes. Retina. 2015 Mar;35(3):547-54."
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What systemic disease should be worked up for in patients with sclerochoroidal calcification?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Hyperparathyroidism",
+          "explanation": "The Shields et al. 2015 study revealed 27% of patients with SCC had concomitant hyperparathyroidism. PTH and Ca levels should be examined upon diagnosis. \n\nReferences:\n\n1. Shields CL, Hasanreisoglu M, Saktanasate J, Shields PW, Seibel I, Shields JA. Sclerochoroidal calcification: clinical features, outcomes, and relationship with hypercalcemia and parathyroid adenoma in 179 eyes. Retina. 2015 Mar;35(3):547-54."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Hyperthyroidism"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Chronic Kidney Disease"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Crohn’s Disease"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0046",
+  "category": "retina",
+  "title": "Case 46",
+  "description": "69F presenting with suspicious retinal lesion OD",
+  "patientPresentation": "A 69-year-old Caucasian female with a past medical history of breast cancer was referred to a tertiary retina clinic for assessment of a suspicious retinal lesion in the right eye found by her optometrist on routine examination. The patient was asymptomatic with no past ocular history. Vision was 20/25 OD and 20/20 OS with no RAPD and IOP within normal limits. Dilated fundus examination demonstrated a discrete, yellow lesion in the superior mid periphery over the superior arcade. Fundus photo OD and OCT over the lesion are shown below:\n\n![](/content/media/retina46_1.webp)\n\n![](/content/media/retina46_2.webp)",
+  "footer": "### Learning Objectives:\n\n1. OCT findings of sclerochoroidal calcification.\n2. Treatment and work-up of sclerochoroidal calcification."
+}

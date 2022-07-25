@@ -1,0 +1,117 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The left fundus image shows diffuse retinal atrophy and pigmentary changes within the RPE. We can also appreciate a worm in the inner retina (white circle). \n\n![](/content/media/retina49_2.webp)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "Describe the main findings."
+    },
+    {
+      "title": "Question 2",
+      "text": "On further questioning, her parents reported a large raccoon population in their neighborhood and the presence of raccoon stool on their porch.\n\nWhat condition are these findings consistent with?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Diffuse Unilateral Subacute Neuroretinitis (DUSN)",
+          "explanation": "Given the presence of the worm on fundus examination and history of previous raccoon exposure, the patient has diffuse unilateral subacute neuroretinitis (DUSN). DUSN is an ocular parasitic infection. It is caused by a nematode that triggers an inflammatory and degenerative process in the retina and RPE. In its acute stage, vision loss is often related to vitritis and optic disc edema. Evanescent multifocal gray-white lesions at the level of the outer retina can also be visualized. If it progresses into the chronic stage, focal or diffuse degenerative changes in the RPE and retina, vascular narrowing and progressive ganglion cell loss leading to optic nerve atrophy may be seen. ​\n\nWith unilateral retinitis pigmentosa, we observe the classic triad involving arteriolar attenuation, retinal pigmentary changes (either hypopigmentation and/or hyperpigmentation in form of bone-spicule and pigment clumping), and waxy pallor of the optic disc. With toxoplasmosis, we would observe a fluffy, white or yellowish fundus lesion with overlying vitreous cells. These lesions initiate within the inner layers of the retina. With MEWDS, we would observe flat, multifocal, grey-white lesions appearing at the level of the RPE."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Unilateral retinitis pigmentosa"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Toxoplasmosis"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Multiple evanescent white dot syndrome (MEWDS)"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "OCT HD5 Line Raster was performed overlying the worm.\n\n![](/content/media/retina49_3.webp)\n\nWhat layer of the retina is the worm located?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Inner retina",
+          "explanation": "The worm is located within the inner retina (white arrow). The hyperreflectivity seen within the middle and outer retina is related to the application of thermal laser. Typically, retinal nematodes are found in the subretinal space, so this is a somewhat atypical location of the nematode. Other OCT findings include an increased internal limiting membrane reflex (Orefice’s sign) and diffuse degenerative changes in the RPE. Subretinal tunnels may also be appreciated on OCT, suggestive of remnants of larva migration in the subretinal space (Garcia’s signs).  \n\n![](/content/media/retina49_4.webp)\n\nReferences:\n\n(1) Mazzeo, T., Dos Santos Motta, M. M., & Curi, A. (2019). Diffuse unilateral subacute neuroretinitis: review article. Journal of ophthalmic inflammation and infection, 9(1), 23. \n(2) Curragh, D. S., Ramsey, A., Christie, S., & McLoone, E. (2018). Case report: a case of diffuse unilateral subacute neuroretinitis (DUSN) in a child. BMC ophthalmology, 18(Suppl 1), 218."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Outer retina"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Retinal pigment epithelium (RPE)"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Choroid"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "OCT macula was performed in the left eye over the fovea and shown below: \n\n![](/content/media/retina49_5.webp)\n\nWhat is the main abnormality on this OCT?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Diffuse atrophy of the inner and outer retinal layers as well as RPE",
+          "explanation": "In the chronic stage of DUSN, focal or diffuse degenerative changes in the RPE and retina may be seen."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Epi-retinal membrane"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Sub-retinal fluid"
+        },
+        {
+          "correct": false,
+          "answerText": "D. A and B"
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "Which of the following is an appropriate treatment option for this patient?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Laser Photocoagulation"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Albendazole"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Intravitreal anti-VEGF"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Intravitreal triamcinolone acetonide"
+        },
+        {
+          "correct": true,
+          "answerText": "E. A and/or B",
+          "explanation": "Management of DUSN typically involves laser photocoagulation or systemic anti-helminthics (like albendazole). If the worm can be visualized, it should be treated with laser photocoagulation. When clinical features are present in the absence of a visible worm, pharmacologic treatment with anti-helminthics like albendazole should be initiated. Photocoagulation is preferred as the elimination of the nematode halts vision loss and results in regression of inflammation. Anti-helminthic therapy can be useful when the worm can not be found, or when laser therapy is not appropriate as the worm is located near the disc or the fovea. Oral corticosteroids may help decrease the inflammatory response, but intravitreal triamcinolone acetonide is not used. Anti-VEGF injections are not used as there is no sub-retinal neovascularization."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0049",
+  "category": "retina",
+  "title": "Case 49",
+  "description": "9F presenting with progressive painless vision loss OS",
+  "patientPresentation": "A 9-year-old previously healthy girl presented with progressive, painless vision loss in her left eye over 2 weeks. Her past ocular history was unremarkable. A complete physical examination including a neurological assessment was within normal limits. Her BCVA was 20/20 OD and HM OS, and anterior segment examination was unremarkable. A dilated fundus exam was performed and the fundus image for the left eye is shown below:\n\n![](/content/media/retina49_1.webp)",
+  "footer": "With photocoagulation, the worm was found to be immobilized on fundus examination.\n\n![](/content/media/retina49_6.webp)\n\nFor more information, see case report: https://pubmed.ncbi.nlm.nih.gov/27434904/\n​\n\n### \nLearning Objectives:\n\n1. Recognize features of DUSN that help distinguish it from other conditions causing unilateral vision loss.\n\n2. Recognize key features of early and late stage DUSN.\n\n3. Recognize the treatment options for DUSN."
+}

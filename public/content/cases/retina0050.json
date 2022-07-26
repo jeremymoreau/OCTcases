@@ -1,0 +1,106 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. 1: Intraretinal fluid, 2: Hard exudates, 3: blood",
+          "explanation": "Fluid within the retina presents is hypo-reflective (dark) on OCT. Blood, fibrosis, exudates, and infiltrates are hyper-reflective on OCT. Here, the large dark circles beneath within the retina are intraretinal fluid. The small hyper-reflective objects are hard exudates, composed of lipid and proteinaceous material, which typically reside in the upper retinal layers. The large hyper-reflective area in the right eye is free blood in the retina, which creates a hypo-reflective shadow on more posterior layers of the retina behind it.\n\n![](/content/media/retina50-3.webp)\n\n![](/content/media/retina50-4.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. 1: Soft exudates, 2: Hard exudates, 3: intraretinal fluid"
+        },
+        {
+          "correct": false,
+          "answerText": "C. 1: intraretinal fluid, 2: Drusen, 3: blood"
+        },
+        {
+          "correct": false,
+          "answerText": "D. 1: Drusen, 2: Hard exudates, 3: vitreous humor"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What are the most notable abnormalities in the OCT image below, at each arrow?\n\n![](/content/media/retina50-3.webp)\n\n![](/content/media/retina50-4.webp)"
+    },
+    {
+      "title": "Question 2",
+      "text": "The macular OCT images of both eyes are shown above. What is the likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Retinal detachment"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Diabetic macular edema",
+          "explanation": "The diagnosis is diabetic macular edema. OCT findings associated with diabetic macular edema include retinal swelling, macular edema, and hard exudates.\nElevated HbA1c indicates poorly controlled diabetes, which leads to vascular changes and the proliferation of blood vessels in the retina which causes macular edema."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Macular edema secondary to retinal vein occlusion"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Early Treatment Diabetic Retinopathy Study (ETDRS) defines clinically significant macular edema as:",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Any retinal thickening within 500 μm of the foveal center"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Hard exudates within 500 μm of the foveal center that are associated with adjacent retinal thickening (which may lie more than 500 μm from the foveal center)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. An area of retinal thickening at least 1 disc area in size, any part of which is located within 1 disc area of the foveal centre"
+        },
+        {
+          "correct": true,
+          "answerText": "D. A, B, or C",
+          "explanation": "Retinal thickening within 500 μm of the foveal centre, hard exudates within 500 μm of the foveal center associated with adjacent retinal thickening, or an area of retinal thickening at least 1 disc area in size within 1 disc area of the foveal centre are all criteria to determine if macular edema is present, according to the ETDRS."
+        },
+        {
+          "correct": false,
+          "answerText": "E. A and B"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "Which is the most effective treatment for this diagnosis?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Intravitreal Anti-VEGF injections (aflibercept, bevacizumab, ranibizumab)",
+          "explanation": "While laser photocoagulation and intravitreal steroids have been shown to be effective in reducing macular edema, meta-analyses of studies comparing intravitreal injections to focal laser photocoagulation alone have shown that anti-VEGF agents are more effective in improving visual acuity and reducing edema."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Laser photocoagulation"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Intravitreal steroids"
+        },
+        {
+          "correct": false,
+          "answerText": "D. A and B"
+        },
+        {
+          "correct": false,
+          "answerText": "E. A, B, and C"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0050",
+  "category": "retina",
+  "title": "Case 50",
+  "description": "65M presenting with a few months of blurry vision OU",
+  "patientPresentation": "**Contributor:** Shaan Bhambra (McGill University Medical Student)\n\nA 65-year-old male with known T2DM, treated with metformin and sitagliptin presents to your clinic. His last A1C was 8.6%. He presents with blurry vision over the past few months, as well as floaters. Fundus findings show dot blot heme bilaterally but greater in OD, and hyper-reflective foci suggesting exudates:\n\n![](/content/media/retina50-1.webp)\n\n![](/content/media/retina50-2.webp)",
+  "footer": "### References:\n\n1. Codenotti, M., Maestranzi, G., Prati, M. & Iuliano, L. Treatment of Hard Macular Exudates in Diabetic Retinopathy.\n2. Early Treatment Diabetic Retinopathy Study Research Group. Photocoagulation for diabetic macular edema. Early Treatment Diabetic Retinopathy Study report no 1. Arch Ophthalmol. 1985;103:1796–1806.\n3. Sun, J. K. Intravitreal Anti-VEGF Therapy with Prompt or Deferred Laser Compared with Steroid with Prompt Laser and Prompt Laser Alone for Treatment of Diabetic Macular Edema. Curr Diab Rep 11, 227–229 (2011)\n\n### Learning Objectives:\n\n1. Recognize the key determinants in characterizing clinically significant macular edema.\n\n2. Recognize the treatment options for DME"
+}

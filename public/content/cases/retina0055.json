@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Disorganization of inner retinal layers",
+          "explanation": "The OCT demonstrates subretinal fluid (red arrow), subretinal hyper-reflective material (blue arrow), as well as a fibrovascular PED (green arrow). There is no sign of disorganization of the inner retinal layers. \n\n![](/content/media/onc6-2.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Subretinal hyper-reflective material"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Subretinal fluid"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Fibrovascular pigment epithelial detachment"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What is not appreciated in the above OCT?"
+    },
+    {
+      "title": "Question 2",
+      "text": "What is the significance of hyper-reflective material?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. May persist following anti-VEGF treatment"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Lead to permanent subretinal scarring and visual compromise"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Prognostic factor in neovascular-AMD"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the above",
+          "explanation": "Subretinal hyper-reflective material (SHRM) has been demonstrated to be an important morphological biomarker in patients with nAMD. This hyper-reflective material was analyzed in comparison of age-related macular degeneration treatment trials (CATT) and found persistence of these deposits even after anti-VEGF treatment. It is surmised SHRM is due to RPE dysfunction in patients with AMD, leading to decreased waste product clearance. The permanent scarring caused by this SHRM can lead to poor visual potential.​\n\nReferences:\nWilloughby AS, Ying GS, Toth CA, et al. Subretinal Hyperreflective Material in the Comparison of Age-Related Macular Degeneration Treatments Trials. Ophthalmology. 2015;122(9):1846-53.e5. doi:10.1016/j.ophtha.2015.05.042"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Due to the presence of the SHRM and fibrovascular PED on OCT, OCT angiography was conducted and shown below:\n\n![](/content/media/onc6-3.webp)\n\n What can be appreciated in the OCTA above?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. RPE rip"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Serous PED"
+        },
+        {
+          "correct": false,
+          "answerText": "C. RAP lesion"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Type 1 CNVM",
+          "explanation": "The segmentation of the OCTA in the sub-RPE space demonstrates a choroidal neovascularization (CNV). Type 1 denotes CNV in the sub-RPE space and type 2 denotes a subretinal location. This CNV is most likely attributed to the patient progressing from dry to neovascular AMD. SHRM is a key sign pointing the clinician to possible CNV, and the OCTA was crucial in the diagnosis of new blood vessel formation.\n\nReferences:\nAaron Nagiel, Mayank Bansal, Tamara Lenis, Talisa de Carlo, Marco A Filho Bonini, Yan Sheng, Nadia K Waheed, David Sarraf; Morphological Analysis of Type 1, Type 2, and Type 3 Neovascularization in Exudative Age-Related Macular Degeneration using OCT Angiography. Invest. Ophthalmol. Vis. Sci. 2015;56(7 ):3965."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0055",
+  "category": "retina",
+  "title": "Case 55",
+  "description": "79F presenting for assessment of known dry AMD OD",
+  "patientPresentation": "A 79-year-old female presented to a retina clinic for assessment of her known dry age-related macular degeneration. She noted 6 months of progressively worsening vision OD. She denied alternative past ocular history; she noted a past medical history of hypertension and dyslipidemia. She was using Vitalux daily. \n\nHer vision was 20/50 OD and 20/20 OS with intraocular pressures within normal limits. Her pupils were equal and reactive to light. Anterior segment examination was unremarkable. Fundus examination found soft drusen in the macula bilaterally, as well as a blunted foveal reflex OD. A macula cube OCT was conducted and shown below:\n\n![](/content/media/onc6-1.webp)",
+  "footer": "### Learning Objectives:\n​\n\n1. Clinical importance of subretinal hyper-reflective material.\n\n3. Differentiating different types of choroidal neovascularization membranes"
+}

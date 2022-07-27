@@ -1,0 +1,110 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Sub-retinal fluid"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Intra-retinal cysts"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Vitreomacular traction"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the above",
+          "explanation": "The OCT above demonstrates the posterior hyaloid firmly attached to the fovea with anterior-posterior traction resulting in vitreomacular traction (VMT). VMT presents with disruption of the foveal contour (yellow arrow) and retinal changes while VMA presents with preservation of the foveal contour.  Both intraretinal cysts and subretinal fluid can be associated with VMT.  The rate of spontaneous release of VMT has been cited to be as high as 35% and is more likely to be seen in cases where there is no outer retinal involvement (Almeida et al., 2015).\n\nPlease refer to Retina Cases 24 and 34 for a review of this topic.\n\nReferences:\n\nAlmeida DRP, Chin EK, Rahim K, Folk JC, Russell SR. Factors associated with spontaneous release of vitreomacular traction. Retina.  2015; 35(3): 492-497.\n\n![](/content/media/retina-53-2.webp)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "Which of the following is visualized on the patient’s OCT macula OD?"
+    },
+    {
+      "title": "Question 2",
+      "text": "What is the threshold diameter size used to classify VMT into focal or broad?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. 500 µm"
+        },
+        {
+          "correct": false,
+          "answerText": "B. 1000 µm"
+        },
+        {
+          "correct": true,
+          "answerText": "C. 1500 µm",
+          "explanation": "This classification of VMT is based on the diameter as set out by the International Vitreomacular Traction Study Classification System for Vitreomacular Adhesion, Traction and Macular Hole.  The same threshold is used to classify vitreomacular adhesion.  Focal VMT is classified as ≤1500 µm and broad VMT is classified as >1500 µm (Duker et al., 2013).  As you will see in progressing through this case, this classification may help in decisions regarding management strategies.\n\nReferences:\n\nDuker JS, Kaiser PK, Binder S, et al. The International Vitreomacular Traction Study Group classification of vitreomacular adhesion, traction and macular hole. Ophthalmology. 2013: 120(12): 2611-2619."
+        },
+        {
+          "correct": false,
+          "answerText": "D. 2000 µm"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "![](/content/media/retina-53-3.webp)\n\nThe patient returns 4 months later, and a repeat OCT macula OD is performed which is shown above.  Which of the following do you see on the OCT macula OD above?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Hyper-reflective layer on the inner retina"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Sub-retinal fluid"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Disruption of the foveal contour"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the above",
+          "explanation": "The hyper-reflective layer on the inner surface of the retina is representative of an epiretinal membrane which can often be seen concurrently with VMT syndrome.  They are believed to result from proliferation of retinal pigment epithelial cells, retinal glial cells and hyalocytes at the vitreoretinal interface.  Epiretinal membranes are most often idiopathic but may be associated with retinal tears, retinal vascular disorders such as diabetic retinopathy, venous occlusive disease, and inflammatory conditions such as uveitis and trauma. A detailed peripheral retina exam is warranted if a primary ERM is seen in a younger patient less than 65 years of age without a PVD.\n\n![](/content/media/retina-53-4.webp)"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "![](/content/media/retina-53-1.webp)\n\nWhich of the following should you consider if the patient’s VMT is not released spontaneously?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Intravitreal ocriplasmin injection"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Vitrectomy with inner limiting membrane peeling"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Vitrectomy without inner limiting membrane peeling"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Intravitreal perfluorocarbon injection"
+        },
+        {
+          "correct": false,
+          "answerText": "E. B or C"
+        },
+        {
+          "correct": true,
+          "answerText": "F. A, B and C",
+          "explanation": "As per question 1, the rate of spontaneous release of VMT is thought to be greater than 30% and is associated with the diameter of the VMT.  Broad VMT is less likely to release spontaneously compared to focal VMT (Theodossiadis et al., 2014). Surgical intervention of VMT and ERM cases are reserved for patients with worsening VA, metamorphopsia, diplopia and persistent and broad VMT.  Some argue for removal of the ILM in addition to the ERM as it has been shown to reduce the rate of recurrence, presumably from release of further traction, in numerous studies (Johnson 2013).\n\nPharmaco-vitreolysis strategies with intravitreal ocriplasmin protease injection is used to treat VMT syndrome and has been shown to improve visual acuity compared to placebo but is not without complications.  These complications could include acute decreased VA, retinal tears and detachments, dyschromatopsia, floaters, among others.  It is generally only considered for a subgroup of patients who meet a specific criterion which includes age younger than 65, focal VMT and absence of ERM (Khan and Haller, 2016). \n\nPerfluorocarbon injection strategies are still under investigation.\n\nReferences\n\n1. Khan MA, Haller JA. Ocriplasmin for treatment of vitreomacular traction: An update. Ophthalmology and Therapy. 2016; 5(2): 147-159.\n2. Johnson MW.  How should we release vitreomacular traction: surgically, pharmacologically, or pneumatically? American Journal of Ophthalmology. 2013; 155: 203-205.\n3. Theodossiadis GP, Grigoropoulos VG, Theodoropoulou S, Datseris I, Theodossidias PG. Spontaneous resolution of vitreomacular traction demonstrated by spectral-domain optical coherence tomography. American Journal of Ophthalmology. 2014; 157(4): 842-851."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0053",
+  "category": "retina",
+  "title": "Case 53",
+  "description": "82F presenting with decreased vision OD",
+  "patientPresentation": "An 82-year-old female with a past medical history of coronary artery disease, hypertension, osteoporosis and rheumatoid arthritis presents with decreased vision and metamorphopsia in her right eye.  Visual acuity is 20/50 OD and 20/30 OS.  IOP is stable OU.  Unremarkable anterior segment examination.  The patient’s OCT macula OD is shown below. \n\n![](/content/media/retina-53-1.webp)",
+  "footer": "### Learning Objectives:\n\n\n1. To recognize the association of epiretinal membranes and vitreomacular traction syndrome.\n\n2. To recognize the role of OCT in diagnosis and monitoring of vitreoretinal traction syndrome."
+}

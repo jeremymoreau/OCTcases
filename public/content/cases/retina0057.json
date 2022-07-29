@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Choroidal hyper-transmission"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Loss of inner retinal layers",
+          "explanation": "In the areas surrounded by the red boxes, choroidal hyper-transmission can be seen on the OCT scans in both eyes. This finding is a result of increased signal penetration through areas of RPE loss. Choroidal vessels may be seen under the areas of RPE loss on fundus examination. In the left eye, loss of the outer retinal layers is more easily seen, as well as the loss of the RPE in the area of hyper-transmission. An enlarged foveal depression can be seen in both eyes with significant thinning over the fovea (foveal atrophy). The inner retinal layers are relatively preserved. \n\n![](/content/media/r57-3.webp)\n\n![](/content/media/r57-4.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Loss of outer retinal layers"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Foveal atrophy"
+        }
+      ],
+      "title": "Question 1",
+      "text": "OCT macula 5-line raster was performed in the right and left eye. Which of the following OCT findings is NOT seen?"
+    },
+    {
+      "title": "Question 2",
+      "text": "What does this OCT demonstrate?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Macular retinoschisis"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Disciform scar"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Geographic atrophy",
+          "explanation": "Geographic atrophy (GA) is a late-stage manifestation of dry AMD or other advanced macular diseases. It is characterized by loss of the RPE, photoreceptors, and choriocapillaris. Atrophy of these outer retinal layers can reveal the choroidal vessels underneath, resulting in a hyper-transmission signal on OCT due to loss of the cells in the area. On fundus examination, GA presents as hypopigmentation or depigmentation of the RPE with visible choroidal vessels.\n\nOn OCT, an active choroidal neovascular membrane often presents with accompanying intraretinal and/or subretinal fluid, which are not evident in this patient’s OCT scans. Disciform scars are the end-stage of exudative AMD in which the retinal tissue is replaced by scar tissue.  On OCT, a disciform scar appears as an area of sub-retinal or RPE hyper-reflective scar with marked destructions of all retinal layers. Macular retinoschisis is splitting of the neurosensory retina into an inner layer and an outer layer."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Active choroidal neovascular membrane"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What is the best course of treatment for this patient?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Laser treatment"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Resumption of intravitreal anti-VEGF injections"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Statin therapy"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Observation with AREDS2 supplements, smoking avoidance, UV protection, healthy diet",
+          "explanation": "There is currently no cure for GA. Intravitreal anti-VEGF injections are primarily used to treat wet AMD. High dose atorvastatin was associated with regression of large drusens and visual improvement in 10 out of 23 patients with severe dry AMD, but further large-scale studies are required to recommend statin therapy as a treatment for GA. There is little evidence in the use of laser in the management of GA. To decrease the probability of developing neovascular AMD, the patient is advised to continue with her AREDS2 supplements, avoid smoking/UV light, and eat a healthy diet rich in fruits and vegetables."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0057",
+  "category": "retina",
+  "title": "Case 57",
+  "description": "79F with advanced AMD presenting with blurriness OU",
+  "patientPresentation": "**Contributor:** Marko Tien (University of British Columbia Medical Student) \n\nA 79-year-old woman with advanced macular degeneration was referred for assessment and management. She complains of blurriness OU with a blind spot in the upper visual field of the right eye. Her ocular history is significant for bilateral cataract extraction done 12 years ago, and regular intravitreal ranibizumab injections in the right eye up until 10 years ago. She is taking Vitalux (AREDS2), dorzolamide-timolol and monoprost drops OU, sertraline, and pantoprazole. No significant FHx. On presentation, visual acuity was 20/200-2 OD and 20/150-2 OS.\n\n![](/content/media/r57-1.webp)\n\n![](/content/media/r57-2.webp)",
+  "footer": "### References:\n\n\nComplications of Age-Related Macular Degeneration Prevention Trial Research Group (2006). Laser treatment in patients with bilateral large drusen: the complications of age-related macular degeneration prevention trial. Ophthalmology, 113(11), 1974–1986. https://doi.org/10.1016/j.ophtha.2006.08.015\n\nFriberg, T. R., Musch, D. C., Lim, J. I., Morse, L., Freeman, W., Sinclair, S., & PTAMD Study Group (2006). Prophylactic treatment of age-related macular degeneration report number 1: 810-nanometer laser to eyes with drusen. Unilaterally eligible patients. Ophthalmology, 113(4), 622.e1. https://doi.org/10.1016/j.ophtha.2005.10.066\n\nIvana N. Despotovic, Daniela Ferrara. 6.1.2 - Geographic Atrophy. Editor(s): Darin R. Goldman, Nadia K. Waheed, Jay S. Duker. Atlas of Retinal OCT: Optical Coherence Tomography. Elsevier,2018. Pages 24-27. ISBN 9780323461214. https://doi.org/10.1016/B978-0-323-46121-4.00010-8. (https://www.sciencedirect.com/science/article/pii/B9780323461214000108)\n\nSadda, S. R., Guymer, R., Holz, F. G., Schmitz-Valckenberg, S., Curcio, C. A., Bird, A. C., Blodi, B. A., Bottoni, F., Chakravarthy, U., Chew, E. Y., Csaky, K., Danis, R. P., Fleckenstein, M., Freund, K. B., Grunwald, J., Hoyng, C. B., Jaffe, G. J., Liakopoulos, S., Monés, J. M., Pauleikhoff, D., … Staurenghi, G. (2018). Consensus Definition for Atrophy Associated with Age-Related Macular Degeneration on OCT: Classification of Atrophy Report 3. Ophthalmology, 125(4), 537–548. https://doi.org/10.1016/j.ophtha.2017.09.028\n\nTian, B., Al-Moujahed, A., Bouzika, P., Hu, Y., Notomi, S., Tsoka, P., Miller, J. W., Lin, H., & Vavvas, D. G. (2017). Atorvastatin Promotes Phagocytosis and Attenuates Pro-Inflammatory Response in Human Retinal Pigment Epithelial Cells. Scientific reports, 7(1), 2329. https://doi.org/10.1038/s41598-017-02407-7\n\nVavvas, D. G., Daniels, A. B., Kapsala, Z. G., Goldfarb, J. W., Ganotakis, E., Loewenstein, J. I., Young, L. H., Gragoudas, E. S., Eliott, D., Kim, I. K., Tsilimbaris, M. K., & Miller, J. W. (2016). Regression of Some High-risk Features of Age-related Macular Degeneration (AMD) in Patients Receiving Intensive Statin Treatment. EBioMedicine, 5, 198–203. https://doi.org/10.1016/j.ebiom.2016.01.033\n\n### Learning Objectives:\n\n\nTo understand the appearance of geographic atrophy on OCT and the reasoning behind it\nTo recognize the management options of geographic atrophy"
+}

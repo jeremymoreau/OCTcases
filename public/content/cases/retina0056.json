@@ -1,0 +1,125 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Nerve Fiber Layer and Ganglion Cell Layer"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Inner Nuclear Layer and Outer Plexiform Layer"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Retinal Pigment Epithelium and Bruch’s membrane"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Ellipsoid Zone and Retinal Pigment Epithelium",
+          "explanation": "Specifically, there appears to be several small round hyperreflective deposits between the Ellipsoid Zone and RPE in both eyes (red arrowheads). \n\n![](/content/media/retina56_3.webp)\n\n![](/content/media/retina56_4_edited.webp)\n\n![](/content/media/retina56_5_edited.webp)\n\n![](/content/media/retina56_6.webp)\n\n![](/content/media/retina56_7.webp)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "OCT 5 line raster was done and shown above. Between which layers is an abnormality seen?"
+    },
+    {
+      "title": "Question 2",
+      "text": "![](/content/media/retina56_8.webp)\n\n![](/content/media/retina56_9.webp)\n\n![](/content/media/retina56_10.webp)\n\n![](/content/media/retina56_11.webp)\n\nFundus photography and autofluorescence were taken and shown above. What is the primary abnormality seen in the set of photos?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Cupping/pallor of the optic disc"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Drusenoid deposits",
+          "explanation": "Color fundus photos show presence of fine yellowish interlacing networks travelling along the superior-temporal vascular arcades. The fundus autofluorescence (FAF) shows subtle mottling arranged in a superior-temporal fashion in the perifoveal area. Fine drusenoid lesions on FAF appear as isoautofluorescent cores surrounded by areas of hypofluorescence.\n\n![](/content/media/retina56_12.webp)\n\n![](/content/media/retina56_13.webp)\n\n![](/content/media/retina56_14.webp)\n\n![](/content/media/retina56_15.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Pisciform retinal lesions"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Macular atrophy"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Based on the findings, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Cuticular drusen"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Reticular pseudodrusen",
+          "explanation": "Reticular pseudodrusen often appear as an interlacing network of drusenoid deposits located between the retinal pigmented epithelium and ellipsoid zone. They are frequently located in the perifoveal area in the superior-temporal vascular arcades."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Large colloid drusen"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Soft drusen"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "How does a reticular pseudodrusen differ from a typical drusen?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Reticular pseudodrusens are located above the RPE while typical drusen are located under/within the RPE",
+          "explanation": "Both reticular pseudodrusens and typical drusens have been associated with early AMD, and there is evidence supporting the involvement of both types of drusens in EOD, a condition where drusenoid deposits appear in younger individuals. While reticular pseudodrusens have some similarities in composition with typical drusens (neutral lipids, cholesterol, amyloid, complement factor, and membranous debris), there are several important differences. Specifically, the unique presence of immune-reactive microglia and macrophages in reticular pseudodrusens suggests an inflammatory role not seen with typical drusens. Other compositional differences seen in reticular pseudodrusens only include higher levels of unesterified cholesterol, vitronectin, opsins, peanut agglutinin, and photoreceptor pigments, though the exact composition of reticular pseudodrusens is unclear. To differentiate a reticular pseudodrusen from a typical drusen on examination, the use of multimodal imaging with at least two imaging methods is recommended. Spectral-domain OCT and infrared reflectance or fundus autofluorescence, in addition to color fundus photos, are beneficial to determine the exact layer the drusenoid deposits are present in. \n\n![](/content/media/retina56_16.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Reticular pseudodrusens are not associated with age-related macular degeneration while typical drusen are."
+        },
+        {
+          "correct": false,
+          "answerText": "C. In terms of composition, there are no differences between typical drusens and reticular pseudodrusens."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Soft drusens are associated with early-onset-drusen (EOD) while reticular pseudodrusen are not"
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "How does the prognosis of reticular pseudodrusen differ from typical drusen? Reticular pseudodrusens are **__**",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. More associated with development of geographic atrophy.",
+          "explanation": "The presence of reticular pseudodrusens is highly correlated with end-stage macular degeneration phenotypes such as choroidal neovascularization, and geographic atrophy."
+        },
+        {
+          "correct": false,
+          "answerText": "B. More associated with development of cystoid macular edema."
+        },
+        {
+          "correct": false,
+          "answerText": "C. More associated with development of early AMD."
+        },
+        {
+          "correct": false,
+          "answerText": "D. More associated with development of retinal detachments."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0056",
+  "category": "retina",
+  "title": "Case 56",
+  "description": "67F referred to ophthalmology for AMD screening OU",
+  "patientPresentation": "**Contributor:** Marko Tien (University of British Columbia Medical Student) \n\nA 67-year-old woman was referred to ophthalmology for AMD screening. She has no ocular complaints. No other neurological symptoms. She has a history of hypertension and hypercholesterolemia, for which she is taking medications for. On presentation, visual acuity was 20/25 OU. \n\n![](/content/media/retina56_1.webp)\n\n![](/content/media/retina56_2.webp)",
+  "footer": "### References:\n\n\nChan, H., Cougnard-Grégoire, A., Delyfer, M. N., Combillet, F., Rougier, M. B., Schweitzer, C., Dartigues, J. F., Korobelnik, J. F., & Delcourt, C. (2016). Multimodal Imaging of Reticular Pseudodrusen in a Population-Based Setting: The Alienor Study. Investigative ophthalmology & visual science, 57(7), 3058–3065. https://doi.org/10.1167/iovs.16-19487\n\nDe Bats, F., Wolff, B., Mauget-Faÿsse, M., Meunier, I., Denis, P., & Kodjikian, L. (2013). Association of reticular pseudodrusen and early onset drusen. ISRN ophthalmology, 2013, 273085. https://doi.org/10.1155/2013/273085\n\nRabiolo, A., Sacconi, R., Cicinelli, M. V., Querques, L., Bandello, F., & Querques, G. (2017). Spotlight on reticular pseudodrusen. Clinical ophthalmology (Auckland, N.Z.), 11, 1707–1718. https://doi.org/10.2147/OPTH.S130165\n\nWightman, A. J., & Guymer, R. H. (2019). Reticular pseudodrusen: current understanding. Clinical & experimental optometry, 102(5), 455–462. https://doi.org/10.1111/cxo.12842\n\n### ​\nLearning Objectives:\n\n\nTo identify reticular pseudodrusen on OCT and fundus photos\nTo understand how reticular pseudodrusens differ from typical drusens\nTo understand the prognostic value and association of reticular pseudodrusens with late AMD"
+}

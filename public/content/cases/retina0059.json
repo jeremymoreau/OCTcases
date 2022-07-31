@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Subretinal fluid"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Geographic atrophy"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Pigment epithelial detachment"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Intraretinal hyper-reflective foci"
+        },
+        {
+          "correct": true,
+          "answerText": "E. C and D",
+          "explanation": "On fundus examination, there are RPE changes near the fovea. On OCT, these pigmentary changes correlate with a hyper-reflective lesion under the fovea that presents as a raised separation between the RPE and Bruch’s Membrane. These findings are consistent with a pigment epithelial detachment. There are also several foci of hyper-reflective spots anterior to the PED. Subretinal fluid would appear hypo-reflective rather than hyper-reflective and often accumulates between the outer retina and RPE. There is no geographic atrophy seen on OCT. \n\n![](/content/media/r59_5.webp)\n\n![](/content/media/r59_6.webp)\n\nIn this separate OCT image, several hyper-reflective foci can also be seen here overlying drusenoid deposits in a patient with dry AMD. \n\n![](/content/media/r59_7.webp)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "Given the fundus photo and OCT in the right eye, what abnormality is seen?"
+    },
+    {
+      "title": "Question 2",
+      "text": "You examine another patient with AMD in clinic and obtain the following OCT scan. What are the hyper-reflective foci (yellow arrows)?\n\n![](/content/media/r59_7.webp)",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. RPE cells",
+          "explanation": "Histological studies have shown that in AMD presenting with drusenoid deposits, intraretinal hyper-reflective foci above the drusen are fully pigmented and nucleated RPE cells migrating anteriorly and likely represent progression of the disease."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Calcification"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Intraretinal hemorrhage"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Cholesterol deposits"
+        },
+        {
+          "correct": false,
+          "answerText": "E. Retinal exudates"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What does the presence of hyper-reflective foci mean for the prognosis in this patient?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Greater risk of retinal detachments"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Greater risk of developing a macular hole"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Greater risk of developing geographic atrophy",
+          "explanation": "Drusens are a common finding in advanced AMD subtypes. With drusenoid PEDs, some studies have found a 50% chance of progression to geographic atrophy within 7 years, and this becomes reduced to 2 years if the drusen is larger than 2 disc-diameters or metamorphopsia is present in the initial visit. As RPE cells migrate anteriorly (presenting as hyper-reflective foci), the pigment epithelial layer loses cells and thins out and becomes atrophied, revealing choroidal vessels underneath. Hyper-reflective foci thus likely represent progression of AMD to later stages including geographic atrophy and choroidal neovascularization."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Greater risk of cystoid macular edema"
+        },
+        {
+          "correct": false,
+          "answerText": "E. No significant differences have been found between patient with AMD that present with intraretinal hyper-reflective foci vs those that do not."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0059",
+  "category": "retina",
+  "title": "Case 59",
+  "description": "68M referred for a macular assessment",
+  "patientPresentation": "**Contributor:** Marko Tien (University of British Columbia Medical Student)\n\n68-year-old male was referred to ophthalmology for a macular assessment. He endorsed a 2-month history of metamorphopsia his right eye. VA was 20/30 OD and 20/25 OS. Fundus exam and OCT of the macula are shown below:\n\n![](/content/media/r59_1.webp)\n\n![](/content/media/r59_2.webp)\n\n![](/content/media/r59_3.webp)\n\n![](/content/media/r59_4.webp)",
+  "footer": "### References:\n\nOuyang, Y., Heussen, F. M., Hariri, A., Keane, P. A., & Sadda, S. R. (2013). Optical coherence tomography-based observation of the natural history of drusenoid lesion in eyes with dry age-related macular degeneration. Ophthalmology, 120(12), 2656–2665. https://doi.org/10.1016/j.ophtha.2013.05.029\n\nSchuman, S. G., Koreishi, A. F., Farsiu, S., Jung, S. H., Izatt, J. A., & Toth, C. A. (2009). Photoreceptor layer thinning over drusen in eyes with age-related macular degeneration imaged in vivo with spectral-domain optical coherence tomography. Ophthalmology, 116(3), 488–496.e2. https://doi.org/10.1016/j.ophtha.2008.10.006\n\nRoquet, W., Roudot-Thoraval, F., Coscas, G., & Soubrane, G. (2004). Clinical features of drusenoid pigment epithelial detachment in age related macular degeneration. The British journal of ophthalmology, 88(5), 638–642. https://doi.org/10.1136/bjo.2003.017632\n\nBalaratnasingam, C., Yannuzzi, L. A., Curcio, C. A., Morgan, W. H., Querques, G., Capuano, V., Souied, E., Jung, J., & Freund, K. B. (2016). Associations Between Retinal Pigment Epithelium and Drusen Volume Changes During the Lifecycle of Large Drusenoid Pigment Epithelial Detachments. Investigative ophthalmology & visual science, 57(13), 5479–5489. https://doi.org/10.1167/iovs.16-19816\n\n​\n\n### Learning Objectives:\n\n1. To identify intraretinal hyper-reflective foci on OCT\n2. To understand the significance of intraretinal hyper-reflective foci for patients with AMD"
+}

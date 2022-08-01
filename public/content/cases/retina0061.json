@@ -1,0 +1,106 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Elevation of foveal pit"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Hyper-reflective material in RPE and Bruch’s membrane complex"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Disruption of outer retinal layers"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the above",
+          "explanation": "In the right eye, there is hyper-reflective material above the RPE and Bruch’s membrane complex with adjacent sub-retinal fluid and disruption of the outer retinal layers (green arrows) in the fovea. The foveal contour is elevated (blue brackets) due to the pathologic process occurring in the outer retinal layers. \n\n![](/content/media/r61_4.webp)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What abnormalities are seen on the patient’s OCT image in the right eye?"
+    },
+    {
+      "title": "Question 2",
+      "text": "Given the clinical examination and imaging findings, what is the most likely cause for this pathologic process?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Traumatic choroidal rupture"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Myopia"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Age-related macular degeneration"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Angioid streaks",
+          "explanation": "Angioid streaks are crack-like dehiscences occurring in the RPE/Bruch’s membrane complex, which were seen on fundus examination for this patient. On OCT, they appear as undulations and breaks to the outer retina – most often the RPE and Bruch’s complex but can extend into the photoreceptor layer and ellipsoid zone. On fundoscopy, they appear classically as bilateral, narrow, irregular lines deep to the retina configured in a radiating fashion emanating from the optic disc (see image below). \n\n​On OCT, the hyper-reflective material represents a CNVM which can occur secondary to angioid streaks (i.e. the breaks in the outer retinal layers) (2).  Myopia, trauma, and age-related macular degeneration are other causes of CNVM. In the absence of trauma, or fundus features suggestive of pathological myopia and macular degeneration, the cause of the CNVM is likely due to the angioid streaks in this case.  \n\n![](/content/media/r61_5.webp)\n\nFigure obtained from Traine et al 2019 (2)"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What is the most likely systematic diagnosis in this patient?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Pseudoxanthoma elasticum (PXE)",
+          "explanation": "Angioid streaks are associated with several systematic diagnoses. The acronym ‘PEPSI’ can help you remember these: pseudoxanthoma elasticum (PXE), Ehler-Danlos syndrome, Paget’s disease of bone, Sickle cell disease and hemoglobinopathies, and Idiopathic. PXE is an autosomal recessive heritable connective tissue disease which results in skin changes, vision loss and less commonly gastrointestinal bleeding and calcifications of arteries (3). Patients with PXE develop pathognomonic yellow popular lesions with a ‘cobblestoning’ appearance (shown below), often first seen in the neck area. Angioid streaks can lead to choroidal neovascular membrane, which may result in bleeding and accumulation of fluid leading to vision loss.  \n\n![](/content/media/r61_6.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Ehler-Danlos syndrome"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Paget’s disease of bone"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Sickle cell disease"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What is the best first-line treatment for this patient?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Observation only"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Intravitreal anti-VEGF",
+          "explanation": "Patients with angioid streaks alone (without CNVM) often present asymptomatically and thus do not require treatment. However, this patient has CNVM associated with angioid streaks. Photocoagulation or photodynamic therapy may be used, however intravitreal anti-VEGF is generally recognized as the best first-line treatment for this."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Photocoagulation or Photodynamic therapy"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Intravitreal steroids"
+        }
+      ]
+    },
+    {
+      "title": "Follow up",
+      "text": "Our patient was treated with three injections of aflibercept in the right eye in monthly intervals. His vision improved to 20/25 and his OCT scan (shown below) demonstrated resolution of the CNVM with preservation of the outer retinal layers.\n\n![](/content/media/r61_7.webp)"
+    }
+  ],
+  "caseID": "retina0061",
+  "category": "retina",
+  "title": "Case 61",
+  "description": "57M referred for blurry vision OD for 3 days",
+  "patientPresentation": "A 57-year-old male was referred to ophthalmology for blurry vision in his right eye over the past 3 days. The patient’s past medical and ocular history were unremarkable. On external examination, you noticed yellow papules which appear like cobblestones on the patients neck and arms. The patient has not seen a physician about these lesions. On assessment, his best-corrected visual acuity was 20/30-2 OD and 20/25-2 OS. Refraction was -0.75 sph OU. Fundus exam showed angioid streaks emanating from the optic disc OU and a small area of hemorrhage in the macula. The fundus drawings from the clinic visit are shown below: \n\n![](/content/media/r61_1.webp)\n\nOCT macula was performed and shown:\nRight eye\n\n![](/content/media/r61_2.webp)\n\nLeft eye\n\n![](/content/media/r61_3.webp)",
+  "footer": "### References:\n\nCharbel Issa P, Finger RP, Holz FG, Scholl HP. Multimodal imaging including spectral domain OCT and confocal near infrared reflectance for characterization of outer retinal pathology in pseudoxanthoma elasticum. Invest Ophthalmol Vis Sci. 2009 Dec;50(12):5913-8. \n\nGal-Or, O., Balaratnasingam, C. & Freund, K.B. Optical coherence tomography angiography findings of choroidal neovascularization in pseudoxanthoma elasticum.Int J Retin Vitr 1, 11 (2015). https://doi.org/10.1186/s40942-015-0011-x\n\nGermain DP. Pseudoxanthoma elasticum. Orphanet J Rare Dis. 2017;12(1):85. Published 2017 May 10. doi:10.1186/s13023-017-0639-8\n\nGeorgalas I, Papaconstantinou D, Koutsandrea C, et al. Angioid streaks, clinical course, complications, and current therapeutic management. Ther Clin Risk Manag. 2009;5(1):81-89.\n\nKwok JM, VandenHoven C, Muni RH. Retinal crystalline lesions in pseudoxanthoma elasticum. Canadian Journal of Ophthalmology. 2021 May 6.\n\n\n\n### Learning Objectives:​\n\n1. To identify ocular complications associated with angioid streaks \n\n​"
+}

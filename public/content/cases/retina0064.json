@@ -1,0 +1,141 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Cotton wool spots"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Cystoid macular edema"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Hyper-reflective foci"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Intraretinal hyperreflective material"
+        },
+        {
+          "correct": false,
+          "answerText": "E. Subretinal hemorrhage"
+        },
+        {
+          "correct": false,
+          "answerText": "F. Subretinal hyperreflective material"
+        },
+        {
+          "correct": false,
+          "answerText": "G. Subretinal fluid"
+        },
+        {
+          "correct": true,
+          "answerText": "H. Posterior vitreous detachment (PVD)",
+          "explanation": "Cotton wool spots (red arrows), hyper-reflective foci (green arrows), cystoid macular edema (yellow circles), intraretinal hyper-reflective material (red brackets) is visible and may represent an intraretinal hemorrhage. Subretinal hyperreflective material (blue arrow) with underlying subretinal fluid can also be visualized in the right eye. The posterior hyaloid face is attached to the retina, there is no PVD. \n\n![](/content/media/r64-3.webp)\n\n![](/content/media/r64-4.webp)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What is NOT seen on OCT macula?"
+    },
+    {
+      "title": "Question 2",
+      "text": "These abnormalities correlated with findings on fundoscopy:\n\n![](/content/media/r64-5.webp)\n\n![](/content/media/r64-6.webp)\n\nWhat should immediately be done in the office?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. IOP check"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Blood pressure check",
+          "explanation": "Hypertensive retinopathy can present with retinal hemorrhages, cotton wool spots, retinal edema, papilledema, and tortuous vessels. If severe, immediate anti-hypertensive therapy should be initiated in a controlled fashion."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Thrombolysis (ex. tissue plasminogen activator)"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Patch the eye"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "The patient’s blood pressure was 130s/80s.\n\nWhat is the likely cause of this patient’s presentation?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Hypertensive retinopathy"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Central retinal vein occlusion (CRVO)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Proliferative diabetic retinopathy (PDR)"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Radiation retinopathy (RR)",
+          "explanation": "The patient’s blood pressure was not high enough to cause significant acute retinal damage (typically above 160s/100s) and he did not have a history of hypertension. CRVO typically shows more diffuse retinal hemorrhage, however exudates and edema may still occur. Radiation retinopathy (RR) can mimic diabetic retinopathy, therefore careful past medical history is important to rule in/out these entities. The patient was not diabetic, hypertensive, and did not have other vascular risk factors; RR is the most likely diagnosis. \n\nRR is more likely to occur in patients receiving external beam radiation above 45 Gy. Radiation exposure results in retinal ischemia due to endothelial cell damage from free radicals. This may result in microaneurysms, cotton wool spots, macular edema, hard exudates, retinal edema, telangiectasia, and perivascular sheathing. Radiation induced optic neuropathy (RION) may also cause vision loss if there is involvement of the optic chiasm or optic nerve. A diagnosis of RR can be made once other similar presenting conditions are ruled out."
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "How should this patient be managed?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Intravitreal anti-VEGF therapy",
+          "explanation": "Because VEGF is the pathologic stimulus for the development of radiation retinopathy, intravitreal anti-VEGF is the generally accepted as first line treatment. Intravitreal corticosteroids may be used as second line.  Photodynamic therapy and laser photocoagulation work to reduce VEGF production driven by ischemia but have been shown to have variable results in treating radiation retinopathy."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Photodynamic therapy"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Laser photocoagulation"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Intravitreal corticosteroid"
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "If this patient were to undergo further craniospinal radiation, how would you treat to prevent worsening radiation retinopathy?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Intravitreal anti-VEGF therapy (Ranibizumab, Bevacizumab)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Pan-retinal photocoagulation"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Sub-tenon triamcinolone"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Any of the above",
+          "explanation": "Intravitreal anti-VEGF injections q2-4 months have the strongest evidence for reducing incidence of radiation retinopathy and vision loss. However, pan-retinal photocoagulation and sub-tenon triamcinolone have also been shown to have benefit. These treatments are often combined for optimal prophylaxis. Because of reported instances of IOP spikes, periocular triamcinolone is not advised in glaucoma patients."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0064",
+  "category": "retina",
+  "title": "Case 64",
+  "description": "24M referred for painless blurred vision (OD>OS) for 1 month",
+  "patientPresentation": "A 24-year-old male was referred because of painless blurred vision (OD > OS) for 1 month. His past medical history was significant for a pineal tumour which was treated by craniospinal radiation (36 Gy, 54 Gy and then 59.4 Gy). He did not have diabetes or hypertension. On exam, visual acuity was 20/150 OD and 20/40-1 OS. Colour vision was 0/12 OD and 7/14 OS. There was no RAPD. OCT macula was performed and shown below. \n\n![](/content/media/r64-1_tif.webp)\n\n![](/content/media/r64-2_tif.webp)",
+  "footer": "### References:\n\n1. Danesh-Meyer HV. Radiation-induced optic neuropathy. J Clin Neurosci. 2008;15(2):95-100.\n\n2. Fallico M, Chronopoulos A, Schutz JS, Reibaldi M. Treatment of radiation maculopathy and radiation-induced macular edema: A systematic review. Surv Ophthalmol. 2021;66(3):441-460. \n\n3. Giuliari GP, Sadaka A, Hinkle DM, Simpson ER. Current treatments for radiation retinopathy. Acta Oncol. 2011;50(1):6-13. \n\n4. Sahoo NK, Ranjan R, Tyagi M, Agrawal H, Reddy S. Radiation Retinopathy: Detection and Management Strategies. Clin Ophthalmol. 2021;15:3797-3809. Published 2021 Sep 8. doi:10.2147/OPTH.S219268\n\n### Learning Objectives:\n\n1. Interpreting OCT macula images in patients with radiation retinopathy\n\n2. Identify patients at risk for radiation retinopathy\n\n3. Understand principles in management for patients with radiation retinopathy"
+}

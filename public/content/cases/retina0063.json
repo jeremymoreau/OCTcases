@@ -1,0 +1,102 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Retinal detachment in the superior temporal retina"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Choroidal nevus in the superior temporal retina"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Peri-macular drusen"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Well-circumscribed dark lesion in the superior temporal retina",
+          "explanation": "There is a large well-demarcated area in the superior-temporal retina with sharp borders that appears to be darker than the surrounding retina. The appearance is not in keeping with a retinal detachment as there is no raised aspect to this lesion, and the patient is otherwise asymptomatic. Choroidal nevi can present as dark, pigmented lesions in the retina as well but this lesion is not in keeping with that of a nevi. The white streaks around the fovea are not drusen, but rather robust sheen of the retinal nerve fiber layer normally seen in children, where light reflects off the irregular macular surface.\n\n![](/content/media/r63_2.webp)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "Where is the lesion in this eye?"
+    },
+    {
+      "title": "Question 2",
+      "text": "OCT was performed over the lesion and shown below.\n\n![](/content/media/r63_3.webp)\n\nWhat is the abnormality seen in the OCT?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Hypo-reflectivity in the Ellipsoid Zone",
+          "explanation": "As the OCT scanning window overlaps with the area of the lesion, there is an abrupt hypo-reflectivity in the Ellipsoid Zone, highlighted in the dotted red box below. This is a classic OCT finding for this condition. \n\n![](/content/media/r63_4.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Hypo-reflectivity in the outer plexiform layer"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Hyperreflectivity in the Ellipsoid Zone"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Hyperreflectivity in the Inner Plexiform Layer"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Based on the imaging and exam findings, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Subtle retinal detachment"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Melanoma"
+        },
+        {
+          "correct": false,
+          "answerText": "C. White-without-pressure"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Dark-without-pressure",
+          "explanation": "Dark-without-pressure lesions are asymptomatic hypo-pigmented lesions due to changes in the outer retinal layers such as the Ellipsoid Zone and Photoreceptor Outer Segments. These lesions can change over time, but the clinical significance remains uncertain, as patients are asymptomatic when they present. The cause of these lesions is unknown, but likely reflects a structural and not functional deficit in the outer retina."
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What is the prognosis of a patient who presents with dark-without-pressure lesions?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Benign finding",
+          "explanation": "Over time, the lesions may grow or change shape or even disappear completely, but they are asymptomatic throughout their course. There have been no functional deficits reported in individuals who possess them. Treatment is not necessary. It is hypothesized that the density of photoreceptors in dark-without-pressure lesions are different from the rest of the retina, containing greater photoreceptors that absorb short wavelength light more effectively, resulting in its better visibility on red-free fundus photography."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Increased risk of retinoblastoma"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Increased risk of a retinal tear in the area of the lesion"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Increased risk of development of a scotoma"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0063",
+  "category": "retina",
+  "title": "Case 63",
+  "description": "11M referred for an abnormal retinal lesion OS",
+  "patientPresentation": "**Contributors:** Marko Tien (Medical Student) and Dr. Amrit Rai\n\nAn 11-year-old male was referred to ophthalmology for an abnormal retinal lesion in the left eye. The patient is asymptomatic. Visual fields are normal, and BCVA is 20/20 OU. Fundus exam was performed and is shown below: \n\n![](/content/media/r63_1.webp)",
+  "footer": "References:\n\n1. Fawzi, A. A., Nielsen, J. S., Mateo-Montoya, A., Somkijrungroj, T., Li, H. K., Gonzales, J., Mauget-Faÿsse, M., & Jampol, L. M. (2014). Multimodal imaging of white and dark without pressure fundus lesions. Retina (Philadelphia, Pa.), 34(12), 2376–2387. https://doi.org/10.1097/IAE.0000000000000388\n\n2. Flores Pimentel, M.A., Duncan, J.L., de Alba Campomanes, A.G. et al. (2021). Dark without pressure retinal changes in a paediatric age group. Eye 35, 1221–1227. https://doi.org/10.1038/s41433-020-1088-5\n\n3. Gupta, Gaurav & Bajgai, Priya & Singh, Ramandeep. (2018). Dark-Without-Pressure Fundus Lesions.\n\n4. Nagpal, K. C., Goldberg, M. F., Asdourian, G., Goldbaum, M., & Huamonte, F. (1975). Dark-without-pressure fundus lesions. The British journal of ophthalmology, 59(9), 476–479. https://doi.org/10.1136/bjo.59.9.476\n\n5. Rafieetary, M. (Feb 2021). Navigating the Retinal Periphery. Review of optometry (eJournal). Accessed on Nov 12, 2021: https://www.reviewofoptometry.com/article/navigating-the-retinal-periphery\n\n6. Strohbehn A. Sohn EH. Retinal Detachment: From One Medical Student to Another. EyeRounds.org. October 15, 2013; available from http://EyeRounds.org/tutorials/retinal-detachment-med-students\n\n​\n\n### Learning Objectives:\n\n1. Identify the funduscopic presentation and OCT findings of dark-without-pressure lesions.\n\n2. Understand the clinical significance and prognosis of dark-without-pressure lesions"
+}

@@ -1,0 +1,102 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Subretinal fluid with intra-retinal schisis changes",
+          "explanation": "![](/content/media/r67_5.webp)\n\nThe hypo-reflective area indicated by the yellow arrow is indicative of fluid accumulation. The fluid is accumulating above the retinal pigment epithelium (subretinal fluid), leading to separation of the overlying neurosensory retina. There is also evidence of intra-retinal fluid indicated by the red arrows, as well as schisis changes due to separation of the inner plexiform/outer nuclear layer. Cystoid macular edema tends to present with cystic changes in the outer plexiform layers in a petaloid pattern, rather than at the pigment epithelium. There is no separation of the RPE from Bruch’s membrane. The choroidal vessels are within normal limits."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Cystic accumulation of intra-retinal fluid suggestive of cystoid macular edema"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Separation of the RPE from underlying choroid suggestive of pigment epithelial detachment"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Pachychoroid vessels"
+        }
+      ],
+      "title": "Question 1",
+      "text": "Which of the following describes the main findings of this right eye OCT macula?"
+    },
+    {
+      "title": "Question 2",
+      "text": "Based on the patient’s history, OCT, and fundus findings, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Optic nerve sheath menangioma"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Optic disc edema"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Optic disc coloboma"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Morning Glory Disc Anomaly",
+          "explanation": "![](/content/media/r67_6.webp)\n\nMorning Glory Disc Anomaly classically presents with an excavated optic disc with peripapillary atrophy (blue arrows), and a central glial tuft (red arrow). The retinal vasculature also appears straightened and extends radially from the optic disc. It is thought that Morning Glory Disc Anomaly occurs due to incomplete closure of the posterior sclera and embryonic fissure at weeks 4-5, leading to herniation of the optic disc and failure of normal development. The main differential diagnosis of Morning Glory Disc Anomaly includes optic disc coloboma, which also presents as an excavation of the nerve, but tends to occur in the inferior portion, sparing the superior segment of the optic disc, and does not contain the central glial tuft or peripapillary involvement. Optic disc coloboma does not present with abnormal retinal vasculature as well."
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Fundus autofluorescence photos were taken and are shown below. Note the juxtapapillary hypo-autofluorescence in keeping with the excavation of the optic nerve due to RPE loss/atrophy, as well as the hyper-autofluorescence at the macula reflecting the accumulation of subretinal fluid. The left eye is provided as well for reference.\n\n![](/content/media/r67_7.webp)\n\n![](/content/media/r67_8.webp)\n\nWhich of the following are NOT typical complications of this condition?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Choroidal neovascularization",
+          "explanation": "Morning Glory Syndrome is associated with basal encephalocele (67.6%), a bony defect of the base of the skull which can lead to herniation of cranial contents, serous retinal detachment, which was seen in this case (30%), and Moyamoya disease (15% in some studies), a neurovascular arteriopathy of the internal carotid arteries that can predispose an individual to develop strokes in times of emotional duress. The association with choroidal neovascularization is much rarer and more atypical in this condition but have been documented in case reports."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Basal encephalocele"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Serous retinal detachment"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Moyamoya disease"
+        }
+      ]
+    },
+    {
+      "title": "Question 4 ",
+      "text": "What workup do ALL patients with this condition require?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. MRI brain, MRI angiography, OCT macula",
+          "explanation": "As Morning Glory Syndrome is associated with basal encephalocele and Moyamoya disease, an MRI/MRA of the brain is recommended to monitor for herniation of the brain and abnormal cranial vasculature. An OCT is also recommended to monitor for retinal changes such as detachment. In some studies, pituitary gland abnormalities have been identified. However, as Morning Glory Disc Anomaly often presents as an isolated ocular finding, endocrinological testing may not be warranted if there are no other systemic signs present (short stature, low birth weight in children). If there is a transsphenoidal encephalocele, the patient may have midline defects and hypopituitarism, and an endocrinology panel should be performed."
+        },
+        {
+          "correct": false,
+          "answerText": "B. MRI brain, endocrinological testing, OCT macula"
+        },
+        {
+          "correct": false,
+          "answerText": "C. CT orbits, endocrinological testing, OCT macula"
+        },
+        {
+          "correct": false,
+          "answerText": "D. CSF analysis, MRI angiography, OCT macula"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0067",
+  "category": "retina",
+  "title": "Case 67",
+  "description": "41F presenting with acute painless vision loss OD for 3 days",
+  "patientPresentation": "A 41-year-old woman presented with 3 days of acute painless decrease in vision OD. She denied flashes, floaters or a visual field deficit. There was no trauma. The patient denied any relevant past medical or ocular history. She did however note that an optometrist once mentioned she had an atypical optic nerve. Best corrected distance visual acuity was 20/200 OD and 20/20 OS. There was a right RAPD.\n\nFundoscopy and OCT macula were done and shown below:\n\n![](/content/media/r67_1.webp)\n\n![](/content/media/r67_2.webp)\n\n![](/content/media/r67_3.webp)\n\n![](/content/media/r67_4.webp)",
+  "footer": "### References:\n\n1. Dedhia, C. J., Gogri, P. Y., & Rani, P. K. (2016). Rare bilateral presentation of morning glory disc anomaly. BMJ case reports, 2016, bcr2016215846. https://doi.org/10.1136/bcr-2016-215846\n\n2. Martins, T. G., Martins, D. G., & Costa, A. L. (2015). Patient with Morning Glory syndrome. Einstein (Sao Paulo, Brazil), 13(1), 165–166. https://doi.org/10.1590/S1679-45082015AI2902\n\n3. Morioka, M., Marubayashi, T., Masumitsu, T., Miura, M., & Ushio, Y. (1995). Basal encephaloceles with morning glory syndrome, and progressive hormonal and visual disturbances: case report and review of the literature. Brain & development, 17(3), 196–201. https://doi.org/10.1016/0387-7604(95)00021-3\n\n4. Pierre-Filho, P., Limeira-Soares, P. H., & Marcondes, A. M. (2004). Morning glory syndrome associated with posterior pituitary ectopia and hypopituitarism. Acta ophthalmologica Scandinavica, 82(1), 89–92. https://doi.org/10.1111/j.1395-3907.2004.00214.x\n\n5. Shigeru Sato, Takeshi Morimoto, Sayaka Tanaka, Motokazu Tsujikawa, Kohji Nishida. Choroidal Neovascularization Associated with Morning Glory Syndrome: A Case Report. Archives of Clinical and Medical Case Reports 4 (2020): 1023-1030.\n\n6. Srinivasan, G., Venkatesh, P., & Garg, S. (2007). Optical coherence tomographic characteristics in morning glory disc anomaly. Canadian journal of ophthalmology. Journal canadien d'ophtalmologie, 42(2), 307–309.\n\n7. Wang, Y. Y., Zhou, K. Y., Ye, Y., Song, F., Yu, J., Chen, J. C., & Yao, K. (2020). Moyamoya Disease Associated With Morning Glory Disc Anomaly and Other Ophthalmic Findings: A Mini-Review. Frontiers in neurology, 11, 338. https://doi.org/10.3389/fneur.2020.00338\n\n### Learning Objectives:\n\n1. To identify fundus findings and OCT imaging of Morning Glory Syndrome\n\n2. To understand the associated complications of Morning Glory Syndrome and the recommended workup"
+}

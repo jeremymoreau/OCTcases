@@ -1,0 +1,102 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Retinal nerve fiber layer (RNFL) and internal limiting membrane (ILM)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Retinal pigment epithelium (RPE) and ellipsoid zone (EZ)"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Ellipsoid zone (EZ) and external limiting membrane (ELM)",
+          "explanation": "The OCT macula shows splitting at the level of photoreceptor myoid zone (photoreceptor inner segment) between the ellipsoid zone layer (green arrow) and the external limiting membrane (red arrows). The \"ceiling\" or anterior border of the segmentation contains the ELM and fragments of photoreceptor inner segments, while the \"floor\" or posterior border includes outer segments of the photoreceptors adherent to the RPE. The IZ, RPE, RNFL, and ILM are intact.\n\n![](/content/media/retina_70_3.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Interdigitation zone (IZ) and Ellipsoid zone (EZ)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What layers of the neurosensory retina are split on the OCT macula image OD?"
+    },
+    {
+      "title": "Question 2",
+      "text": "What additional finding is seen on OCT macula OD?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Intraretinal cyst"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Serous retinal detachment",
+          "explanation": "A serous retinal detachment (red arrows) can be seen in the OCT macula OD. There is a cavity (yellow box) between the ELM and EZ, as described in question 1; however, there are no intraretinal cysts. Intraretinal cysts typically involve the inner/outer nuclear layers and have a more hyper-reflective, discrete border. The raised ellipsoid zone (green arrow) is above the RPE and does not have a hyper-reflective core as seen in drusenoid deposits. This area represents focal subretinal fluid.\n\n![](/content/media/retina_70_4.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Drusen"
+        },
+        {
+          "correct": false,
+          "answerText": "D. All of the above"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What is the unifying diagnostic abnormality on OCT?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Bacillary layer detachment (BALAD)",
+          "explanation": "Think of bacillary layer detachment (BALAD) as a term for a “photoreceptor-splitting detachment.” BALAD describes the separation of the bacillary layer from the remaining retinal layers resulting from an intra-photoreceptor split immediately posterior to the ELM within the photoreceptor inner-segment myoids. This often results in serous retinal detachment, and less commonly intraretinal fluid, both of which are seen in this case (1). As mentioned in the previous stem, the RPE is healthy. There are no intraretinal cysts or intraretinal fluid occurring in the more ‘inner’ retinal layers anterior to the outer plexiform layer. CME and DME typically present as a petaloid pattern within Henle’s layer.  \n\nReference:\n\nMehta N, Chong J, Tsui E, et al. Presumed foveal bacillary layer detachment in a patient with toxoplasmosis chorioretinitis and pachychoroid disease. Retin Cases Brief Rep. 2018 \\[Epub ahead of print] doi:10.1097/ICB.0000000000000817.\n\n​"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Pigment epithelial detachment (PED)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Cystoid macular edema (CME)"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Diabetic macular edema (DME)"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What is the most common cause of BALAD?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Vogt-Koyanagi-Harada (VKH) disease",
+          "explanation": "All of the following options can cause BALAD, however it is estimated that VKH accounts for nearly half (47%) of cases (2). APMEE (11%), sympathetic ophthalmia (7.3%), choroidal CNV (6.2%), Toxoplasmosis chorioretinitis (5.5%), acute idiopathic maculopathy (5.5%), and more also comprise of the causes for BALAD. Therefore, a proper history (VKH, CSR, blunt trauma), physical exam for uveitis (viral, toxoplasmosis), multimodal imaging (VKH, APMPEE, CNV), B-scan (posterior scleritis) and bloodwork (hematologic malignant, AIR) is necessary to workup patients with BALAD. The pathophysiology of BALAD is thought to be related to choroidal compromise, hence why infectious, inflammatory, and iatrogenic etiologies affecting the choroid are often the culprit. The treatment of BALAD in these cases is aimed at treating the underlying condition. For example, steroids in VKH or antibiotics with steroids in toxoplasmsos chorioretinitis."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Acute posterior multifocal placoid pigment epitheliopathy (APMPPE)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Sympathetic ophthalmia"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Toxoplasmosis chorioretinitis"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0070",
+  "category": "retina",
+  "title": "Case 70",
+  "description": "45F presenting with painless blurred vision OD for 2 days",
+  "patientPresentation": "**Contributor:** Marko Tien, MD(C)\n\nA 45-year-old female patient presented to a tertiary ophthalmology centre with a 2-day history of painless blurred vision in her right eye. BCVA was 20/200 OD and 20/40 OS. IOP was 15 OU. OCT macula OU was performed and is shown below:\n\n![](/content/media/retina_70_1.webp)\n\n![](/content/media/retina_70_2.webp)",
+  "footer": "### References:\n\n1. Ramtohul P, Engelbert M, Malclès A, et al. Bacillary layer detachment: multimodal imaging and histologic evidence of a novel optical coherence tomography terminology: Literature reviewi and proposed theory. Retina. 2021 Nov 1;41(11):2193-2207.\n\n2. Cicinelli MV, Giuffré C, Marchese A, et al. The bacillary detachment in posterior segment ocular diseases. Ophthalmol Retina. 2020;4:454–456. \n\n​\n\n### Learning Objectives:\n\n1. To understand the features of bacillary retinal detachment using OCT findings.\n\n2. To understand the underlying etiologies causing bacillary retinal detachment and the diagnostic workup involved in these cases."
+}

@@ -1,0 +1,102 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Glaucoma in both eyes"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Glaucoma in the left eye only"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Lesion in the retrochiasmal visual pathways",
+          "explanation": "This patient has homonymous macular atrophy evident on the OCT macular-GCC. The OCT RNFL reveals temporal thinning in the right eye and superior and inferior thinning in the left eye. This localizes the process to the retrochiasmal visual pathways since the macular changes are homonymous (similar in both eyes)."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Lesion in the optic chiasm"
+        }
+      ],
+      "title": "Question 1",
+      "text": "These OCT findings suggest which of the following:"
+    },
+    {
+      "title": "Question 2",
+      "text": "What visual field pattern do you expect to see based on the OCT findings?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Right superior homonymous quadrantanopia"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Right inferior homonymous quadrantanopia",
+          "explanation": "![](/content/media/neuro-ophthalmology-1-3.webp)\n\nSince the visual field is centered over the macula rather than the optic nerve, the OCT macular GCC is the best place to look for this answer. The OCT shows thinning in the supero-nasal quadrant of the macula OD and supero-temporal quadrant of the macula OS. Because the superior retina sees the inferior visual field (and vice versa) and the nasal retinal sees the temporal visual field (and vice versa), this patient has a right inferior homonymous quadrantanopia as shown above."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Left superior homonymous quadrantanopia"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Left inferior homonymous quadrantanopia"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Why is the horizontal RNFL thinned in the right eye and vertical RNFL thinned in the left eye? (Best seen on the thickness and deviation maps)",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Coexistence of glaucoma"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Organization of the retinal nerve fiber layer",
+          "explanation": "![](/content/media/neuro-ophthalmology-1-4.webp)\n\nThe retinal nerve fiber layer is organized such that the temporal visual field is represented by retinal ganglion cell axons entering the nasal and temporal portion of the optic nerves and the nasal visual field is represented by retinal ganglion cell axons entering the superior and inferior portions of the optic nerve as diagrammed above. This results in a pattern of bowtie atrophy in the eye contralateral to the central nervous system lesion."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Segmentation error"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Physiologic cupping"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "This patient’s left retrochiasmal lesion is:",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Acute (occurred within a few days)"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Longstanding",
+          "explanation": "This patient had a left occipital lobe stroke 5-years prior to this presentation, and the OCT changes are due to retrograde trans-synaptic degeneration (RTSD). This means that there has been death of axons in the occipital lobe and this has subsequently resulted in death of the retinal ganglion cell and its axon that travels from the lateral geniculate nucleus to the retina. This process takes at least several months and likely years to occur. The MRI brain is shown, which shows an old left occipital stroke:\n\nRetrograde trans-synaptic retinal ganglion cell loss was further classified by Jindahra et al. in 2009 where patients with acquired homonomous hemianopia had nasal and temporal thinning in the eye contralateral to the occipital lesion and superior and inferior thinning in the eye ipsilateral to the lesion (as seen in our patient). There was no significant difference in patients with acquired or congential lesions. This was the first study showing RTSD in adult-onset lesions.\n\n![](/content/media/neuro-ophthalmology-1-5.webp)\n\nReferences:\n\n1. Miller NR, Newman SA. Transsynaptic degeneration. Arch Ophthalmol 1981;99:1654.\n\n2. Jindahra P, Petrie A, Plant GT. Retrograde trans-synaptic retinal ganglion cell loss identified by optical coherence tomography. Brain 2009;132:628-634."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Exclusively related to trauma"
+        },
+        {
+          "correct": false,
+          "answerText": "D. None of the above"
+        }
+      ]
+    }
+  ],
+  "caseID": "neuro0001",
+  "category": "neuro-ophthalmology",
+  "title": "Case 1",
+  "description": "64M presenting with possible glaucoma OU",
+  "patientPresentation": "A 64-year-old male was referred for assessment of possible glaucoma OU. He is unclear regarding his past medical history and notes no new visual symptoms. Visual acuity was 20/30 OD and 20/25 OS, intraocular pressure was 16 OD and 18 OS and there was no relative afferent pupillary defect. OCT of the retinal nerve fiber later (RNFL) and macular ganglion cell complex (GCC) are shown below.\n\n![](/content/media/neuro-ophthalmology-1-1.webp)\n\n![](/content/media/neuro-ophthalmology-1-2.webp)",
+  "footer": "### Learning Objectives:\n​\n\n1. Retro-geniculate lesions (strokes, tumours, etc.) can cause retinal changes via retrograde trans-synaptic degeneration.\n2. Important to keep in mind when seeing referrals for RNFL thinning"
+}

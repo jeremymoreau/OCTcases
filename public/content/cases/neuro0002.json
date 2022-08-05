@@ -1,0 +1,83 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Binasal hemianopia"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Bitemporal hemianopia",
+          "explanation": "This patient has binasal thinning of the macular ganglion cell complex. Since the nasal retinal sees the temporal portion of the visual field, a bitemporal hemianopia is expected. Notice how the left nasal thinning macular GCC is more prominent compared to the right and this corresponds to a denser temporal hemianopia in the left eye."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Left homonymous hemianopia"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Right homonymous hemianopia"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What visual field defect do you expect this patient to show?"
+    },
+    {
+      "title": "Question 2",
+      "text": "![](/content/media/neuro-ophthalmology-2-3.webp)\n\n![](/content/media/neuro-ophthalmology-2-4.webp)\n\nA Humphrey 24-2 visual field test was conducted following the RNFL and GCC OCT images. The results of the visual field test is shown above. Where do the patient’s OCT and visual field changes localize?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Left optic nerve"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Optic chiasm",
+          "explanation": "This patient has a bitemporal hemianopia and this localizes to the optic chiasm.\n\nA study by Tieger et al. in 2016 found that in 23 patients with chiasmal compression, binasal GCC loss was typical in these patients, and can be seen even with minimal or no detectable VF loss.\n\nA study by Blanch et al. in 2018 found that in seven patients stellar tumours and chiasmal compression with normal visual function, OCT-GCC detected the compressive chiasmopathy before visual defects apparent on standard automated perimetry. With only OCT-RNFL, 3/7 patients would have had a missed diagnosis. Therefore, OCT-GCC is critical in detection of compressive optic neuropathies from sellar/suprasellar lesions.  \n\nReferences:\n\n1. Tieger MG, Hedges TR. Ho J, Erlich-Malona NK, Vuong LN, Athappilly GK, Mendoza-Santiesteban CE. Ganglion cell complex loss in chiasmal compression by brain tumours. J Neurooophthalmol 2017;37(1):7-12.\n\n2. Blanch RJ, Micieli JA, Oyesiku NM, Newman NJ, Biousse V. Optical coherence tomography retinal ganglion cell complex analysis for the detection of early chiasmal compression. Pituitary 2018;21(5):515-523."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Optic tract"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Left optic radiations"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "![](/content/media/neuro-ophthalmology-2-5.webp)\n\nAn MRI was performed (above) and showed a sellar/suprsellar lesion consistent with a pituitary macroadenoma - yellow arrows (optic nerves on the left image and optic chiasm on the right). What do you expect to happen after this patient has surgical resection of the pituitary macroadenoma?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Improvement of OCT thickness and visual field"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Improvement of visual field only",
+          "explanation": "The Tieger et al. in 2016 found that after chiasmal decompression, the majority of the 23 patients studied showed improvement in visual field function despite persistent ganglion cell complex loss on OCT. In addition, less GCC loss before surgery correlated with better postoperative visual field function. This study was critical in demonstrating OCT-GCC as an objective method in diagnosis and follow-up of patients with chiasmal compression."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Improvement of OCT thickness only"
+        },
+        {
+          "correct": false,
+          "answerText": "D. No improvement of visual field or OCT"
+        }
+      ]
+    },
+    {
+      "title": "Follow up",
+      "text": "At the 6-month follow-up, the following GCC-OCT and corresponding visual field tests were conducted. Of note, you can appreciate the persistent binasal ganglion cell complex loss despite improvement of the bitemporal homonymous hemianopia. Notice how this patient has a persistent supero-temporal visual field defect in the left eye and this corresponds to the denser pre-operative OCT-GCC thinning in the infero-nasal region.\n\n![](/content/media/neuro-ophthalmology-2-6.webp)\n\n![](/content/media/neuro-ophthalmology-2-7.webp)"
+    }
+  ],
+  "caseID": "neuro0002",
+  "category": "neuro-ophthalmology",
+  "title": "Case 2",
+  "description": "44M presenting with blurred vision OS for 1 week",
+  "patientPresentation": "A 44-year-old man noticed blurred vision in his left eye for one week. He was seen in the ophthalmology clinic and had a visual acuity of 20/20 OD and 20/30 OS. Dilated fundus examination was normal and an OCT RNFL and GCA were performed below.\n\n![](/content/media/neuro-ophthalmology-2-1.webp)\n\n![](/content/media/neuro-ophthalmology-2-2.webp)",
+  "footer": "### Learning Objectives:\n​\n\n1. Analyzing GCC-OCT for detecting hallmark signs of chiasmal compression\n2. Correlating OCT images to standard automated perimetry visual fields."
+}

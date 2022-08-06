@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Asymmetry of the RNFL"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Loss of OD GCC"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Temporal thinning of the RNFL OS"
+        },
+        {
+          "correct": true,
+          "answerText": "D. None of the above",
+          "explanation": "The above RNFL and GCC OCT images do not demonstrate any notable pathology. The retinal nerve fiber layer in both eyes are symmetric with 95% distributed thickness compared to age matched counterparts in all four quadrants OU. The ganglion cell complex OCT demonstrates good thickness of the macular ganglion cells OU. One cannot reliably state there is any disease processes going on in these eyes from these images alone."
+        }
+      ],
+      "title": "Question 1",
+      "text": "What pathology is found in the above RNFL/GCIPL OCT images?"
+    },
+    {
+      "title": "Question 2",
+      "text": "What is the next best step in evaluating this this patient in the eye clinic?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Intravenous fluorescein angiography"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Humphrey visual field",
+          "explanation": "This patient is complaining of reduced vision that cannot be accounted for by the eye exam. OCT RNFL and GCC were also normal. The important lesson from this case is that a normal OCT does not rule out involvement of the anterior visual pathways, particularly in acute situations. It takes time, typically 6-8 weeks, before thinning in OCT parameters are detected after an acute insult to the optic nerves or chiasm.\n\nThis patient had a bitemporal hemianopia as shown below. \n\n![](/content/media/neuro-ophthalmology-6-2.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Repeat OCT in 1 day"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Corneal pachymetry"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Based on visual field results and the patient presentation, what is the most likely cause of her symptoms?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Angle closure glaucoma"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Optic tract tumour"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Pituitary apoplexy",
+          "explanation": "A bitemporal hemianopia indicates that the disease process is located in the optic chiasm. In a patient with a new bitemporal hemianopia and headache, pituitary apoplexy is a particular concern. Pituitary apoplexy is caused by acute hemorrhage or infarction in a pre-existing pituitary adenoma, which the patient was not aware of in this case. The rapid enlargement of the pituitary tumor compresses adjacent structures and can cause visual field defects and cranial nerve palsies. The MRI below indicates a pituitary adenoma with internal hemorrhage compressing the optic chiasm.\n\n![](/content/media/neuro-ophthalmology-6-3.webp)\n\nReferences\n\nHorton JC. Ganglion cell complex measurement in compressive optic neuropathy. J Neuroophthalmol 2017;37(1):13-15."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Occipital lobe stroke"
+        }
+      ]
+    }
+  ],
+  "caseID": "neuro0006",
+  "category": "neuro-ophthalmology",
+  "title": "Case 6",
+  "description": "54F presenting with headache and visual field defect OU",
+  "patientPresentation": "A 54-year-old female was seen in the emergency department for a new-onset severe headache and visual field deficit OU. The patient noted that she believes she cannot see in her periphery as well as normal. The patient’s vision was 20/40 OD and 20/25 OS. Colour vision was 9/14 OD, 12/14 OS on Ishihara plates. No RAPD was noted.  Dilated eye examination was normal. The OCT RNFL and GCC are shown below:\n\n![](/content/media/neuro-ophthalmology-6-1.webp)",
+  "footer": "### Learning Objectives:\n​\n\n1. Describe the findings on visual field and OCT with acute pituitary apoplexy\n2. Time is necessary for OCT to thin compared to visual field deficit in compressive lesions"
+}

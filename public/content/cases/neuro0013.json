@@ -1,0 +1,102 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Left optic disc edema",
+          "explanation": "The patient has elevation of the left peripapillary tissues. There are peripapillary wrinkles seen (yellow arrow) which are a sign of optic disc edema. There is also a peripapillary hyper-reflective ovoid mass-like structure (PHOMS) which is a non-specific OCT sign of axonal distention and crowding that can be seen in both acquired and dysplastic anomalies of the optic nerve head (red arrow).  The globe also has an irregular contour (green arrow). All these signs point to optic disc edema.\n\n![](/content/media/neuro-ophthalmology-13-5.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Right optic disc edema"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Left peripapillary choroidal neovascular membrane"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Right optic nerve avulsion"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What abnormality does the patient likely have?"
+    },
+    {
+      "title": "Question 2",
+      "text": "![](/content/media/neuro-ophthalmology-13-6.webp)\n\n![](/content/media/neuro-ophthalmology-13-7.webp)\n\nThe optic nerve photos on fundoscopy are shown above highlighting the optic disc edema and peri-papillary wrinkles (green arrows).\n\n![](/content/media/neuro-ophthalmology-13-8.webp)\n\n![](/content/media/neuro-ophthalmology-13-9.webp)\n\nThe OCT of the RNFL and macular GCIPL are shown above.  Which of the following is seen?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. The patient has a left optic neuropathy"
+        },
+        {
+          "correct": true,
+          "answerText": "B. The patient has elevation of the left RNFL",
+          "explanation": "Specifically, this is seen in the superior, nasal and inferior quadrants. This confirms what was seen on the OCT EDI of the optic nerve."
+        },
+        {
+          "correct": false,
+          "answerText": "C. The patient has atrophy of the macular GCIPL OU"
+        },
+        {
+          "correct": false,
+          "answerText": "D. The patient has right elevation of the RNFL"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "![](/content/media/neuro-ophthalmology-13-10.webp)\n\n![](/content/media/neuro-ophthalmology-13-11.webp)\n\nThe OCT macula 5-line raster is shown above. What abnormality is seen?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Irregular contour in the left eye",
+          "explanation": "The patient has an irregular macular contour.  The fovea is more anterior compared to the peripapillary and peripheral retina (red arrow).\n\n![](/content/media/neuro-ophthalmology-13-12.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Dropout of the ellipsoid zone on the left"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Choroidal neovascular membrane OS"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Choroidal melanoma with subretinal fluids OS"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "Considering that the patient has normal visual function, mild left optic disc edema and irregular contour of the globe, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Orbital trauma"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Orbital mass",
+          "explanation": "The patient has a left intraconal tumour with mass effect on the left globe. An MRI of the orbits was performed as shown below.  The MRI orbit shows a unilateral, well-circumscribed mass located within the muscle cone (red arrow) which is most consistent with a cavernous hemangioma, the most common benign orbital tumour in adults. Although this patient presented asymptomatically, it is possible that an orbital tumour of a larger size cause axial proptosis, decreased or double vision, elevated intraocular pressure, decreased extraocular movements and an afferent pupillary defect.  In these cases, surgical excision is the treatment of choice.\n\n![](/content/media/neuro-ophthalmology-13-13.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Papilledema"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Intracranial aneurysm"
+        }
+      ]
+    }
+  ],
+  "caseID": "neuro0013",
+  "category": "neuro-ophthalmology",
+  "title": "Case 13",
+  "description": "38M presenting for abnormal optic disc on fundoscopy",
+  "patientPresentation": "A 38-year-old female was referred to an ophthalmologist after her optometrist detected an abnormality in one of her optic discs on fundoscopy.  Her visual acuity on presentation is 20/20 OU with no RAPD. Humphrey’s visual fields were performed below.\n\n![](/content/media/neuro-ophthalmology-13-1.webp)\n\n![](/content/media/neuro-ophthalmology-13-2.webp)\n\nAn OCT Enhanced Depth Imaging 5-line raster of both optic nerves was performed and is shown below.\n\n![](/content/media/neuro-ophthalmology-13-3.webp)\n\n![](/content/media/neuro-ophthalmology-13-4.webp)",
+  "footer": "### Learning Objectives:\n​\n\n1. To recognize the manifestations of cavernous hemangioma on OCT\n2. Identify neuroimaging features that suggest cavernous hemangioma"
+}

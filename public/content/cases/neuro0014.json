@@ -1,0 +1,90 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Total central retinal artery occlusion"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Choroidal neovascularization membrane"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Central retinal vein occlusion"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Partial central retinal artery occlusion",
+          "explanation": "The OCT demonstrates primarily inner retinal hyper-reflectivity and loss of organization of the inner retina, which is in keeping with a central retinal artery occlusion (CRAO). Inner retinal hyper-reflectivity is seen in all stages of CRAO. The large circum-papillary cotton wool spots and his better initial vision suggest this started as a partial CRAO that later progressed to more severe inner retinal infarction.\n\nReferences:\n\nAhn SJ, Woo SJ, Park KH, Jung C, Hong JH, Han MK. Retinal and choroidal changes and visual outcome in central retinal artery occlusion: an optical coherence tomography study. Am J Ophthalmol 2015;159(4):667-76."
+        }
+      ],
+      "title": "Question 1",
+      "text": "What is the diagnosis based on the patient fundus findings and OD OCT macula?"
+    },
+    {
+      "title": "Question 2",
+      "text": "What is a clinically proven treatment for CRAO?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Hyperventilation"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Ocular massage"
+        },
+        {
+          "correct": false,
+          "answerText": "C. IOP lowering drops"
+        },
+        {
+          "correct": true,
+          "answerText": "D. None of the above",
+          "explanation": "There is currently no clinically proven treatment for CRAO. However, hyperventilation (inhaling a mixture of 95% oxygen and 5% CO2 to dilate retinal arteries), ocular massage to dislodge the clot, and IOP lowering medications may be used. None of these three options have shown predictability or reliability to alter disease course. It is important to consider GCA in the differential diagnosis of a CRAO especially if an embolus is not seen. If GCA is missed, it can result in bilateral irreversible vision loss."
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "![](/content/media/neuro-ophthalmology-14-3.webp)\n\nWhat pathology is this horizontal 5-line raster overlaying?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Exudates"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Subretinal fluid"
+        },
+        {
+          "correct": false,
+          "answerText": "C. CNVM"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Cotton wool spot",
+          "explanation": "Cotton wool spots are localized accumulations of axoplasmic debris that are visible as discrete opaque swellings of the inner retina. Pathologically they consist of “cystoid bodies”, which are the distended stumps of ganglion cell axons. They are best regarded sentinels of inner retinal ischemia and can be seen in a number of disease processes. Cotton wool spots in combination with optic disc edema should raise suspicion for GCA.\n\n![](/content/media/neuro-ophthalmology-14-4.webp)\n\nReferences:\n\n1. Mcleod D. Why cotton wool spots should not be regarded as retinal nerve fibre layer infarcts. Br J Ophthalmol 2005;89:229-37."
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": " How can one differentiate a cotton wool spot on OCT to a hard exudate?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "On OCT, a cotton wool spot appears to be an area of localized swelling and thickening of the RNFL (yellow arrow). A cotton wool spot can be differentiated easily from a hard exudate on OCT based on the location of the pathology. Hard exudates are typically found in the outer plexiform layer.\n\n![](/content/media/neuro-ophthalmology-14-5.webp)\n\nReferences:\n\n1. Arroyo JG. Cotton-wool spots may challenge diagnosis. Review of Ophthalmology 2004;111-114."
+        }
+      ]
+    }
+  ],
+  "caseID": "neuro0014",
+  "category": "neuro-ophthalmology",
+  "title": "Case 14",
+  "description": "77M presenting with headaches, diplopia, loss of vision OD",
+  "patientPresentation": "A 77-year-old male presented to the emergency room with new headaches for 2 months, followed by jaw claudication, transient diplopia and loss of vision OD. His visual loss and symptoms became more severe the next day. His vision was CF@ 3ft OD and 20/30 OS, with a right RAPD. CRP was 30 (normal < 11) and ESR was 54. He was admitted for suspected GCA. The patient was treated with IV methylprednisolone 1g daily x 3 days followed by Prednisone 60mg PO daily.\n​\nOne week following initial presentation, the patient was seen for follow-up and consideration of a temporal artery biopsy. Dilated fundus photos and OD OCT macula are shown below.\n\n![](/content/media/neuro-ophthalmology-14-1.webp)\n\n![](/content/media/neuro-ophthalmology-14-2.webp)",
+  "footer": "### Learning Objectives:\n​\n\n1. To evaluate the stage of CRAO based on macula OCT imaging\n2. To examine a cotton-wool spot on OCT"
+}

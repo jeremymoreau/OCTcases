@@ -1,0 +1,102 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The fundus photo show vitreous haze, hyperemic and swollen optic nerve, tortuous vessels, a large subfoveal fluid pocket (black circle), and multiple smaller subretinal fluid foci. The late phase IVFA demonstrated diffuse leakage and vasculitis.\n\n![](/content/media/uveitis_11_2.webp)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "Describe the findings in the fundus photo and IVFA image."
+    },
+    {
+      "title": "Question 2",
+      "text": "An OCT macula of the left eye is below:\n\n![](/content/media/uveitis_11_3.webp)\n\nWhat is the key OCT finding?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Large serous pigment epithelial detachment"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Intra-retinal fluid"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Sub-retinal hemorrhage"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Bacillary detachment",
+          "explanation": "The OCT macula of the left eye demonstrated a well-demarcated, dome-shaped detachment of the neurosensory retinal layers from the RPE. This is characteristic of a bacillary detachment. A bacillary detachment involves splitting of the inner segments of the photoreceptor layer between the myoid zone (MZ) and the ellipsoid zone (EZ). Remnants of the photoreceptor layer can be seen as the hyperreflective material (blue arrows) along the outer retinal border, within the subretinal fluid, and overlying the retinal pigment epithelium (RPE). Undulations of the RPE can also be appreciated (red arrows).\n\n![](/content/media/uveitis_11_4.webp)"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What is the diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Endogenous endophthalmitis"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Sympathetic Ophthalmia",
+          "explanation": "Given the history of ocular trauma and surgery in the fellow eye and the presence of systemic features, the diagnosis is sympathetic ophthalmia (SO). SO is a bilateral, granulomatous uveitis that develops following ocular trauma or surgery. It is caused by an autoimmune-mediated reaction. SO is rare, with an estimated incidence of 0.5% following penetrating eye injuries and about 0.03% following surgery (especially vitreoretinal surgery). ​\n\n​Clinical findings can vary in patients with SO. Anterior findings typically include keratic precipitates, anterior chamber reaction, and posterior synechiae. Posterior findings include vitritis, papillitis, multifocal choroiditis, multiple serous retinal detachments, macular edema, choroidal neovascularization, and epiretinal membranes. OCT imaging typically reveals multiple subretinal fluid pockets with associated serous retinal detachments. Some patients may present with bacillary detachments (as was the case in this patient). The underlying RPE is typically undulated, as well. \n\n​VKH disease also presents with similar clinical features but does not appear following ocular trauma or surgery. Compared to SO, patients with VKH disease have higher rates of systemic findings and follow the pattern of early posterior findings with later anterior inflammation.\n\n​CSR is unlikely given the clinical picture, especially the presence of systemic findings and ocular trauma. \n\n​Endogenous endophthalmitis typically manifests as white chorioretinal infiltrates with vitritis and not as a detachment as seen in this patient. Patients usually have underlying risk factors such as intravenous drug use, diabetes, HIV, or malignancy predisposing them to infection.\n\n​References: \n\nGupta V, Gupta A, Dogra MR. Posterior sympathetic ophthalmia: a single centre long-term study of 40 patients from North India. Eye. 2008;3(12):1459–1464.\n\n​Galor A, Davis JL, Flynn HW,Jr, Feuer WJ, Dubovy SR, Setlur V, et al. Sympathetic ophthalmia: incidence of ocular complications and vision loss in the sympathizing eye. Am J Ophthalmol. 2009 Nov;148(5):704,710.e2.\n\nYang P, Liu S, Zhong Z, et al. Comparison of Clinical Features and Visual Outcome between Sympathetic Ophthalmia and Vogt-Koyanagi-Harada Disease in Chinese Patients. Ophthalmology. 2019;126(9):1297-1305. doi:10.1016/j.ophtha.2019.03.049\n\n​"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Vogt-Koyanagi-Harada Disease"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Central Serous Retinopathy"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What is the initial treatment for this patient?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Systemic steroids",
+          "explanation": "Systemic corticosteroids are the first line therapy for SO. In the acute stage, intravenous methylprednisolone pulse therapy is required to halt further posterior changes. Patients are then transitioned to an oral steroid taper (1mg/kg). \n\n​Systemic immunosuppression is often necessary for the long term and can be achieved by steroid-sparing immunosuppressants, which must be individualized for each patient. Antibiotics are not indicated in SO. Some reports in the literature have suggested that intravitreal steroids can be given as an adjunct to systemic steroids to achieve high local concentrations. Once SO develops, enucleation of the injured or operated eye appears to have no benefit.\n\n​References:\n\nChang GC, Young LH. Sympathetic ophthalmia. Semin Ophthalmol. 2011;26(4-5):316-320. doi:10.3109/08820538.2011.588658"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Intravitreal steroids"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Oral antibiotics"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Immunosuppressants"
+        },
+        {
+          "correct": false,
+          "answerText": "E. Enucleation of the other eye"
+        },
+        {
+          "correct": false,
+          "answerText": "F. A and C"
+        }
+      ]
+    },
+    {
+      "title": "Follow up",
+      "text": "The patient was admitted and treated with 1g intravenous solumedrol for 3 days and had a full uveitic work-up, which returned normal. He was then transitioned to oral prednisone 1mg/kg for 7 days, then tapered by 10mg every week.\n\n![](/content/media/uveitis_11_5.webp)\n\nAt the 2-week follow-up, OCT imaging (above) showed resolution of subretinal fluid. His vision improved to 20/50 and was continued on a tapering dose. Azathioprine was also initiated as a steroid sparing therapy."
+    }
+  ],
+  "caseID": "uveitis0011",
+  "category": "uveitis",
+  "title": "Case 11",
+  "description": "50M presenting with acute vision loss OS for 1 day",
+  "patientPresentation": "**Contributor:** Fahmeeda Murtaza (CC3)\n\nA 50-year old male presented to the ophthalmology service with a 1-day history of vision loss in his left eye. He also endorsed a 1-week history of headaches, fatigue, tinnitus, and malaise. His past ocular history included a globe rupture in his right eye 20 years ago from penetrating trauma, as well as a second globe rupture in the same right eye 1 month prior to presentation from a blunt injury at work. Following both globe ruptures, the right eye was successfully closed with primary intention, but was left with NLP vision. His past medial history was remarkable for diabetes and hypertension.\n\nOn examination, visual acuity was 20/400 OS, IOP was 14, and his left pupil was reactive to light. There were 1+ AC cells, 1+ flare, and 1+ vitreous cells. A fundus photo and late-phase IVFA image of the left eye are shown below:\n\n![](/content/media/uveitis_11_1.webp)",
+  "footer": "### Learning Objectives:\n\n1. Recognize the clinical, fundoscopic, and OCT features of sympathetic ophthalmia. \n\n2. Understand the treatment and management of sympathetic ophthalmia."
+}

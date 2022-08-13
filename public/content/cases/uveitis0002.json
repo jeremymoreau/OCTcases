@@ -1,0 +1,129 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Bilateral optic nerve head swelling and hyperemia"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Bilateral slight tortuous retinal blood vessels"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Bilateral retinal folds and striae in the posterior pole"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the above",
+          "explanation": "The fundus exam shows optic nerve head swelling with blurred margins and hyperemia, slight tortuous retinal blood vessels, and retinal folds and striae (green square) in the posterior pole in both eyes.\n\n![](/content/media/uveitis2-2.webp)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What are the most notable abnormalities in the fundus photograph?"
+    },
+    {
+      "title": "Question 2",
+      "text": "![](/content/media/uveitis2-3.webp)\n\nThe macular OCT images of both eyes are shown above. What are the most notable abnormalities in the OCT images?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Intra retinal fluid/macular edema involving the area between optic disc and the parafoveal region (OS>OD)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Retinal folds (OS>OD)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Slight sub retinal fluid collection underneath the fovea (OS) only"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All the above",
+          "explanation": "The OCT scan showed intra retinal fluid (IRF)/macular edema involving the area between optic disc and the parafoveal region, and retinal/choroidal folds (OS>OD). Also, there is a very slight amount of sub retinal fluid collection underneath the fovea (OS) only.\n\n![](/content/media/uveitis2-4.webp)"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "![](/content/media/uveitis2-5.webp)\n\nThe B-scan image of the left eye is shown above.  What are the abnormalities in the B-scan image?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Diffuse scleral/choroidal thickening"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Fluid collecting in the posterior episcleral space creating the letter “T” with the optic nerve echolucent shadow"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Retinal detachment"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Both A and B",
+          "explanation": "The B-scan showed diffuse scleral and choroidal thickening (red line) with fluid collecting in the posterior episcleral space creating the pathognomonic letter “T” sign with the optic nerve echolucent shadow (yellow dotted line).  \n\n![](/content/media/uveitis2-6.webp)"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What is the likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Idiopathic intracranial hypertension (IIH)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Optic neuritis"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Hypertensive retinopathy"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Posterior scleritis",
+          "explanation": "The most likely diagnosis is bilateral posterior scleritis (OS>OD) with anterior uveitis. Posterior scleritis is defined as involvement of the sclera posterior to the insertion of the rectus muscles. The onset of scleritis is gradual. Most patients develop severe boring or piercing eye pain over several days. This pain is characteristically dull and boring in nature and exacerbated by eye movements. Worsening of the pain during eye movement is due to the extraocular muscle insertions into the sclera. It may be worse at night and awakens the patient while sleeping. Posterior scleritis can manifest as retinal folds or striae, vascular congenstion, chorioretinal granulomas, retinal vasculitis, serous retinal detachment and macular or optic nerve edema with or without haemorrhages or cotton-wool spots. In pediatric age group, common features of posterior scleritis include concurrent anterior uveitis, disc swelling, and retinal striae. B-scan ultrasonography and orbital magnetic resonance imaging (MRI) may be used for the detection of posterior scleritis. Ultrasonographic changes include scleral and choroidal thickening, scleral nodules, fluid collecting in the posterior episcleral space (pathognomonic T sign), or serous retinal detachment. (1)"
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "What are the OCT imaging features that might be found in posterior scleritis during the active phase?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Hyper-reflective lesions in choroid with choroidal thickening"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Sub-retinal fluid or serous retinal detachment"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Retinal / choroidal folds"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Intra-retinal fluid and macular edema"
+        },
+        {
+          "correct": true,
+          "answerText": "E. All of the above",
+          "explanation": "The imaging features of OCT in posterior uveitis during active phase include: choroidal thickening, sub-retinal fluid/serous retinal detachment, retinal folds, and intra-retinal fluid/macular edema. (2)\n\n![](/content/media/uveitis2-7.webp)"
+        }
+      ]
+    }
+  ],
+  "caseID": "uveitis0002",
+  "category": "uveitis",
+  "title": "Case 2",
+  "description": "10F presenting with 2-months of headache and eye pain",
+  "patientPresentation": "**Contributors:** Dr. Hatim Batawi and Dr. Kamiar Mireskandari\n\nA healthy 10 year old girl presented with 2 month history of recurrent bilateral eye redness, dull aching eye pain with movement, and severe frontal headaches. The headache was usually worse at night and sometimes woke her up from sleep. Review of system was remarkable for low grade fever. Her past ocular and medical history were unremarkable. On exam, her vision was 20/20 OD and 20/25 OS. There was no RAPD OU. IOP was 15 OD and 14 OS. EOM was intact OU. Slit lamp exam showed slight conjunctival injection and 2+ cells in A/C OU.  The fundus photo of both eyes are shown below:\n\n![](/content/media/uveitis2-1.webp)",
+  "footer": "### References:​\n​\n\n1. Cheung CM, Chee SP. Posterior scleritis in children: clinical features and treatment. Ophthalmology. 2012;119(1):59-65. doi:10.1016/j.ophtha.2011.09.030\n2. Ge WANG, Xiaoyan Peng; The Imaging features of SS-OCT in Posterior Scleritis and Its Application to Clinic. Invest. Ophthalmol. Vis. Sci. 2020;61(7):3229.\n3. Mallick J, Pujahari S, Maharana PK Posterior scleritis presenting as conjunctivitis in a child. Case Reports. 2016;2016:bcr2016217968.\n\n### Learning Objectives:\n​\n\n1. Identify the OCT features associated with posterior scleritis\n2. Identify the B-scan features associated with posterior scleritis"
+}

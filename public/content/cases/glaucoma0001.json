@@ -1,0 +1,102 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Focal area of reduced RNFL thickness superiorly",
+          "explanation": "The ONH/RNFL deviation map (black arrows) and TSNIT plot (red circle) shows a focal region of reduced RNFL thickness superior to the disc bilaterally; however, this does not follow the infero-temporal or supero-temporal arcuate pattern seen when the vulnerability zones (superiorly or inferiorly) are affected. The RNFL is relatively thin slightly nasal into the disc, not temporally as expected with vulnerability zone deficits.\n\n![](/content/media/glacoma1_3.webp)\n\n![](/content/media/glacoma1_4.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Thin macular vulnerability zone"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Temporal insertion of RNFL into disc"
+        },
+        {
+          "correct": false,
+          "answerText": "D. All of the above"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What main abnormality is seen on ONH/RNFL OCT?"
+    },
+    {
+      "title": "Question 2",
+      "text": "What is the diagnosis in this patient?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Glaucoma"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Split superior RNFL bundle",
+          "explanation": "Glaucoma is unlikely as the pattern of reduced RNFL thickness is atypical for glaucoma (spares macular vulnerability zone) and ganglion cell analysis shows normal thickness. Retinal vascular disease is also unlikely as the area of reduced RNFL thickness would be expected to be more diffuse and correlate with a specific compromised vessel. This patient has a split superior RNFL bundle. RNFL thickness falls out of normal range at the bundle split, leading to what is termed ‘red disease’. Red disease is non-existent disease incorrectly identified by technology. Split RNFL bundles are anatomic variants in healthy human eyes and may show red disease on OCT RNFL/ONH."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Retinal vascular disease"
+        },
+        {
+          "correct": false,
+          "answerText": "D. None of the above"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What findings consistent with a split superior RNFL bundle are seen on this patient’s OCT images?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Thin superior RNFL"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Wide spacing between superior vessels"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Double-hump sign"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the above",
+          "explanation": "As you can see on the RNFL thickness and deviation maps, reduced superior RNFL thickness is observed between the superior retinal vessels (black arrow). The distance between superior retinal vessels is relatively wide (red brackets), which occurs because of the splitting of superior RNFL fibers. A double-hump sign (red circles), showing two superior RNFL thickness peaks, is also seen on the TSNIT plot. \n\n![](/content/media/glacoma1_5.webp)\n\n![](/content/media/glacoma1_6.webp)\n\n​References:\n\n1. Kaliner E, Cohen MJ, Miron H, Kogan M, Blumenthal EZ. Retinal nerve fiber layer split bundles are true anatomic variants. Ophthalmology. 2007 Dec;114(12):2259-64.​​"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "RNFL split bundles are susceptible in which patient population?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Myopes",
+          "explanation": "Suspect RNFL split bundles when you have the above findings on ONH/RNFL OCT from question 3 (double hump sign, wide spacing between superior RNFL vessels and thin superior RNFL) in a myopic patient.\n\n​References:\n\n1. Bayer, A., & Akman, A. (2020). Artifacts and Anatomic Variations in Optical Coherence Tomography. Turk Oftalmoloji Gazetesi, 50(2), 99–106."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Hyperopes"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Peripapillary atrophy"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Glaucoma"
+        }
+      ]
+    }
+  ],
+  "caseID": "glaucoma0001",
+  "category": "glaucoma",
+  "title": "Case 1",
+  "description": "27M presents with a family history of open angle glaucoma",
+  "patientPresentation": "A 27-year-old male with a family history of open-angle glaucoma was referred to an ophthalmologist as a glaucoma suspect. His visual acuity was 20/20 OU. His manifest refraction was -5.00D OU. IOP was 10 OD and 11 OS (on 0/0 classes of glaucoma medications). Repeat OCT ONH/RNFL and Ganglion Cell analyses were completed and shown below:\n\n![](/content/media/glaucoma1_1.webp)\n\n![](/content/media/glacoma1_2.webp)",
+  "footer": "### Learning Objectives:\n\n1. Interpreting RNFL and GCC OCT images in patients with red disease.\n2. Identifying split-bundle RNFL defects on OCT."
+}

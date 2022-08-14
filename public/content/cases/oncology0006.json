@@ -1,0 +1,94 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. OD: Elevated retinal mass, drusen, macular exudates; OS: intraretinal cysts, intraretinal hemorrhage, subretinal fluid"
+        },
+        {
+          "correct": true,
+          "answerText": "B. OD: Elevated retinal mass, intraretinal fluid, macular exudates; OS: intraretinal cysts, macular exudates, subretinal fluid",
+          "explanation": "In the right eye, there is an elevated lobular hyperreflective retinal mass (red circle) causing disorganization of the retinal layers and posterior shadowing. Small pockets of adjacent intraretinal fluid can also be visualized (blue arrows). Macular exudates are evident as well (yellow arrows). There is no drusen.\n\n​In the left eye, large intraretinal cysts are present (blue arrows). Macular exudates (yellow circle) and subretinal fluid (green arrows) are seen as well. \n\n![](/content/media/onc6_7.webp)\n\n![](/content/media/onc6_8.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. OD: Elevated choroidal mass, intraretinal fluid, blood; OS: intraretinal cysts, intraretinal hemorrhage, elevated retinal mass"
+        },
+        {
+          "correct": false,
+          "answerText": "D. OD: Elevated choroidal mass, intraretinal fluid, macular exudates; OS: intraretinal cysts, macular exudates, intraretinal hemorrhage"
+        }
+      ],
+      "title": "Question 1",
+      "text": "Which option correctly matches the OCT findings in both eyes?"
+    },
+    {
+      "title": "Question 2",
+      "text": "Based on the multi-modal imaging provided, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Bilateral retinal macroaneurysms"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Coat’s disease"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Bilateral retinal infarcts"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Bilateral retinal hemangioblastomas",
+          "explanation": "On OCT, the lobulated lesion in the right eye occupies the full thickness of the retina and correlates with the reddish-orange mass at the inferior arcades in the right eye. There is intra-retinal exudation seen on OCT that is also seen on the fundus photographs (red circles). The lesions appear to be vascular as there are tortuous blood vessels feeding (green arrow) and draining (black arrows) the tumour. All of these findings are diagnostic of retinal hemangioblastomas (1,2). \n\n![](/content/media/onc6_9.webp)\n\n![](/content/media/onc6_10.webp)\n\nCoat’s disease, retinal infarcts and retinal macroaneurysms can also mimic retinal hemangioblastomas. Coat’s disease presents in late childhood and early adolescence with peripheral retinal telangiectasias which result in exudates, retinal detachments and other complications (3). The advanced age of this patient and well-defined nature of the lesions make Coat’s disease unlikely. Macroaneurysms may appear similar to hemangioblastomas on fundoscopy, however OCT will not show a lobulated hyper-reflective intraretinal lesion (4). \nRetinal infarcts may be observed as cotton wool spots on fundoscopy and OCT in the acute stage, and as inner retinal atrophy in the chronic stage. The presence of a lobular mass seen on OCT makes this etiology unlikely in this patient."
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What is the most likely systematic diagnosis in this patient?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "In a patient with a history of cerebellar tumours (as noted in the stem of this case) and detection of retinal hemangioblastomas on ophthalmic workup, von Hippel-Lindau (VHL) disease should be suspected. VHL is a genetic disease which follows an autosomal dominant inheritance pattern. Mutation of the VHL tumour suppressor gene results in the growth of cysts and tumours throughout the body. While no formal diagnostic criteria for VHL has been established, this systemic disease should be suspected in those with retinal hemangioblastomas, spinal or cerebellar hemangioblastomas, pheochromocytoma, renal cell carcinoma, pancreatic and renal cysts, neuroendocrine tumours of the pancreas, endolymphatic sac tumours, and potentially papillary cystadenomas of the epididymis or broad ligament (5)."
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "Which of the following is recommended to manage this patient’s retinal hemangioblastomas and VHL disease?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Anti-VEGF"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Focal laser"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Genetics workup"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Radiotherapy"
+        },
+        {
+          "correct": true,
+          "answerText": "E. All of the above",
+          "explanation": "The pathogenesis of tumour progression in VHL involves excess production of VEGF. Therefore, anti-VEGF (either systemic or intravitreal) are commonly used agents to treat patients with hemangioblastomas and VHL disease. The choice between systemic or intravitreal anti-VEGF often pertains to balancing side effects of treatment with the potential to treat tumours in multiple sites (ex. retinal, cerebellar, renal). Focal laser can be used to prevent further exudation of fluid in leaky blood vessels. Further evaluation with updated MRI brain/spinal cord and MRI abdomen as well as genetic testing is recommended in patients with suspected or clinically diagnosed VHL. Specific management directed at the nature of tumours found in other sites can also be undertaken. For example, tyrosine kinase inhibitors, radiotherapy, chemotherapeutics, and surgical approaches may be used in renal cell carcinoma associated with VHL (6,7)."
+        }
+      ]
+    }
+  ],
+  "caseID": "oncology0006",
+  "category": "ocular oncology",
+  "title": "Case 6",
+  "description": "59M referred for decreased vision OS after brain surgery",
+  "patientPresentation": "A 59-year-old male was referred to an ophthalmology service due to decreased vision in his left eye over the past 5 months. The patient had brain surgery for a cerebellar tumour last year. On assessment, his visual acuity was 20/30-1 OD and 20/350+2 OS. IOP was 16 OD and 18 OS. Slit lamp examination demonstrated early cataracts. Fundus photographs, fundus autofluorescence, and OCT macula OU were obtained and shown below:\n\n![](/content/media/onc6_1.webp)\n\n![](/content/media/onc6_2.webp)\n\n![](/content/media/onc6_3.webp)\n\n![](/content/media/onc6_4.webp)\n\n**OD**\n\n![](/content/media/onc6_5.webp)\n\n**OS**\n\n![](/content/media/onc6_6.webp)",
+  "footer": "### References: \n\n1. Shields CL, Manalac J, Das C, Saktanasate J, Shields JA. Review of spectral domain enhanced depth imaging optical coherence tomography (EDI-OCT) of tumors of the retina and retinal pigment epithelium in children and adults. Ind J Ophthalmol. 2015;63(2):128-132. \n2. Choudhry N, Golding J, Rao RC. Widefield Swept-Source OCT of Retinal Capillary Hemangioblastoma. Ophthalmol Retina. 2017 Jul-Aug;1(4):321.\n3. Sen M, Shields CL, Honavar SG, Shields JA. Coats disease: An overview of classification, management and outcomes. Indian J Ophthalmol. 2019;67(6):763-771. doi:10.4103/ijo.IJO_841_19\n4. Alnawaiseh, M., Schubert, F., Nelis, P. et al. Optical coherence tomography (OCT) angiography findings in retinal arterial macroaneurysms. BMC Ophthalmol 16, 120 (2016). \n5. van Leeuwaarde RS, Ahmad S, Links TP, et al. Von Hippel-Lindau Syndrome. 2000 May 17 \\[Updated 2018 Sep 6]. In: Adam MP, Ardinger HH, Pagon RA, et al., editors. GeneReviews® \\[Internet]. Seattle (WA): University of Washington, Seattle; 1993-2021.  \n6. Singh AD, Nouri M, Shields CL, et al. Treatment of retinal capillary hemangioma. Ophthalmology. 2002;109(10);1799-1806.\n7. Schmid S, Gillessen S, Binet I, Brändle M, Engeler D, Greiner J, Hader C, Heinimann K, Kloos P, Krek W, Krull I, Stoeckli SJ, Sulz MC, van Leyen K, Weber J, Rothermundt C, Hundsberger T. Management of von hippel-lindau disease: an interdisciplinary review. Oncol Res Treat. 2014;37(12):761-71.\n\n### Learning Objectives:\n\n\n1. To identify features of von Hippel-Lindau (VHL) disease\n\n2. To identify treatments for retinal hemangioblastomas and VHL disease"
+}

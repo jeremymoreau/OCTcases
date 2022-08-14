@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Low RNFL symmetry"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Thin inferior RNFL"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Thin superior RNFL"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the above",
+          "explanation": "Values in ‘red’ represent the bottom 1% of the normal distribution of an age-matched patient’s RNFL thickness. ONH/RNFL shows reduced inferior and superior RNFL thickness as seen on this patient’s TSNIT plot (blue arrow). These findings correspond with infero-temporal and supero-temporal ganglion cell loss seen on the GCC macular cube. Poor RNFL symmetry is noted. A high cup to disc ratio in the right eye (vertical > average), interpreted by the OCT, is also seen.\n\n![](/content/media/glaucoma-4-3.webp)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What abnormalities seen on ONH/RNFL OCT in the right eye?"
+    },
+    {
+      "title": "Question 2",
+      "text": "Based on the patient’s OCT images, what visual field defect would you expect to see?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Paracentral scotoma"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Temporal wedge"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Inferior arcuate defect"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Nasal step with superior arcuate defect",
+          "explanation": "The nasal RNFL is preserved and thus a temporal wedge would not be seen. A paracentral scotoma is indicative of severe glaucoma, which is unlikely based on the patient’s OCT results. An inferior arcuate defect is possible, however in glaucoma, RNFL loss typically begins inferiorly which would result in a nasal step or superior arcuate defect (if more advanced).\n\nThis patient’s OCT shows reduced inferior and superior RNFL thickness, which would correspond to superior and inferior visual field loss, respectively. Because inferior RNFL loss is more pronounced, one may expect to see a nasal step or superior arcuate defect. A nasal step, possibly progressing into a superior arcuate defect, is visible on the patient’s visual field grey scale (red circle).\n\n![](/content/media/glaucoma-4-4.webp)"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What stage glaucoma does the patient have in the right eye?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Mild Glaucoma"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Moderate Glaucoma"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Severe Glaucoma",
+          "explanation": "The Hoddap –Parrish –Anderson (HAP) criteria is commonly used to assess glaucoma severity using the mean deviation (MD) index obtained from visual field testing. The HAP criteria defines early glaucoma as MD less than -6dB, moderate glaucoma as MD between -6dB and -12dB, and severe glaucoma as MD worse than -12dB. The MD values of this patient’s visual fields (yellow box) lie in the ‘moderate’ severity group. Central fixation is also used to determine stage. This patient’s MD value fell within the ‘moderate’ severity but visual fields showed some central involvement on the Pattern Deviation map (red arrows). Therefore, they are automatically classified as severe/advanced and will treated more aggressively.\n\nReferences\n\n1. Hodapp E, Parrish II R, Anderson D. Clinical Decisions in Glaucoma. St. Louis: Mosby-Year Book, Inc.; 1993.\n\n![](/content/media/glaucoma-4-5.webp)\n\n![](/content/media/glaucoma-4-6.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Unable to accurately assess severity"
+        }
+      ]
+    }
+  ],
+  "caseID": "glaucoma0004",
+  "category": "glaucoma",
+  "title": "Case 4",
+  "description": "73F referred for bilateral optic disc cupping",
+  "patientPresentation": "A 73-year-old female was referred from her optometrist after a dilated fundus examination demonstrated optic disc cupping bilaterally (OD > OS). Her visual acuity was 20/20 OD and 20/30 OS. IOP was 28 OD and 16 OS. Her angles were open bilaterally on gonioscopy. ONH/RNFL OCT and GCC OCT analyses were completed and shown below:\n​\n\n![](/content/media/glaucoma-4-1.webp)\n\n![](/content/media/glaucoma-4-2.webp)",
+  "footer": "### Learning Objectives:\n\n1. Interpreting RNFL and GCC OCT images in patients with severe glaucoma.\n2. Staging glaucoma severity using HAP Criteria and central involvement.\n3. Correlating OCT deficits with visual field changes."
+}

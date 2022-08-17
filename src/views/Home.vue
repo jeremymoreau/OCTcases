@@ -93,10 +93,6 @@
             <a href="https://ophthalmology.utoronto.ca/" target="_blank" rel="noopener">
             <img class="logos" alt="University of Toronto logo" src="/assets/img/home-logo-uoft.png" /></a>
           </ion-row>
-          <ion-row class="logo-row">
-            <a href="https://www.tcpophthalmology.com/copy-of-tcp-ppt" target="_blank" rel="noopener">
-            <img class="logos" id="logo-tcp-ophtho-mcgill" alt="TCP Ophthalmology Online Learning Platform McGill logo" src="/assets/img/home-logo-tcp-ophtho-mcgill.svg" /></a>
-          </ion-row>
           </ion-grid>
         </ion-card-content>
       </ion-card>

@@ -90,6 +90,18 @@
           "subtitle1": "Medical Student",
           "subtitle2": "IT and App Design Lead",
           "photo": "/content/media/aboutus-jeremy-moreau.jpeg"
+        },
+        {
+          "name": "Marko Tien",
+          "photo": "/content/media/marko-tien.webp",
+          "subtitle1": "Medical Student",
+          "subtitle2": "Content Lead"
+        },
+        {
+          "name": "Korolos Sawires",
+          "photo": "/content/media/korolos.webp",
+          "subtitle1": "Pharmacy Student",
+          "subtitle2": "App Design Lead"
         }
       ]
     },

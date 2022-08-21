@@ -79,7 +79,7 @@ import {
 } from "@ionic/vue";
 
 import { defineComponent } from "vue";
-import marked from "marked";
+import { marked } from "marked";
 import PageHeader from "./PageHeader.vue";
 import AnswerModal from "./AnswerModal.vue";
 import { getJSON, makeImagesZoomable } from "./helpers";

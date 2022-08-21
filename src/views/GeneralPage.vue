@@ -23,7 +23,7 @@ import { IonCard, IonCardContent, IonPage } from "@ionic/vue";
 
 import { defineComponent } from "vue";
 import PageHeader from "./PageHeader.vue";
-import marked from "marked";
+import { marked } from "marked";
 import { getJSON } from "./helpers";
 
 export default defineComponent({

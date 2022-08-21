@@ -26,7 +26,7 @@ import { helpCircle, moon, moonOutline } from "ionicons/icons";
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: "Header",
+  name: "PageHeader",
   components: {
     IonIcon,
     IonToolbar,

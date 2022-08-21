@@ -1,6 +1,6 @@
 <template>
   <ion-page>
-    <Header></Header>
+    <PageHeader></PageHeader>
 
     <ion-content overflow-scroll="true" scrollEvents="true" id="content">
       <!-- Short description card -->
@@ -36,24 +36,27 @@
       <!-- Main article card -->
       <ion-card>
         <ion-card-content>
-          <span class="md-text" v-if="article" v-html="article"> </span>
+          <div v-if="article">
+            <span class="md-text" v-html="article"> </span>
+          </div>
         </ion-card-content>
       </ion-card>
 
       <!-- Footer Card -->
       <ion-card v-if="footerText">
         <ion-card-content>
-          <ion-text
-            class="md-text footer-text"
-            v-if="footerText"
-            v-html="footerText"
-          >
-          </ion-text>
+          <div v-if="footerText">
+            <span
+              class="md-text footer-text"
+              
+              v-html="footerText"
+            >
+            </span>
+          </div>
         </ion-card-content>
       </ion-card>
     </ion-content>
 
-    <Footer></Footer>
   </ion-page>
 </template>
 
@@ -67,8 +70,7 @@ import {
 
 import { defineComponent } from "vue";
 import marked from "marked";
-import Header from "./Header.vue";
-import Footer from "./Footer.vue";
+import PageHeader from "./PageHeader.vue";
 import { getJSON, makeImagesZoomable } from "./helpers";
 
 export default defineComponent({
@@ -78,8 +80,7 @@ export default defineComponent({
     IonCardContent,
     IonCardTitle,
     IonPage,
-    Footer,
-    Header
+    PageHeader
   },
   data() {
     return {

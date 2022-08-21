@@ -1,6 +1,6 @@
 <template>
   <ion-page>
-    <Header></Header>
+    <PageHeader></PageHeader>
 
     <ion-content overflow-scroll="true" scrollEvents="true" id="content">
       <ion-card>
@@ -12,12 +12,12 @@
         </ion-card-header>
 
         <ion-card-content>
-          <ion-text
+          <span
             class="md-text"
             v-if="patientPresentation"
             v-html="patientPresentation"
           >
-          </ion-text>
+          </span>
         </ion-card-content>
       </ion-card>
 
@@ -29,12 +29,12 @@
             </ion-card-title>
           </ion-card-header>
           <ion-card-content>
-            <ion-text
+            <span
               class="md-text"
               v-if="question.text"
               v-html="$options.filters.markdown(question.text)"
             >
-            </ion-text>
+            </span>
 
             <!-- answer buttons -->
             <template v-for="answer in question.answers" :key="answer">
@@ -57,12 +57,12 @@
       <!-- Footer Card -->
       <ion-card v-if="footerText">
         <ion-card-content>
-          <ion-text
+          <span
             class="md-text footer-text"
             v-if="footerText"
             v-html="footerText"
           >
-          </ion-text>
+          </span>
         </ion-card-content>
       </ion-card>
 
@@ -90,7 +90,6 @@
       </ion-grid>
     </ion-content>
 
-    <Footer></Footer>
   </ion-page>
 </template>
 
@@ -110,8 +109,7 @@ import {
 
 import { defineComponent } from "vue";
 import marked from "marked";
-import Header from "./Header.vue";
-import Footer from "./Footer.vue";
+import PageHeader from "./PageHeader.vue";
 import AnswerModal from "./AnswerModal.vue";
 import { getJSON, makeImagesZoomable } from "./helpers";
 
@@ -123,8 +121,7 @@ export default defineComponent({
     IonCardSubtitle,
     IonCardTitle,
     IonPage,
-    Footer,
-    Header,
+    PageHeader,
     IonGrid,
     IonRow,
     IonCol,

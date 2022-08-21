@@ -1,6 +1,6 @@
 <template>
   <ion-page>
-    <Header></Header>
+    <PageHeader></PageHeader>
       <ion-toolbar>
       <ion-searchbar class="atlas-searchbar" v-model="searchInput"></ion-searchbar>
       </ion-toolbar>
@@ -23,7 +23,6 @@
       </template>
     </ion-content>
 
-    <Footer></Footer>
   </ion-page>
 </template>
 
@@ -32,8 +31,7 @@ import { IonPage, IonSearchbar, IonCard } from "@ionic/vue";
 import { getJSON } from "./helpers";
 
 import { defineComponent } from "vue";
-import Header from "./Header.vue";
-import Footer from "./Footer.vue";
+import PageHeader from "./PageHeader.vue";
 
 export default defineComponent({
   name: "AtlasList",
@@ -41,8 +39,7 @@ export default defineComponent({
     IonPage,
     IonSearchbar,
     IonCard,
-    Footer,
-    Header
+    PageHeader
   },
   data() {
     return {

@@ -1,6 +1,6 @@
 <template>
   <ion-page>
-    <Header></Header>
+    <PageHeader></PageHeader>
 
     <ion-content overflow-scroll="true">
       <ion-card>
@@ -10,7 +10,7 @@
           </ion-card-title>
         </ion-card-header>
         <ion-card-content>
-          <ion-text class="md-text" v-html="pageHeader"> </ion-text>
+          <span class="md-text" v-html="pageHeader"> </span>
 
           <template v-for="group in groups" :key="group">
             <div class='md-text'>
@@ -31,12 +31,11 @@
             </div>
           </template>
 
-          <ion-text class="md-text" v-html="pageFooter"> </ion-text>
+          <span class="md-text" v-html="pageFooter"> </span>
         </ion-card-content>
       </ion-card>
     </ion-content>
 
-    <Footer></Footer>
   </ion-page>
 </template>
 
@@ -44,19 +43,17 @@
 import { IonCard, IonCardContent, IonPage } from "@ionic/vue";
 
 import { defineComponent } from "vue";
-import Header from "./Header.vue";
-import Footer from "./Footer.vue";
+import PageHeader from "./PageHeader.vue";
 import marked from "marked";
 import { getJSON } from "./helpers";
 
 export default defineComponent({
-  name: "Home",
+  name: "AboutUs",
   components: {
     IonCard,
     IonCardContent,
     IonPage,
-    Footer,
-    Header,
+    PageHeader,
   },
   data() {
     return {

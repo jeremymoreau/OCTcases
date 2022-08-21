@@ -1,6 +1,6 @@
 <template>
   <ion-page>
-      <Header></Header>
+      <PageHeader></PageHeader>
 
       <ion-content overflow-scroll="true">
         <ion-list lines="full">
@@ -37,7 +37,6 @@
         </ion-list>
       </ion-content>
 
-      <Footer></Footer>
   </ion-page>
 </template>
 
@@ -45,16 +44,14 @@
 import { IonPage, IonList } from "@ionic/vue";
 
 import { defineComponent } from "vue";
-import Header from "./Header.vue";
-import Footer from "./Footer.vue";
+import PageHeader from "./PageHeader.vue";
 
 export default defineComponent({
-  name: "Home",
+  name: "CaseList",
   components: {
     IonPage,
     IonList,
-    Footer,
-    Header,
+    PageHeader,
   },
   setup() {
     return {};

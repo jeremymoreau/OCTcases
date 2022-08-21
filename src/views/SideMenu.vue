@@ -1,5 +1,5 @@
 <template>
-  <ion-menu side="start" menu-id="side-menu" content-id="menu-content">
+  <ion-menu side="start" menu-id="side-menu" content-id="main">
     <ion-header>
       <ion-toolbar translucent>
         <ion-title>OCTcases</ion-title>
@@ -68,9 +68,10 @@
       </ion-list>
     </ion-content>
   </ion-menu>
+  <ion-router-outlet id="main"></ion-router-outlet>
 </template>
 <script>
-import { IonItem } from "@ionic/vue";
+import { IonItem, IonRouterOutlet } from "@ionic/vue";
 import {
   peopleCircleOutline,
   cloudUploadOutline,
@@ -94,6 +95,7 @@ export default defineComponent({
       logoInstagram,
       downloadOutline,
       documentTextOutline,
+      IonRouterOutlet,
     };
   },
   methods: {

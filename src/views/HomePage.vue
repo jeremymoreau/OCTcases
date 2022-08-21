@@ -1,6 +1,6 @@
 <template>
   <ion-page>
-    <Header></Header>
+    <PageHeader></PageHeader>
 
     <ion-content overflow-scroll="true">
       <ion-card>
@@ -102,7 +102,7 @@
       >
     </ion-content>
 
-    <Footer></Footer>
+    
   </ion-page>
 </template>
 
@@ -110,17 +110,15 @@
 import { IonCard, IonCardContent, IonPage, alertController } from "@ionic/vue";
 
 import { defineComponent } from "vue";
-import Header from "./Header.vue";
-import Footer from "./Footer.vue";
+import PageHeader from "./PageHeader.vue";
 
 export default defineComponent({
-  name: "Home",
+  name: "HomePage",
   components: {
     IonCard,
     IonCardContent,
     IonPage,
-    Footer,
-    Header,
+    PageHeader,
   },
 
   mounted() {

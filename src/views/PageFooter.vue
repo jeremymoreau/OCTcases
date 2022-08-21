@@ -1,10 +1,9 @@
 <template>
-  <ion-footer mode='md'>
-    <ion-toolbar>
       <ion-tabs
         @ionTabsWillChange="beforeTabChange"
         @ionTabsDidChange="afterTabChange"
       >
+      <ion-router-outlet></ion-router-outlet>
         <ion-tab-bar slot="bottom" id="bottomNav">
           <ion-tab-button href="/home" tab="home" @click="gotoPage('Home')">
             <ion-icon alt="Home icon" :icon="home" />
@@ -27,8 +26,6 @@
           </ion-tab-button>
         </ion-tab-bar>
       </ion-tabs>
-    </ion-toolbar>
-  </ion-footer>
 </template>
 
 <script lang='js'>
@@ -38,23 +35,21 @@ import {
   IonTabBar,
   IonTabButton,
   IonTabs,
-  IonToolbar,
-  IonFooter,
+  IonRouterOutlet,
 } from "@ionic/vue";
 
 import { home, reader, search, helpCircle } from "ionicons/icons";
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: "Footer",
+  name: "PageFooter",
   components: {
     IonTabBar,
+    IonRouterOutlet,
     IonTabs,
-    IonFooter,
     IonIcon,
     IonLabel,
     IonTabButton,
-    IonToolbar,
   },
 
   setup() {

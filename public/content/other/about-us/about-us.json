@@ -86,16 +86,16 @@
           "photo": "/content/media/aboutus-fahmeeda-murtaza.jpg"
         },
         {
-          "name": "Jeremy Moreau, MD(C), PhD",
-          "subtitle1": "Medical Student",
-          "subtitle2": "IT and App Design Lead",
-          "photo": "/content/media/aboutus-jeremy-moreau.jpeg"
-        },
-        {
           "name": "Marko Tien, MD(C)",
           "photo": "/content/media/marko-tien.webp",
           "subtitle1": "Medical Student",
           "subtitle2": "Content Lead"
+        },
+        {
+          "name": "Jeremy Moreau, MD(C), PhD",
+          "subtitle1": "Medical Student",
+          "subtitle2": "IT and App Design Lead",
+          "photo": "/content/media/aboutus-jeremy-moreau.jpeg"
         },
         {
           "name": "Korolos Sawires",

@@ -71,18 +71,44 @@
         </ion-list>
       </ion-content>
     </ion-menu>
+    <!-- Footer -->
+    <ion-tabs
+        @ionTabsWillChange="beforeTabChange"
+        @ionTabsDidChange="afterTabChange"
+      >
     <ion-router-outlet id="main-content"></ion-router-outlet>
-    <PageFooter></PageFooter>
+        <ion-tab-bar slot="bottom" id="bottomNav">
+          <ion-tab-button href="/home" tab="home" @click="gotoPage('Home')">
+            <ion-icon alt="Home icon" :icon="home" />
+            <ion-label>Home</ion-label>
+          </ion-tab-button>
+
+          <ion-tab-button href="/articles" tab="articles" @click="gotoPage('ArticleList')">
+            <ion-icon alt="Articles icon" :icon="reader"></ion-icon>
+            <ion-label>Articles</ion-label>
+          </ion-tab-button>
+
+          <ion-tab-button href="/atlas" tab="atlas" @click="gotoPage('AtlasList')">
+            <ion-icon alt="Atlas icon" :icon="search"></ion-icon>
+            <ion-label>Atlas</ion-label>
+          </ion-tab-button>
+
+          <ion-tab-button href="/cases" tab="cases" @click="gotoPage('CaseList')">
+            <ion-icon alt="Cases icon" :icon="helpCircle"></ion-icon>
+            <ion-label>Cases</ion-label>
+          </ion-tab-button>
+        </ion-tab-bar>
+      </ion-tabs>
   </IonSplitPane>
 </IonApp>
   
 </template>
 
 <script lang="js">
-import { IonApp, IonContent, IonIcon, IonItem, IonLabel, IonList, IonMenu, IonRouterOutlet, IonSplitPane } from '@ionic/vue';
+import { IonApp, IonContent, IonIcon, IonItem, IonLabel, IonList, IonMenu, IonRouterOutlet, IonSplitPane,
+        IonTabBar, IonTabButton, IonTabs } from '@ionic/vue';
 import { defineComponent } from 'vue';
 import 'viewerjs/dist/viewer.css'
-import PageFooter from "./views/PageFooter.vue";
 import {
   peopleCircleOutline,
   cloudUploadOutline,
@@ -91,6 +117,7 @@ import {
   logoInstagram,
   downloadOutline,
   documentTextOutline,
+  home, reader, search, helpCircle
 } from "ionicons/icons";
 import { menuController } from "@ionic/vue";
 
@@ -107,7 +134,9 @@ export default defineComponent({
     IonMenu, 
     IonSplitPane,
     IonRouterOutlet,
-    PageFooter
+    IonTabBar,
+    IonTabs,
+    IonTabButton,
   },
   setup() {
     return {
@@ -119,6 +148,10 @@ export default defineComponent({
       downloadOutline,
       documentTextOutline,
       IonRouterOutlet,
+      home,
+      reader,
+      search,
+      helpCircle,
     };
   },
   methods: {

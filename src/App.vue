@@ -1,13 +1,14 @@
 <template>
   <IonApp>
     <IonSplitPane content-id="main-content">
-    <ion-menu side="start" menu-id="side-menu" content-id="main-content">
-      <ion-header>
-        <ion-toolbar translucent>
-          <ion-title>OCTcases</ion-title>
-        </ion-toolbar>
-      </ion-header>
-      <ion-content id="menu-content">
+    <ion-menu side="start" menu-id="side-menu" content-id="main-content" type="overlay">
+      
+      <ion-content>
+        <ion-header>
+          <ion-toolbar translucent>
+            <ion-title>OCTcases</ion-title>
+          </ion-toolbar>
+        </ion-header>
         <ion-list>
           <ion-item
             button="true"

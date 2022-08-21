@@ -3,7 +3,6 @@
         @ionTabsWillChange="beforeTabChange"
         @ionTabsDidChange="afterTabChange"
       >
-      <ion-router-outlet></ion-router-outlet>
         <ion-tab-bar slot="bottom" id="bottomNav">
           <ion-tab-button href="/home" tab="home" @click="gotoPage('Home')">
             <ion-icon alt="Home icon" :icon="home" />
@@ -35,7 +34,6 @@ import {
   IonTabBar,
   IonTabButton,
   IonTabs,
-  IonRouterOutlet,
 } from "@ionic/vue";
 
 import { home, reader, search, helpCircle } from "ionicons/icons";
@@ -45,7 +43,6 @@ export default defineComponent({
   name: "PageFooter",
   components: {
     IonTabBar,
-    IonRouterOutlet,
     IonTabs,
     IonIcon,
     IonLabel,

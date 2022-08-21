@@ -20,7 +20,7 @@
 </template>
 
 <script lang='js'>
-import { IonIcon, IonToolbar, IonTitle, menuController } from "@ionic/vue";
+import { IonIcon, IonToolbar, IonTitle, menuController, IonButtons, IonButton, IonMenuButton } from "@ionic/vue";
 
 import { helpCircle, moon, moonOutline } from "ionicons/icons";
 import { defineComponent } from "vue";
@@ -30,7 +30,10 @@ export default defineComponent({
   components: {
     IonIcon,
     IonToolbar,
-    IonTitle
+    IonTitle,
+    IonButtons,
+    IonButton,
+    IonMenuButton
   },
   setup() {
     return {
@@ -105,6 +108,23 @@ export default defineComponent({
 </script>
 
 <style scoped>
+.header-box {
+  display: flex;
+  align-items: center;
+}
+.header-logo {
+  content: url("https://app.octcases.com/assets/img/header-logo-light.svg");
+  display: block;
+  height: 25px;
+  padding-right: 3px;
+  margin-left: auto;
+}
+.dark .header-logo {
+  content: url("https://app.octcases.com/assets/img/header-logo-dark.svg");
+}
+.header-text {
+  margin-right: auto;
+}
 .app-title {
   font-size: 1.2rem;
 }

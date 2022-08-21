@@ -41,7 +41,7 @@
 </template>
 
 <script lang='js'>
-import { IonPage, IonList } from "@ionic/vue";
+import { IonPage, IonList, IonContent, IonItem, IonLabel } from "@ionic/vue";
 
 import { defineComponent } from "vue";
 import PageHeader from "./PageHeader.vue";
@@ -52,6 +52,9 @@ export default defineComponent({
     IonPage,
     IonList,
     PageHeader,
+    IonContent,
+    IonItem,
+    IonLabel
   },
   setup() {
     return {};

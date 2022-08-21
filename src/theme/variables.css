@@ -3,23 +3,7 @@ http://ionicframework.com/docs/theming/ */
 
 /***** custom styles *****/
 /* header logo/text */
-.header-box {
-  display: flex;
-  align-items: center;
-}
-.header-logo {
-  content: url("https://app.octcases.com/assets/img/header-logo-light.svg");
-  display: block;
-  height: 25px;
-  padding-right: 3px;
-  margin-left: auto;
-}
-.dark .header-logo {
-  content: url("https://app.octcases.com/assets/img/header-logo-dark.svg");
-}
-.header-text {
-  margin-right: auto;
-}
+
 
 /* home tab */
 ion-text {

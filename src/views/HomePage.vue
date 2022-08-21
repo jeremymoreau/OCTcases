@@ -107,7 +107,7 @@
 </template>
 
 <script lang='js'>
-import { IonCard, IonCardContent, IonPage, alertController } from "@ionic/vue";
+import { IonCard, IonCardContent, IonPage, alertController, IonContent, IonText, IonRow, IonCol, IonGrid, IonCardHeader, IonCardTitle } from "@ionic/vue";
 
 import { defineComponent } from "vue";
 import PageHeader from "./PageHeader.vue";
@@ -118,6 +118,13 @@ export default defineComponent({
     IonCard,
     IonCardContent,
     IonPage,
+    IonContent,
+    IonText,
+    IonRow,
+    IonCol,
+    IonGrid,
+    IonCardHeader,
+    IonCardTitle,
     PageHeader,
   },
 
@@ -216,5 +223,101 @@ h1 {
 
 .q-btn {
   margin-top: 10px;
+}
+/* home tab */
+ion-text {
+    font-size: 1.1rem;
+    hyphens: auto;
+}
+ion-card-title {
+  font-size: 1.2rem;
+}
+ion-button {
+  text-transform: none;
+ }
+ #octcases-logo {
+  content: url("https://app.octcases.com/assets/img/octcases-logo-light.svg");
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  padding-bottom: 1rem;
+ }
+ .dark #octcases-logo {
+  content: url("https://app.octcases.com/assets/img/octcases-logo-dark.svg");
+}
+
+ /* Markdown text style */
+ .md-text {
+   font-size: 1rem;
+ }
+ .md-text p {
+  font-size: 1rem;
+  padding-top: 0rem;
+  padding-bottom: 0.5rem;
+  color:#333333;
+}
+.dark .md-text p {
+  color: #e2e2e2;
+}
+.md-text li {
+  color: #333333;
+}
+.dark .md-text li {
+  color: #e2e2e2;
+}
+.md-text em {
+  font-size: 0.9rem;
+}
+.md-text h2 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  hyphens: none;
+}
+.md-text h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding-top: 0.6rem;
+  hyphens: none;
+}
+.md-text h3:first-child {
+  padding-top: 0px;
+}
+.md-text h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  font-style: italic;
+  padding-top: 0.6rem;
+  padding-bottom: 0.4rem;
+  hyphens: none;
+}
+.md-text ol {
+  margin-top: 0px;
+  padding-inline-start: 20px;
+}
+.md-text ul {
+  margin-top: 0px;
+  padding-inline-start: 20px;
+}
+.md-text ul li p {
+    padding-top: 0px;
+    padding-bottom: 0.2rem;
+}
+.md-text img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.md-text a {
+  text-decoration: none;
+}
+.md-text table {
+  width: 100%
+}
+.md-text td {
+  text-align: center;
 }
 </style>

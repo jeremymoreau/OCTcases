@@ -29,7 +29,7 @@
 </template>
 
 <script lang='js'>
-import { IonPage, IonList } from "@ionic/vue";
+import { IonPage, IonList, IonContent, IonItem, IonLabel, IonListHeader } from "@ionic/vue";
 import { getJSON } from "./helpers";
 
 import { defineComponent } from "vue";
@@ -41,6 +41,10 @@ export default defineComponent({
     IonPage,
     IonList,
     PageHeader,
+    IonContent,
+    IonItem,
+    IonLabel,
+    IonListHeader
   },
   setup() {
     const caseIndex = getJSON("/assets/index/case_index.json");

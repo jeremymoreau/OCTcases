@@ -19,7 +19,7 @@ collections:
     slug: "{{slug}}"  # url-safe version of the post's title
     fields:
       - {label: "Case ID", name: "caseID", widget: "string", hint: "Unique Case ID (e.g. retina0042). Must be different for each case.",  pattern: ["^[a-z]+[0-9]{4}$", "Format must be category+4 digit zero-padded number, all lowercase with no spaces or symbols (e.g. retina0042)"]}
-      - {label: "Category", name: "category", widget: "select", options: ["retina", "neuro-ophthalmology", "uveitis", "glaucoma", "ocular oncology"]}
+      - {label: "Category", name: "category", widget: "select", options: ["retina", "neuro-ophthalmology", "uveitis", "glaucoma", "ocular oncology", "paediatric ophthalmology"]}
       - {label: "Title", name: "title", widget: "string", pattern: ["^.{1,80}$", "Must be less than 80 characters"]}
       - {label: "Short Description", name: "description", widget: "string", pattern: ["^.{1,150}$", "Must be less than 150 characters"]}
       - {label: "Patient Presentation", name: "patientPresentation", widget: "markdown"}

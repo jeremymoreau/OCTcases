@@ -34,6 +34,12 @@
           >
             <ion-label> Ocular Oncology </ion-label>
           </ion-item>
+          <ion-item
+            button="true"
+            @click="gotoPage('CaseListCategory', 'paediatric ophthalmology')"
+          >
+            <ion-label> Paediatric Ophthalmology </ion-label>
+          </ion-item>
         </ion-list>
       </ion-content>
 

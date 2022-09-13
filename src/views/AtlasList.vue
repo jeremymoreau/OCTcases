@@ -7,7 +7,7 @@
     <ion-content overflow-scroll="true">
       <template v-for="item in filteredIndex" :key="item">
         <ion-card v-if="item.title" class="atlas-card" @click="gotoPage('AtlasPage', item.slug)">
-          <img class="atlas-header-img" :src="item.mainImage" :alt="item.title" />
+          <div class="header-img-cont"><img class="atlas-header-img" :src="item.mainImage" :alt="item.title" /></div>
           <ion-card-header class="atlas-card-header">
             <ion-card-title class="atlas-card-title">
               {{ item.title }}
@@ -83,5 +83,8 @@ export default defineComponent({
 .ios .atlas-searchbar {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.header-img-cont {
+  pointer-events: none;
 }
 </style>

@@ -36,9 +36,9 @@
       </ion-card>
 
       <!-- Main article card -->
-      <ion-card>
+      <ion-card v-if="article">
         <ion-card-content>
-          <div v-if="article">
+          <div>
             <span class="md-text" v-html="article"> </span>
           </div>
         </ion-card-content>

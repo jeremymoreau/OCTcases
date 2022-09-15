@@ -134,9 +134,14 @@
           "subtitle2": "University of Ottawa"
         },
         {
-          "name": "Marko Tien",
+          "name": "Shakeel Qazi",
+          "subtitle1": "Research Fellow",
+          "subtitle2": "University of Calgary"
+        },
+        {
+          "name": "Ahmed Abdelaal",
           "subtitle1": "Medical Student",
-          "subtitle2": "University of British Columbia"
+          "subtitle2": "University of Toronto"
         },
         {
           "name": "Kamiar Mireskandari , MD, FRCSC",
@@ -154,9 +159,9 @@
           "subtitle2": "McGill University"
         },
         {
-          "name": "Ahmed Abdelaal",
-          "subtitle1": "Medical Student",
-          "subtitle2": "University of Toronto"
+          "name": "Bridget Moran",
+          "subtitle1": "Medical student",
+          "subtitle2": "Dublin, Ireland"
         },
         {
           "name": "Mohammed Al-Falah, MD, FRCSC",
@@ -166,6 +171,11 @@
         {
           "name": "Fil Altomare, MD, FRCSC",
           "subtitle1": "Surgical Retina and Oncology",
+          "subtitle2": "University of Toronto"
+        },
+        {
+          "name": "Arshia Eshtiaghi ",
+          "subtitle1": "Medical Student  ",
           "subtitle2": "University of Toronto"
         }
       ]

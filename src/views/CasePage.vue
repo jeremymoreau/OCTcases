@@ -5,7 +5,7 @@
     <ion-content overflow-scroll="true" scrollEvents="true" id="content">
       <ion-card>
         <ion-card-header>
-          <ion-card-subtitle> {{ category }} </ion-card-subtitle>
+          <ion-card-subtitle><h3 class='case-categ-title'> {{ category }} </h3></ion-card-subtitle>
           <ion-card-title class="case-title">
             {{ caseTitle }}
           </ion-card-title>
@@ -292,5 +292,8 @@ export default defineComponent({
 .q-btn {
   margin-top: 10px;
   white-space: normal;
+}
+.case-categ-title {
+  text-transform: capitalize;
 }
 </style>

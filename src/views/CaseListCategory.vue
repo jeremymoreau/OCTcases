@@ -4,9 +4,9 @@
 
       <ion-content overflow-scroll="true">
         <ion-list id="array-rendering" lines="full">
-          <ion-list-header class="category-title">{{
-            $route.params.caseCategory
-          }}</ion-list-header>
+          <ion-list-header class="category-title">
+             <h2>{{$route.params.caseCategory}}</h2>
+            </ion-list-header>
 
           <template v-for="item in caseIndex" :key="item">
             <ion-item

@@ -15,9 +15,9 @@
           </ion-card-header>
 
           <ion-card-content>
-            <ion-text class="md-text">
+            <!-- <ion-text class="md-text">
               {{ item.description }}
-            </ion-text>
+            </ion-text> -->
           </ion-card-content>
         </ion-card>
       </template>

@@ -13,7 +13,7 @@
         </ion-card-header>
 
         <ion-card-content>
-          <span class="md-text"> {{ description }} </span>
+          <!-- <span class="md-text"> {{ description }} </span> -->
         </ion-card-content>
       </ion-card>
 

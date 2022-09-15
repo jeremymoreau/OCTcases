@@ -28,7 +28,9 @@
         <ion-card-content>
           <template v-for="linkedCaseID in linkedCases" :key="linkedCaseID">
             <ion-button @click="gotoPage('CasePage', linkedCaseID)"
-                        expand="block" fill="outline" class="atlas-link-btn">Case {{ linkedCaseID }} </ion-button>
+                        expand="block" fill="outline" class="atlas-link-btn">
+                        Case {{ linkedCaseID.split(/(\d+)/)[0] + ' ' + parseInt(linkedCaseID.split(/(\d+)/)[1], 10) }}
+            </ion-button>
           </template>
         </ion-card-content>
       </ion-card>

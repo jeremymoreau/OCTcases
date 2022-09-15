@@ -63,6 +63,7 @@
           <ion-item
             button="true"
             class="menu-item"
+            id="install-this-app-menuitem"
             @click="gotoPage('GeneralPage', 'install-this-app')"
           >
             <ion-icon :icon="downloadOutline" slot="start"></ion-icon>
@@ -165,3 +166,11 @@ export default defineComponent({
   },
 });
 </script>
+
+<style scoped>
+@media all and (display-mode: standalone) {
+  #install-this-app-menuitem {
+    display: none
+  }
+}
+</style>

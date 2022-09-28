@@ -63,13 +63,13 @@
       "person": [
         {
           "name": "Daniel Park, MD",
-          "subtitle1": "Research Fellow",
+          "subtitle1": "Resident Physician",
           "subtitle2": "Grant and Content Lead",
           "photo": "/content/media/aboutus-daniel-park.jpg"
         },
         {
-          "name": "Yusuf Ahmed, MD(C)",
-          "subtitle1": "Medical Student",
+          "name": "Yusuf Ahmed, MD",
+          "subtitle1": "Ophthalmology Resident",
           "subtitle2": "Content Lead",
           "photo": "/content/media/aboutus-yusuf-ahmed.png"
         },

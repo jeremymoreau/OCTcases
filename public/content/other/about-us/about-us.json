@@ -102,6 +102,12 @@
           "photo": "/content/media/korolos.webp",
           "subtitle1": "Pharmacy Student",
           "subtitle2": "App Design Lead"
+        },
+        {
+          "name": "Bhadra Pandya, MD(C)",
+          "subtitle1": "Medical Student",
+          "subtitle2": "Website Design",
+          "photo": "/content/media/headshot_bp.webp"
         }
       ]
     },

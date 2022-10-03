@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Epiretinal membrane"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Drusen"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Thin Choroid"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the Above",
+          "explanation": "In the EDI OCT of both eyes, there is highly reflective epiretinal membrane (blue arrow) along the inner retinal surface. Hyper-reflective deposits can be found at the RPE in keeping with fine drusen (blue arrow head). A severely thin choroid, in keeping with choroidal atrophy, is also seen. The choroid is outlined by the red line. Only a few medium sized choroidal vessels can be seen and occupy the full-thickness of the choroidal layer.\n\n![](/content/media/retina_73_2.webp)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What abnormality is seen on the patient's OCT macula images?"
+    },
+    {
+      "title": "Question 2",
+      "text": "What is the diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A) Neovascular Age-Related Macular Degeneration"
+        },
+        {
+          "correct": true,
+          "answerText": "B) Age-Related Choroidal Atrophy",
+          "explanation": "Age-Related Choroidal Atrophy affects older individuals and may mimic findings for macular degeneration. This entity can occur with or without signs of late AMD. These eyes are at a higher risk for glaucoma as the prelaminar portion of the optic disc has its blood supply from the choroid.\n\nEDI OCT findings included marked reduction in the thickness of the choroid under the central fovea and peripapillary region. Medium-sized choroidal vessels are seen sporadically and occupies the full-thickness of the choroid.\n\nReference: Spaide RF. Age-related choroidal atrophy. Am J Ophthalmol. 2009 May;147(5):801-10. doi: 10.1016/j.ajo.2008.12.010. Epub 2009 Feb 20. PMID: 19232561."
+        },
+        {
+          "correct": false,
+          "answerText": "C) Central Serous Chorioretinopathy"
+        },
+        {
+          "correct": false,
+          "answerText": "D) Diabetic Macular Edema"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What inherited retinal diseases can mimic age-related choroidal atrophy?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "Inherited retinal diseases such as gyrate atrophy, central areolar choroidal dystrophy, and choroidemia can all simulate choroidal atrophy. However, inherited retinal diseases typically are bilateral and present in early life."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0073",
+  "category": "retina",
+  "title": "Case 73",
+  "description": "88F presenting with blurred vision OU for 3 months",
+  "patientPresentation": "**Contributor**: Guilherme Feltrin de Barros\n\n\nPatient Presentation: An 88-year-old female presented to retina clinic with blurred vision OU for the past 3 months. Visual acuity was 20/150 OD and 20/100 OS. IOP was within normal limits. Fundus examination demonstrated fine drusen and pigmentary changes at the macula OU.  EDI OCT was performed and is shown below:\n\n![](/content/media/retina_73_1.webp)",
+  "footer": "### Learning Objectives:\n\n1. Describe the findings and significance of choroidal atrophy\n\n2. Understand the differences of age-related choroidal atrophy with AMD."
+}

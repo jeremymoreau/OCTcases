@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Foveal atrophy",
+          "explanation": "The OCT macula images demonstrate loss of the neurosensory retinal layers at the fovea leading to a central retinal thickness (red arrow). There is no hypo-reflective area underneath the retina suggestive of subretinal fluid and the inner retinal layers are within normal limits. There are central posterior hyper-reflective deposits at the level of the RPE, but these do not represent drusen.\n\n![](/content/media/paed_4_3.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Subretinal fluid"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Disorganization of inner retinal layers"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Drusenoid deposits"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What is the main finding in the OCT macula images above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "Fundus autofluorescence images were also conducted and are shown below:\n\n![](/content/media/paed_4_4.webp)\n\nBased on the fundus photos, OCT, and fundus autofluorescence images, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Retinitis pigmentosa"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Central areolar choroidal dystrophy"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Stargardt’s disease",
+          "explanation": "Stargardt’s disease is the most common inherited macular dystrophy presenting with progressive vision loss in children and young adults. Patients typically complain of central visual loss, colour vision deficits and photophobia. The common signs on examination include a “beaten-bronze” appearance of the macula (blue arrow), foveal atrophy seen in question 1, or pisiform flecks (which are yellow-coloured accumulations of lipofuscin in the RPE).\n\nCharacteristically on autofluorescence, patients show hyper-autofluorescence of the posterior pole, sparing of the peripapillary area (green arrow) and hypo-autofluorescence at the fovea reflecting the atrophy (red arrow). Though there are no “pisiform flecks” seen in our patient, the diagnosis of Stargardt’s disease does not require the presence of flecks, but there is usually hyper-autofluorescence of the RPE.\n\n![](/content/media/paed_4_5.webp)\n\nReferences:\n\nTanna P, Strauss RW, Fujinami K, Michaelides M. Stargardt disease: clinical features, molecular genetics, animal models and therapeutic options. Br J Ophthalmol. 2017;101(1):25-30."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Choroidemia"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What gene is implicated in typical Stargardt’s disease?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. RPE65"
+        },
+        {
+          "correct": true,
+          "answerText": "B. ABCA4",
+          "explanation": "Stargardt’s disease is typically an autosomal recessive condition caused by mutations in the ABCA4 gene, which is why most patients do not have a family history of eye disease (as seen in this patient). The ABCA4 gene maps to the short arm of chromosome 1 and codes for an ATP-binding cassette on photoreceptor disc membranes and is crucial in the recycling of 11-cis-retinal during the phototranduction cycle. ABCA4 mutations lead to progressive accumulation of di-retinoid-pyridinium-ethanolamine (vitamin A dimer) waste product, and ultimately lipofuscin, in the RPE causing hyperfluorescence of the posterior pole (sparing the peripapillary area).\n\nReferences:\n\nGlazer LC, Dryja TP. Understanding the etiology of Stargardt's disease. Ophthalmol Clin North Am. 2002 Mar;15(1):93-100"
+        },
+        {
+          "correct": false,
+          "answerText": "C. OCA"
+        },
+        {
+          "correct": false,
+          "answerText": "D. PRPH2"
+        }
+      ]
+    }
+  ],
+  "caseID": "paediatric0004",
+  "category": "paediatric ophthalmology",
+  "title": "Case 4",
+  "description": "14M referred for decreased vision OU for 2 years",
+  "patientPresentation": "A 14-year-old male was referred to a paediatric ophthalmology clinic for decreased vision in both eyes over the past 2 years. The patient denied previous red eye or visual field deficit. There was no past medical, ocular or family history of eye disease. Best corrected distance visual acuity was 20/100 OD and 20/150 OS. IOP was 12 OD and 13 OS; there was no RAPD. Fundus photos and OCT macula images were taken and are shown below:\n\n![](/content/media/paed_4_1.webp)\n\n![](/content/media/paed_4_2.webp)",
+  "footer": "### Learning Objectives:​\n\n1. Understand the presenting signs of Stargardt’s disease\n\n1. Learn the pathophysiology and genetic cause of Stargardt’s disease"
+}

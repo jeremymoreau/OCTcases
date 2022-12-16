@@ -1,0 +1,113 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Subretinal fluid"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Outer retinal thinning and RPE atrophy",
+          "explanation": "The fundus photos demonstrate a round/oval area of hypo-pigmentation (red arrow) at the fovea with an inner patch of retinal atrophy (green arrow). This corresponds to atrophy of the neurosensory retina at the fovea, as well as the underlying RPE (blue arrows). There are no hypo-reflective regions in the OCT suggestive of subretinal fluid or outer retinal tubulations. The left eye has full neurosensory retinal atrophy and an ILM drape at the fovea. The choroidal vessels are normal size.\n\n![](/content/media/paed_6_3.webp)\n\n![](/content/media/paed_6_4.webp)\n\n​\n\n## ​"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Pachychoroid vessels"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Outer retinal tubulations"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What is the main finding of the OCT macula images above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "Based on the patient history, fundus photos, and OCT images, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Central areolar choroidal dystrophy",
+          "explanation": "Central areolar choroidal dystrophy (CACD) is a rare inherited retinal disease presenting with bilateral, well circumscribed macular lesions with atrophy of the neurosensory retina, RPE and choriocapillaris. CACD has four stages based on the amount of retinal atrophy and vision loss. Based on the presenting fundus changes and OCT, this patient is at stage 2-3 with an area of RPE atrophy within the area of hypopigmentation.\n\n​Do not confuse this presentation with best vitelliform dystrophy which has an “egg-yolk appearance.” Stargardt’s typically presents with a beaten-bronze macula and pisciform flecks, whereas North Carolina Macular Dystrophy presents with drusen, central atrophy and often subretinal fibrosis.\n\n​References:\n\n​Boon CJF, et al. Central areolar choroidal dystrophy. Ophthalmology 2009;116:771-782."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Best vitelliform dystrophy"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Stargardt’s disease"
+        },
+        {
+          "correct": false,
+          "answerText": "D. North Carolina Macular Dystrophy"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What is the most common gene implicated in CACD?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. RPE65"
+        },
+        {
+          "correct": false,
+          "answerText": "B. ABCA4"
+        },
+        {
+          "correct": false,
+          "answerText": "C. OCA1"
+        },
+        {
+          "correct": true,
+          "answerText": "D. PRPH2",
+          "explanation": "PRPH2 or peripherin-2 is the most common gene implicated in CACD. Though an autosomal dominant inheritance pattern is most common, sporadic cases have been described. Approximately half of the cases do not have a confirmed genetic diagnosis. Through genetic testing, our patient was found to have an autosomal recessive mutation in PRPH2, with both parents being carriers."
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "One-year later, the patient presented with further decreased vision in the right eye. Visual acuity was 20/60 OD and 20/40 OS. Fundus photos and OCT macula images were taken and are shown below:\n\n![](/content/media/paed_6_5.webp)\n\n![](/content/media/paed_6_6.webp)\n\n Describe the OCT images above",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The OCT macula image OD demonstrates subretinal hyper-reflective material the fovea (white arrow), which corresponds to the subretinal blood seen on the fundus photo (blue arrow). Inner retinal cysts are also appreciated (green arrow). The previous neurosensory retina, RPE, and choriocapillaris atrophy is still appreciated OS.\n\n![](/content/media/paed_6_7.webp)\n\n​\n\n​\n\n​\n\n​\n\n​\n\n​\n\n​\n\n​\n\n​\n\n​"
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "To characterize the changes seen on fundus photography and OCT imaging, an OCT angiography was taken and confirmed a new choroidal neovascular membrane OD:\n\n![](/content/media/paed_6_8.webp)\n\nWhat is the best treatment for this patient's new CNVM?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Anti-VEGF injections",
+          "explanation": "Anti-vascular endothelial growth factor injections have demonstrated improvement of CNVMs secondary to CACD. After 2 intravitreal injections in the right eye, vision improved to 20/30 with regression of the CNVM."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Pan retinal photocoagulation"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Focal laser coagulation"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Observation"
+        }
+      ]
+    }
+  ],
+  "caseID": "paediatric0006",
+  "category": "paediatric ophthalmology",
+  "title": "Case 6",
+  "description": "12F referred for painless vision loss OU for 2 months",
+  "patientPresentation": "A 12-year-old female was referred by her optometrist to a paediatric retina clinic for painless decreased vision over the last 2 months. The patient denied any past medical history or family history of eye diseases; the parents were first cousins.  She denied any trauma, red eye or visual field deficit. Visual acuity was 20/30 OD and 20/40 OS. IOP was 13mmHg OD and 14mmHg OS; there was no RAPD. Fundus photographs and OCT macula images were taken and are shown below:\n\n![](/content/media/paed_6_1.webp)\n\n![](/content/media/paed_6_2.webp)",
+  "footer": "### Learning Objectives:​​\n\n1. Understand the OCT findings in central areolar choroidal dystrophy.\n\n2. Appreciate the possible complications of CACD."
+}

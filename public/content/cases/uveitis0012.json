@@ -1,0 +1,125 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Sub-retinal fluid"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Ellipsoid zone disruption",
+          "explanation": "The OCT macula images demonstrated ellipsoid zone disruption with focal excrescences at the level of the RPE (red arrows).\n\n![](/content/media/uveitis_12_4.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Intra-retinal hyper-reflective foci"
+        },
+        {
+          "correct": false,
+          "answerText": "D. No abnormality; normal OCT"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What is the main abnormality seen in the OCT macula images above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "Optos fundus autofluorescence imaging is shown below:\n\n![](/content/media/uveitis_12_7.webp)\n\n![](/content/media/uveitis_12_8.webp)\n\nWhat main finding is noted on the fundus autofluorescence imaging?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Peripapillary area of hypoautofluorescence"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Hypoautofluorescent punctate spots near the superior arcade in both eyes"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Hyperautofluorescence surrounding disc/posterior pole",
+          "explanation": "The fundus autofluorescence imaging shows hyperautofluorescence surrounding the disc/posterior pole, corresponding with associated ellipsoid zone disruption seen in question 1."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Normal fundus autofluorescence imaging"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Visual field testing (HVF 24-2) was performed and is shown below:\n\n![](/content/media/uveitis_12_6.webp)\n\nBased on your assessment so far, what diagnosis is at the top of your differential?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Acute zonular outer occult retinopathy (AZOOR)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Central serous chorioretinopathy (CSR)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Pachychoroid associated pigment epitheliopathy (PPE)"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Infectious retinopathy",
+          "explanation": "This is a case of syphilitic outer retinopathy, as confirmed by a positive rapid plasma reagin (RPR) test (titre 1:128). It is characterized by a disruption of the ellipsoid zone seen on OCT, and a corresponding increase in fundus hyperautofluorescence in the affected areas. These findings are very similar to from AZOOR; therefore, syphilis serology should be considered in all cases of suspected AZOOR. Both diagnoses are often missed, as the fundus is usually unremarkable or might only show some subtle RPE changes. This may represent a mild or resolving form of acute syphilitic posterior placoid chorioretinitis (ASPPC), which presents with creamy yellow lesions at the level of the RPE. If you look carefully at the fundus photograph of the left eye, you can see a faint yellowish colour in the affected area of the posterior pole.\n\nReferences:\n\nAmaral, C., Joy, L., Jimenez, H., Cruz-Inñigo, Y. J., Ulloa-Padilla, J. P., & Oliver, A. L. (2022). Syphilitic Outer Retinopathy: A Case Report and Review of the Literature. Journal of VitreoRetinal Diseases, 6(1), 63-70.\n\nLima, B. R., Mandelcorn, E. D., Bakshi, N., Nussenblatt, R. B., & Nida Sen, H. (2014). Syphilitic outer retinopathy. Ocular immunology and inflammation, 22(1), 4-8."
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What investigation is important to order next for this patient?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Swabs for gonorrhea and chlamydia."
+        },
+        {
+          "correct": false,
+          "answerText": "B. HIV testing"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Syphilis serology"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the above.",
+          "explanation": "Due to the high rates of concurrent sexually transmitted diseases (STDs) found in patients with syphilis, the patient should undergo comprehensive STD screening.\n\n​"
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "Which of the following is the optimal management plan for this patient?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Intramuscular penicillin G weekly for 3 weeks"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Intravenous penicillin G for 10-14 days",
+          "explanation": "The recommended treatment plan for syphilitic retinopathy is a 2-week course of IV penicillin as it is treated similar to neurosyphilis. The recommended adult dosage is 18 to 24 million units of IV penicillin G daily in 3 to 4 million units every 4 hours for 10 to 14 days. In patients with a suspected allergy to penicillin, penicillin desensitization can be performed in consultation with a specialist. In cases where penicillin is deemed inappropriate, ceftriaxone 1-2 grams IV for 10-14 days may be an appropriate alternative. The use of concurrent oral steroids should be made on a case-by-case basis and based on visual recovery. Given that this patient’s presenting vision was 20/20, oral corticosteroids were not required.\n\n​References:\n\nAmaral, C., Joy, L., Jimenez, H., Cruz-Inñigo, Y. J., Ulloa-Padilla, J. P., & Oliver, A. L. (2022). Syphilitic Outer Retinopathy: A Case Report and Review of the Literature. Journal of VitreoRetinal Diseases, 6(1), 63-70.\n\nDavis, J. L. (2014). Ocular syphilis. Current opinion in ophthalmology, 25(6), 513-518.\n\nLima, B. R., Mandelcorn, E. D., Bakshi, N., Nussenblatt, R. B., & Nida Sen, H. (2014). Syphilitic outer retinopathy. Ocular immunology and inflammation, 22(1), 4-8."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Oral doxycycline"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Intramuscular ceftriaxone"
+        }
+      ]
+    }
+  ],
+  "caseID": "uveitis0012",
+  "category": "uveitis",
+  "title": "Case 12",
+  "description": "43F presenting with flashes of light OU for 2 weeks",
+  "patientPresentation": "**Contributor: Niveditha Pattathil, MD Candidate**\n\nPatient Presentation: A 43-year old Caucasian woman presented to a tertiary retina clinic with bilateral flashes of light for 2 weeks. She denied floaters, eye pain, or redness. She had no medical history other than an essential tremor. Review of systems elucidated that the patient had an occipital headache prior to her flashes starting. Uveitis review revealed no recent travel, atypical diet, high-risk sexual activity, or intravenous drug use.\n\nHer best corrected vision was 20/20 in both eyes. Her intraocular pressures were normal. She did not have an RAPD. Her anterior exam was normal in both eyes, and Shafer sign was negative OU. Fundus examination appeared unremarkable other than the presence of asteroid hyalosis in the left eye. Optos fundus photographs are shown below:\n\n![](/content/media/uveitis_12_1.webp)\n\n![](/content/media/uveitis_12_2.webp)\n\nZeiss Cirrus HD-OCT macula images are shown below:\n\n![](/content/media/uveitis_12_3.webp)",
+  "footer": "### Learning Objectives:\n\n1. Identify features on OCT and fundus autofluorescence imaging characteristic of syphilitic outer retinopathy\n\n2. Understand the workup and management plan for patients presenting with syphilis infection"
+}

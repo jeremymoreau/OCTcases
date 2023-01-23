@@ -1,0 +1,113 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "There ARE a few concerning features on this OCT RNFL/ONH. Firstly, the most important map for this imaging modality is the “RNFL Thickness Plot” (also known as the TSNIT plot). The TSNIT plot is crucial for OCT diagnosis and interpretation for glaucoma. You can see that there is a considerable asymmetry between the right eye (solid line) and left eye (dotted line) in the inferior quadrant.\n\nThis is corroborated by the “RNFL Thickness Map,” as this image visually demonstrates thin RNFL in the inferotemporal quadrant OD (red arrow).\n\n![](/content/media/glauc_6_2.webp)\n\n![](/content/media/glauc_6_3.webp)\n\n​\n\n​"
+        }
+      ],
+      "title": "Question 1",
+      "text": "The RNFL thickness map and RNFL deviation map show both eyes’ RNFL thickness within the “green zone.” Is there anything concerning with this OCT RNFL?"
+    },
+    {
+      "title": "Question 2",
+      "text": "What type of disease is this classified as?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Green Disease",
+          "explanation": "This is an example of “Green Disease” on a Zeiss Cirrus OCT, as the normative database, which is based on only 296 eyes, designated this RNFL thickness within the green zone (or between 5% and 95% of what was seen in the normative database). A key learning point is that use of the contralateral eye is often a better control than the Zeiss normative database. Comparing the right eye RNFL thickness to the left eye on the TSNIT plot, and corroborating with the RNFL deviation and thickness maps, helped pinpoint glaucomatous optic neuropathy OD."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Red Disease"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Technician Error"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Normal OCT"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What anatomical region of the RNFL is affected in this patient?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Papillomacular bundle"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Nasal RNFL fibres"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Juxtafoveal RNFL"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Inferior Macular Vulnerability Zone",
+          "explanation": "The inferior macular vulnerability zone (MVZ), which was first described by Hood et al. in 2013, is a key region affected in glaucoma. The inferior MVZ, which is located largely in the inferiotemporal quadrant of the optic disc, is highly susceptible to glaucomatous damage. This inferotemporal quadrant receives RNFL fibres from the inferior macula, which leads to the classic superior arcuate visual field deficits in glaucoma.\n\n​References;\n\nHood DC, Raza AS, de Moraes CG, Liebmann JM, Ritch R. Glaucomatous damage of the macula. Prog Retin Eye Res 2013;32:1-21."
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "An OCT of the ganglion cell complex was conducted and is shown below:\n\n![](/content/media/glauc_6_4.webp)\n\nWhat is the main finding in this OCT GCC?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Normal OCT GCC"
+        },
+        {
+          "correct": true,
+          "explanation": "The GCC deviation map shows an inferotemporal defect OD. This correlates to the inferotemporal RNFL deficit in the macular vulnerability zone seen in question 3. This further corroborates a diagnosis of glaucoma.\n\n![](/content/media/glauc_6_5.webp)\n\n​",
+          "answerText": "B. Inferotemporal defect of the GCC"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Globally thin GCC"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Cecocentral defect of the GCC"
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "The patient underwent a 24-2 Humphrey Visual Field, which is shown below:\n\n![](/content/media/glauc_6_6.webp)\n\nWhat is the key finding in this OD 24-2 HVF?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Nasal Step"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Inferior Arcuate"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Superior Arcuate",
+          "explanation": "The 24-2 HVF demonstrates a superior arcuate deficit, which correlates to the inferior MVZ pathology seen on OCT imaging. Remember, for certain glaucoma cases, a 10-2 HVF test can be utilized as it can be more sensitive in detecting glaucomatous changes, especially when the 24-2 test is normal and the OCT imaging is suspicious for RNFL/GCC pathology."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Paracentral Scotoma"
+        }
+      ]
+    }
+  ],
+  "caseID": "glaucoma0006",
+  "category": "glaucoma",
+  "title": "Case 6",
+  "description": "57F referred to rule out glaucoma",
+  "patientPresentation": "A 57-year-old woman with a past medical history of hypertension was referred to a tertiary ophthalmology clinic to rule out glaucoma. The referring ophthalmologist noted her IOP max was 23 OD and 20 OS and that her OCT imaging was always “within normal limits.” She denied past ocular history, but did note her mother was diagnosed with glaucoma at age 65. She denied use of eye drops.\nHer BCVA was 20/20 OD and 20/20 OS. IOP was 22 OD and 19 OS; there was no RAPD. OCT of RNFL/ONH were taken and are shown below:\n\n![](/content/media/glauc_6_1.webp)",
+  "footer": "### Learning Objectives:\n\n1. Approach OCTs like a radiologist, not a stock broker\n2. The contralateral eye may be a better control than the normative database\n3. TSNIT plot is the quarterback for glaucoma diagnosis and OCT interpretation\n4. Look closely at the inferior macular vulnerability zone\n5. Utilize OCT GCC to corroborate findings as this may be more sensitive than the OCT RNFL"
+}

@@ -65,9 +65,13 @@
         {
           "correct": true,
           "answerText": "D. Visual fields",
-          "explanation": "Studies have shown that visual fields are abnormal in 90% of patients with optic disc melanocytomas. Field defects typically seen include temporal islands, arcuate defects, nerve fibre bundle defect or enlargement of the blindspot. A study analyzing blood vessel network within areas in melanocytomas confirmed ischemia to regions of the retinal nerve fibre layer that directly correlate to visual field deficit.  Visual fields are also important when monitoring for progression.\n\n​References:\n\n1. Kwak JJ, Lee DH, Lee SC, Lee CS. Evaluation of blood vessel network formation and visual field defect in optic disc melanocytoma. Br J Ophthalmol. 2023 Mar;107(3):418-424.\n\nOur patient underwent 24-2 Humphrey Visual Field testing, which was normal OU. He is being followed every 6 months with fundus photography and visual field testing.\n\n![](/content/media/neuro_opht_27_5.webp)"
+          "explanation": "Studies have shown that visual fields are abnormal in 90% of patients with optic disc melanocytomas. Field defects typically seen include temporal islands, arcuate defects, nerve fibre bundle defect or enlargement of the blindspot. A study analyzing blood vessel network within areas in melanocytomas confirmed ischemia to regions of the retinal nerve fibre layer that directly correlate to visual field deficit.  Visual fields are also important when monitoring for progression.\n\n​References:\n\n1. Kwak JJ, Lee DH, Lee SC, Lee CS. Evaluation of blood vessel network formation and visual field defect in optic disc melanocytoma. Br J Ophthalmol. 2023 Mar;107(3):418-424."
         }
       ]
+    },
+    {
+      "title": "Follow up",
+      "text": "Our patient underwent 24-2 Humphrey Visual Field testing, which was normal OU. He is being followed every 6 months with fundus photography and visual field testing.\n\n![](/content/media/neuro_opht_27_5.webp)"
     }
   ],
   "caseID": "neuro0027",

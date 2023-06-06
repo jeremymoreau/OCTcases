@@ -1,0 +1,90 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "Fundus photos demonstrate retinal atrophy throughout the peripapillary region extending inferiorly OD, as well as atrophy extending superonasally OS. The nasal macula is affected OD, and the entire macula, including the fovea, is affected OS. Fundus autofluorescence demonstrates hypoautofluorescence throughout the atrophic lesions seen on fundus photography with a halo of hyper-autofluorescence around the edges of the lesions. This hyperautofluorescence along the edges most likely represents “sick-RPE” cells, a marker of disease activity."
+        }
+      ],
+      "title": "Question 1",
+      "text": "What are the main findings in the fundus photos and fundus autofluorescence images above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "OCT macula images were taken and are shown below:\n\n![](/content/media/uveitis_13_5.webp)\n\nWhat are the main findings in the OCT macula images above?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Intra- and subretinal hyper-reflectivity",
+          "explanation": "The OCT images demonstrate hyper-reflective foci within the subretinal (red arrow) and intraretinal (green arrow) spaces. There is also discontinuity of the ellipsoid zone and breaks in the RPE layer (blue arrow). There are no subretinal hyporeflective areas suggestive of subretinal fluid. The inner retinal layers are grossly in-tact outside of areas of retinal atrophy. There are no suggestions of choroidal neovascularization on OCT imaging or fundus imaging.\n\n![](/content/media/uveitis_13_6.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Subretinal fluid"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Disorganization of the inner retinal layers"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Choroidal neovascularization"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Intravenous fluorescein angiography imaging was then conducted. Below is the early and late phase of the right eye, and the late phase of the left eye:  \n\n![](/content/media/uveitis_13_7.webp)\n\n![](/content/media/uveitis_13_8.webp)\n\n![](/content/media/uveitis_13_9.webp)\n\nIVFA imaging demonstrates early hypofluorescence with late hyperfluorescence around the edges of the lesions.\n\nBased on the fundus findings, FAF, IVFA, and OCT imaging, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Birdshot chorioretinopathy"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Serpiginous chorioretinopathy",
+          "explanation": "Serpiginous chorioretinopathy is a rare posterior uveitic disease process which is typically classified as a “White-Dot Syndrome”. More common in males than females, this condition typically presents with painless vision loss, metamorphopsia, floaters and central scotomas. Fundus examination typically demonstrates gray-yellow subretinal infiltrates and atrophy that spread centrifugally from the peripapillary region (like a snake or “serpiginous” fashion). Active lesions lead to RPE and choroidal atrophy. Choroidal neovascularization can be seen in 35% of cases and leads to further vision loss. Fundus autofluorescence is a crucial imaging modality, as hyperautofluorescence at the edges of atrophic lesions indicate activity of disease. Serpiginous chorioretinopathy has poor visual prognosis. Although there are no known systemic associations with serpiginous chorioretinopathy, it is always important to exclude tuberculosis. A full uveitis workup to exclude infectious and inflammatory causes is indicated in all cases of serpiginous chorioretinopathy.\n\n​References:\n\nNazari Khanamiri H, Rao NA. Serpiginous choroiditis and infectious multifocal serpiginoid choroiditis. Surv Ophthalmol. 2013 May-Jun;58(3):203-32.\n\nCardillo Piccolino F, Grosso A, Savini E. Fundus autofluorescence in serpiginous choroiditis. Graefes Arch Clin Exp Ophthalmol. 2009;247(2):179–85.\n\nSteinmetz RL, Fitzke FW, Bird AC. Treatment of cystoids macular edema with acetazolamide in a patient with serpiginous choroidopathy. Retina. 1991; 11:412-5."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Acute posterior multifocal placoid pigment epitheliopathy"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Ocular histoplasmosis syndrome"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What is the most appropriate treatment for this condition?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Observation"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Urgent vitrectomy"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Intravitreal anti-VEGF injections"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Systemic steroids with long term immunomodulatory therapy",
+          "explanation": "The aim of treatment for serpiginous chorioretinopathy is to reduce chorioretinal inflammation and prevent the progression of active disease lesions, especially when these lesions are threatening the fovea (such as in the right eye for our patient). Acute treatment requires systemic oral steroids or local periocular steroid injections, and due to the high rate of recurrence of this disease, long term immunosuppression is indicated. Steroid-sparing antimetabolites, such as methotrexate and azathioprine, or anti-TNF agents such as Humira or Remicade are common treatment modalities. Alkylating agents such as chlorambucil have also shown good results. Despite long-term treatment, approximately 25% of patients end up with vision less than 20/200.\n\nReferences:\n\nEbrahimiadib N, Modjtahedi BS, Davoudi S, Foster CS. Treatment of Serpiginous Choroiditis with Chlorambucil: A Report of 17 Patients. Ocul Immunol Inflamm. 2018;26(2):228-238."
+        }
+      ]
+    }
+  ],
+  "caseID": "uveitis0013",
+  "category": "uveitis",
+  "title": "Case 13",
+  "description": "61M presenting to uveitis clinic for atypical retina findings OU",
+  "patientPresentation": "A 61-year-old Caucasian man was referred to a uveitis clinic for atypical retinal findings OU. The patient was being treated for neovascular age-related macular degeneration for the previous 2 years. He was initially diagnosed with dry AMD due to peripapillary drusenoid changes, but after 1 year of monitoring, he developed choroidal neovascularization. The referring retinal specialist was concerned for the progression of RPE changes in the peripapillary region. The choroidal neovascularization was quiescent after 4 intravitreal anti-VEGF injections at the time of presentation.\n\nThe patient noted decreased vision over the last 6 months with floaters OS > OD. He denied flashes, visual field deficit, and trauma. He denied any past medical or ocular history. Review of systems was negative. His visual acuity was 20/100 OD and CF OS. IOP was within normal limits and there was no RAPD. Fundus photos and fundus autofluorescence images were taken and are shown below:\n\n![](/content/media/uveitis_13_1.webp)\n\n![](/content/media/uveitis_13_2.webp)\n\n![](/content/media/uveitis_13_3.webp)\n\n![](/content/media/uveitis_13_4.webp)",
+  "footer": "### Learning Objectives:\n\n1. Understand the typical imaging findings of serpiginous chorioretinopathy.\n\n2. Learn the typical treatment options for serpiginous chorioretinopathy."
+}

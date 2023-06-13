@@ -61,6 +61,12 @@
           "subtitle1": "Paediatric Ophthalmologist",
           "subtitle2": "University of Toronto",
           "photo": "/content/media/stephanie_kletke-1-.webp"
+        },
+        {
+          "name": "Larissa Derzko-Dzulynsky, MD FRCSC",
+          "subtitle1": "Uveitis Specialist",
+          "subtitle2": "University of Toronto",
+          "photo": "/content/media/aboutus-derzko.png"
         }
       ]
     },
@@ -98,15 +104,15 @@
           "subtitle2": "Content Lead"
         },
         {
-          "name": "Jeremy Moreau, MD(C), PhD",
-          "subtitle1": "Medical Student",
+          "name": "Jeremy Moreau, MD, PhD",
+          "subtitle1": "Ophthalmology Resident",
           "subtitle2": "IT and App Design Lead",
           "photo": "/content/media/aboutus-jeremy-moreau.jpeg"
         },
         {
-          "name": "Korolos Sawires",
+          "name": "Korolos Sawires, MD(C)",
           "photo": "/content/media/korolos.webp",
-          "subtitle1": "Pharmacy Student",
+          "subtitle1": "Medical Student",
           "subtitle2": "App Design Lead"
         },
         {

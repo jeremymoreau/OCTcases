@@ -1,0 +1,105 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The fundus photo demonstrates a hyperemic optic disc and a white chorioretinal lesion, measuring 1.5-disc diameters, in the superotemporal macula with associated vitreous precipitates along the posterior hyaloid (red arrows).\n\n​\n\n![](/content/media/uveitis_14_2.webp)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "Describe the findings in the fundus photograph above."
+    },
+    {
+      "title": "Question 2",
+      "text": "An OCT over the macular lesion in the left eye was conducted and is shown below:\n\n![](/content/media/uveitis_14_3.webp)\n\nWhat is the main finding in the OCT image above?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Choroidal neovascularization"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Subretinal fluid"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Choroidal mass"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Retinitis",
+          "explanation": "The OCT shows hyperreflective inner retinal layers, with posterior shadowing consistent with retinitis (yellow circle). It may appear as though this is a choroidal mass, but a faint RPE can be appreciated within the shadowing defect. Note the many hyper-reflective opacities (red arrows) between the retina and the posterior hyaloid indicating vitritis.\n\n![](/content/media/uveitis_14_4.webp)"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "The presence of a unilateral area of retinitis with associated inflammation was suspicious for an infectious etiology, and the patient was started on empiric treatment for toxoplasmosis with Trimethoprim/sulfamethoxazole (TMP/SMX) and oral Prednisone. However, his vision continued to decline. Four weeks after his symptoms began, visual acuity OS decreased to hand motions. Large, white round aggregations were seen in the anterior vitreous on SLE:\n\n![](/content/media/uveitis_14_5.webp)\n\nBased on the patient history, exam and imaging, what condition would you be suspicious for?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Fungal endophthalmitis",
+          "explanation": "Fungal endophthalmitis is a rare intraocular infection caused by endogenous and exogenous sources. Exogenous infections typically result from penetrating trauma or intraocular surgery. Endogenous infections typically develop in immunocompromised individuals or those with risk factors such as indwelling intravenous catheters, recent surgery, prolonged corticosteroid use, malignancy, certain metabolic conditions, or intravenous drug use. Fungal endophthalmitis classically presents with slowly progressive focal vitritis overlying chorioretinal lesions. Lesions are often numerous, bilateral, small, white, and well-circumscribed, especially in infections caused by Candida species. If left untreated, these infections penetrate the blood-retina barrier and extend into the retina and vitreous from the choroid. Over time, these lesions can become significantly elevated extension into the vitreous cavity. Vitreous extension or “seeding” may present with “puffy” fungal balls adjacent to one another in a \"string of pearls\" configuration, as seen in the slit lamp photograph focused on the vitreous cavity in this patient.\n\n​References:\n\n1. Chhablani J. Fungal endophthalmitis. Expert Rev Anti Infect Ther.2011;9(12):1191–1201. doi:10.1586/eri.11.139.\n\n2. Rao NA, Hidayat AA. Endogenous mycotic endophthalmitis: variations in clinical and histopathologic changes in candidiasis compared with aspergillosis. Am J Ophthalmol.2001;132(2):244–251.\n\n3. Ly V, Sallam A. Fungal Endophthalmitis. In: StatPearls. Treasure Island (FL): StatPearls Publishing; June 27, 2022."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Toxoplasmosis"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Syphilis"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Tuberculosis"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "The patient underwent a diagnostic pars plana vitrectomy and fungal cultures were positive for Candida dubliniesis.\n\nWhat treatment would you start this patient on?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Systemic corticosteroids"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Systemic and intravitreal anti-fungal therapy",
+          "explanation": "Early or mild cases presenting with flat choroidal lesions and minimal retinal or vitreous involvement can be managed with systemic anti-fungal therapy as the infection is predominantly outside the blood-retina barrier. Moderate or severe cases with macula-involving or vision-threatening lesions and significant vitritis are best managed with combined intravitreal and systemic anti-fungals. A vitrectomy can aid in diagnosis and debulking of fungal elements, and possibly also reduce the incidence of post-infectious sequelae like tractional retinal detachments and epiretinal membrane.\n\nReferences:\n\n1. Ly V, Sallam A. Fungal Endophthalmitis. In: StatPearls. Treasure Island (FL): StatPearls Publishing; June 27, 2022.\n\n2. Chee YE, Eliott D. The Role of Vitrectomy in the Management of Fungal Endophthalmitis. Semin Ophthalmol. 2017;32(1):29-35. doi:10.1080/08820538.2016.1228396"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Systemic anti-fungal therapy"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Pyrimethamine and sulfadiazine"
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "The patient was started on a regimen of oral voriconazole and intravitreal voriconazole and amphotericin B injections. One week postoperatively, OCT OS showed the following:\n\n![](/content/media/uveitis_14_6.webp)\n\nDescribe the OCT findings.",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "We can appreciate focal hyperreflective pillar-like protrusions involving the inner retinal layers and extending into the vitreous (red arrows). This suggests ongoing infection and the need for more rigorous administration of intravitreal antifungals to maintain adequate intraocular concentrations especially given the vitrectomized status which increases clearance.\n\n![](/content/media/uveitis_14_7.webp)"
+        }
+      ]
+    },
+    {
+      "title": "Follow up",
+      "text": "One year after his initial presentation, the retinitis resolved and his vision improved to 20/20 OS. The patient required 68 intravitreal antifungal injections to achieve quiescence. Below is his disease course following vitrectomy. Note resolution of pillar-like growths by postoperative week 40.\n\n![](/content/media/uveitis_14_8.webp)"
+    }
+  ],
+  "caseID": "uveitis0014",
+  "category": "uveitis",
+  "title": "Case 14",
+  "description": "35M presenting with pain and redness OS for 1 week",
+  "patientPresentation": "A 35-year-old man presented to a tertiary care retina clinic with pain and redness in the left eye for 1 week. His distance visual acuity was 20/20 OD and 20/50 OS. IOP was 12 OD and 14 OS, and there was no RAPD. His past ocular history was unremarkable. However, the patient had a history of opioid dependence and was taking methadone. He denied intravenous drug use. Review of systems was negative. \n\nSlit-lamp examination (SLE) revealed 3+ AC cells OS and 2+ vitreous cells. Dilated fundus examination OD was within normal limits. A widefield fundus photograph OS is below: \n\n![](/content/media/uveitis_14_1.webp)",
+  "footer": "Reference:\n\n1. Murtaza F, Pereira A, Sen HN, Wiley HE, Christakis PG. Refractory Candida dubliniensis Retinitis in an Immunocompetent Patient \\[published online ahead of print, 2023 Mar 3]. Ocul Immunol Inflamm. 2023;1-4. doi:10.1080/09273948.2023.2185264\n​\n\nLearning Objectives:\n\n1. To identify OCT and fundus findings in fungal endophthalmitis.\n\n2. To understand the treatment and management of fungal endophthalmitis."
+}

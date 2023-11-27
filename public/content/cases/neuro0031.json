@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Bilateral inferior altitudinal defects"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Bitemporal hemianopia"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Right and left homonymous defects",
+          "explanation": "This visual field defect has a bilateral homonymous appearance. If one looks at the right side of the visual field, they are similar in both eyes. In a similar manner, the left side of the visual field has an identical appearance in both eyes."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Bilateral nasal scotomas"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What visual field defect(s) is/are present in this patient?"
+    },
+    {
+      "title": "Question 2",
+      "text": "OCT RNFL and ganglion cell analysis (GCA) was performed and is shown below:\n\n![](/content/media/neuro_op_31_2.webp)\n\nWhat pattern of changes is demonstrated by the GCA?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Diffuse thinning OU"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Right and left homonymous thinning OU",
+          "explanation": "This GCA demonstrates homonymous thinning bilaterally. In other words, the pattern of thinning is highly similar in both maculae. \n\nGCA can be particularly useful in the evaluation of visual field defects, especially in the context of poor visual field testing. Lesions involving the retrochiasmal visual pathways (e.g., due to stroke) can result in retrograde degeneration of retinal ganglion cells (RGCs), and this is manifested in this patient by GCA thinning. The pattern of GCA thinning corresponds well to the visual field defect because the topographic organization of RGCs is maintained in the setting of retrograde degeneration."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Normal OD and superotemporal thinning OS"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Normal OU"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What was the most likely cause of this patient’s VF defect?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Atrial fibrillation",
+          "explanation": "The presence of bilateral homonymous visual field defects indicates involvement of the retrochiasmal visual pathways on both sides of the brain. In the majority of cases, infarction of the visual pathways on both sides is due to a cardiac source. This may include atrial fibrillation or infections such as bacterial endocarditis. Other potential causes include demyelination that may involve the optic tracts on both sides."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Carotid stenosis"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Syphilis"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Post neuro-surgical"
+        }
+      ]
+    }
+  ],
+  "caseID": "neuro0031",
+  "category": "neuro-ophthalmology",
+  "title": "Case 31",
+  "description": "76F presenting with constant vision loss OU for 6 years",
+  "patientPresentation": "A 76-year-old woman was referred for constant blurry vision in both eyes over the last 6 years. Her past medical history was significant for mild hypertension and joint inflammation. Her medications included prednisone 10 mg PO and vitamin supplementation. On examination, her visual acuity was 20/20 OD and 20/20 OS. IOP was 12 OU. There was no RAPD. IOP was 12 OU. Dilated fundus examination was performed and was unremarkable.\n\nHumphrey visual field testing (24-2) was performed and is shown below:\n\n![](/content/media/neuro_op_31_1.webp)",
+  "footer": "### Learning Objectives:\n\n​1. To understand the visual field and OCT findings of longstanding and bilateral retrochiasmal lesions."
+}

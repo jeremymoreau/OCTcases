@@ -1,0 +1,105 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The fundus photo of the right eye appears normal. Fundus examination of the left eye reveals a cluster of golden colored lesions (black arrow) in a honey-comb pattern in the foveal region.\n\n![](/content/media/uveitiscase9_3.webp)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "Describe the image"
+    },
+    {
+      "title": "Question 2",
+      "text": "An OCT of the macula was performed to further evaluate the abnormality:\n\n![](/content/media/uveitiscase9_4.webp)\n\n![](/content/media/uveitiscase9_5.webp)\n\nWhat layer of the retina is disrupted in the OCT of the left eye?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Inner nuclear layer"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Outer plexiform layer"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Interdigitation zone",
+          "explanation": "The interdigitation zone contains synapses between the photoreceptors and RPE. This OCT demonstrates a dome shaped, hyper-reflective lesion (yellow arrow) that is affecting the RPE, IZ and ellipsoid zone with displacement of the outer limiting membrane.\n\n​Incorrect answers: \nA)    The INL contains the nuclei of bipolar, amacrine, horizontal and Muller cells. This layer is not disrupted in this case. \nB)    The OPL synapses between photoreceptors, bipolar cells and horizontal cells. It is the site of cystic macular edema but is not disrupted in this OCT.\nD)    The choriocapillaris is a part of the choroid containing capillaries that supply blood to Bruch’s membrane and the RPE. It is normal in this OCT. \n\n![](/content/media/uveitiscase9_6.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Choriocapillaris"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Intravenous fluorescein angiogram was then performed:\n\n![](/content/media/uveitiscase9_7-1-.webp)\n\nDescribe this image",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "There is a subtle hyper-fluorescent ring (green arrow) near the fovea corresponding to the cluster of golden colored lesions on fundus examination.\n\n![](/content/media/uveitiscase9_7.webp)"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "Based on the history, examination, and imaging findings, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Multiple Evanescent White Dot Syndrome (MEWDS)"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Acute Retinal Pigment Epitheliitis (Krill Disease)",
+          "explanation": "ARPE or Krill’s disease is an idiopathic retinopathy typically occurring in young adults (ages 10-40) that was first described by Dr. Krill in 1972. The classic finding on OCT is a dome-shaped hyperreflective lesion at the photoreceptor outer segment layer disrupting the ellipsoid zone and interdigitation zone. Typically, there is no leakage on fluorescein angiography.\n\nIncorrect answers: \nA) MEWDS can present with hypopigmented lesions in the macula which typically are hyperfluorescent on IVFA and have a wreath-like configuration which is not present in this patient.\nC) Solar retinopathy can present with disruption of the interdigitation zone, but a history of sun gazing should be elicited.\nD) Acute idiopathic maculopathy (AIM) shows swelling of outer retina with presence of hyper-reflective exudation and hypo-reflective fluid in the subretinal space. \n\nReferences: \nStéphanie Baillif 1, Benjamin Wolff, Vincent Paoli, Pierre Gastaud, Martine Mauget-Faÿsse. Retinal fluorescein and indocyanine green angiography and spectral-domain optical coherence tomography findings in acute retinal pigment epitheliitis. Retina. 2011 Jun;31(6):1156-63.\n\nKrill AE Deutman AF. Acute retinal pigment epitheliitus. Am J Ophthalmol . 1972; 74: 193–205.\n\nSrour M, Querques G, Rostaqui O, Souied EH. Early spectral-domain optical coherence tomography findings in unilateral acute idiopathic maculopathy. Retina 2013;33(10):2182-4.\n\ndell'Omo R, Pavesio CE. Multiple evanescent white dot syndrome (MEWDS). Int Ophthalmol Clin 2012;52(4):221-8."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Solar Retinopathy"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Acute idiopathic maculopathy (AIM)"
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "What would you do next?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Intravitreal anti-VEGF injection"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Focal laser"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Observation",
+          "explanation": "ARPE is a self-limiting disease with spontaneous improvement. Up to 89% of patients recover vision back to baseline within 2 months.\n\nIncorrect answers:\n\nA) Intravitreal anti-VEGF injection is commonly used to treat diabetic macular edema and cystoid macular edema related to retinal vein occlusion or age related macular degeneration. There is no edema in this case and injection would not be needed.\n\nB) Focal laser can be applied to localized areas of capillary leakage causing exudation or edema that affects vision. These features are not present in this patient.\n\nD) Bloodwork for inflammatory retinal conditions can help identifying an underlying cause in cases of uveitis. No signs of inflammation such as vitritis, retinitis or vasculitis are present.\n\n​Reference:\n\nCho HJ, Han SY, Cho SW, Lee DW, Lee TG, Kim CG, Kim JW. Acute retinal pigment epitheliitis: spectral-domain optical coherence tomography findings in 18 cases. Invest Ophthalmol Vis Sci. 2014;55(5):3314-9."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Inflammatory blood work"
+        }
+      ]
+    },
+    {
+      "title": "Follow up",
+      "text": "The patient was observed:\n​\nFollow-up OCT (1 month later)\n\n![](/content/media/uveitiscase9_8.webp)\n\nFollow-up OCT (2 months later)\n\n![](/content/media/uveitiscase9_9.webp)\n\nSerial OCT examination demonstrating resolution of the dome shaped lesion but some irregularity of the interdigitation zone remained. Vision improved to 20/20 at last follow up."
+    }
+  ],
+  "caseID": "uveitis0009",
+  "category": "uveitis",
+  "title": "Case 9",
+  "description": "26F presenting with a 3 day history of central scotoma",
+  "patientPresentation": "**Contributor:** Eli Kisilevsky MD\n\nA 26 year-old previously healthy female presented to ophthalmology clinic with a 3 day history of a central scotoma in the left eye. She endorsed influenza-like symptoms one week prior to presentation. She denied history of sun-gazing. Her review of symptoms was otherwise unremarkable. Uncorrected visual acuity was 20/20 and 20/30 with normal pupils and IOP. Slit lamp examination was unremarkable with no evidence of anterior chamber inflammation. Dilated fundus examination revealed the following:\n\n![](/content/media/uveitiscase9_1.webp)\n\n![](/content/media/uveitiscase9_2.webp)",
+  "footer": "### Learning Objectives:\n​\n\n1. Describe findings of ARPE on OCT \n2. Differentiate ARPE from other idiopathic maculopathies based on OCT and IVFA."
+}

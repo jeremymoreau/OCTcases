@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Retinal Nerve Fiber Layer"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Inner Nuclear Layer",
+          "explanation": "![](/content/media/retina-12-3.webp)\n\n![](/content/media/retina-12-4.webp)\n\nThere is a hyper-reflective band (black arrow) at the level of the inner nuclear layer (INL) that spares the outer retina. Remember that the INL is the most anterior darker layer of the retina and the deeper darker layer corresponds to the outer nuclear layer."
+        },
+        {
+          "correct": false,
+          "answerText": "C. External Limiting Membrane"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Bruch's Membrane"
+        }
+      ],
+      "title": "Question 1",
+      "text": "OS OCT Macula is shown below. What layer is abnormal?\n\n![](/content/media/retina-12-2.webp)"
+    },
+    {
+      "title": "Question 2",
+      "text": "What is the diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Branch Retinal Artery Occlusion"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Paracentral Artery Middle Maculopathy",
+          "explanation": "![](/content/media/retina-12-3.webp)\n\n![](/content/media/retina-12-4.webp)\n\nParacentral acute middle maculopathy (PAMM) is a condition characterized by the OCT finding of a hyper-reflective band(s) that preferentially affect the inner nuclear layer of the retina. PAMM has been hypothesized to be secondary to focal ischemia and reported to the associated with numerous vascular diseases."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Stargardt Disease"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Central Areolar Choroidal Dystrophy"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What ocular condition can be associated with the development of this OCT finding?\n\n![](/content/media/retina-12-2.webp)",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Macular Degeneration"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Central Serous Chorioretinopathy"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Central Retinal Vein Occlusion",
+          "explanation": "In a study performed by Rahimy et al (2014), 5.2% of patients diagnosed with non-ischemic central retinal vein occlusion was found to have evidence of concurrent PAMM.\n\nReferences: Rahimy E, Sarraf D, Dollin ML, Pitcher JD, Ho AC.  Paracentral acute middle maculopathy in nonischemic central retinal vein occlusion. Am J Ophthalmol. 2014; 158(2): 372-380."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Corneal Ulcer"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0012",
+  "category": "retina",
+  "title": "Case 12",
+  "description": "78M presenting with 1-month history of central scotoma OS",
+  "patientPresentation": "A 78-year-old male presented to clinic with a one month history of a persistent central scotoma in his left eye after uneventful cataract surgery. Vision was 20/30 OD and 20/25 OS. Pupils were equal and reactive, with no relative afferent pupillary defect. His medications included Clopidegrol, Xalerto, Bisoprolol, and Rosuvastatin. The fundus photograph of the left eye is shown below:\n\n![](/content/media/retina-12-1.webp)",
+  "footer": "### Learning Objectives:\n\n1. Recognize PAMM on OCT, which is characterized by a hyper-reflective band that affects the inner nuclear layer."
+}

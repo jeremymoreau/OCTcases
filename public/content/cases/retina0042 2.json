@@ -1,0 +1,83 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Chorio-retinal folds",
+          "explanation": "Folding or corrugation of the outer retina layers and underlying choroid can be seen (red box). Focal vitreomacular adhesion is also present overlying the fovea.\n\n![](/content/media/retina-42-2-1-.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Choriocapillaris compression"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Drusen"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Choroidal mass"
+        },
+        {
+          "correct": false,
+          "answerText": "E. Vitreomacular traction syndrome"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What is the main abnormality seen on the OCT above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "What is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Hypotony maculopathy",
+          "explanation": "Hypotony maculopathy is characterized by low intraocular pressure with associated fundus abnormalities including chorio-retinal folds and disc edema. Low intraocular pressure can be defined statistically (< 6.5 mmHg) or clinically (low IOP resulting in vision loss). Hypotony and hypotony maculopathy may occur after surgery (especially filtration procedures), ocular trauma, or chronic inflammatory processes (ex. uveitis). It is strongly recommended to check for bleb and wound leakage for Seidel (positive leak) and measure IOP during regular post-op appointments following filtration surgery. OCT imaging can be done to confirm hypotony maculopathy in cases where subtle chorio-retinal folding may be difficult to assess on fundus examination."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Chronic angle closure glaucoma"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Age-related macular degeneration (AMD)"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Proliferative diabetic retinopathy"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What is the likely cause of hypotony maculopathy in this patient?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Bleb leak"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Infection"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Blebitis"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Over-filtrating bleb",
+          "explanation": "Generally, hypotony following filtration surgery is caused by either a bleb leak or an over-filtrating bleb. This patient’s filtering-bleb appeared elevated and diffuse with Seidel negative, suggesting that too much fluid is being filtered through. A bleb leak may be suspected if a patient is Seidel positive with a shallow bleb and warrants urgent treatment to prevent infection."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0042",
+  "category": "retina",
+  "title": "Case 42",
+  "description": "54M presenting for follow-up of left eye trabeculectomy",
+  "patientPresentation": "A 54-year-old male presented for his 1-week follow-up appointment after undergoing left eye trabeculectomy surgery. On exam, visual acuity is 20/20 OD, 20/60 OS. The anterior chamber appears deep and the filtering bleb appears elevated, diffuse and is Seidel negative. IOP is 4 mmHg OS. OCT macula OS is shown below:\n\n![](/content/media/retina-42-1-1-.webp)",
+  "footer": "References:​\n\n1. Budenz DL, Schwartz K, Gedde SJ. Occult Hypotony Maculopathy Diagnosed With Optical Coherence Tomography. Arch Ophthalmol. 2005;123(1):113–114.\n2. Thomas M, Vajaranant TS, Aref AA. Hypotony Maculopathy: Clinical Presentation and Therapeutic Methods. Ophthalmol Ther. 2015;4(2):79-88.\n\n### Learning Objectives:\n\n1. To diagnose and recognize hypotony maculopathy on OCT\n2. To understand the different causes of hypotony maculopathy on OCT\n3. To understand the treatment of hypotony maculopathy following filtration surgery"
+}

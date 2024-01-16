@@ -1,0 +1,78 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Retinoschisis"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Retinal detachment"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Posterior staphyloma",
+          "explanation": "A posterior staphyloma is an outpouching of a circumscribed region of the posterior fundus, considered as a hallmark of pathologic myopia. In the left eye OCT, you can observe the classic curved morphology of the posterior fundus, indicative of a staphyloma.\n\nIt is important to note that not all patients with high myopia will develop a staphyloma. Additionally, staphylomas can also be found in non-myopic eyes – acquired secondarily due to trauma and infection. They can be associated with congenital diseases such as retinitis pigmentosa or localized defects in Bruch’s membrane.\n\nReferences:\n\nOhno-Matsui K, Jonas JB. Posterior staphyloma in pathologic myopia. Progress in Retinal and Eye Research. 2019 May;70:99–109."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Diabetic retinopathy"
+        }
+      ],
+      "title": "Question 1",
+      "text": "Based on the OCT images, what condition does this patient have in the left eye, associated with her high myopia?"
+    },
+    {
+      "title": "Question 2",
+      "text": "Which of the following is a complication that the condition mentioned above can lead to?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Retinal vascular occlusions"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Macular hole",
+          "explanation": "In a posterior staphyloma, the fundus is being stretched, which can lead various macular complications. These include chorioretinal atrophy, choroidal neovascularization, macular retinoschisis, and macular holes. In the OCT shown above for the left eye, you can notice vitreomacular traction (VMT) and an impending macular hole.\n\nReferences:\n\nHsiang HW, Ohno-Matsui K, Shimada N, Hayashi K, Moriyama M, Yoshida T, et al. Clinical Characteristics of Posterior Staphyloma in Eyes with Pathologic Myopia. American Journal of Ophthalmology. 2008 Jul;146(1):102-110.e2."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Uveitis"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Age-related macular degeneration"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "How would you treat a macular hole?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "Treatment of a macular hole in general depends largely on the existing clinical stage of the macular hole and how it is affecting the patient.\n\n​Medical treatment can first involve conservative treatment, which may be preferred in small macular holes that are not causing severe visual issues, as they can spontaneously close. \n\n​However, if the macular hole is affecting vision, intravitreal ocriplasmin or intravitreal gas or air can be injected to assist in closure of the macular hole. \n\n​Surgical treatment of the macular hole is a remaining option for larger holes that are affecting vision and are not resolving. Although no randomized clinical trials have taken place, there is evidence that even suggests treatment of an impending macular hole with vitrectomy with ILM peeling and intraocular tamponade can be a beneficial strategy – particularly for eyes with outer foveal defects and worsened visual acuity or deteriorating symptoms. \n\n​Ultimately, practices may vary depending on the surgeon and region you work in. Regardless of which treatment is pursued, the patient should be followed up with regularly.\n\n​References:\n\nLa Cour M, Friis J. Macular holes: classification, epidemiology, natural history and treatment: ACTA OPHTHALMOLOGICA SCANDINAVICA 2002. Acta Ophthalmologica Scandinavica. 2002 Dec;80(6):579–87. \n\nStalmans P, Benz MS, Gandorfer A, Kampik A, Girach A, Pakola S, et al. Enzymatic Vitreolysis with Ocriplasmin for Vitreomacular Traction and Macular Holes. N Engl J Med. 2012 Aug 16;367(7):606–15. \n\nChan C, Mein C, Crosson J. Pneumatic vitreolysis for management of symptomatic focal vitreomacular traction. J Ophthalmic Vis Res. 2017;12(4):419. \n\nLee SW, Kang SW, Kim YT, Kim SM, Chung SE. VITREOUS SURGERY FOR IMPENDING MACULAR HOLE. Retina. 2011 May;31(5):909–14."
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "How are VMTs classified?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The International Vitreomacular Traction Study Group has created an OCT-based anatomic classification system for diseases of the vitreomacular interface. Through this, there are specific definitions based on OCT findings of what constitutes vitreomacular adhesion (VMA) versus vitreomacular traction (VMT). Additionally, there are criteria in terms of what defines a focal VMA/VMT (width of attachment ≤1500μm) versus what defines a broad VMA/VMT (width of attachment >1500μm). \n\nReferences:\n\nDuker JS, Kaiser PK, Binder S, de Smet MD, Gaudric A, Reichel E, et al. The International Vitreomacular Traction Study Group Classification of Vitreomacular Adhesion, Traction, and Macular Hole. Ophthalmology. 2013 Dec;120(12):2611–9."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0051",
+  "category": "retina",
+  "title": "Case 51",
+  "description": "83F with moderate myopia OD and high myopia OS",
+  "patientPresentation": "An 83-year-old woman, known for moderate myopia OD (-5.00 D) and high myopia OS (-8.00D), presented to a tertiary retina clinic referred for atypical fundus examination by her optometrist. A 5-Line Raster OCT of her right and left eyes were performed and shown below:\n\n![](/content/media/retina51-1.webp)\n\n![](/content/media/retina51-2.webp)",
+  "footer": "### Learning Objectives:\n\n1. Identify a posterior staphyloma and vitreomacular traction on OCT\n\n2. Understand the complications associated with posterior staphyloma\n\n3. Understand basic treatment of macular holes\n\n4. Recognize the classification system for vitreomacular traction and vitreomacular adhesion"
+}

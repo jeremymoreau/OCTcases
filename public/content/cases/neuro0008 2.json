@@ -1,0 +1,129 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Ischemic optic neuropathy"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Branch retinal artery occlusion"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Macular hole"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Cystoid macular edema"
+        },
+        {
+          "correct": true,
+          "answerText": "E. All of the above",
+          "explanation": "All of the pathology mentioned could result in the visual field defect seen above. A clinical exam with OCT is helpful in differentiating them."
+        }
+      ],
+      "title": "Question 1",
+      "text": "What is the differential diagnosis of this visual field defect?"
+    },
+    {
+      "title": "Question 2",
+      "text": "![](/content/media/neuro-ophthalmology-8-3.webp)\n\n![](/content/media/neuro-ophthalmology-8-4.webp)\n\nA fundus photo and OCT macula OS are shown above. What OCT protocol would be helpful in differentiating the cause?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. OCT angiography"
+        },
+        {
+          "correct": true,
+          "answerText": "B. OCT macula with vertically-oriented line scans",
+          "explanation": "The fundus photo shows an area of optic disc pallor (red asterisk) and loss of the retinal nerve fiber layer (yellow lines). The OCT macula has demonstrated that there is no macular hole, CME or other retinal pathology and a previous BRAO or ischemic optic neuropathy remain in the differential diagnosis. A vertically-oriented OCT macula line scan would help in assessing the atrophic layers of the retina. If this patient had a previous optic neuropathy, we will see that only the RNFL and ganglion cell layer are atrophied. If this patient had a previous BRAO, there would be more significant inner retinal atrophy.\n\n![](/content/media/neuro-ophthalmology-8-5.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. OCT retinal nerve fiber layer"
+        },
+        {
+          "correct": false,
+          "answerText": "D. OCT with enhanced depth imaging"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "![](/content/media/neuro-ophthalmology-8-6.webp)\n\nOCT macula OS with vertically oriented line scans is performed and shown above. The retina highlighted in yellow is **\\_\\_\\_\\_** in relation to the fovea.",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Temporal"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Inferior",
+          "explanation": "A vertical raster is performed over the macula as evidenced by the 5 vertical green lines oriented with the arrow facing downwards. Knowing this, the area highlighted in yellow is inferior to the fovea, while the area highlighted in red is superior to the fovea.\n\n![](/content/media/neuro-ophthalmology-8-7.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Superior"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Nasal"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "![](/content/media/neuro-ophthalmology-8-8.webp)\n\nWhat is the main abnormality seen on the OCT?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. RPE thinning"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Attenuated ellipsoid zone"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Inner retinal thinning and atrophy",
+          "explanation": "The OCT shows inner retinal thinning and atrophy superior to the fovea (yellow box). Furthermore, the inner retinal layers appear irregular. Additionally, there is a dis-attached posterior hyaloid face anterior to this region of retinal atrophy. Note that additional layers below the ganglion cell layer are involved.\n\n![](/content/media/neuro-ophthalmology-8-9.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Shadowing foci in outer retina"
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "Based on the OCT findings, clinical presentation, and fundus description, what is the diagnosis for this patient?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Proliferative diabetic retinopathy"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Branch retinal artery occlusion",
+          "explanation": "BRAO is a vascular occlusive disorder of the retina. Acutely, BRAO can present with sudden onset painless visual distortion and/or decreased visual acuity affecting a specific region of one’s visual field. Chronic BRAO can result in irreversible visual field loss due to persistent ischemia and resulting necrosis of retinal tissue. The BRAO affected the superior macula, with resulting inner retinal atrophy. This would explain the inferior central scotoma seen on the HVF24-2. OCT macula with vertically-oriented line scans confirmed the diagnosis as the layers below the ganglion cell layer are atrophic, which would not be seen in an optic neuropathy."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Age related macular degeneration"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Cystoid macular edema"
+        }
+      ]
+    }
+  ],
+  "caseID": "neuro0008",
+  "category": "neuro-ophthalmology",
+  "title": "Case 8",
+  "description": "31M presenting for an inferior visual field defect OS",
+  "patientPresentation": "A 31-year-old male is referred to the ophthalmology clinic. He suddenly developed an inferior visual field defect in the left eye 9 months ago that persisted. He was unable to seek medical care at the time. On exam, BCVA is 20/20 OU and Humphrey visual field testing showed a left inferior central scotoma and is shown below.\n\n![](/content/media/neuro-ophthalmology-8-1.webp)\n\n![](/content/media/neuro-ophthalmology-8-2.webp)",
+  "footer": "### References:\n​\n\n1. Hayreh SS, Podhajsky PA, Zimmerman MB. Branch retinal artery occlusion: natural history of visual outcome. Ophthalmology. 2009;116(6):1188-94.e944.\n2. Ghazi NG, Tilton EP, Patel B, Knape RM, Newman SA. Comparison of macular optical coherence tomography findings between postacute retinal artery occlusion and nonacute optic neuropathy. Retina. 2010;30(4):578-85\n\n### Learning Objectives:\n​\n\n1. To diagnose and classify chronic BRAO using OCT findings\n2. To understand the management plan for patients with chronic BRAO"
+}

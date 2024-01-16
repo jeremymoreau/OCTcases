@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Left superior homonymous quadrantanopia"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Bilateral superior homonymous defects",
+          "explanation": "Using the OCT GCIPL (also known as the macular ganglion cell complex) analysis, you can appreciate that homonymous inferior thinning. The inferior macula is responsible for the superior visual field and vice versa. The thinning on the right side of the fovea (infero-nasal in OD and infero-temporal in OS) is larger and we would therefore expect a larger visual field defect in the patient’s right visual field. The left visual field defects would likely be smaller and closer to fixation as the OCT GCIPL thinning does not extend to the edge of the macula. This is exactly what we see on the OCT and visual fields.\n\n![](/content/media/neuro-ophthalmology-4-2.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Bilateral inferior homonymous defects"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Right superior homonymous quadrantanopia"
+        }
+      ],
+      "title": "Question 1",
+      "text": "Based on the OCT GCIPL, what visual field defect do you expect this patient to present with?"
+    },
+    {
+      "title": "Question 2",
+      "text": "Which of the following disease processes would best account for the visual field defects?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Trauma"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Carotid stenosis"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Atrial fibrillation",
+          "explanation": "This patient has bilateral retrochiasmal lesions. In this case, there were bilateral occipital lobe strokes. This implies that there were two lesions that resulted in the ischemic strokes that could be best accounted for by atrial fibrillation. In such patients, cardiac emboli originating from the heart will find their way to different areas of the brain and often affect multiple vascular territories."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Dyslipidemia"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Based on the patient’s history of occipital lobe strokes and OCT imaging, why would thinning in the inner retina occur?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Glaucoma"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Optic nerve glioma"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Macular degeneration"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Retrograde trans-synaptic degeneration",
+          "explanation": "This patient has had multiple occipital lobe strokes, which are longstanding prior to this presentation, one in the left occipital lobe and one in the right; the OCT changes are due to retrograde trans-synaptic degeneration (RTSD). This means that there has been atrophy of axons in the occipital lobe, and this has subsequently resulted in atrophy of the retinal ganglion cell and its axon that travels from the retina to the lateral geniculate nucleus. This process likely takes years to occur.\n\nReferences\n\nJindahra P, Petrie A, Plant GT. Retrograde trans-synaptic retinal ganglion cell loss identified by optical coherence tomography. Brain 2009;132:628-634.\n\n![](/content/media/neuro-ophthalmology-4-3.webp)"
+        }
+      ]
+    }
+  ],
+  "caseID": "neuro0004",
+  "category": "neuro-ophthalmology",
+  "title": "Case 4",
+  "description": "59M presenting for follow-up of visual field defect",
+  "patientPresentation": "A 59-year-old male was seen for his standard follow-up appointment to assess a visual field defect. An OCT RNFL and ganglion cell-inner plexiform layer (GCIPL) was performed and shown below.\n\n![](/content/media/neuro-ophthalmology-4-1.webp)",
+  "footer": "### Learning Objectives:\n​\n\n1. Retro-geniculate lesions (strokes, tumours, etc.) can cause retinal changes via retrograde trans-synaptic degeneration."
+}

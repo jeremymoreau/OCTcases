@@ -1,0 +1,55 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "![](/content/media/retina-28-2.webp)\n\nDiagnosis: Central retinal vein occlusion with associated cilioretinal artery occlusion\n\nThe view of the fundus is sub-optimal and hazy, likely secondary to corneal edema from acutely elevated intraocular pressures. The disc appears swollen and the retinal veins are dilated and tortuous. There is an area of retinal whitening extending from the temporal optic disc into the macula. There is an area of hemorrhage along the superior arcades."
+        }
+      ],
+      "title": "Question 1",
+      "text": " Please describe the fundus photograph"
+    },
+    {
+      "title": "Question 2",
+      "text": "![](/content/media/retina-28-3.webp)\n\n![](/content/media/retina-28-4.webp)\n\nAn OCT macula was performed in the left eye along the area of retinal whitening (shown above). Please describe the OCT macula",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "There is increased hyper-reflectivity of the inner retinal layers with a corresponding shadowing effect on outer retinal structures. This is in keeping with edema of inner retina secondary to ischemia.\n\n![](/content/media/retina-28-5.webp)\n\n![](/content/media/retina-28-6.webp)"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What OCT scan protocol is best at measuring retinal thickness?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Line"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Radial"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Raster"
+        },
+        {
+          "correct": true,
+          "answerText": "D. 3D macular map",
+          "explanation": "As discussed in our “Background to OCT” section, the 3D macular map protocol is ideal for measuring retinal thickness (ILM – RPE thickness) as well as monitoring for change in thickness over time. Remember that the thickness ranges are color coded (200 - 300µm blue, 300 - 400µm green, red > 500µm). In this case, the area of retinal whitening has increased thickness, confirmed by the red on the thickness map (red box). These OCT features are in keeping with an acute retinal artery occlusion.\n\n![](/content/media/retina-28-7.webp)"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0028",
+  "category": "retina",
+  "title": "Case 28",
+  "description": "28M presenting with decreased vision OS for 1 day",
+  "patientPresentation": "A 28 year old male presented to ophthalmology clinic with decreased vision in his left eye x 1 day. On examination, visual acuity was 20/20 OD and 20/200 OS. There was a positive left RAPD. IOP was 26 OD and 47 OS. Slit lamp examination demonstrated microcystic corneal edema in the left eye with closed angles and a mild anterior chamber reaction.  A dilated fundus examination of the left eye was performed demonstrating the following:\n\n![](/content/media/retina-28-1.webp)",
+  "footer": "### Learning Objectives:\n\n1. Identify the OCT features of an acute retinal artery occlusion\n2. Recognize the role of 3D macular cube in measuring retinal thickness"
+}

@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Optic nerve drusen OS"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Unilateral disc edema OS and normal OCT macula OU"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Unilateral disc edema OS with subretinal fluid"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Unilateral disc edema with subtle deposits in the outer plexiform layer OS",
+          "explanation": "In the OCT macula of the left eye, subtle hyper-reflective foci can be seen in the outer plexiform layer (yellow arrows). There is also hyper-reflectivity in the vitreous OS (red arrows), in keeping with the vitreous cells seen clinically. The OCT RNFL demonstrates circumferential optic disc edema OS with an average RNFL thickness of 191µm OS compared to 97µm OD.\n\n![](/content/media/neuro_ophto_6.webp)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "Which of the following best describes the above OCT images?"
+    },
+    {
+      "title": "Question 2",
+      "text": "Upon further questioning including review of systems, it was discovered that the patient owns a cat and has been scratched twice in the last 6 months. Lab work serology demonstrated very high titers of Bartonella IgG (<1:256). Testing for toxoplasma gondii IgM, RPR, FTA-ABS and quantiferon gold was negative.\n\nBased on the history and OCT, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Ischemic optic neuropathy"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Idiopathic intracranial hypertension (pseudotumor cerebri)"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Neuroretinitis",
+          "explanation": "Neuroretinitis refers to the inflammation of the optic nerve head. Though associated with a macular star, this sign may take 1-2 weeks to develop, and therefore may not be present in early stages of neuroretinitis. In neuroretinitis, inflammation of the optic disc occurs first with exudative leakage into the retina. The lipid-rich component of this exudate deposits into the peripapillary outer plexiform layer, which may not be seen at presentation.\n\nThe most common cause of infectious neuroretinitis is from the bacteria Bartonella henselae which can be present on a cat’s claws or teeth (otherwise known as Cat Scratch Disease). Ischemic optic neuropathy is less likely as the patient does not endorse any vascular risk factors and vision is relatively preserved. Similarly, papilledema would often present with other associated symptoms such as headache, pulsatile tinnitus, and a lack of inflammatory intraocular changes (eg. vitreous cells). Optic neuritis would fit this patient demographic, but the absence of pain, relatively preserved visual function, absence of an RAPD tends away from this diagnosis."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Ocular Toxoplasmosis"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Which of the following is a potential complication of infectious neuroretinitis?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Serous retinal detachment",
+          "explanation": "It has been suggested that antibiotics and steroids may shorten the recovery period of infectious neuroretinitis; however, many cases have been self-limiting in otherwise healthy individuals; therefore, strong statistical conclusions cannot be made. As exudative fluid penetrates the retina, it passes through the external limiting membrane and accumulates in the subretinal space, giving rise to a detachment in some cases. Central retinal vein occlusion and choroidal neovascularization are not complications of Neuroretinitis, but may mimic it and complicate the diagnosis. Though drusen are also lipid-rich, they are located below the retina."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Central retinal vein occlusion"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Drusenoid deposits"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Choroidal neovascularization"
+        }
+      ]
+    }
+  ],
+  "caseID": "neuro0022",
+  "category": "neuro-ophthalmology",
+  "title": "Case 22",
+  "description": "32F presenting with mild, blurrred vision OS",
+  "patientPresentation": "A 32-year-old female patient was referred by an optometrist to a tertiary general ophthalmology clinic for concern of unilateral disc edema. The patient noticed mild blurred vision in her left eye and went to see her optometrist. She denied previous medical history or ocular history. Distance visual acuity was 20/20 OD and 20/20 OS with IOP wnl; there was no RAPD. Anterior segment examination showed a rare cell in the anterior chamber. Dilated examination demonstrated 1+ vitreous cells OS and the following:\n\n![](/content/media/neuro_ophto_1.webp)\n\nOCTs of the RNFL and macula OU were conducted and are shown below:\n\n![](/content/media/neuro_ophto_2.webp)\n\n![](/content/media/neuro_ophto_4.webp)\n\n![](/content/media/neuro_ophto_5.webp)",
+  "footer": "### References:\n\n1. Fatteh, N., Feldman, B., Shah, V., Vaphiades, M., Bhat, P. and Lim, J., 2022. Neuroretinitis - EyeWiki. \\[online] Eyewiki.aao.org. Available at: <https://eyewiki.aao.org/Neuroretinitis> \\[Accessed 25 May 2022].\n\n2. Michel Z, Redd T, Bhavsar KV. Multimodal imaging of two unconventional cases of Bartonella Neuroretinitis. Retinal Cases and Brief Reports 2022;16:40-43.\n\n3. Margolin E. (2019). The swollen optic nerve: an approach to diagnosis and management. Practical neurology, 19(4), 302–309. https://doi.org/10.1136/practneurol-2018-002057\n\n4. Habot-Wilner, Z., Zur, D., Goldstein, M., Goldenberg, D., Shulman, S., Kesler, A., Giladi, M., & Neudorfer, M. (2011). Macular findings on optical coherence tomography in cat-scratch disease neuroretinitis. Eye (London, England), 25(8), 1064–1068. https://doi.org/10.1038/eye.2011.125\n\n5. Holdeman NR, Ma L, Tang RA (2017) Cat Scratch Neuroretinitis. Int J Ophthalmol Clin Res 4:071. doi.org/10.23937/2378-346X/1410071\n\n6. Khairallah, M., Khochtali, S. Choroidal neovascularization complicating optic disc drusen, mistaken for Bartonella neuroretinitis. Int Ophthalmol 37, 1083–1084 (2017). https://doi.org/10.1007/s10792-016-0363-8\n\n### Learning Objectives:\n\n1. Understand the clinical and laboratory findings of infectious neuroretinitis\n\n2. Differentiate neuroretinitis from other conditions with similar presentations\n\n​3. Understand the approach to asymptomatic unilateral disc edema"
+}

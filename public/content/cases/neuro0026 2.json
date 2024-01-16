@@ -1,0 +1,56 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Bilateral disc edema",
+          "explanation": "The OCT RNFL demonstrates an average RNFL thickness of 151/154, which is well over the average RNFL thickness. This is corroborated by the RNFL thickness maps, which demonstrate bilateral circumferential elevation of the RNFL. The RNFL thickness topographic map also demonstrates increased thickness above the age-matched average, notably superiorly and inferiorly in both eyes."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Disc-at-risk OS"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Pseudo-papilledema"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Normal OCT RNFL"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What is the main finding in the OCT ONH/RNFL above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "An OCT 5-line raster over the left optic nerve was taken and is shown below:\n\n![](/content/media/neur_ophth_26_3.webp)\n\nWhat is the main finding in the left eye OCT 5-line raster above?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Optic disc drusen"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Paracentral acute middle maculopathy"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Hyper-reflectivity in the pre-retinal space",
+          "explanation": "The main finding is a hyper-reflective foci in the pre-retinal space extending into the vitreous OS. This corresponds to the inferior optic disc hemorrhage seen on the fundus photo. This case surmises that head and neck manipulation from the massage induced an optic disc hemorrhage in a patient with known papilledema.\n\n![](/content/media/neur_ophth_26_4.webp)\n\n![](/content/media/neur_ophth_26_5.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Asteroid hyalosis"
+        }
+      ]
+    }
+  ],
+  "caseID": "neuro0026",
+  "category": "neuro-ophthalmology",
+  "title": "Case 26",
+  "description": "41F presenting with painless decreased vision OS for 2 days",
+  "patientPresentation": "A 41-year-old woman with a known history of idiopathic intracranial hypertension (IIH) presented with a 2 day history of painless decreased vision OS. The patient noted she had a head and neck massage in prone position 2 hours prior to her visual disturbance. She was using 500mg PO Diamox daily. On examination, visual acuity was 20/20 OD and 20/40 OS. There was no RAPD. Fundus photographs were taken and are shown below:\n\n![](/content/media/neur_ophth_26_1.webp)\n\nAn OCT ONH/RNFL was taken and is shown below:\n\n![](/content/media/neur_ophth_26_2.webp)",
+  "footer": "References:​​​\n\nDi Ianni J, Pereira A, Micieli JA. Vitreous Hemorrhage from Papilledema After Neck Massage. Ophthalmology. 2023;doi:10.1016/j.ophtha.2022.12.015\n\n### Learning Objectives:\n\n1. To recognize an optic disc hemorrhage on OCT imaging."
+}

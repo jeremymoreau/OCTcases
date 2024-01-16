@@ -1,0 +1,83 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Subretinal fluid"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Optic nerve edema"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Dome-shaped mass with posterior shadowing",
+          "explanation": "The EDI-OCT demonstrates a lesion over the optic nerve with notable hyper-reflectivity along the inner rim of the anterior and posterior surface of the dome (red arrow). There are also focal cystic spaces in the outer retina (green arrow). This lesion leads to notable posterior shadowing (blue arrow).\n\n![](/content/media/neuro_opht_27_4.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Vitreopapillary traction"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What is the main finding in the OCT above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "Based on the exam findings and OCT imaging, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Ocular melanoma"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Choroidal nevus"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Optic disc melanocytoma",
+          "explanation": "Melanocytomas are rare, benign, pigmented neoplasms that often present on the optic nerve head in patients with normal visual acuity. These lesions are typically congenital and non-hereditary. They are believed to have low malignant potential in the order of 1-2%. The pathophysiology of melanocytoma development is still unclear. Melanocytomas are typically an isolated condition, but associations to NF2 and basal cell carcinomas have been postulated. Thicknesses greater than 1.5mm carries higher risk of retinal vein occlusions, ischemic optic neuropathies or tumour necrosis.\n\nOCT is crucial in the diagnosis of melanocytomas, as they typically present with a dome-shaped lesion over the optic disc with hyper-reflectivity throughout the anterior and posterior surface of the dome, as well as underlying posterior shadowing.\n\n​\n\nReferences:\n\n​\n\n1.Shields JA, Demirci H, Mashayekhi A, Shields C. Melanocytoma of optic disc in 115 cases: the 2004 Samuel Johnson Memorial Lecture. Ophthalmol 2004;111:1739-46.\n\n2. Shields JA, Demirci H, Mashayekhi A, et al. Melanocytoma of the optic disc: a review. Surv Ophthalmol 2006;51:93–104."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Juxtapapillary CNVM"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What diagnostic test is important to obtain in the monitoring of melanocytomas?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Fluorescein angiography"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Fundus autofluorescence"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Fundus photographs"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Visual fields",
+          "explanation": "Studies have shown that visual fields are abnormal in 90% of patients with optic disc melanocytomas. Field defects typically seen include temporal islands, arcuate defects, nerve fibre bundle defect or enlargement of the blindspot. A study analyzing blood vessel network within areas in melanocytomas confirmed ischemia to regions of the retinal nerve fibre layer that directly correlate to visual field deficit.  Visual fields are also important when monitoring for progression.\n\n​References:\n\n1. Kwak JJ, Lee DH, Lee SC, Lee CS. Evaluation of blood vessel network formation and visual field defect in optic disc melanocytoma. Br J Ophthalmol. 2023 Mar;107(3):418-424."
+        }
+      ]
+    },
+    {
+      "title": "Follow up",
+      "text": "Our patient underwent 24-2 Humphrey Visual Field testing, which was normal OU. He is being followed every 6 months with fundus photography and visual field testing.\n\n![](/content/media/neuro_opht_27_5.webp)"
+    }
+  ],
+  "caseID": "neuro0027",
+  "category": "neuro-ophthalmology",
+  "patientPresentation": "A 30-year-old man was referred to a neuro-ophthalmology clinic for assessment of an optic nerve lesion in his right eye. This lesion was found by his optometrist incidentally during a regular eye examination. He was asymptomatic, including no recent vision changes, flashes, floaters or visual field deficit. The patient denied any past medical or ocular history. On examination, visual acuity was 20/20 OD and 20/20 OS, IOP was 18 OD and 17 OS, and there was no RAPD. Anterior segment examination was unremarkable. Fundus photographs were taken and are shown below:\n\n![](/content/media/neuro_opht_27_1.webp)\n\n![](/content/media/neuro_opht_27_2.webp)\n\nA 5-line OCT image with enhanced depth imaging was taken over this lesion and is shown below:\n\n![](/content/media/neuro_opht_27_3.webp)",
+  "title": "Case 27",
+  "description": "30M presenting with optic nerve lesion OD",
+  "footer": "### Learning Objectives:\n\n1. Understand the typical OCT features in optic disc melanocytoma.\n\n2. Differentiate melanocytoma from alternative retinal pigmented lesions."
+}

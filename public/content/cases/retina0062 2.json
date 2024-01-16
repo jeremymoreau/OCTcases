@@ -1,0 +1,101 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Serous pigment epithelial detachment (PED)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Intra-retinal cysts"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Subretinal hyper-reflective material"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Retinal detachment",
+          "explanation": "The OCT demonstrates intra-retinal cysts (blue arrow also over left side of image IRF) with adjacent intra-retinal hyper-reflective foci corresponding to an exudative process. A serous PED is most notable (red arrow) which corresponds to the elevation seen on the fundus photograph. There is also sub-RPE and subretinal hyper-reflective material (SHRM, green arrow) which likely correspond to hemorrhage from a type 3 CNVM. \n\nType 3 CNVMs, or retinal angiomatous proliferation (RAP) lesions, typically present with:\n\n* intra-retinal cysts\n* serous PEDs\n* subretinal hyper-reflective material (SHRM)\n\n  ![](/content/media/r62_3.webp)\n\n  References:\n\n  Farecki ML, Gutfleisch M, Faatz H, Rothaus K, Heimes B, Spital G, Lommatzsch A, Pauleikhoff D. Characteristics of type 1 and 2 CNV in exudative AMD in OCT-Angiography. Graefes Arch Clin Exp Ophthalmol. 2017 May;255(5):913-921.\n\n  Yannuzzi LA, Freund KB, Takahashi BS. Review of retinal angiomatous proliferation or type 3 neovascularization. Retina. 2008 Mar;28(3):375-84"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What findings are not present in the OCT above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "The fundus photo and OCT macula of the left eye is shown below:\n\n![](/content/media/r62_4.webp)\n\n![](/content/media/r62_5.webp)\n\nWhat is the main finding of the OCT above?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Intraretinal cysts"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Submacular hemorrhage"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Drusenoid PEDs",
+          "explanation": "The OCT demonstrates classic drusen, which are lipofuscin deposits under the retinal pigmented epithelium. In addition to the drusenoid PEDs, there are also several hyper-reflective foci anterior to the PED. Histological studies have shown that in AMD presenting with drusenoid deposits, intraretinal hyper-reflective foci above the drusen are fully pigmented and nucleated RPE cells migrating anteriorly and likely represent progression of the disease. As RPE cells migrate anteriorly (presenting as hyper-reflective foci), the pigment epithelial layer loses cells and atrophies, revealing choroidal vessels underneath. Hyper-reflective foci thus likely represent progression of AMD to later stages including geographic atrophy and choroidal neovascularization.\n\nReferences:\n\nGarcía-Layana A, Cabrera-López F, García-Arumí J, Arias-Barquet L, Ruiz-Moreno JM. Early and intermediate age-related macular degeneration: update and clinical review. Clin Interv Aging. 2017;12:1579-1587. Published 2017 Oct 3. doi:10.2147/CIA.S142685"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Epiretinal membrane"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "The patient elected for treatment of her right eye. Below is the fundus photo and OCT image one month after initial presentation.\n\n![](/content/media/r62_6.webp)\n\nWhat change is appreciated in the OCT above?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The OCT now demonstrates resolution of the serous PED. Fibrovascular (blue arrow) and drusenoid (green arrow) PEDs are still appreciated. Intra-retinal hyper-reflective foci remain from the exudative process. \n\n![](/content/media/r62_7.webp)"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What treatment was initiated in this patient?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The patient was treated with 3 loading doses of intravitreal Eylea (aflibercept) injections. This is the standard-of-care treatment for neovascular age-related macular degeneration. The landmark clinical trials, VIEW 1 and 2, demonstrated high efficacy and safety up to 2 years for patients treated with intravitreal aflibercept for nAMD, with patients gaining 8.4 letters on a standardized ETDRS chart at week 52 compared to sham comparison. The safety profile was high for this treatment. \n\nReferences:\n\nKaiser PK, Singer M, Tolentino M, Vitti R, Erickson K, Saroj N, Berliner AJ, Chu KW, Zhu X, Williams Liu Z, Clark WL. Long-term Safety and Visual Outcome of Intravitreal Aflibercept in Neovascular Age-Related Macular Degeneration: VIEW 1 Extension Study. Ophthalmol Retina. 2017 Jul-Aug;1(4):304-313."
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "Unfortunately, the patient was lost to follow-up aft. She returned to the retina clinic 1 year after her last follow-up complaining of decreased vision OD. Her BCVA was 20/100 OD and 20/30 OS. Fundus examination and OCT imaging of the right eye is shown below:\n\n![](/content/media/r62_8.webp)\n\nWhat is not appreciated in the OCT macula above?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Intraretinal cysts"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Fibrovascular PED"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Pre-choroidal cleft"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Serous PED",
+          "explanation": "This patient now presents with recurrence of her type 1 CNVM due to cessation and lack of maintenance of the anti-VEGF intravitreal injections. The key findings include the intraretinal cysts (blue arrow) and fibrovascular PEDs (green arrow), which were both present prior to Eylea treatment. However, the new key finding is the pre-choroidal cleft (red arrow). \n\n​Pre-choroidal clefts are hypo-reflective spaces sandwiched between two hyper-reflective bands, the RPE and the Bruch’s membrane. It is characterized by posterior bowing of the Bruch’s with overlying fibrovascular contractile tissue. These clefts can occur in 8.1 – 22.3% of treated nAMD eyes. The significance of pre-choroidal clefts are that the contractile tissue and hydrostatic forces lead to a risk of RPE rip, a splitting of the RPE-Bruch’s and recurrent subretinal hemorrhage.. Adherence of anti-VEGF injections and regular maintenance therapy is crucial to prevent this complication.\n\n![](/content/media/r62_9.webp)\n\nReferences:\n\nKim JM, Kang SW, Son DY, Bae K. RISK FACTORS AND CLINICAL SIGNIFICANCE OF PRECHOROIDAL CLEFT IN NEOVASCULAR AGE-RELATED MACULAR DEGENERATION. Retina. 2017 Nov;37(11):2047-2055."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0062",
+  "category": "retina",
+  "title": "Case 62",
+  "description": "68F presenting with vision loss OD for 2 weeks",
+  "patientPresentation": "A 68-year-old female presented to a tertiary retina clinic with vision loss in the right eye for the last 2-weeks. She denied flashes, floaters or recent head trauma. Her past medical or ocular history was unremarkable; however, she was a 30-year-pack smoker. Best-corrected distance visual acuity was 20/100 OD and 20/30 OS with intraocular pressure 13 OD and 14 OS. Fundus examination demonstrated yellow deposits throughout the macula OU with an elevated peripapillary region OD. Fundus photo and OCT macula OD are shown below. \n\n![](/content/media/r62_1.webp)\n\n![](/content/media/r62_2.webp)",
+  "footer": "### Learning Objectives:\n​\n\n1. To investigate the presenting features on fundus examination and OCT of neovascular age-related macular degeneration\n\n2. Diagnosing type 3 CNMVs\n\n3. To diagnose pre-choroidal clefts and understand the significance of this OCT finding"
+}

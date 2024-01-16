@@ -1,0 +1,102 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Choroidal excavation",
+          "explanation": "The OCT macula demonstrated sub-foveal, focal choroidal excavation (FCE), as demonstrated by the white arrow. FCE presents clinically as subtle RPE changes on dilated fundus examination, but on macula OCT, demonstrates posterior bowing of the RPE and Bruch’s membrane complex. The outer retinal layers can fall back through the RPE (conforming FCE), as demonstrated in this image, or remain in normal position with presence of subretinal fluid (non-conforming FCE).\n\n![](/content/media/retina-44-2.webp)\n\nReference\n\nLee CS, Woo SJ, Kim YK, Hwang DJ, Kang HM, Kim H, Lee SC. Clinical and spectral-domain optical coherence tomography findings in patients with focal choroidal excavation. Ophthalmology. 2014 May;121(5):1029-35."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Choroidal neovascularization membrane"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Subretinal fluid"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Disorganization of inner retinal layers"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What is the primary finding on the OCT macula above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "What disease process is focal choroidal excavation linked to?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Ocular trauma"
+        },
+        {
+          "correct": true,
+          "explanation": "First postulated in 2017 by Chung et al., FCE has been linked to pachychoroid spectrum of disease. Pachychoroid phenotype is characterized as increased choroidal thickness, dilated choroidal vessels, and breakdown of the choriocapillaris. It appears through recent literature that FCE is a manifestation of pachychoroid spectrum of disease. It is postulated that large choroidal vessels can compress the choriocapillaris, ultimately leading to ischemia and atrophy of the inner choroid and retinal pigment epithelium layer (causing FCE). \n\nReference\n\nChung, H, Byeon SH, Freund, BK. Focal choroidal excavation and its association with pachychoroid spectrum disorders. Retina 2017;37(2):199-221.",
+          "answerText": "B. Pachychoroid spectrum"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Genetic disorder"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Medication toxicity"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Three weeks later, the patient presented with worsening vision OS. A repeat OCT macula was performed and demonstrated below.\n\n![](/content/media/retina-44-3.webp)\n\nTo better characterize the hyper-reflective foci at the FCE, an OCT-angiography was conducted. The outer retina/choriocapillaris segment with accompanying flow B-scan is shown below.\n\n![](/content/media/retina-44-4.webp)\n\nWhat is the key finding in the above OCTA?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Enlarged foveal avascular zone"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Disorganization of inner retinal layers"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Inner retinal cysts"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Choroidal neovascularization membrane",
+          "explanation": "The flow B-scan demonstrates new blood flow at the level of the RPE within the choroidal excavation, and when correlated to the ORCC segment of the OCTA, most likely demonstrates a new CNVM. Choroidal neovascularization has been shown to be a complication of conforming FCE, but it also may be a cause of the FCE as part of the pachychoroid spectrum. Due to the temporal aspect of this patient presentation, it can be concluded that the FCE led to CNVM, causing vision loss. The image below shows the initial OCTA flow B-scan on initial presentation (left) and the 3-week OCTA on the right, demonstrating serial progression of blood flow on flow B-scan images.\n\n![](/content/media/retina-44-5.webp)"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What is the current treatment for CNVM secondary to FCE?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Photodynamic therapy"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Anti-VEGF injections",
+          "explanation": "Though all 3 of PDT, anti-VEGF injections and observation have been shown in literature to demonstrate efficacy in the management of FCE, when a CNVM is present, anti-VEGF injections are the first-line treatment."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Observation"
+        },
+        {
+          "correct": false,
+          "answerText": "D. All of the above"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0044",
+  "category": "retina",
+  "title": "Case 44",
+  "description": "23F presenting for a 3-month history of worsening vision OS",
+  "patientPresentation": "A 23-year-old female was referred to a tertiary retina clinic for assessment of progressively worsening vision for the last 3-months OS. She denied past medical or ocular history. Vision was 20/20 OD and 20/40 OS with no RAPD and IOP within normal limits. Slit lamp examination was unremarkable. Dilated fundus examination was normal OD, but demonstrated macular RPE changes OS. The OCT macula is shown below.\n\n![](/content/media/retina-44-1.webp)",
+  "footer": "### Learning Objectives:\n\n1. The presentation, etiology, complication and treatment of focal choroidal excavation."
+}

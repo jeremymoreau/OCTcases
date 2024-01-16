@@ -1,0 +1,90 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Intra-retinal Cysts"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Detached Neurosensory Retina"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Vitreous Cells"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the Above",
+          "explanation": "![](/content/media/case-retina5-q1a.png)\n\n**The answer is (D) All of the above**\n\nThe abnormalities on the OCT are:\n\n1. Intra-retinal Cysts (blue arrows)\n2. Detached Neurosensory Retina with accumulation of sub-retinal fluid (red star)\n3. Vitreous inflammation (yellow hexagon)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What abnormalities do you visualize in the patient's OCT image?\n\n![](/content/media/case-retina5-q1.png)"
+    },
+    {
+      "title": "Question 2",
+      "text": "What is the Diagnosis?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "![](/content/media/case-retina5-q1.png)\n\n**The Diagnosis is Macula-Off Retinal Detachment**\n\nThere is a complete separation of the neurosensory retina from the underlying retinal pigment epithelium. Of note, there are peri-foveal cyst-like spaces between the inner and outer retina that could represent intra-retinal fluid or pre-existing schisis given the patient's high myopia."
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "An OCT was also performed on the contralateral right eye demonstrating the following:\n\n![](/content/media/case-retina5-q3.png)\n\nWhat is the diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Retinoschisis"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Optic Pit Maculopathy"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Retinal Detachment",
+          "explanation": "![](/content/media/case-retina5-q3.png)\n\n**The answer is (C) Retinal Detachment**\n\nThis is a macula-threatening retinal detachment. Towards the left side of the OCT scan, sub-retinal fluid can be seen advancing towards the fovea. The foveal contour is preserved with no sub-retinal fluid seen underneath the fovea."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Branch Retinal Artery Occlusion"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "![](/content/media/case-retina5-q4.png)\n\nWhat layer of the retina is the yellow arrow pointing to?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Ellipsoid Zone"
+        },
+        {
+          "correct": false,
+          "answerText": "B. External Limiting Membrane"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Retinal Nerve Fibre Layer"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Retinal Pigment Epithelium",
+          "explanation": "![](/content/media/case-retina5-q4.png)\n\n**The answer is (D) Retinal Pigment Epithelium**\n\nThe retina is separated from the underlying retinal pigment epithelium, which is the hyper-reflective layer of the retina identified by the yellow arrow. \n\nGiven that this is a macula-on retinal detachment, immediate intervention is warranted to ensure that the detachment does not involve the macula."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0005",
+  "category": "retina",
+  "title": "Case 5",
+  "description": "11M presenting with decreased vision and miotic pupil OS",
+  "patientPresentation": "A 11-year-old aphakic male with a history of microspherophakia s/p cataract surgery presents to an emergency room with decreased vision in the left eye x 3 months. BCVA was 20/40 OD and 20/100 OS. His pupils remained meiotic despite multiple attempts to dilate his pupils pharmacologically. The view to the fundus was poor. An OCT macula was performed demonstrating the following:",
+  "footer": "### Learning Objectives\n\n1. Diagnose a retinal detachment on OCT and identify the difference between a macula on and off retinal detachment.\n2. Recognize that OCT can be useful in cases where there is a sub-optimal view of the macula."
+}

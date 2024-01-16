@@ -1,0 +1,102 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Signs of choroidal neovascularization OS in both superficial and deep segments"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Microaneurysms notably in the superficial segments OU"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Decreased vessel density OD and enlarged FAZ OS in both superficial and deep layers",
+          "explanation": "The foveal avascular zone is noticeably enlarged in the left eye superficial and deep segments on OCTA imaging (white arrows). This most commonly caused by capillary non-perfusion or microcirculation impairment. In addition, when observing the OD and OS OCTA images side-by-side, one can appreciate a decrease in vessel density OD in both the superficial layers.\n\n![](/content/media/uveitis-7-7.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Dilated, irregular telangiectatic vessels OD > OS in the superficial and deep layers"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What abnormalities are noted on the two OCTA images above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "Based on the abnormalities on OCTA, what disease process could be most likely occurring?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Choroidal neovascularization membrane"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Evidence of occlusive retinal vasculitis",
+          "explanation": "The decreased vessel density OD and enlarged foveal avascular zone OS are signs of non-perfusion, which point towards occlusive retinal vasculitis."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Motion artifact"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Evidence of proliferative diabetic retinopathy with neovascularization"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Hydroxychloroquine toxicity induced retinal vasculitis"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Antiphospholipid syndrome associated occlusive retinal vasculitis",
+          "explanation": "In this case, the history of antiphospholipid antibody syndrome (APLA) with multiple previous TIAs points toward APLA as the cause of the occlusive retinal vasculitis. APLA is an autoimmune condition where abnormal proteins are made in the blood, leading to clots. Hydroxychloroquine toxicity does not cause retinal vasculitis but rather causes a retinopathy beginning with subtle changes in the RPE eventually leading to a classic “bulls-eye maculopathy” finding. The patient does not have a history of diabetes. Idiopathic retinal vasculitis is less common and would be a diagnosis of exclusion (1)."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Proliferative diabetic retinopathy associated retinal vasculitis"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Idiopathic retinal vasculitis"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What would the next best step be in management of this condition?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Reassurance and follow-up in 2 weeks to see if her findings resolve spontaneously"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Antiviral medications such as acyclovir would be recommended"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Increase dose of hydroxychloroquine and have patient follow-up more frequently for hydroxychloroquine retinal toxicity screening"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Referral to a rheumatologist to discuss change in systemic medication for immunosuppression due to APLA",
+          "explanation": "This patient would benefit from a change in her systemic medication, as hydroxychloroquine is unlikely to be effective to treat the ocular involvement of her APLA. A possible option for immunosuppression would be an antimetabolite, such as mycophenolic acid.(2)\n\nTo note, this case highlights the important role ophthalmologists can play in systemic management and the value of remaining vigilant even in what may appear to be a routine case. If the exam had only focused on the posterior pole where one would anticipate and screen for Plaquenil toxicity, the peripheral pathology could have gone undiagnosed, and this patient’s systemic vasculitis would have remained untreated."
+        }
+      ]
+    }
+  ],
+  "caseID": "uveitis0007",
+  "category": "uveitis",
+  "title": "Case 7",
+  "description": "61F presenting for routine hydroxychloroquine screening",
+  "patientPresentation": "A 61-year-old female presented to a uveitis clinic for routine hydroxychloroquine screening. The patient’s past medical history was significant for systemic lupus erythematosus, for which she was treated with Plaquenil for the past 6-months. The patient was asymptomatic on presentation. Visual acuity was 20/20 OU, with IOPs measuring 12 OD and 13 OS. Slit lamp examination was within normal limits. Dilated fundus examination revealed retinal vascular sheathing OU with dot-blot hemorrhages OS > OD. On further questioning based on the retinal findings, the patient later disclosed a prior diagnosis of antiphospholipid antibody syndrome and previous transient ischemic attacks (TIAs), which were not noted in the referral letter. She was on warfarin but not on any immunomodulatory agent other than the Plaquenil. Optos widefield fundus photos are shown below:\n\n![](/content/media/uveitis-7-1.webp)\n\n![](/content/media/uveitis-7-2.webp)\n\nThis fundus photo of the right eye in particular shows retinal vascular sheathing and areas of neovascularization (superonasally).\n\n![](/content/media/uveitis-7-3.webp)\n\n![](/content/media/uveitis-7-4.webp)\n\n2 IVFA images of the right eye were taken (roughly 14 months apart), demonstrating peripheral ischemic areas/vascular blunting with multiple pinpoint areas of leakage in the first photo progressing to neovascularization superonasally in the second photo.\n\n\nAn OCT Angiography (OCTA) was performed and shown below:\n\n![](/content/media/uveitis-7-5.webp)\n\n![](/content/media/uveitis-7-6.webp)",
+  "footer": "### References:\n​\n\n1. Cunningham ET, Zierhut M. Retinal Vasculitis. Ocular Immunology and Inflammation. 2020 Nov 16;28(8):1159–62.\n\n​2. Ghembaza A, Saadoun D. Management of Antiphospholipid Syndrome. Biomedicines. 2020 Nov 17;8(11):508.\n\n### Learning Objectives:\n​\n\n1. Identify OCT features of occlusive retinal vasculitis due to systemic conditions such as antiphospholipid syndrome.\n2. Understand basic management of systemic conditions that can cause occlusive retinal vasculitis and the role the ophthalmologist may play in co-managing systemic care."
+}

@@ -1,0 +1,55 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "There is a well-demarcated peripapillary annular band of gray-white opacification of the deep retina surrounding the optic disc in both eyes. With time, retinal vessels attenuate, and a large zone of retinal pigment epithelium (RPE) depigmentation appears within the annular border."
+        }
+      ],
+      "title": "Question 1",
+      "text": "Please describe the main finding in these fundus photographs"
+    },
+    {
+      "title": "Question 2",
+      "text": "An SD-OCT was performed, and images are shown below:\n\n![](/content/media/uveitis-4-2.webp)\n\n![](/content/media/uveitis-4-3.webp)\n\nPlease describe the abnormalities in the patient’s OCT image.",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "Thinning or atrophy of the outer retina/outer nuclear layer (ONL), including disruption of the ellipsoid zone (EZ) within the annular area of RPE destruction. A nodular border can be seen between the normal and abnormal retinal zones.\n\n![](/content/media/uveitis-4-4.webp)"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What “White Dot Syndrome” is this diagnosis related to?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Multiple evanescent white dot syndrome (MEWDS)"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Acute zonal occult outer retinopathy (AZOOR)",
+          "explanation": "AAOR is a rare disease with roughly 20 cases identified in the literature.(1) It is considered related to and possibly a variant of Acute Zonal Occult Outer Retinopathy (AZOOR).(2) AZOOR is similarly characterized by acute loss of one or more zones of outer retinal function with associated photopsia and a scotoma but minimal funduscopic changes."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Acute posterior multifocal placoid pigment epitheliopathy (APMPPE)"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Acute retinal pigment epitheliitis (ARPE) or “Krill’s Disease”"
+        }
+      ]
+    }
+  ],
+  "caseID": "uveitis0004",
+  "category": "uveitis",
+  "title": "Case 4",
+  "description": "26F presenting with bilateral progressive visual field loss",
+  "patientPresentation": "**Contributors:** Dr. John Liu and Dr. Chloe Gottlieb\n\nA 26-year-old Caucasian female presents with a complaint of bilateral progressive visual field loss, worse in her left eye. She endorses photopsias in her left eye, which then rapidly progressed to her right eye within several days. She denies a prodrome and has had no recent infections, no recent travel, and no sick contacts.\n\nColour fundus photos were taken and are show below:\n\n![](/content/media/uveitis-4-1.webp)",
+  "footer": "### References:\n\n​\n\n1. Gupta RR, Iaboni DSM, Seamone ME, Archambault C, Lederer DE. Acute Annular Outer Retinopathy: Literature Review and a Report of 2 Cases. Journal of VitreoRetinal Diseases. 2019 May;3(3):172–82.\n\n​2. Donald J, Gass M, Stern C. Acute Annular Outer Retinopathy as a Variant of Acute Zonal Occult Outer Retinopathy. American Journal of Ophthalmology. 1995 Mar;119(3):330–4.\n\n### Learning Objectives:\n\n​\n\n1. Identify fundus photo and OCT features of AAOR (Acute Annular Outer Retinopathy)\n2. Understand AAOR and how it relates to Acute Zonal Occult Outer Retinopathy (AZOOR)"
+}

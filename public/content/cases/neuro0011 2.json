@@ -1,0 +1,125 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Bitemporal hemianopia"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Superior arcuate defects"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Inferior arcuate defects",
+          "explanation": "This patient has inferior arcuate defects in both eyes. The defect is more significant in the right eye and is only located in the inferior meridian."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Homonymous hemianopia"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What visual field defects are present?"
+    },
+    {
+      "title": "Question 2",
+      "text": "![](/content/media/neuro-ophthalmology-11-3.webp)\n\n![](/content/media/neuro-ophthalmology-11-4.webp)\n\nOCT RNFL and Ganglion Cell Inner Plexiform Layer (GCIPL) Analysis were performed and shown above.  What is the most significant finding?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Bilateral optic disc edema"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Superior optic nerve atrophy",
+          "explanation": "On the OCT RNFL thickness map, there is a striking difference in the thickness of the superior optic nerve compared to the inferior optic nerve. The superior RNFL is significantly thinned OU. As this patient is less than 18, normative data is not present."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Bow-tie atrophy"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Diffuse optic nerve atrophy"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "![](/content/media/neuro-ophthalmology-11-5.webp)\n\n![](/content/media/neuro-ophthalmology-11-6.webp)\n\nFundus photography was performed and is shown above. What is the patient's most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Compressive optic neuropathy"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Bilateral ischemic optic neuropathies"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Superior segmental optic nerve hypoplasia",
+          "explanation": "This patient has superior segmental optic nerve hypoplasia. Closer inspection of the posterior pole reveals relative superior entrance of the central retinal artery (red arrow), pallor of the superior disc (purple asterisks), and thinning of the superior peri-papillary nerve fibre layer (yellow asterisks).\n\n![](/content/media/neuro-ophthalmology-11-7.webp)\n\n![](/content/media/neuro-ophthalmology-11-8.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Optic disc pits"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What maternal medical condition/finding is thought to be associated with optic nerve hypoplasia?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Maternal diabetes mellitus",
+          "explanation": "For reasons unknown, there is an association between optic nerve hypoplasia and maternal diabetes mellitus. In a study conducted by Kim et al, all 10 patients with superior segmental optic nerve hypoplasia were born to mothers with diabetes mellitus. Optic nerve hypoplasia may also be associated with fetal alcohol syndrome and premature birth.\n\nReferences\n\nKim RY, Hoyt WF, Lessell S, Narahara MH. Superior Segmental Optic Hypoplasia: A Sign of Maternal Diabetes. Arch Ophthalmol. 1989;107(9):1312–1315."
+        },
+        {
+          "correct": false,
+          "answerText": "B. TORCH infection (ex. Cytomegalovirus)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Obesity"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Refractory hypertension"
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "What issues are patients with optic nerve hypoplasia at risk of developing?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Epiretinal membrane"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Cataract"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Progressive visual field loss"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Hormonal insufficiency",
+          "explanation": "While optic nerve hypoplasia cannot be reversed or treated, it is a non-progressive entity. These patients are at risk for development of hormonal insufficiencies (thyroid hormone, growth hormone, adrenal gland, anti-diuretic hormone deficiencies) as a result of hypothalamic dysfunction. These patients should be referred for endocrine work-up as hormonal deficiencies may not manifest until adulthood."
+        }
+      ]
+    }
+  ],
+  "caseID": "neuro0011",
+  "category": "neuro-ophthalmology",
+  "title": "Case 11",
+  "description": "15M presenting for abnormal visual fields OD",
+  "patientPresentation": "A 15-year-old asymptomatic male presented to clinic for abnormal visual fields (shown below). His visual acuity was 20/20 OU with IOP within normal limits.\n\n![](/content/media/neuro-ophthalmology-11-1.webp)\n\n![](/content/media/neuro-ophthalmology-11-2.webp)",
+  "footer": "### References:\n​\n\n1. Birkebæk NH, Patel L, Wright NB, Grigg JR, Sinha S, Hall CM, Price CA, Lloyd IC, Clayton PE. Endocrine Status in Patients with Optic Nerve Hypoplasia: Relationship to Midline Central Nervous System Abnormalities and Appearance of the Hypothalamic-Pituitary Axis on Magnetic Resonance Imaging. J Clin Endocrinol Metab. 2003;99(11):5281-6.\n2. Mohney BG, Young RC, Diehl N. Incidence and Associated Endocrine and Neurologic Abnormalities of Optic Nerve Hypoplasia. JAMA Ophthalmol. 2013;131(7):898–902.\n\n​\n\n### Learning Objectives:\n​\n\n1. To recognize and diagnose optic nerve hypoplasia on OCT\n2. To recognize the conditions commonly associated with optic nerve hypoplasia"
+}

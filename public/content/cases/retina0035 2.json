@@ -1,0 +1,56 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Intra-retinal cysts"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Subretinal fluid",
+          "explanation": "The yellow arrows demonstrate small areas of subretinal fluid involving the macula, explaining the distortion in her vision.\n\n![](/content/media/retina-35-3.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Disorganization of inner retinal layers"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Epiretinal membrane"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What abnormality is seen on the OCT above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "The patient returned 6-months later following her pneumatic retinopexy surgery. The patient noted no improvement in her vision and continued to endorse blurriness OS. Her vision remained 20/20 OD and 20/30 OS. Her OS OCT is shown below. What abnormality is shown in the OCT?\n\n![](/content/media/retina-35-4.webp)",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Intra-retinal cysts"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Subretinal fluid",
+          "explanation": "This OCT demonstrates subretinal fluid, similar to the OCT taken 6-months earlier. This patient is demonstrating persistent subretinal fluid following pneumatic retinopexy for retinal detachment repair. This has been shown in a 2001 publication by Desatnik et al. where 7 patients demonstrated delayed resolution of subretinal fluid after pneumatic retinopexy. This persistent fluid extended up to more than 2 years in some patients in the case series. Additional surgical procedures or laser photocoagulation did not affect the rate of subretinal fluid absorption, and spontaneous resolution of fluid eventually occurred in all cases.\n\n​A hint for chronicity of subretinal fluid (as seen in cases of CSR) is the brush border appearance (red arrows). The brush border pattern is due to waste products of the photoreceptors that can no longer be removed by the underlying RPE, causing elongation of photoreceptor outer segments and leaving a brush border pattern.\n\n![](/content/media/retina-35-5.webp)\n\nReferences: Desatnik H, Alhalel A, Treister G, Moisseiev J. Management of persistent loculated subretinal fluid after pneumatic retinopexy. Br J Ophthalmol 2001;85(2):189-192."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Disorganization of inner retinal layers"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Epiretinal membrane"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0035",
+  "category": "retina",
+  "title": "Case 35",
+  "description": "77F presenting for follow-up after pneumatic retinopexy",
+  "patientPresentation": "A 77-year-old female presented for her 1-month follow-up following left eye pneumatic retinopexy treatment for retinal detachment. Although her retina appears re-attached on fundus examination, she reports that her vision remains distorted. Her vision was 20/20 OD and 20/30 OS. Her OS Optos wide-field image and OCT macula is shown below:\n\n![](/content/media/retina-35-1.webp)\n\n![](/content/media/retina-35-2.webp)",
+  "footer": "### Learning Objectives:\n\n1. Recognize persistent sub-retinal fluid as a potential complication in retinal detachment repair\n2. Appreciate the brush-border appearance to occur in the setting of chronic subretinal fluid"
+}

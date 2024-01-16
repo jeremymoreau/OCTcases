@@ -1,0 +1,83 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Line"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Radial"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Raster",
+          "explanation": "![](/content/media/retina-23-3.webp)\n\nThe protocol used is the HD 5 Line Raster. The raster protocol consists of multiple line scans arranged in any plane (horizontal or vertical) and is useful to assess macular pathology at various levels. The raster protocol in this example utilizes horizontal segmentation, as highlighted by the red box."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Macular thickness map"
+        },
+        {
+          "correct": false,
+          "answerText": "E. OCT Angiography"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What type of OCT protocol is shown on the left?"
+    },
+    {
+      "title": "Question 2",
+      "text": "A line scanning ophthalmoscope (LSO) fundus photo accompanies the OCT macula print out. This is useful because you can correlate any pathology seen on the OCT macula with the fundus photograph. An example of this is shown below:\n\n![](/content/media/retina-23-2.webp)\n\nWhat is the diagnosis highlighted by the red box?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Optic Nerve Drusen"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Optic Pit Maculopathy"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Peri-papillary Atrophy",
+          "explanation": "![](/content/media/retina-23-4.webp)\n\nPeri-papillary atrophy can be identified on OCT. We know the PPA will be seen on the OCT macula scan because the horizontal blue/green lines of the Raster protocol overlap this area in the LSO fundus photo (red boxes). When you look at the LSO fundus photo, you can see the characteristic ring-like whitish appearance of PPA around the optic nerve.\n\nOCT features of PPA include RPE and photoreceptor loss, RPE disruption, and inner/outer retinal thinning. The loss of RPE give the atrophic whitish appearance and increased light transmission.\n\nReferences:\n\nManjunath V, Shah H, Fujimoto JG, Duker JS. Analysis of peripapillary atrophy using spectral domain optical coherence tomography. Ophthalmology. 2011 Mar 1;118(3):531-6."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Sclero-choroidal Calcifications"
+        },
+        {
+          "correct": false,
+          "answerText": "E. Retinal Detachment"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Based on the above OCT macula, the patient is likely an:",
+      "answers": [
+        {
+          "correct": true,
+          "explanation": "![](/content/media/retina-23-5.webp)\n\nThe curvature of the macula is bowed posteriorly (red line), which is often seen in a myopic eye with high axial length causing elongation of the globe. Instead of a round shaped globe, high myopic eyes are often oval shaped with or without an additional posterior bulging known as posterior staphyloma (not seen on this OCT).\n\nMany clinicians may consider this eye to have a posterior staphyloma based on this OCT. The steepened curve of the posterior sclera due to axial elongation does not confirm the diagnosis of posterior staphyloma, an outpouching of the wall of the posterior sclera. Features of posterior staphyloma include gradual thinning of the choroid from the periphery towards the edge of the staphyloma with gradual re-thickening of the choroid in the direction toward the posterior pole, and an inward protrusion of the sclera at the edge of the staphyloma. To make the diagnosis of a staphyloma on OCT, you will often require a wide field OCT to properly assess for these findings.\n\nReferences:\n\nTanaka N, Shinohara K, Yokoi T, Uramoto K, Takahashi H, Onishi Y, Horie S, Yoshida T, Ohno-Matsui K. Posterior staphylomas and scleral curvature in highly myopic children and adolescents investigated by ultra-widefield optical coherence tomography. PloS one. 2019;14(6).",
+          "answerText": "A. Axial myope"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Axial hyperope"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Axial emmetrope"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0023",
+  "category": "retina",
+  "title": "Case 23",
+  "description": "Patient presents for a routine eye exam with no symptoms",
+  "patientPresentation": "You are seeing this patient for his annual eye examination and you are reviewing his OCT macula scan (shown below):  \n\n![](/content/media/retina-23-1.webp)",
+  "footer": "### Learning Objectives:\n\n1. Recognize the OCT features of peri-papillary atrophy\n2. Understand the importance of wide-field OCT imaging to make the diagnosis of posterior staphyloma"
+}

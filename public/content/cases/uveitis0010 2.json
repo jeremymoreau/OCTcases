@@ -1,0 +1,86 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The right fundus shows laser retinopexy scars (black arrow) in the supero-temporal quadrant and a large area of whitened, edematous retina in the supero-nasal quadrant (red arrow) along with a few lesions in the supero-temporal quadrant. The left fundus shows a similar area of whitened, edematous retina around the macula temporally and in the supero-nasal quadrant with an overlying retinal hemorrhage (white arrow). \n\n![](/content/media/uveitis-10-3.webp)\n\n![](/content/media/uveitis-10-4.webp)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "Please describe the main findings."
+    },
+    {
+      "title": "Question 2",
+      "text": "Which of the following is the correct diagnosis?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. CMV retinitis",
+          "explanation": "CMV retinitis has three classical presentations: frosted branch angiitis, fulminant retinitis and granular subtypes. This case presents predominantly as the granular subtype. The index of suspicion for CMV retinitis should be high in patients with a history of HIV/AIDS and other immunosuppressive risk factors such as this patient who received chemotherapy for multiple myeloma.  Lesions in acute retinal necrosis typically present with discrete lesions in the periphery that coalesce and spread toward the posterior pole.  Lesions in progressive outer retinal necrosis typically have an absence of vitritis and present in the posterior pole. Hypertensive retinopathy presents with retinal hemorrhages, cotton wool spots and does not have retinitis. PCR analysis of the vitreous or aqueous can help confirm the diagnosis."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Acute retinal necrosis"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Hypertensive retinopathy"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Progressive outer retinal necrosis"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "An OCT macula of the left eye is performed and shown below:\n\n![](/content/media/uveitis-10-5.webp)\n\nDescribe the findings on the OCT.",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "This OCT shows that the macular retinitis is full thickness (involves both outer and inner retina). These findings are more in keeping with an active lesion of CMV retinitis (Invernizzi et al., 2018).  Active lesions can often present with vitritis and retinal swelling on OCT. Full thickness retinitis typically leads to choriocapillaris atrophy, choroidal thinning and retinal scars as the lesion heals.\n\nAn OCT was repeated 1 year later which show thinning of the retina temporally in the area of the previously identified lesion with absence of the IS/OS junction from the fovea extending temporally. \n\n![](/content/media/uveitis-10-6.webp)\n\nReference:\n\nInvernizzi A, Agarwal A, Ravera V, Oldani M, Staurenghi G, Viola F.  Optical coherence tomography findings in cytomegalovirus retinitis: A longitudinal study. Retina. 2018. 38(1): 108-117."
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "Which of the following is an appropriate treatment option for this patient?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. IVIG"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Foscarnet injection"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Valganciclovir"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Acyclovir"
+        },
+        {
+          "correct": false,
+          "answerText": "E. All of the above"
+        },
+        {
+          "correct": true,
+          "answerText": "F. A, B, and C",
+          "explanation": "Systemic therapy with valganciclovir or ganciclovir is often the first line therapy for bilateral disease. Valganciclovir is often the preferred drug due to its higher bioavailability compared to ganciclovir. Intravitreal Ganciclovir and Foscarnet injections are effective in treating intraocular disease and may be considered as an adjunct therapy to oral valganciclovir.  Acyclovir is not used in the treatment of CMV retinitis."
+        }
+      ]
+    }
+  ],
+  "caseID": "uveitis0010",
+  "category": "uveitis",
+  "title": "Case 10",
+  "description": "62F presenting with gradual onset blurry vision and flashes",
+  "patientPresentation": "A 62-year-old female with multiple myeloma was referred for a 3-week history of gradual onset blurry vision, floaters and flashes.  Her past medical history was significant for type II diabetes mellitus, hypertension, dyslipidemia and osteoporosis.  Her medications included cyclophosphamide, metformin, sitagliptin, perindopril, rosuvastatin and alendronate.  Her past ocular history was non-contributory.  On examination, her BCVA was 20/70 OD and 20/60 OS.  There was no RAPD and the IOP was 11 OU. On slit lamp examination, she had nuclear sclerotic changes of the lens bilaterally and 0.5 cells in the AC OU.  She had 1+ vitritis OD and 2+ vitritis OS.\n\nOptos fundus photography was performed and is shown below.\n\n![](/content/media/uveitis-10-1.webp)\n\n![](/content/media/uveitis-10-2.webp)",
+  "footer": "### Learning Objectives:\n​\n\n1. Recognize features of CMV retinitis that help distinguish it from other necrotizing retinopathies.\n2. Recognize key features of active CMV retinitis on OCT."
+}

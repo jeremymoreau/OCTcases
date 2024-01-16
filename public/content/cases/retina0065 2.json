@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Diabetic macular edema"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Central serous chorioretinopathy",
+          "explanation": "The patient likely has central serous chorioretinopathy (CSCR). \n\n![](/content/media/r65_5.webp)\n\nCSCR typically presents with subretinal fluid (SRF), but no intraretinal fluid, and a thickened choroid (pachychoroid). \n\nThe choroid, which is highly vascularized, becomes thickened and congested with increased blood vessel diameter in the Haller’s Layer. This leads to greater pressure from the choroid, which results in compressed choriocapillaris and RPE dysfunction. This RPE dysfunction leads to SRF accumulation. \n\nFurthermore, there are factors known to increase the risk of CSR. CSR occurs more commonly in males (male:female ratio of 6:1) and is exacerbated by stress and corticosteroid use. Other risk factors include hypertension and Cushing’s syndrome.\n\n​References:\n\nHaimovici R, Koh S, Gagnon DR, Lehrfeld T, Wellik S. Risk factors for central serous chorioretinopathy: A case–control study. Ophthalmology. 2004; 111(2): 244–249.\n\nSartini F, Figus M, Nardi M, Casini G, Posarelli C (July 2019). \"Non-resolving, recurrent and chronic central serous chorioretinopathy: available treatment options\". Eye. 33 (7): 1035–1043.\n\nSiedlecki, Jakob; Schworm, Benedikt; Priglinger, Siegfried G. (December 2019). \"The Pachychoroid Disease Spectrum—and the Need for a Uniform Classification System\". Ophthalmology Retina. 3 (12): 1013–1015.\n\nCheung CM, Lee WK, Koizumi H, Dansingani K, Lai TY, Freund KB (January 2019). \"Pachychoroid disease\". Eye. 33 (1): 14–33."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Macular edema secondary to retinal vein occlusion"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Vogt-Koyonagi-Harada disease"
+        }
+      ],
+      "title": "Question 1",
+      "text": "Based on the OCTs above, what is the most likely diagnosis?"
+    },
+    {
+      "title": "Question 2",
+      "text": "Which type of OCT allows for the best visualisation of the choroid?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Swept-source OCT (SS-OCT)",
+          "explanation": "Swept-source OCT (SS-OCT) provides the best visualization of the choroid.\n\nCompared to spectral-domain OCT (SD-OCT), SS-OCT provides greater control of imaging depth and improved penetrance of the choroid. SS-OCT uses a narrow band of light swept through a wide range of frequencies. However, SS-OCT provides a lower resolution than SD-OCT for neurosensory retinal structures. \n\nReference:\nhttps://www.octcases.com/background-to-oct"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Spectral-domain OCT (SD-OCT)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Time-domain OCT (TD-OCT)"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Which is the most effective treatment for this diagnosis at this time?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Intravitreal anti-VEGF injections"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Micropulse laser"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Intravitreal steroids"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Expectant Management",
+          "explanation": "In acute central serous chorioretinopathy, subretinal fluid collects due to leakage of fluid secondary to increased capillary pressure in the choroid. For this reason, anti-VEGF agents, which reduce the formation of new vessels in response to ischemia, are not significantly effective in treating CSR.\n\nIn this case, the best treatment is expectant management, with a recommendation to reduce stress or any alternative risk factors. The accumulation of SRF typically resolves with time as it is resorbed by the RPE (approximately 3-6 months). As this fluid resolves, metamorphopsia symptoms should also resolve. In cases of non-resolving CSR, sub-threshold micropulse laser treatment has been shown to be safe and effective in improving visual acuity and can be considered. An IVFA is crucial to determine the area of leakage for focal laser treatment. \n\nBelow is an example of CSR (left) that has resolved after 3 months of expectant management (right)\n\n![](/content/media/r65_6.webp)\n\nReferences:\n\nPark S-U, Lee S-J, Kim M. Intravitreal Anti-vascular Endothelial Growth Factor versus Observation in Acute Central Serous Chorioretinopathy: One-year Results. Korean J Ophthalmol. 2014; 28(4): 306–313.\n\nAbd Elhamid AH. Subthreshold micropulse yellow laser treatment for nonresolving central serous chorioretinopathy. Clin Ophthalmol. 2015; 9: 2277–2283.\n\nChihara E, Nao-i N. Resorption of subretinal fluid by transepithelial flow of the retinal pigment epithelium. Graefe’s Arch Clin Exp Ophthalmol. 1985; 223(4): 202–204."
+        },
+        {
+          "correct": false,
+          "answerText": "E. A and B"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0065",
+  "category": "retina",
+  "title": "Case 65",
+  "description": "41M presenting with “wavy” vision OD for 1 month",
+  "patientPresentation": "**Contributor:** Shaan Bhambra (McGill University Medical Student)\n\nA 41-year-old male presented to a tertiary retina clinic complaining of  “wavy” vision OD for 1 month. His past medical history was significant for hyperlipidemia and diet-controlled T2DM. His only medication was rosuvastatin. He notes new stress at home and work over the last 3 months.\n\nSlit lamp examination was within normal limits. Fundus photos were taken and can be seen below: \n\n![](/content/media/r65_1.webp)\n\n![](/content/media/r65_2.webp)\n\nOCTs of the macula were taken and are shown below:\n\n![](/content/media/r65_3.webp)\n\n![](/content/media/r65_4.webp)",
+  "footer": "### Learning Objectives:\n\n1. OCT identification and treatment of acute CSR\n\n2. Treatment and management of acute CSR\n\n3. Risk factors and pathophysiology of CSR"
+}

@@ -1,0 +1,150 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Loss of the RPE and choriocapillaris",
+          "explanation": "![](/content/media/retina-27-4.webp)\n\nBilateral geographic atrophy changes with loss of ellipsoid layer (yellow arrows), RPE and choriocapillaris. Without RPE, most light passes through to the choroid layer."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Intra-retinal cysts"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Choroidal neovascular membrane"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Drusen accumulation"
+        },
+        {
+          "correct": false,
+          "answerText": "E. All of the Above"
+        }
+      ],
+      "title": "Question 1",
+      "text": "Which of the following features are seen in the above OCT scan?"
+    },
+    {
+      "title": "Question 2",
+      "text": "In the FAF, there are areas of hyper and hypo-autofluorescence. What is the significance of these findings?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "![](/content/media/retina-27-5.webp)\n\nHypo-autofluorescence seen on FAF is indicative of photoreceptor and RPE loss. The peri-macular hyper-autofluorescence on FAF is due to active lipofuscin accumulation in viable but sick RPE cells."
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Given the patient’s young age and longstanding history of poor vision, you perform genetic testing that is positive for a mutation in ABCA4 gene. Given this, what is the likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Age-related macular degeneration"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Butterfly-shaped pattern dystrophy"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Stargardt disease"
+        },
+        {
+          "correct": false,
+          "answerText": "D. North Carolina macular dystrophy"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "\n\n![](/content/media/retina-27-6.webp)\n\nWhat is the red arrow pointing to in the OCT above?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Thickened choroid"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Choroidal hyperreflectivity",
+          "explanation": "![](/content/media/retina-27-6.webp)\n\nChoroidal hyperreflectivity is another feature that can be seen on this OCT and occurs due to increased signal penetration through areas of RPE loss.  It is not due to any lipid deposition or thickened choroid. In fact, some studies have shown that patients with advanced stages of Stargardt disease have thinner choroids.\n\nReference: Vural E, Acar U, Sevinc MK, Erdurmus M, Kucuk B, Aykas S, Sobaci G. Choroidal thickness in patients with Stargardt disease. Retina. 2018 Mar 1;38(3):614-9."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Lipid deposition in the choroid"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Choroidal hypoperfusion"
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "![](/content/media/retina-27-7.webp)\n\nWhat layer of the retina is the yellow arrow pointing to?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. External limiting membrane"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Outer nuclear layer"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Bruch’s membrane",
+          "explanation": "Bruch’s membrane is the innermost layer of the choroid and is the structure underlying the RPE. On a normal OCT macula, it is often difficult to distinguish the Bruch’s membrane from the overlying RPE. However, given the loss of RPE in this patient, it can be easily visualized in this case. Note that there are no breaks in Bruch’s membrane in this case, and as a result, no secondary CNVM."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Choroid-scleral junction"
+        }
+      ]
+    },
+    {
+      "title": "Question 6",
+      "text": "SD can lead to bull’s eye atrophic maculopathy. Can you list four other differential diagnosis of bull’s eye maculopathy?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "### Differential diagnosis of bull's eye maculopathy:\n\n1. Cone and cone-rod dystrophy\n\n2. HCQ and chloroquine toxicity\n\n3. Age related macular degeneration\n\n4. Macular hole\n\n5. Bardet-Biedl syndrome\n\n6. Sorsby central areolar choroidal dystrophy"
+        }
+      ]
+    },
+    {
+      "title": "Question 7",
+      "text": "A fluorescein angiogram (FA) was obtained for this patient, shown below. What is the classic FA sign seen in Stargardt disease?\n\n![](/content/media/retina-27-8.webp)",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Saucer sign"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Dark choroid sign",
+          "explanation": "![](/content/media/retina-27-8.webp)\n\nA cardinal feature of SD on FA is the dark choroid sign. It occurs secondary to the widespread deposition of lipofuscin in the RPE, which blocks light transmission and occludes the underlying choroidal vasculature from view. The hyperfluorescent choriocapillaris can be seen in the areas of RPE atrophy due to the absence of RPE."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Abadie's sign"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Carvallo's sign"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0027",
+  "category": "retina",
+  "title": "Case 27",
+  "description": "41M presenting for chronic decreased vision OU",
+  "patientPresentation": "**Contributor:** Dr. Sultan Aldrees, MD\n\nA 41-year-old male presents to clinic with a longstanding history of decreased vision in both eyes. On examination, visual acuity is 20/200 in the right eye and 20/250 in the left eye. There was no RAPD. Intraocular pressures were normal. Slit lamp exam was unremarkable. Fundus exam is shown through the Optos® photos. FAF and OCT were also ordered, shown below:\n\n![](/content/media/retina-27-1.webp)\n\n![](/content/media/retina-27-2.webp)\n\n![](/content/media/retina-27-3.webp)",
+  "footer": "### Learning Objectives:\n\n1. To be able to recognize the OCT, FAF and FA features of Stargardt disease.  Understanding the pathophysiology of the disease will help in remembering these features."
+}

@@ -1,0 +1,105 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "Optos fundus photographs show a loss of foveal reflex OD and grossly normal fundus OS. Fundus autofluorescence show patchy regions of hyper-autofluorescence in the posterior pole OU."
+        }
+      ],
+      "title": "Question 1",
+      "text": "Describe the images"
+    },
+    {
+      "title": "Question 2",
+      "text": "IVFA was subsequently performed demonstrating posterior pole arteriolar staining (red arrow) as shown in the left eye below. The rest of the IVFA was otherwise unremarkable.\n\n![](/content/media/uveitis-5-5.webp)\n\nAn OCT of the macula of the right and left eye was performed and shown below:\n\n![](/content/media/uveitis-5-6.webp)\n\n![](/content/media/uveitis-5-7.webp)\n\nDescribe the findings on the OCT",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "In the OCT of the right eye, there is sub-foveal outer retinal hyper-reflectivity and disruption consistent with our patient’s history of prior myopic CNVM. Additionally, there is diffuse outer retinal loss OU (yellow arrow) that is more pronounced temporally (red box)\n\n![](/content/media/uveitis-5-8.webp)"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Based on the clinical presentation and imaging findings, which of the following diagnoses is highest on your differential to account for the patient’s decrease in BCVA OU?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Acute zonular outer occult retinopathy (AZOOR)"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Cancer associated retinopathy",
+          "explanation": "AZOOR can similarly present with a normal dilated fundus exam in the early stages of disease.  However, one must remember that autoimmune disease is always a diagnosis of exclusion. Given his age and smoking history, neoplastic causes must be thoroughly ruled out before entertaining diagnoses such as AZOOR or non-paraneoplastic autoimmune retinopathy. Cancer associated retinopathy can progress to include optic nerve pallor and severe arteriolar attenuation.\n\n​Although AZOOR can present with similar findings on OCT, it typically involves more of a classic trizonal pattern (imaged below from another patient). It most often presents in younger females, in their twenties to fourties, and is typically unilateral in onset and progresses to bilateral disease that is often asymmetric.\n\n​Sarcoidosis does not present with isolated outer retinal pathology. It typically involves more cellular activity with anterior, intermediate, panuveitis and/or retinal vasculitis with classic candle wax drippings on IVFA.\n\n​Age related macular degeneration can be associated with CNVM but is usually accompanied with classic signs of drusenoid PEDs. There is no association between AMD and isolated outer retinal atrophy which is a prominent feature in both eyes.\n\n![](/content/media/uveitis-5-9.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Sarcoidosis"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Age related macular degeneration (AMD)"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "On further history, the patient endorses weight loss over the past 6 months.  Review of systems is otherwise negative.  Based on your suspicion, which of the following is the most reasonable next step?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. CT chest",
+          "explanation": "Given the patient’s age and smoking history, a CT scan of the chest is appropriate to rule out a possible pulmonary neoplasm. The most common neoplasms associated with CAR would be small cell lung carcinoma, breast, ovarian and uterine cancer. If a cancer is identified, one can consider ordering a paraneoplastic retinal antibody panel to help further solidify your diagnosis. The classic antibodies associated with CAR is anti-recoverin antibody and α-enolase antibody (Adamus et al., 2004).  If our patient was female, a CT pelvis would be appropriate to rule out ovarian or uterine cancers. In addition, ensuring breast cancer screening is up to date would also be helpful.\n\n​The CT chest for this patient revealed a left lower lobe lung mass measuring 3 cm in the greatest dimension with mediastinal lymphadenopathy. Biopsy confirmed small cell lung carcinoma.\n\nReferences:\n\nAdamus G, Ren G, Weleber RG. Antibodies against retinal proteins in paraneoplastic and autoimmune retinopathy. BMC Ophthalmology. 2004. 4: 5."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Bone marrow biopsy"
+        },
+        {
+          "correct": false,
+          "answerText": "C. CT pelvis"
+        },
+        {
+          "correct": false,
+          "answerText": "D. A,B and C"
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "Which of the following could be appropriate management options for this patient?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Treatment of cancer"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Plasmapheresis"
+        },
+        {
+          "correct": false,
+          "answerText": "C. High dose methylprednisolone"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Intravenous immunoglobulin therapy"
+        },
+        {
+          "correct": true,
+          "answerText": "E. All of the above",
+          "explanation": "Most importantly, the patient should most certainly be treated for his small cell lung carcinoma. Unfortunately, the treatment for cancer associated retinopathy remains unclear. Many treatments have been attempted including high dose pulse steroids, plasmapheresis and IVIG with no clear promising results. Although there have been reports of a reduction in anti-retinal antibody titers with treatment, outcomes between patients who received immunomodulatory therapy has not been shown to be different than patients who have not, and visual prognosis remains poor (Grange et al., 2014)\n\nReferences:\n\n1. Grange L, Dalal M, Nussenblatt RB, Sen HN. Autoimmune retinopathy. American Journal of Ophthalmology. 2014. 157(2): 266-272."
+        }
+      ]
+    }
+  ],
+  "caseID": "uveitis0005",
+  "category": "uveitis",
+  "title": "Case 5",
+  "description": "65M presenting with acute painless vision loss OS",
+  "patientPresentation": "A 65-year-old male was referred for a 2-month history of acute, painless, vision loss OS. He denied any headaches, flashes or floaters. His past ocular history was significant for reduced visual acuity OD secondary to a myopic CNVM three years ago. His past medical history was significant for type II diabetes mellitus, hypertension and dyslipidemia; family history was non-contributory. His medications included metformin, perindopril and rosuvastatin. He had a 12-year smoking history. On examination, BCVA was 20/200 OD and 20/70 OS. There was no RAPD. IOP was normal. Dilated fundus exam was notable for 0.5+ vitreous cells OU.\n\n\nOptos fundus photography and fundus autofluorescence were performed and shown below.\n\n![](/content/media/uveitis-5-1.webp)\n\n![](/content/media/uveitis-5-2.webp)\n\n![](/content/media/uveitis-5-3.webp)\n\n![](/content/media/uveitis-5-4.webp)",
+  "footer": "### Learning Objectives:\n​\n\n1. Identify OCT features of cancer associated retinopathy\n2. Recognize the role of other imaging modalities in conjunction with OCT in diagnosing cancer associated retinopathy"
+}

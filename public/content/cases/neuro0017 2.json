@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Temporal thinning of the RNFL",
+          "explanation": "This is also reflected in the temporal pallor seen in the fundus photos. \n\n![](/content/media/neuro17-4.webp)\n\n![](/content/media/neuro17-5.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Bilateral optic nerve swelling"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Binasal elevation of the optic nerves"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Ischemia of the optic nerves bilaterally"
+        }
+      ],
+      "title": "Question 1",
+      "text": "OCT RNFL and fundus photos were performed and shown above. Which abnormality is seen?"
+    },
+    {
+      "title": "Question 2",
+      "text": "Ganglion Cell Inner Plexiform Layer (GCIPL) Analysis was also performed and shows generalized thinning in both eyes (shown below).\n\n![](/content/media/neuro17-6.webp)\n\nGiven the OCT findings and patient presentation, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Non-arteritic ischemic optic neuropathy"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Compressive optic neuropathy secondary to a pituitary adenoma"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Dominant optic atrophy",
+          "explanation": "This diagnosis is consistent with the history of a slowly progressive decline in vision that starts in the first decade of life. Like other hereditary optic neuropathies, DOA often presents with pallor of the optic nerves, cecocentral scotomas, and color vision loss. The differential diagnosis also includes nutritional deficiencies or toxic medications, but this patient had normal B12, folate levels and was taking no medications."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Glaucoma"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Which of the following can cause DOA?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. A mutation in a mitochondrial gene"
+        },
+        {
+          "correct": false,
+          "answerText": "B. An X-linked gene mutation"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Ethambutol poisoning"
+        },
+        {
+          "correct": true,
+          "answerText": "D. OPA1 gene mutation",
+          "explanation": "DOA is an autosomal-dominant inherited condition where the mutations occur on the OPA1 gene. The diagnosis can be distinguished from other hereditary optic neuropathies such as Leber’s hereditary optic neuropathy (LHON) clinically and by genetic testing. There is no established treatment for DOA, but vision largely remains stable or declines at a very slow rate."
+        }
+      ]
+    }
+  ],
+  "caseID": "neuro0017",
+  "category": "neuro-ophthalmology",
+  "title": "Case 17",
+  "description": "21M presenting with gradual bilateral vision loss over 10 years",
+  "patientPresentation": "**Contributor:** Marko Tien (University of British Columbia Medical Student)\n\nA 21-year-old man was referred to an ophthalmology clinic for evaluation of bilateral vision loss. The patient endorsed decreased vision in both eyes starting ten years ago, which has worsened gradually over time in both eyes. He also reports some reduced hearing bilaterally. He ate a healthy, balanced diet and was taking no medications. On examination, his visual acuity was 20/150 OU with normal sized pupils and no RAPD. Visual fields showed a ceco-central defect bilaterally. \n\n![](/content/media/neuro17-1.webp)\n\n![](/content/media/neuro17-2.webp)\n\n![](/content/media/neuro17-3.webp)",
+  "footer": "### References:\n\n​1. Alexander, C., Votruba, M., Pesch, U. E., Thiselton, D. L., Mayer, S., Moore, A., Rodriguez, M., Kellner, U., Leo-Kottler, B., Auburger, G., Bhattacharya, S. S., & Wissinger, B. (2000). OPA1, encoding a dynamin-related GTPase, is mutated in autosomal dominant optic atrophy linked to chromosome 3q28. Nature genetics, 26(2), 211–215. https://doi.org/10.1038/79944\n\n2. Behbehani R. (2007). Clinical approach to optic neuropathies. Clinical ophthalmology (Auckland, N.Z.), 1(3), 233–246.\n\n3. Votruba, M., Thiselton, D., & Bhattacharya, S. S. (2003). Optic disc morphology of patients with OPA1 autosomal dominant optic atrophy. The British journal of ophthalmology, 87(1), 48–53. https://doi.org/10.1136/bjo.87.1.48\n\n### Learning Objectives:\n​\n\n1. To recognize the natural history and exam findings of hereditary optic neuropathies\n2. To distinguish the cause of DOA from other inherited optic neuropathies"
+}

@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "![](/content/media/retina-16-3.webp)\n\nThere are multiple intra-retinal cysts/fluid (red arrows) primarily in the outer plexiform and inner nuclear layers with corresponding increased retinal thickness. There are thin hyper-reflective membranes (blue arrow) on the inner surface of the macula."
+        }
+      ],
+      "title": "Question 1",
+      "text": " Please describe the OCTs above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "What medication is the likely cause for the changes seen on OCT?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Imbruvica",
+          "explanation": "Imbruvica or ibrutinib is a small molecule drug used in the treatment of CLL. Many anti-cancer medications can have associated ocular toxicities, including cystoid macular edema (CME). Few common anti-cancer agents that have been reported to cause CME include inbrutinib, imatinib, vemurafenib, and dabrafenib.\n\nChlorpromazine is associated with abnormal pigmentation of the eyelids, cornea, anterior lens capsule, and rarely can cause a pigmentary retinopathy. It has not been reported to cause CME.\n\nReferences:\n\nSaenz-de-Viteri M, Cudrnak T. Bilateral cystoid macular edema in a patient with chronic lymphocytic leukemia treated with ibrutinib. Leukemia & lymphoma. 2019 Feb 23;60(3):842-4.\n\nFu C, Gombos DS, Lee J, George GC, Hess K, Whyte A, Hong DS. Ocular toxicities associated with targeted anticancer agents: an analysis of clinical data with management suggestions. Oncotarget. 2017 Aug 29;8(35):58709."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Chlorpromazine"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Tamsulosin"
+        },
+        {
+          "correct": false,
+          "answerText": "D. A and B"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Which of the following medications has NOT been reported to cause cystoid macular edema?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Prostaglandin analogues"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Epinephrine"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Tamoxifen"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Ventolin",
+          "explanation": "Of the listed medications, Ventolin is the only medication that has not been reported to cause cystoid macular edema."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0016",
+  "category": "retina",
+  "title": "Case 16",
+  "description": "70M presenting with CLL and blurry vision for 3-weeks OU",
+  "patientPresentation": "A 70-year-old male presented with blurry vision in both eyes for the past three weeks. He had a history of chronic lymphocytic leukemia (CLL), hypertension, schizophrenia, benign prostatic hyperplasia, and dyslipidemia. He was currently taking Imbruvica (medication for CLL), ramipril, chlorpromazine, tamsulosin, and rosuvastatin. On examination, visual acuity was 20/30 in both eyes. Slit lamp examination was normal. Fundus examination demonstrated abnormalities in the macula. An OCT macula was performed demonstrating the following:\n\n![](/content/media/retina-16-1.webp)\n\n![](/content/media/retina-16-2.webp)",
+  "footer": "### Learning Objectives:\n\n1. Drug-induced cystoid macular edema can occur and should be on the differential when assessing a patient for macular edema.\n2. CME is characterized by intra-retinal fluid in the outer plexiform layer and the inner retinal layers (inner nuclear and plexiform)"
+}

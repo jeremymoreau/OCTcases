@@ -1,0 +1,102 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Hyper-reflective ovoid subretinal deposit"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Optic disc elevation"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Hypo-reflective cavities with hyper-reflective borders"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the above",
+          "explanation": "The fundus photo above confirms the finding of bilateral optic disc elevation seen by the optometrist. The next step would be OCT imaging to help delineate the etiology for his elevation, whether it be optic nerve edema or causes of pseudo-edema. Remember, you can only call disc swelling “papilledema” if caused by elevated intracranial pressure.\n\nOCT imaging shows a homogenous, well-demarcated hyper-reflective ovoid mass-like structure (blue arrow). Peripapillary hyper-reflective ovoid mass-like structures (PHOMS) used to be an entity associated with optic disc drusen; however, a recent consortium of neuro-ophthalmologists have linked this finding to axoplasmic stasis and nerve fibre herniation from a number of pseudo-papilledema etiologies.\n\nOCT imaging also demonstrates hypo-reflective cavities (green arrow) at the optic nerve with a hyper-reflective border (red arrow). The key difference in drusen hypo-reflective cavities compared to shadowing from blood vessels are the surrounding hyper-reflective border and visualization of deeper structures.\n\n![](/content/media/paed_3_4.webp)\n\nReferences:\n\nFraser JA. Peripapillary hyper-reflective ovoid mass-like structure (PHOMS): An optical coherence tomography marker of axoplasmic stasis in the optic nerve head. J Neuroophthalmol 2021;41(4):431-441."
+        }
+      ],
+      "title": "Question 1",
+      "text": "What main finding is seen in the OCT images above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "What is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Papilledema"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Optic Disc Drusen",
+          "explanation": "The OCT images demonstrate the characteristic homogenous subretinal hyper-reflective mass-like structure in the juxtapapillary region, as well as the hypo-reflective core and hyper-reflective border, which suggest a diagnosis of optic disc drusen (ODD). ODD is one of the most common causes of pseudo-papilledema.\n\n​"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Myopic Tilted Discs"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Myelinated Nerve Fibre"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What other imaging modalities can be used to confirm the diagnosis of optic disc drusen?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Fundus Autofluorescence"
+        },
+        {
+          "correct": false,
+          "answerText": "B. B-Scan Ultrasound"
+        },
+        {
+          "correct": false,
+          "answerText": "C. ERG and EOG"
+        },
+        {
+          "correct": true,
+          "answerText": "D. A and B",
+          "explanation": "With only 60% ODD cases able to be diagnosed with clinical exam alone, and OCT occasionally being inconclusive, fundus autofluorescence and B-Scan ultrasound imaging are useful tools to confirm your diagnosis.\n\nFundus autofluorescence is a useful diagnostic tool for ODD, as drusen demonstrate hyper-autofluorescence over a typically hypo-autofluorescent optic nerve head (as seen in our patient).\n\n![](/content/media/paed_3_5.webp)\n\nODD demonstrate hyper-echogenicity at the optic nerve head, as seen in our patient’s B-scan ultrasound below (white arrow):\n\n![](/content/media/paed_3_6.webp)\n\nReferences:\n\nPalmer E, Gale J, Crowston JG, Wells AP. Optic Nerve Head Drusen: An Update. Neuroophthalmology 2018;42(6):367-384."
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What is the most common visual field deficit seen with ODD?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Enlarged Blind Spot",
+          "explanation": "Even though arcuate deficits are seen in ODD, the primary visual field deficit seen in this condition is an enlarged blind spot. Cecocentral scotomas are typically seen in mitochondrial genetic disorders and nutritional/toxic etiologies.\n\nReferences:\n\n Lee KM, Woo SJ, Hwang JM. Factors associated with visual field defects of optic disc drusen. PLoS One. 2018 Apr 30;13(4):e0196001."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Arcuate Deficit"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Generalized Depression"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Cecocentral Scotoma"
+        }
+      ]
+    }
+  ],
+  "caseID": "paediatric0003",
+  "category": "paediatric ophthalmology",
+  "title": "Case 3",
+  "description": "11M referred for optic nerve head swelling OU",
+  "patientPresentation": "Patient Presentation: An 11-year-old boy was referred to a pediatric ophthalmology clinic from his optometrist for concern of bilateral optic nerve head swelling. The patient went to his optometrist for routine examination and a glasses update; he was asymptomatic with no headaches or visual changes. The patient denied past medical or ocular history. Best corrected distance visual acuity was 20/20 OD and 20/20-2 OS; IOP was 14 OD and 12 OS. There was no RAPD. Colour fundus photographs and OCT line scans of the optic nerves were taken and are shown below:\n\n![](/content/media/paed_3_1.webp)\n\n![](/content/media/paed_3_2.webp)\n\n![](/content/media/paed_3_3.webp)",
+  "footer": "### Learning Objectives:\n\n1. Understand the signs of optic disc drusen on OCT and multimodal imaging.\n\n2. Differentiate optic disc drusen from papilledema."
+}

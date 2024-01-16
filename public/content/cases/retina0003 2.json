@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Retinal Detachment"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Cotton Wool Spots"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Full Thickness Macular Hole",
+          "explanation": "![](/content/media/retina3-q1a.png)\n\nA full thickness macular hole (FTMH) is a break in the retina, commonly involving the fovea. In the OCT, the macular hole is outlined by the two yellow lines. There is also presence of an ERM (yellow arrow) and intra-retinal cysts/fluid (red arrow)."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Retinoschisis"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What abnormalities do you visualize in the patient's OD macula OCT image?\n\n![](/content/media/retina3-q1.png)"
+    },
+    {
+      "title": "Question 2",
+      "text": "What is your management approach based on the OCT image?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show Answer",
+          "explanation": "The Management is **Surgical Intervention**\n\n\nSince this is a full-thickness macular hole, surgical intervention via pars plana vitrectomy with peeling of the inner limiting membrane (which has been shown to improve the rate of hole closure) and intraocular gas tamponade is the best management approach.\n​\nIf the OCT showed early stage vitreomacular adhesion or vitreomacular traction without a partial or full-thickness hole, then the best management course would be to monitor or consider pharmacologic therapy with intravitreal ocriplasmin."
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What abnormalities do you visualize in the patient's contralateral eye (OS) on OCT?\n\n![](/content/media/retina3-q3.png)",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Retinal Detachment"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Vitreomacular Traction",
+          "explanation": "![](/content/media/retina3-q3.png)\n\nThe contralateral eye demonstrated vitreomacular traction as seen on this macular OCT. \n​\nVMT syndrome is a disorder of the vitreo-retinal interface which is characterized by:\n\n1. Incomplete posterior vitreous detachment\n2. Abnormally strong adherence of the posterior hyaloid surface to the macula\n3. Anterior traction exerted by the adhered vitreous pulling at the retinal interfaces leading to disruption of retinal architecture"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Full Thickness Macular Hole"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Retinoschisis"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0003",
+  "category": "retina",
+  "title": "Case 3",
+  "description": "53F presenting with decreased vision and metamorphopsia OD",
+  "patientPresentation": "A 53-year-old female presented to ophthalmology clinic with a 3-week history of metamorphopsia OD. Left eye was asymptomatic. Vision was 20/30 in both eyes uncorrected.",
+  "footer": "### Learning Objectives:\n\n1. Recognize the typical presentation of a full thickness macular hole on OCT​.​\n2. Be able to classify a presentation of macular hole into the appropriate stage based on OCT findings.​\n3. Be able to recognize vitreomacular traction."
+}

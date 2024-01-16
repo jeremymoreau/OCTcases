@@ -1,0 +1,140 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Bilateral central scotomas and inferior arcuate defect OD",
+          "explanation": "This visual field test demonstrates bilateral central scotomas. When viewing the grayscale map, the central scotoma is readily visible in both eyes. An early inferior arcuate defect is also present in the right eye, and this finding is reinforced by both the grayscale and pattern deviation maps. It is important to not view the grayscale map in isolation and to also consider the total and pattern deviation maps when interpreting visual fields."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Superior arcuate defect OS"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Bitemporal hemianopsia"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Right homonymous hemianopsia"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What visual field defect(s) is/are present in this patient?"
+    },
+    {
+      "title": "Question 2",
+      "text": "Dilated fundus examination was performed and is shown below:\n\n![](/content/media/neuro_op_30_2.webp)\n\n![](/content/media/neuro_op_30_3.webp)\n\nBased on the patient’s presentation, history, and fundus findings, what is the differential diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Idiopathic intracranial hypertension"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Intracranial mass"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Cerebral venous sinus thrombosis"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the above",
+          "explanation": "Fundus images demonstrate the presence of severe bilateral optic disc edema (ODE), as characterized by hyperemic discs, blurred margins, and engorged/tortuous veins. Her symptoms (i.e., blurred vision, migraine, pulsatile tinnitus) may be associated with raised intracranial pressure (ICP). Moreover, her history of obesity coupled with recent weight gain increase suspicion for idiopathic intracranial hypertension (IIH). However, alternative etiologies must be considered, and further investigations must be performed as IIH is a diagnosis of exclusion."
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Magnetic resonance imaging (MRI) and venography (MRV) was performed and revealed signs consistent with IIH. Moreover, lumbar puncture was performed and there were normal CSF contents and an opening pressure of 47 cm H­2O.\n\nWhat treatment should be initiated for patients with IIH?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Reassure the patient"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Counsel about weight loss and start acetazolamide",
+          "explanation": "Obesity is a significant risk factor for IIH, and weight reduction can lead to significant reductions in intracranial pressure (ICP), resulting in significant improvements in symptoms associated with IIH. Acetazolamide – a carbonic anhydrase inhibitor – may also be initiated in patients as this medication can lead to reductions in ICP by decreasing the production of cerebrospinal fluid."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Venous sinus stenting"
+        },
+        {
+          "correct": false,
+          "answerText": "D. None of the above"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "Acetazolamide was initiated in this patient to a maximal dose of 4 g daily; however, her symptoms continued to persist, and there was no improvement in visual function. Subsequently, she underwent bilateral transverse-sigmoid venous sinus stenting which resulted in resolution of her headaches and pulsatile tinnitus; however, there was sustained deterioration of her visual function.\n\nAt 1-month follow-up, there was complete resolution of papilledema and optic disc pallor, but her visual acuity was counting fingers (CF) OD and 20/40 OS.\n\nOCT RNFL and ganglion cell analysis was performed at 1-month follow-up and is shown below:\n\n![](/content/media/neuro_op_30_4.webp)\n\n![](/content/media/neuro_op_30_5.webp)\n\nHumphrey visual field testing (24-2) demonstrated persistent central scotomas OU at 1-month follow-up:\n\n![](/content/media/neuro_op_30_6.webp)\n\nWhat are the key findings in the OCT RNFL and ganglion cell analysis?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The OCT RNFL analysis demonstrates superior and inferior thinning OD and superior thinning OS. The ganglion cell analysis shows diffuse thinning of the ganglion cell-inner plexiform layer complex."
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "What is the next best step in the management for this patient?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Lumbar puncture"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Review of medications"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Mitochondrial genetic testing"
+        },
+        {
+          "correct": true,
+          "answerText": "D. B and C",
+          "explanation": "A comprehensive review of her medications is important to rule out possible drug-induced optic neuropathy (e.g., amiodarone, cyclosporine, methotrexate). Additionally, mitochondrial genetic testing can be performed to identify the presence of pathogenic mutations causing hereditary optic neuropathies (e.g., Leber’s Hereditary Optic Neuropathy)."
+        }
+      ]
+    },
+    {
+      "title": "Question 6",
+      "text": "This patient underwent mitochondrial genetic testing which unveiled a m.8623A>G, p.(Thr33Ala) mutation in the ATP6 gene and a diagnosis of LHON was made.\n\nWhich of the following has/have been implicated as a risk factor(s) for triggering vision loss in LHON?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Elevated ICP"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Smoking"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Ethambutol"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the above",
+          "explanation": "Smoking and ethambutol (medication to treat tuberculosis) have been associated as triggers for vision loss in the setting of LHON. However, some reports have also implicated elevated ICP and/or IIH as a LHON trigger. The exact mechanism has yet to be determined, but conversion to LHON remains a distinct possibility in individuals with a genetic predisposition for LHON.  The patient described in this case was initially diagnosed with IIH, but experienced a sustained deterioration in visual function which was secondary to LHON."
+        }
+      ]
+    },
+    {
+      "title": "Follow up",
+      "text": "At 12-month follow-up, her VA remained at CF OD and improved to 20/30 OS. Moreover, her central scotomas continued to persist."
+    }
+  ],
+  "caseID": "neuro0030",
+  "category": "neuro-ophthalmology",
+  "title": "Case 30 ",
+  "patientPresentation": "A 36-year-old woman presented to a tertiary neuro-ophthalmology clinic with progressive vision loss in the right eye, headaches, and pulsatile tinnitus for 6 months. Her past medical history was significant for iron deficiency anemia, obesity (BMI = 37.6 kg/m2), and migraine. Additionally, she gained 18 kg of weight over two years. She did not smoke or drink alcohol. Her mother had a history of glaucoma. On initial examination, her visual acuity was 20/400 OD and 20/20 OS. There was no RAPD. Humphrey visual field testing (24-2) was performed and is shown below:\n\n![](/content/media/neuro_op_30_1.webp)",
+  "description": "30F presenting with progressive vision loss OD for 6 months",
+  "footer": "References:\n\n1. Araya, Javiera MD; Araya, Claudio MD; Conrads, Tomas MD; Sadun, Alfredo MD, PhD;\nSeleme, Nicolas MD. Leber hereditary optic neuropathy conversion in a patient with idiopathic\nintracranial hypertension. J Neuroophthalmol. 2022.\n\n2. Lamirel C, Cassereau J, Cochereau I, Vignal-Clermont C, Pajot O, Tanguy J, Zanlonghi X,\nReynier P, Amati-Bonneau P, Dubas F, Bonneau D, Verny C. Papilloedema and MRI enhancement of the prechiasmal optic nerve at the acute stage of Leber hereditary optic neuropathy. J Neurol Neurosurg Psychiatry. 2010;81(5):578-580. doi:10.1136/jnnp.2009.174953\n\nLearning Objectives:\n\n1. To understand the history, exam findings, and management of IIH.\n\n2. To understand the role of elevated ICP/IIH as a trigger for vision loss in LHON."
+}

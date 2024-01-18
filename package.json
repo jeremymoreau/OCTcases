@@ -38,7 +38,7 @@
     "@vue/cli-plugin-e2e-cypress": "^5.0.8",
     "@vue/cli-plugin-pwa": "^5.0.8",
     "@vue/cli-plugin-router": "^5.0.8",
-    "@vue/cli-service": "5.0.8",
+    "@vue/cli-service": "^5.0.8",
     "@vue/test-utils": "^2.0.2",
     "eslint": "^7.32.0",
     "postcss-loader": "^7.0.1",

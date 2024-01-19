@@ -227,6 +227,33 @@ export default defineComponent({
       const currentCaseIndex = categCases.findIndex(
         (ptCase) => ptCase.caseID === this.$route.params.caseID
       );
+
+      // Log case as completed
+      const storageKey = 'completedCasesLog'
+      let completedCasesLog = {}
+      // check if localstorage available
+      if (typeof localStorage !== 'undefined') {
+        // check if storageKey exists, create if not
+        if (localStorage.getItem(storageKey) === null) {
+          completedCasesLog[this.$route.params.caseID] = false
+        } else {
+          const storedJsonString = localStorage.getItem(storageKey)
+          completedCasesLog = JSON.parse(storedJsonString)
+        }
+
+        // set to completed
+        completedCasesLog[this.$route.params.caseID] = true
+
+        // store back in localStorage
+        const newJsonString = JSON.stringify(completedCasesLog)
+        localStorage.setItem(storageKey, newJsonString)
+        this.completedCasesLog = completedCasesLog
+        
+        
+      } else {
+          console.log('localStorage is not supported in this browser.');
+      }
+
       let nextCase;
       if (previousOrNext === "next") {
         nextCase = categCases[currentCaseIndex + 1];

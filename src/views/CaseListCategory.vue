@@ -12,9 +12,22 @@
             <ion-item
               button="true"
               v-if="item.category == $route.params.caseCategory"
-              @click="gotoPage('CasePage', item.caseID)"
             >
-              <ion-label>
+
+            <ion-checkbox slot="start"
+            @click="toggleCaseDone(item.caseID)"
+            checked=false
+            v-if="checkIfCaseDone(item.caseID) != true"
+            ></ion-checkbox>
+            <ion-checkbox slot="start"
+            @click="toggleCaseDone(item.caseID)"
+            checked=true
+            v-if="checkIfCaseDone(item.caseID)"
+            ></ion-checkbox>
+
+              <ion-label
+              @click="gotoPage('CasePage', item.caseID)"
+              >
                 <h2 class="list-title">{{ item.title }}</h2>
                 <ion-text class="list-subtitle" color="dark">{{
                   item.description
@@ -29,7 +42,7 @@
 </template>
 
 <script lang='js'>
-import { IonPage, IonList, IonContent, IonItem, IonLabel, IonListHeader } from "@ionic/vue";
+import { IonPage, IonList, IonContent, IonItem, IonLabel, IonListHeader, IonCheckbox } from "@ionic/vue";
 import { getJSON } from "./helpers";
 
 import { defineComponent } from "vue";
@@ -44,14 +57,79 @@ export default defineComponent({
     IonContent,
     IonItem,
     IonLabel,
-    IonListHeader
+    IonListHeader,
+    IonCheckbox
   },
   setup() {
     const caseIndex = getJSON("/assets/index/case_index.json");
     return { caseIndex };
   },
+  data() {
+    return {
+      completedCasesLog: {}
+    };
+  },
 
   methods: {
+    checkIfCaseDone(caseID) {
+      // Access property using a variable
+      const storageKey = 'completedCasesLog'
+      let completedCasesLog = {}
+      if (typeof localStorage !== 'undefined') {
+        // check if storageKey exists, create if not
+        if (localStorage.getItem(storageKey) === null) {
+          console.log('no saved data')
+          completedCasesLog[caseID] = false
+          const newJsonString = JSON.stringify(completedCasesLog)
+          localStorage.setItem(storageKey, newJsonString)
+          this.completedCasesLog = completedCasesLog
+          
+        } else {
+          const storedJsonString = localStorage.getItem(storageKey)
+          completedCasesLog = JSON.parse(storedJsonString)
+        }
+
+        // toggle value of key
+        return completedCasesLog[caseID]
+        
+        
+      } else {
+          console.log('localStorage is not supported in this browser.');
+      }
+
+      return caseID
+    },
+    toggleCaseDone(caseID) {
+      const storageKey = 'completedCasesLog'
+      let completedCasesLog = {}
+      // check if localstorage available
+      if (typeof localStorage !== 'undefined') {
+        // check if storageKey exists, create if not
+        if (localStorage.getItem(storageKey) === null) {
+          completedCasesLog[caseID] = false
+        } else {
+          const storedJsonString = localStorage.getItem(storageKey)
+          completedCasesLog = JSON.parse(storedJsonString)
+        }
+
+        // toggle value of key
+        if (completedCasesLog[caseID] === true) {
+          completedCasesLog[caseID] = false
+        } else {
+          completedCasesLog[caseID] = true
+        }
+
+        // store back in localStorage
+        const newJsonString = JSON.stringify(completedCasesLog)
+        localStorage.setItem(storageKey, newJsonString)
+        this.completedCasesLog = completedCasesLog
+        
+        
+      } else {
+          console.log('localStorage is not supported in this browser.');
+      }
+
+    },
     gotoPage(pageName, caseID) {
       this.$router.push({
         name: pageName,

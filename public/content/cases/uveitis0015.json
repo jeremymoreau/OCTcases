@@ -1,0 +1,113 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The fundus photograph of the left eye demonstrates numerous multifocal, yellow-white lesions in the posterior pole extending to the inferior mid-peripheral retina (red boxes). Inspection of the optic nerve demonstrates mild nasal optic disc edema (blue arrows). Moreover, close examination of the macula reveals a yellow-orange hue with foveal granularity (green arrow).\n\n![](/content/media/uveitis_15_2.webp)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "Describe the findings in the fundus photographs above."
+    },
+    {
+      "title": "Question 2",
+      "text": "An OCT of the macula was performed in OU and is shown below:\n\n![](/content/media/oct1.webp)\n\n![](/content/media/oct2.webp)",
+      "answers": [
+        {
+          "correct": true,
+          "explanation": "The OCT macula of the left eye demonstrates focal disruption of the ellipsoid zone (EZ) (red boxes).\n\n![](/content/media/oct3.webp)",
+          "answerText": "A. Ellipsoid zone disruption"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Hyper-reflective intraretinal foci"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Intraretinal fluid"
+        },
+        {
+          "correct": false,
+          "answerText": "D. No abnormal findings"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Based on the patient presentation, fundus photos and OCT macula imaging, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Birdshot chorioretinopathy"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Acute posterior multifocal placoid pigment epitheliopathy"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Punctate inner choroidopathy"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Multiple evanescent white dot syndrome",
+          "explanation": "The fundus findings present in the left eye of this patient are classically associated with Multiple Evanescent White Dot Syndrome (MEWDS). The majority of MEWDS cases present with granularity and a yellowish-orange hue in the fovea. Although the presence of scattered yellow-white chorioretinal lesions is strongly associated with MEWDS, these lesions are not always present, especially in the post-acute phase of illness. The presence of optic disc edema is another associated fundus finding in MEWDS, although it is less commonly observed.​\n\n​MEWDS has a predilection for young, myopic, healthy women (range: 15 – 50 years. MEWDS typically presents with acute, unilateral blurry vision, photopsias, and/or enlargement of the blind spot. In 30-50% of cases, visual changes are preceded by a viral illness. In the present case, our patient reported having a viral illness 1 month prior to her symptoms. In the acute phase of MEWDS, disruption of the EZ is the central OCT finding associated with this disease."
+        }
+      ]
+    },
+    {
+      "text": "What is the next best imaging modality to confirm this patient’s diagnosis?",
+      "title": "Question 4",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Indocyanine green angiography"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Fundus autofluorescence",
+          "explanation": "The use of multi-modal imaging is particularly useful in diagnosing MEWDS, and there are several imaging modalities that may be used. FAF is a non-invasive imaging modality that relies on the fluorescent properties of lipofuscin, which is a by-product of photoreceptor outer segment breakdown. RPE dysfunction – as seen in MEWDS – leads to the accumulation of lipofuscin, resulting in hyper-autofluorescent spots on FAF. The FAF image shown below demonstrates multiple discrete areas of hyper-autofluorescence in the posterior pole and mid-periphery which correspond to the location of both visible and non-visible lesions on the fundus (red arrows).\n\nIt is worth noting that hyper-autofluorescence may be observed even if white lesions are not actively seen on fundus imaging. Therefore, in the event of diagnostic uncertainty, FAF can be especially useful in establishing a diagnosis.\n\n![](/content/media/fundus1.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Optical coherence tomography angiography"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Fluorescein angiography"
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "What is the next best step in the management of this patient?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Sub-tenons steroid injection"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Anti-VEGF therapy"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Systemic Prednisone"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Observation",
+          "explanation": "MEWDS does not require any active intervention as it is often a self-limiting condition. The visual prognosis is generally good for patients, and the majority of patients will fully regain their visual function within 2 – 10 weeks.\n\n​It is thought that MEWDS occurs due to dysfunction of the inner and outer segments of photoreceptors. However, the preserved integrity of photoreceptor cell bodies is thought to contribute to recovery of the previously dysfunctional inner and outer segments. Indeed, the outer retinal changes observed on OCT in the setting of MEWDS are transient, which is in keeping with the favorable visual prognosis.\n\n​Although MEWDS can recur, it is relatively uncommon (10 – 15%)."
+        }
+      ]
+    }
+  ],
+  "category": "uveitis",
+  "caseID": "uveitis0015",
+  "title": "Case 15",
+  "description": "36F presenting with a 2 week history of blurry spots",
+  "patientPresentation": "A 36-year-old woman presented with a 2-week history of “blurry spots” and flashing lights in her left eye. She denied a painful red eye, floaters or a visual field deficit. There was no history of trauma. Her past medical history was unremarkable, and she did not take any medications. She did report having a seasonal flu 1 month ago.\n\nOn examination, her visual acuity was 20/20 OD and 20/40 OS. IOP was 13 OD and 14 OS, and there was no RAPD. Slit-lamp examination was normal. Optos widefield fundus photos were taken and are shown below:\n\n![](/content/media/699564_7b1fc04bf9b14e0f920631f0d6e88cac~mv2.webp)\n\n![](/content/media/699564_9fa33c6652ec4c2198e6ef32fec542eb~mv2.webp)",
+  "footer": "### References:\n\n1. Marsiglia M, Gallego-Pinazo R, Cunha de Souza E, et al. Expanded clinical spectrum of multiple evanescent white dot syndrome with multimodal imaging. Retina. 2016;36(1):64-74. doi:10.1097/IAE.0000000000000685\n2. Papasavvas I, Mantovani A, Tugal-Tutkun I, Herbort CP Jr. Multiple evanescent white dot syndrome (MEWDS): update on practical appraisal, diagnosis and clinicopathology; a review and an alternative comprehensive perspective. J Ophthalmic Inflamm Infect. 2021;11(1):45. Published 2021 Dec 18. doi:10.1186/s12348-021-00279-7\n   ​\n\n### Learning Objectives:\n\n1. To understand the clinical presentation and prognosis in MEWDS.\n\n2. To understand the fundus and OCT findings in MEWDS.\n\n​3. To understand the utility of multi-modal imaging in the setting of diagnostic uncertainty."
+}

@@ -1,0 +1,66 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The fundus photographs reveal cotton wool spots throughout the posterior pole bilaterally, as well as flame shaped retinal hemorrhages in the inferior macula OS. There is also notable intra-retinal whitening circumferentially around the left optic nerve head. The optic discs demonstrated no edema, and the periphery were unremarkable."
+        }
+      ],
+      "title": "Question 1",
+      "text": "Describe the findings in these fundus photographs."
+    },
+    {
+      "title": "Question 2",
+      "text": "OCT macula images were taken and are shown below:\n\n![](/content/media/retina-3.webp)\n\n![](/content/media/retina-4.webp)\n\nDescribe the main findings in the OCT images above.",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "OCT macula imaging of the left eye demonstrated hyper-reflectivity of the inner retinal layers favouring the nasal macula. There is also a small area of parafoveal subretinal fluid in the left eye (white star). There is also focal loss of the ellipsoid zone in both eyes (blue arrows).\n\n![](/content/media/retina-5.webp)"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Purtscher’s retinopathy",
+          "explanation": "Purtscher’s retinopathy is an occlusive microvasculopathy associated with head trauma or thoracic compression, with no direct injury to the globe. The condition is associated with a constellation of retinal findings including cotton-wool spots, intraretinal hemorrhages and “Purtscher flecken,” or areas of inner retinal opacification, with perivascular clearing in the posterior pole, including optic disc. OCT macula typically reveals hyper-reflectivity of the inner retinal layers and may also demonstrate outer retinal atrophy and photoreceptor loss.\n\n​\n\nCommotio retinae (Berlin’s edema) is an acute traumatic retinopathy caused by direct ocular trauma. It classically presents with outer retinal opacification due to shearing of the photoreceptor outer segments. OCT often reveals increased hyperreflectivity in photoreceptor outer segments with preservation of inner retinal architecture.\n\n​\n\nValsalva retinopathy is characterized by pre-retinal (sub-hyaloid/sub-ILM) hemorrhages secondary to raised intrathoracic or intraabdominal pressure from physical exertion.\n\n​\n\nCentral retinal artery occlusion classically presents as retinal pallor with a cherry-red spot due to opacification of the nerve fiber layer as it becomes edematous from ischemia. OCT would demonstrate increased hyperreflectivity and thickness of the inner retinal layers and corresponding shadowing of the outer retinal layers."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Commotio retinae (Berlin’s edema)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Valsalva retinopathy"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Central retinal artery occlusion"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What is the pathogenesis and management of this disease?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The pathogenesis of Purtscher’s retinopathy is poorly understood. Currently, the most widely accepted theory is that trauma induces microembolization of retinal vasculature, which causes arteriolar precapillary occlusion and infarction of the retinal nerve fiber layer. It has also been proposed that embolization occurs due to leukocytatory aggregation from C5 complement activation. Purtscher’s retinopathy is confined to the posterior pole, as arterioles and capillaries in this region are more susceptible to embolic occlusion from fewer arteriolar feeders and anastomoses.\n\n​\n\nIn some patients, clinical findings of Purtscher’s may be present in the absence of trauma. This is called “Purtscher’s-like retinopathy” and can result from various etiologies including acute pancreatitis, chronic renal failure, autoimmune diseases, retrobulbar anesthesia, and orbital steroid injection.\n\n​\n\nCurrently, there is no consensus treatment for Purtscher’s retinopathy. The prognosis largely depends on the extent of retinal involvement. Most physicians manage expectantly. The management of Purtscher’s-like retinopathy depends on the underlying etiology, some of which require systemic steroids."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0075",
+  "category": "retina",
+  "title": "Case 75",
+  "description": "52M presenting with painless vision loss OU",
+  "patientPresentation": "A 52-year-old man was urgently consulted to the in-patient ophthalmology service for painless vision loss in both eyes upon regaining consciousness in the ICU. He was involved in a motor vehicle collision where he sustained significant traumatic head and chest injuries. He denied eye pain, flashes, floaters, or a visual field deficit. He had no past medical or ocular history. MRI brain revealed a small subarachnoid hemorrhage with no hydrocephalus or mass effect, that was being managed expectantly.\n\nOn examination, his visual acuity was 20/100 OD and CF OS. IOP was 13 OD and 15 OS. There was no RAPD. Slit lamp examination revealed bilateral focal subconjunctival hemorrhages, but an otherwise normal anterior segment. Dilated fundus examination revealed the following:\n\n![](/content/media/retina_75_1.webp)\n\n![](/content/media/retina_75_2.webp)",
+  "footer": "### References:\n\n​Agrawal A, McKibbin MA. Purtscher's and Purtscher-like retinopathies: a review. Surv Ophthalmol. 2006 Mar-Apr;51(2):129-36. doi: 10.1016/j.survophthal.2005.12.003.\n\n​Miguel AI, Henriques F, Azevedo LF, Loureiro AJ, Maberley DA. Systematic review of Purtscher's and Purtscher-like retinopathies. Eye (Lond). 2013 Jan;27(1):1-13. doi: 10.1038/eye.2012.222.\n\n​Gil P, Pires J, Costa E, Matos R, Cardoso MS, Mariano M. Purtscher retinopathy: to treat or not to treat? Eur J Ophthalmol. 2015 Oct 21;25(6):e112-5. doi: 10.5301/ejo.5000623.\n\n​\n\n### Learning Objectives:\n\nRecognize the clinical and OCT features of Purtscher’s retinopathy.\n\nUnderstand the pathogenesis and management of Purtscher’s retinopathy."
+}

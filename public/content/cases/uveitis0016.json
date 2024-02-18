@@ -45,11 +45,63 @@
           "answerText": "D. Early hyperfluorescence with late hypofluorescence"
         }
       ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Based on the patient demographics, history, fundus photos, OCT images, and IVFA results above, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Syphilitic uveitis"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Birdshot chorioretinopathy"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Multiple evanescent white dot syndrome (MEWDS)"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Acute posterior multifocal placoid pigment epitheliopathy (APMPPE)",
+          "explanation": "APMPPE is an inflammatory chorioretinopathy that is classified as a “white-dot syndrome.” APMPPE is typically bilateral and presents in patients in their 2nd - 4th generation of life. There is no sex predilection. Patients typically present with central or paracentral scotomas, as well as photopsias. There is occasionally a viral prodrome leading up to visual changes. Classic findings on fundus examination are large gray-white or creamy lesions at the level of the RPE. OCT imaging classically demonstrates loss of the ellipsoid zone with hyper-reflectivity in the outer retina and RPE mottling. The classic presentation on IVFA imaging is “early blockage with late staining,” as seen in our patient. Luckily, cases of APMPPE are typically self-resolving, with vision returning in 4-8 weeks. Steroids may hasten visual recovery, but there is no consensus on treatment. If there is poor visual rehabilitation or recurrence, an alternative diagnosis of relentless placoid chorioretinitis should be investigated."
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What alternative imaging modality should be ordered if a diagnosis of APMPPE is concluded?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Indocyanine green angiography"
+        },
+        {
+          "correct": true,
+          "answerText": "B. MRI/MRA brain",
+          "explanation": "All patients with a new diagnosis of APMPPE should undergo a full neurological work-up for CNS vasculitis and associated conditions. Reports of optic neuritis, intracerebral hemorrhage, and encephalitis have been reported, but are less prevalent than CNS vasculitis. If relentless placoid chorioretinitis is believed to be the diagnosis, referral to Rheumatology for possible systemic immunosuppression should be initiated."
+        },
+        {
+          "correct": false,
+          "answerText": "C. CT orbits"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Full field ERG"
+        }
+      ]
+    },
+    {
+      "title": "Follow up",
+      "text": "At the 6-month follow-up, the patient’s vision was 20/20 OD and 20/20 OS. Though more lesions were seen OU at the 1-month and 2-month the follow-ups, these demonstrated hypo-autofluoresence at this time and were not thought to be active. Her OCT imaging demonstrated marked improvement in ellipsoid zone integrity OD. Her MRI/MRA brain was normal.\n\n![](/content/media/699564_78d3f58a11b9424395187b262eee64c2~mv2.webp)\n\n![](/content/media/699564_0c41e4ed28bb4c8a9e3796ca9c82e725~mv2.webp)\n\n![](/content/media/699564_ea349bd0bb0649bf88b796a0102091be~mv2.webp)",
+      "answers": []
     }
   ],
   "caseID": "uveitis0016",
   "category": "uveitis",
   "title": "Case 16",
   "description": "26F referred for possible retinopathy OD",
-  "patientPresentation": "A 26-year-old woman of Hawaiian descent was referred to a tertiary uveitis clinic by her optometrist for a possible retinopathy in her right eye. The patient noted 1 week of seeing “gray patches” in her central vision OD. She denied pain, flashes, floaters of a visual field deficit. There was no viral prodrome. She denied past medical or ocular history. Review of systems was negative. Visual acuity was 20/70 OD and 20/20 OS. There was no RAPD. Anterior segment examination was unremarkable. Fundus photographs and OCT macula imaging was conducted and is shown below:\n\n![](/content/media/699564_2cf274606b674323969e4cea6a8ccd5e~mv2.webp)\n\n![](/content/media/699564_d1b02a91bcdb4aaaad31b9bd99a67817~mv2.webp)"
+  "patientPresentation": "A 26-year-old woman of Hawaiian descent was referred to a tertiary uveitis clinic by her optometrist for a possible retinopathy in her right eye. The patient noted 1 week of seeing “gray patches” in her central vision OD. She denied pain, flashes, floaters of a visual field deficit. There was no viral prodrome. She denied past medical or ocular history. Review of systems was negative. Visual acuity was 20/70 OD and 20/20 OS. There was no RAPD. Anterior segment examination was unremarkable. Fundus photographs and OCT macula imaging was conducted and is shown below:\n\n![](/content/media/699564_2cf274606b674323969e4cea6a8ccd5e~mv2.webp)\n\n![](/content/media/699564_d1b02a91bcdb4aaaad31b9bd99a67817~mv2.webp)",
+  "footer": "### References:\n\n1. Gass JD. Acute posterior multifocal placoid pigment epitheliopathy. Arch Ophthalmol. Aug 1968;80(2):177-185.\n2. Steptoe PJ, Pearce I, Beare NAV, et al. Proposing a Neurotropic Etiology for Acute Posterior Multifocal Placoid Pigment Epitheliopathy and Relentless Placoid Chorioretinitis. Front Ophthalmol. 2022;1:802962.\n3. Scheufele TA, Witkin AJ, Schocket LS, et al. Photoreceptor atrophy in acute posterior multifocal placoid pigment epitheliopathy demonstrated by optical coherence tomography. Retina. Dec 2005;25(8):1109-1112.\n4. Oliveira MA, Simão J, Martins A, Farinha C. Management of Acute Posterior Multifocal Placoid Pigment Epitheliopathy (APMPPE): Insights from Multimodal Imaging with OCTA. Case Rep Ophthalmol Med. 2020;2020:7049168.\n5. Asano S, Tanaka R, Kawashima H, Kaburaki T. Relentless Placoid Chorioretinitis: A Case Series of Successful Tapering of Systemic Immunosuppressants Achieved with Adalimumab. Case Rep Ophthalmol. 2019 Jan-Apr 2019;10(1):145-152.\n   ​\n\n### Learning Objectives:\n\nTo understand the clinical presentation and prognosis in APMPPE\n\nTo understand the fundus, OCT and IVFA findings in APMPPE\n\nTo understand the importance of a full neurological work-up for CNS vasculitis in the setting of APMPPE"
 }

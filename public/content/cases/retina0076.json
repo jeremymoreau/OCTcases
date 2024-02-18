@@ -1,0 +1,113 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The main abnormality in the above photographs is the radial spoking in the macula of the left eye. This can be best appreciated in the near infrared imaging of the macula (red box).\n\n![](/content/media/699564_5aec28559b1842ef9dd1b9195c355bd7~mv2.webp)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What is the main finding of the photos above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "Next, a spectral-domain OCT (SD-OCT) of the macula OU and a peripheral SD-OCT OS were taken and are shown below:\n\n![](/content/media/699564_7655013a71854cda8f6302185efb0c9d~mv2.webp)\n\n![](/content/media/699564_435db7f40e014cfeb5c1ea3783882aa7~mv2.webp)\n\nLeft eye temporal to macula:\n\n![](/content/media/699564_9d143e23c61047e7bf303df44cea117d~mv2.webp)\n\nWhat is the most notable abnormality in the above OCT scans?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Loss of foveal contour in the left eye"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Intraretinal hypo-reflective cavities in the left eye",
+          "explanation": "Hypo-reflective cavities can be seen in the intraretinal space of the macula in the left eye (red arrows). This cavity runs temporally and can be seen in the peripheral OCT scan of the left eye (green arrow). Although there is slight doming, there is incomplete loss of the foveal contour, and it can still be appreciated (yellow arrow). There is no hyper-reflective membrane along the inner retina to suggest an epiretinal membrane.\n\n​\n\n![](/content/media/699564_204c5293c8c84ad8878968164bf9e4fe~mv2.webp)\n\n![](/content/media/699564_188e7a507f374b6997f84d1b60f774b4~mv2.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Subretinal hyper-reflective cavities in the left eye"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Epiretinal membrane"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Outer plexiform layer"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Inner nuclear layer and outer plexiform layer"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Inner plexiform and inner nuclear layer"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Outer nuclear layer",
+          "explanation": "It is important to identify which layers of the retina are affected by pathology. In this OCT, we can see hypo-reflective cavities within the outer nuclear layer (ONL; yellow arrow). It can be difficult to delineate retinal layers when pathology is present; a good way to orient oneself is to look for the two nuclear layers which appear dark on OCT (yellow arrows).\n\n![](/content/media/699564_bf66fc4e3d6a498098dbd4a34b920ed7~mv2.webp)"
+        }
+      ],
+      "text": "Which layer(s) of the neurosensory retina are affected in the OCT of the left eye?"
+    },
+    {
+      "title": "Question 4",
+      "text": "Ultrawide field fluorescein angiography was performed and is shown below:\n\n![](/content/media/699564_76820081ab70483ab6ebceffa2fcceba~mv2.webp)\n\n![](/content/media/699564_e43e8b3b91d44bba8959ac0896b7896b~mv2.webp)\n\nWhich of the following pathologies do not leak on fluorescein angiography?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Stellate nonhereditary idiopathic foveomacular retinoschisis (SNIFR)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. X-linked retinoschisis"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Retinoschisis secondary to taxane antimicrotubule medications (eg. paclitaxel)"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All the above",
+          "explanation": "Fluorescein angiography (FA) can be used to differentiate retinoschisis and cystoid macular edema. CME will leak on fluorescein angiography while retinoschisis usually does not \\[1,2]. The acronym DEPRIVES (Diabetes, Epinephrine, Pars Planitis/Uveitis, Retinitis Pigmentosa, Irvine-Gass, Vein Occlusion, E2-prostaglandin, and Surgery) is a useful tool to remember risk factors that cause FA leakage \\[2]. The FA images above lack fluorescein leakage suggesting the patient has some form of retinoschisis \\[1]."
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "What is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Stellate nonhereditary idiopathic foveomacular retinoschisis (SNIFR)",
+          "explanation": "Retinoschisis has varied etiologies; SNIFR affects the macula of patients without identifiable hereditary or ocular risk factors for retinoschisis (eg. lack of mutation in RS1 or medication induced) \\[3]. The pathogenesis of SNIFR is not well understood; as such, it is a diagnosis of exclusion \\[3,4,5,6]. Since our patient is not taking any medication and has no past ocular or family history, SNIFR is the most likely diagnosis. Although this case of SNIFR presented in a male, the disease predominantly affects females and typically presents unilaterally \\[4,6]. There is lack of evidence as to which treatments are most effective \\[4]; SNIFR is typically managed by observation as most patients have minimal symptoms \\[3,4,5,6]."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Enhanced S-cone syndrome"
+        },
+        {
+          "correct": false,
+          "answerText": "C. X-linked retinoschisis"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Retinoschisis secondary to niacin or taxane antimicrotubule medications (eg. paclitaxel)"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0076",
+  "category": "retina",
+  "title": "Case 76",
+  "description": "62M referred for presumed cystoid macular edema OS",
+  "patientPresentation": "**Contributors:** Korolos Sawires MD (C) and Dr. R. Rishi Gupta MD, FRCSC, FASRS\n\nPatient presentation: A 62-year-old man was referred to a tertiary retina clinic for presumed cystoid macular edema (CME) in the left eye. The patient noted progressive painless blurring of his vision OS over the last few years. His past medical, family, and ocular history were unremarkable. He was emmetropic and not taking any medications.\n\nBest corrected distance visual acuity was 20/25 OD and 20/100 OS (pinhole 20/40) with an IOP of 16 mmHg in both eyes. Slit lamp examination revealed 1+ nuclear sclerotic cataract OD and a 2+ nuclear sclerotic cataract with posterior subcapsular component OS. There was no intraocular inflammation.\n\nFundus, fundus autofluorescence and near infrared photographs were taken and are shown below:\n\n![](/content/media/retina_76_1.webp)\n\n![](/content/media/retina_76_2.webp)\n\n![](/content/media/retina_76_3.webp)",
+  "footer": "### References:\n\n1. Gaudric, Alain et al. “Non-vasogenic cystoid maculopathies.” Progress in retinal and eye research vol. 91 (2022): 101092. doi:10.1016/j.preteyeres.2022.101092\n2. Feldman, Brad H et al. \"Cystoid Macular Edema.\" Eyewiki, American Academy of Ophthalmology, 21 Jan. 2024, https://eyewiki.aao.org/Cystoid_Macular_Edema.\n3. Ober, Michael D et al. “Stellate nonhereditary idiopathic foveomacular retinoschisis.” Ophthalmology vol. 121,7 (2014): 1406-13. doi:10.1016/j.ophtha.2014.02.002\n4. Light, Jacob G et al. “Stellate nonhereditary idiopathic foveomacular retinoschisis and an approach to the differential diagnosis of macular star.” Current opinion in ophthalmology vol. 33,3 (2022): 157-166. doi:10.1097/ICU.0000000000000844\n5. Mandviwala, Murtaza Mustafa. \"Stellate Nonhereditary Idiopathic Foveomacular Retinoschisis (SNIFR).\" Eyewiki, American Academy of Ophthalmology, 4 Nov. 2022, https://eyewiki.org/Stellate*Nonhereditary_Idiopathic_Foveomacular_Retinoschisis*(SNIFR).\n\n### ​\n\n### Learning Objectives:\n\nTo identify OCT features of stellate nonhereditary idiopathic foveomacular retinoschisis (SNIFR)\n\nReview layers of the retina and which are affected in SNIFR\n\n​Appreciate the role of fluorescein angiography in differentiating CME and retinoschisis"
+}

@@ -6,15 +6,50 @@
           "correct": true,
           "answerText": "A. Disruption of the ellipsoid zone",
           "explanation": "The right eye OCT macula image demonstrates notable irregularities of the ellipsoid zone, which is the hyper-reflective line just anterior to the RPE (blue arrows). There is also hyper-reflectivity in the outer nuclear layer extending towards the RPE (red arrows), which can also be seen in the acute phase of this condition. The left eye OCT macula was unremarkable.\n\n![](/content/media/uveitis_16_3.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Subretinal fluid"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Disorganization of the inner retinal layers"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Outer retinal tubulation"
         }
       ],
       "title": "Question 1",
       "text": "What is the main finding in the right eye OCT macula image above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "Next, intravenous fluorescein angiography was conducted. The early and late phase IVFA of the right eye, and late phase of the left eye, are shown below:\n\n![](/content/media/699564_71f3f5a6209440a49e32dcf945e575c5~mv2.webp)\n\n![](/content/media/699564_781e0cc2e73d452992850a6424f2da75~mv2.webp)\n\nWhat is the main finding of the IVFA images above?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Early hyperfluorescence with late staining"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Early hypofluorescence with late staining",
+          "explanation": "The key finding of the IVFA images is hypofluorescence, from blockage of the signal by the placoid lesions (blue arrows), followed by hyperfluorescence via staining in late phases (red arrows). There are neither regions that demonstrate hyperfluorescence early, nor hyperfluorescence that increases in size and intensity in keeping with leakage; one can also correlate a lack of leakage to a paucity of intra- and subretinal fluid on OCT imaging.\n\n![](/content/media/699564_ec6f177e46c7491a8f713d09940a1536~mv2.webp)\n\n![](/content/media/699564_9df089e54eb745a692db7b08c5ce0ebe~mv2.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Early hypofluorescence with late blockage"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Early hyperfluorescence with late hypofluorescence"
+        }
+      ]
     }
   ],
   "caseID": "uveitis0016",
   "category": "uveitis",
   "title": "Case 16",
   "description": "26F referred for possible retinopathy OD",
-  "patientPresentation": "A 26-year-old woman of Hawaiian descent was referred to a tertiary uveitis clinic by her optometrist for a possible retinopathy in her right eye. The patient noted 1 week of seeing “gray patches” in her central vision OD. She denied pain, flashes, floaters of a visual field deficit. There was no viral prodrome. She denied past medical or ocular history. Review of systems was negative. Visual acuity was 20/70 OD and 20/20 OS. There was no RAPD. Anterior segment examination was unremarkable. Fundus photographs and OCT macula imaging was conducted and is shown below:\n\n![](/content/media/699564_2cf274606b674323969e4cea6a8ccd5e~mv2.webp)\n\n![]()"
+  "patientPresentation": "A 26-year-old woman of Hawaiian descent was referred to a tertiary uveitis clinic by her optometrist for a possible retinopathy in her right eye. The patient noted 1 week of seeing “gray patches” in her central vision OD. She denied pain, flashes, floaters of a visual field deficit. There was no viral prodrome. She denied past medical or ocular history. Review of systems was negative. Visual acuity was 20/70 OD and 20/20 OS. There was no RAPD. Anterior segment examination was unremarkable. Fundus photographs and OCT macula imaging was conducted and is shown below:\n\n![](/content/media/699564_2cf274606b674323969e4cea6a8ccd5e~mv2.webp)\n\n![](/content/media/699564_d1b02a91bcdb4aaaad31b9bd99a67817~mv2.webp)"
 }

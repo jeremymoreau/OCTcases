@@ -1,0 +1,20 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Disruption of the ellipsoid zone",
+          "explanation": "The right eye OCT macula image demonstrates notable irregularities of the ellipsoid zone, which is the hyper-reflective line just anterior to the RPE (blue arrows). There is also hyper-reflectivity in the outer nuclear layer extending towards the RPE (red arrows), which can also be seen in the acute phase of this condition. The left eye OCT macula was unremarkable.\n\n![](/content/media/uveitis_16_3.webp)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What is the main finding in the right eye OCT macula image above?"
+    }
+  ],
+  "caseID": "uveitis0016",
+  "category": "uveitis",
+  "title": "Case 16",
+  "description": "26F referred for possible retinopathy OD",
+  "patientPresentation": "A 26-year-old woman of Hawaiian descent was referred to a tertiary uveitis clinic by her optometrist for a possible retinopathy in her right eye. The patient noted 1 week of seeing “gray patches” in her central vision OD. She denied pain, flashes, floaters of a visual field deficit. There was no viral prodrome. She denied past medical or ocular history. Review of systems was negative. Visual acuity was 20/70 OD and 20/20 OS. There was no RAPD. Anterior segment examination was unremarkable. Fundus photographs and OCT macula imaging was conducted and is shown below:\n\n![](/content/media/699564_2cf274606b674323969e4cea6a8ccd5e~mv2.webp)\n\n![]()"
+}

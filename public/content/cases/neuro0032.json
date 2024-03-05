@@ -1,0 +1,125 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Temporal optic disc pallor OU",
+          "explanation": "The fundus photos above demonstrate temporal optic disc pallor bilaterally (red arrows).\n\n![](/content/media/699564_98a9c5b3a78c44f6a83a7aa8d2de3121~mv2.webp)\n\nOptic atrophy – which refers to the degeneration of retinal ganglion cells (RGCs) – is manifest by the presence of pallor in the optic nerve. Optic nerve pallor tends to be suggestive of a long-standing optic neuropathy."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Peripapillary atrophy OU"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Optic disc edema OU"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Normal appearing optic nerve OU"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What is the most significant finding on fundus examination?"
+    },
+    {
+      "title": "Question 2",
+      "text": "An OCT RNFL and Humphrey visual field testing (24-2) were performed and shown below:\n\n![](/content/media/699564_8202dc31c396422fb13f8605a2fc5ff7~mv2.webp)\n\nBased on the patient’s presentation, history, and fundus findings, what is the differential diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Hereditary optic neuropathy"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Nutritional optic neuropathy"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Toxic optic neuropathy"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the above",
+          "explanation": "This patient presented with symmetric, bilateral vision loss that was progressive over several months. Given that this patient’s vision loss occurred over several months, ischemic (e.g., NAION) and inflammatory (e.g., optic neuritis) cases are less likely as these tend to present with unilateral, acute vision loss.\n\nThe RGCs of the papillomacular bundle are preferentially involved in hereditary, nutritional, and toxic optic neuropathies. On visual field testing, these conditions typically present with bilateral central or cecocentral scotomas. This patient’s visual field testing demonstrated bilateral central scotomas.\n\nOn fundus examination, this patient had temporal pallor in both optic nerves. This finding is consistent with papillomacular bundle involvement as degeneration of RGCs in the papillomacular bundle manifests as temporal pallor of the optic nerve."
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Magnetic resonance imaging (MRI) of the brain and orbits with contrast was performed, and no compressive lesions or evidence of demyelinating disease was noted.  \n\nTo investigate nutritional deficiencies, RBC folate and B12 levels were checked and were normal.  Whole-blood trace metal analysis was performed and was unremarkable.\n\nWhat is the most likely diagnosis in this patient?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Leber hereditary optic neuropathy",
+          "explanation": "Leber hereditary optic neuropathy (LHON) is the most common hereditary mitochondrial optic neuropathy. LHON has a predilection for young men; however, the condition is also observed in atypical demographics (in this case, a 47-year-old woman). LHON presents with unilateral, progressive vision loss, with involvement of the fellow eye within months to years.\n\n​LHON is a clinical diagnosis, and investigations were performed to rule out demyelinating disease and nutritional, toxic, or compressive optic neuropathies.\n\n​It is important to note that the fundus examination may be normal in nearly 50% of LHON cases. In this case, evidence of optic neuropathy – as characterized by optic nerve pallor – was present, although additional fundus features associated with LHON (e.g., peripapillary telangiectasias, pseudo-edematous optic nerve, no optic disc leakage on fluorescein angiography) were absent in this patient."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Medication toxicity"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Dominant optic atrophy"
+        },
+        {
+          "correct": false,
+          "answerText": "D. None of the above"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "Mitochondrial genetic testing was subsequently performed to test for the three primary mutations associated with LHON, which was found to be negative.\n\nNuclear DNA sequencing was performed and a single point-mutation in a gene associated with mitochondrial disease was observed.\n\nWhich nuclear genes have been associated with LHON phenotype?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. KIF5A"
+        },
+        {
+          "correct": false,
+          "answerText": "B. NDUFS2"
+        },
+        {
+          "correct": false,
+          "answerText": "C. DNAJC30"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the above",
+          "explanation": "This patient had a mutation in the KIF5A gene, a nuclear gene that is involved in mitochondrial transport. Experimental studies in mice have shown that dysfunction of this gene is associated with reduced RGC survivability.\n\n​Although LHON is classically associated with pathogenic mutations to mitochondrial DNA, cases of LHON phenotype in patients with nuclear DNA mutations have been previously reported. Although these mutations are not present in the mitochondrial genome, they have been shown to impact mitochondrial function, which is in keeping with the pathogenesis of LHON."
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "Which one of the following is not currently established as a risk factor for LHON?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Smoking"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Alcohol consumption"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Male gender"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Metastatic cancer",
+          "explanation": "Smoking, alcohol, and male gender are all risk factors for conversion to LHON. However, metastatic cancer has not been established as a risk factor at this time.\n\n​Interestingly, the patient described in the present case started to experience vision loss at around the same time as she was diagnosed with NSCLC. Additionally, metastases were present in her brain, and her symptoms worsened after radiation treatment was initiated. It is possible that her metastatic cancer served as a trigger for her vision loss."
+        }
+      ]
+    }
+  ],
+  "caseID": "neuro0032",
+  "category": "neuro-ophthalmology",
+  "title": "Case 32",
+  "description": "47F presenting with progressive vision loss OU for 3 months",
+  "patientPresentation": "**Contributors:** Bhadra U. Pandya MD (C) and Dr. Jonathan Micieli MD, CM, FRCSC\n​\nPatient Presentation: A 47-year-old woman presented to a tertiary neuro-ophthalmology clinic with a 3-month history of progressively worsening bilateral vision loss. Her past medical history was significant for non-small-cell lung cancer (NSCLC) which was diagnosed around the time her vision loss began. She was treated with whole brain radiation and Osimertinib, and her vision subsequently worsened 6 weeks later. Her medications included levetiracetam, tinzaparin, dexamethasone, hydromorphone, and pantoprazole. There was no family history of vision loss, and she did not smoke or drink alcohol.\n\nOn initial examination, her visual acuity was 20/320 OD and counting fingers OS. There was no RAPD. Dilated fundus examination was performed and is shown below:\n\n![](/content/media/699564_3f57adc3439440ddac90c808c5c766c5~mv2.webp)",
+  "footer": "### **References:​**\n\n1. Shah SH, Schiapparelli LM, Ma Y, et al. Quantitative transportomics identifies Kif5a as a major regulator of neurodegeneration. Elife. 2022;11:e68148. Published 2022 Mar 8. doi:10.7554/eLife.68148\n\n2. Meyerson C, Van Stavern G, McClelland C. Leber hereditary optic neuropathy: current perspectives. Clin Ophthalmol. 2015;9:1165-1176. Published 2015 Jun 26. doi:10.2147/OPTH.S62021\n\n### **​Learning Objectives:**\n\n1. To understand the history and exam findings of LHON\n\n2. To understand the association between pathogenic nuclear DNA mutations and LHON"
+}

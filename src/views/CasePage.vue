@@ -105,6 +105,9 @@ import {
   IonCol,
   modalController,
   toastController,
+  IonContent,
+  IonButton,
+  IonCardHeader
 } from "@ionic/vue";
 
 import { defineComponent } from "vue";
@@ -125,6 +128,9 @@ export default defineComponent({
     IonGrid,
     IonRow,
     IonCol,
+    IonContent,
+    IonButton,
+    IonCardHeader
   },
   data() {
     return {

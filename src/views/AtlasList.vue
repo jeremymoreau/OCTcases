@@ -27,7 +27,7 @@
 </template>
 
 <script lang='js'>
-import { IonPage, IonSearchbar, IonCard } from "@ionic/vue";
+import { IonPage, IonSearchbar, IonCard, IonContent, IonCardContent, IonCardHeader, IonCardTitle, IonToolbar } from "@ionic/vue";
 import { getJSON } from "./helpers";
 
 import { defineComponent } from "vue";
@@ -39,7 +39,12 @@ export default defineComponent({
     IonPage,
     IonSearchbar,
     IonCard,
-    PageHeader
+    PageHeader,
+    IonContent,
+    IonCardContent,
+    IonCardHeader,
+    IonCardTitle,
+    IonToolbar
   },
   data() {
     return {

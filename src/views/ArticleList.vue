@@ -25,7 +25,7 @@
 </template>
 
 <script lang='js'>
-import { IonPage, IonList } from "@ionic/vue";
+import { IonPage, IonList, IonContent, IonItem, IonLabel, IonText,} from "@ionic/vue";
 import { getJSON } from "./helpers";
 
 import { defineComponent } from "vue";
@@ -36,6 +36,10 @@ export default defineComponent({
   components: {
     IonPage,
     IonList,
+    IonContent,
+    IonItem,
+    IonLabel,
+    IonText,
     PageHeader,
   },
   setup() {

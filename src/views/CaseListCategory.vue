@@ -14,12 +14,12 @@
               v-if="item.category == $route.params.caseCategory"
             >
 
-            <ion-checkbox slot="start"
+            <ion-checkbox aria-label="toggle case done" slot="start"
             @click="toggleCaseDone(item.caseID)"
             checked=false
             v-if="checkIfCaseDone(item.caseID) != true"
             ></ion-checkbox>
-            <ion-checkbox slot="start"
+            <ion-checkbox aria-label="toggle case done" slot="start"
             @click="toggleCaseDone(item.caseID)"
             checked=true
             v-if="checkIfCaseDone(item.caseID)"
@@ -42,7 +42,7 @@
 </template>
 
 <script lang='js'>
-import { IonPage, IonList, IonContent, IonItem, IonLabel, IonListHeader, IonCheckbox } from "@ionic/vue";
+import { IonPage, IonList, IonContent, IonItem, IonLabel, IonListHeader, IonCheckbox, IonText } from "@ionic/vue";
 import { getJSON } from "./helpers";
 
 import { defineComponent } from "vue";
@@ -58,7 +58,8 @@ export default defineComponent({
     IonItem,
     IonLabel,
     IonListHeader,
-    IonCheckbox
+    IonCheckbox,
+    IonText
   },
   setup() {
     const caseIndex = getJSON("/assets/index/case_index.json");

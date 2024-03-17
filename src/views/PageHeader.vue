@@ -20,7 +20,7 @@
 </template>
 
 <script lang='js'>
-import { IonIcon, IonToolbar, IonTitle, menuController, IonButtons, IonButton, IonMenuButton } from "@ionic/vue";
+import { IonIcon, IonToolbar, IonTitle, menuController, IonButtons, IonButton, IonMenuButton, IonHeader } from "@ionic/vue";
 
 import { helpCircle, moon, moonOutline } from "ionicons/icons";
 import { defineComponent } from "vue";
@@ -33,7 +33,8 @@ export default defineComponent({
     IonTitle,
     IonButtons,
     IonButton,
-    IonMenuButton
+    IonMenuButton,
+    IonHeader
   },
   setup() {
     return {

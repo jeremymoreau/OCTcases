@@ -5,7 +5,7 @@
     <ion-content overflow-scroll="true" scrollEvents="true" id="content">
       <ion-card>
         <ion-card-header>
-          <ion-card-subtitle> {{ category }} </ion-card-subtitle>
+          <!-- <ion-card-subtitle> {{ category }} </ion-card-subtitle> -->
           <ion-card-title class="case-title">
             {{ articleTitle }}
           </ion-card-title>
@@ -71,11 +71,14 @@
 import {
   IonCard,
   IonCardContent,
-  IonCardSubtitle,
+  // IonCardSubtitle,
   IonCardTitle,
   IonPage,
   modalController,
   toastController,
+  IonContent,
+  IonButton,
+  IonCardHeader
 } from "@ionic/vue";
 
 import { defineComponent } from "vue";
@@ -89,9 +92,12 @@ export default defineComponent({
   components: {
     IonCard,
     IonCardContent,
-    IonCardSubtitle,
+    // IonCardSubtitle,
     IonCardTitle,
     IonPage,
+    IonContent,
+    IonButton,
+    IonCardHeader,
     PageHeader
   },
   data() {

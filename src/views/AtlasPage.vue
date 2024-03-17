@@ -68,6 +68,9 @@ import {
   IonCardContent,
   IonCardTitle,
   IonPage,
+  IonContent,
+  IonButton,
+  IonCardHeader
 } from "@ionic/vue";
 
 import { defineComponent } from "vue";
@@ -82,6 +85,9 @@ export default defineComponent({
     IonCardContent,
     IonCardTitle,
     IonPage,
+    IonContent,
+    IonButton,
+    IonCardHeader,
     PageHeader
   },
   data() {

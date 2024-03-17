@@ -25,7 +25,7 @@
 </template>
 
 <script lang='js'>
-import { IonHeader, IonTitle, IonToolbar, modalController } from "@ionic/vue";
+import { IonHeader, IonTitle, IonToolbar, modalController, IonContent, IonCard, IonCardContent, IonButtons, IonButton } from "@ionic/vue";
 import { defineComponent } from "vue";
 import { makeImagesZoomable } from "./helpers";
 
@@ -44,7 +44,7 @@ export default defineComponent({
       await modalController.dismiss();
     },
   },
-  components: { IonHeader, IonTitle, IonToolbar },
+  components: { IonHeader, IonTitle, IonToolbar, IonContent, IonCard, IonCardContent, IonButtons, IonButton },
 });
 </script>
 <style>

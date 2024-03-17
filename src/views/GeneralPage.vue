@@ -19,7 +19,9 @@
 </template>
 
 <script lang='js'>
-import { IonCard, IonCardContent, IonPage } from "@ionic/vue";
+import { IonCard, IonCardContent, IonPage, IonContent,
+    IonCardHeader,
+    IonCardTitle } from "@ionic/vue";
 
 import { defineComponent } from "vue";
 import PageHeader from "./PageHeader.vue";
@@ -32,6 +34,9 @@ export default defineComponent({
     IonCard,
     IonCardContent,
     IonPage,
+    IonContent,
+    IonCardHeader,
+    IonCardTitle,
     PageHeader,
   },
   data() {

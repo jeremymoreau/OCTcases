@@ -114,3 +114,11 @@ export default defineComponent({
 
 });
 </script>
+<style scoped>
+.dark .aboutus-avatar-item {
+    background-color: transparent;
+}
+.dark .aboutus-avatar-item {
+    --ion-item-background: transparent;
+}
+</style>

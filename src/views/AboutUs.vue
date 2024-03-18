@@ -115,10 +115,16 @@ export default defineComponent({
 });
 </script>
 <style scoped>
-.dark .aboutus-avatar-item {
-    background-color: transparent;
+.ios.dark .aboutus-avatar-item {
+    background-color: rgb(28, 28, 29);
 }
-.dark .aboutus-avatar-item {
-    --ion-item-background: transparent;
+.ios.dark .aboutus-avatar-item {
+    --ion-item-background: rgb(28, 28, 29);
+}
+.md.dark .aboutus-avatar-item {
+    background-color: rgb(30, 30, 30);
+}
+.md.dark .aboutus-avatar-item {
+    --ion-item-background: rgb(30, 30, 30);
 }
 </style>

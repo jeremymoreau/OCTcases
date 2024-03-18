@@ -1,7 +1,5 @@
 <template>
   <IonApp>
-    <IonSplitPane content-id="main-content">
-    <IonRouterOutlet id="main-content"></IonRouterOutlet>
     <ion-menu side="start" menu-id="side-menu" content-id="main-content" type="overlay">
       
       <ion-content>
@@ -73,6 +71,7 @@
         </ion-list>
       </ion-content>
     </ion-menu>
+    <!-- <ion-router-outlet id="main-content"></ion-router-outlet> -->
     <!-- Footer -->
     <ion-tabs>
     <ion-router-outlet id="main-content"></ion-router-outlet>
@@ -98,13 +97,12 @@
           </ion-tab-button>
         </ion-tab-bar>
       </ion-tabs>
-  </IonSplitPane>
 </IonApp>
   
 </template>
 
 <script lang="js">
-import { IonApp, IonContent, IonIcon, IonItem, IonLabel, IonList, IonMenu, IonRouterOutlet, IonSplitPane, IonTitle, IonToolbar, IonHeader,
+import { IonApp, IonContent, IonIcon, IonItem, IonLabel, IonList, IonMenu, IonRouterOutlet, IonTitle, IonToolbar, IonHeader,
         IonTabBar, IonTabButton, IonTabs } from '@ionic/vue';
 import { defineComponent } from 'vue';
 import 'viewerjs/dist/viewer.css'
@@ -131,7 +129,6 @@ export default defineComponent({
     IonLabel, 
     IonList, 
     IonMenu, 
-    IonSplitPane,
     IonRouterOutlet,
     IonTabBar,
     IonTabs,

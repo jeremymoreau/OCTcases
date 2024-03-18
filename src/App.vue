@@ -1,7 +1,7 @@
 <template>
   <IonApp>
-    <ion-menu side="start" menu-id="side-menu" content-id="main-content" type="overlay">
-      
+    <ion-menu side="start" menu-id="side-menu" swipeGesture="false" content-id="main-content" type="overlay">
+
       <ion-content>
         <ion-header>
           <ion-toolbar translucent>
@@ -9,101 +9,72 @@
           </ion-toolbar>
         </ion-header>
         <ion-list>
-          <ion-item
-            button="true"
-            class="menu-item"
-            @click="gotoPage('AboutUs', 'about-us')"
-          >
+          <ion-item button="true" class="menu-item" @click="gotoPage('AboutUs', 'about-us')">
             <ion-icon :icon="peopleCircleOutline" slot="start"></ion-icon>
             <ion-label>About Us</ion-label>
           </ion-item>
-          <ion-item
-            button="true"
-            class="menu-item"
-            @click="gotoPage('GeneralPage', 'case-submission')"
-          >
+          <ion-item button="true" class="menu-item" @click="gotoPage('GeneralPage', 'case-submission')">
             <ion-icon :icon="cloudUploadOutline" slot="start"></ion-icon>
             <ion-label>Case Submission / Award</ion-label>
           </ion-item>
-          <ion-item
-            button="true"
-            class="menu-item"
-            @click="gotoPage('GeneralPage', 'about-this-app')"
-          >
+          <ion-item button="true" class="menu-item" @click="gotoPage('GeneralPage', 'about-this-app')">
             <ion-icon :icon="helpOutline" slot="start"></ion-icon>
             <ion-label>About this App</ion-label>
           </ion-item>
-          <ion-item
-            button="true"
-            class="menu-item"
-            @click="gotoPage('GeneralPage', 'disclaimer')"
-          >
+          <ion-item button="true" class="menu-item" @click="gotoPage('GeneralPage', 'disclaimer')">
             <ion-icon :icon="documentTextOutline" slot="start"></ion-icon>
             <ion-label>Disclaimer</ion-label>
           </ion-item>
-          <ion-item
-            button="true"
-            class="menu-item"
-            href="https://www.facebook.com/OCTcases/"
-            rel="noopener"
-          >
+          <ion-item button="true" class="menu-item" href="https://www.facebook.com/OCTcases/" rel="noopener">
             <ion-icon :icon="logoFacebook" slot="start"></ion-icon>
             <ion-label>Facebook</ion-label>
           </ion-item>
-          <ion-item
-            button="true"
-            class="menu-item"
-            href="https://www.instagram.com/octcases/"
-            rel="noopener"
-          >
+          <ion-item button="true" class="menu-item" href="https://www.instagram.com/octcases/" rel="noopener">
             <ion-icon :icon="logoInstagram" slot="start"></ion-icon>
             <ion-label>Instagram</ion-label>
           </ion-item>
-          <ion-item
-            button="true"
-            class="menu-item"
-            id="install-this-app-menuitem"
-            @click="gotoPage('GeneralPage', 'install-this-app')"
-          >
+          <ion-item button="true" class="menu-item" id="install-this-app-menuitem"
+            @click="gotoPage('GeneralPage', 'install-this-app')">
             <ion-icon :icon="downloadOutline" slot="start"></ion-icon>
             <ion-label>Install this App</ion-label>
           </ion-item>
         </ion-list>
       </ion-content>
     </ion-menu>
-    <!-- <ion-router-outlet id="main-content"></ion-router-outlet> -->
     <!-- Footer -->
     <ion-tabs>
-    <ion-router-outlet id="main-content"></ion-router-outlet>
-        <ion-tab-bar slot="bottom" id="bottomNav">
-          <ion-tab-button href="/home" tab="home" @click="gotoPage('Home')">
-            <ion-icon alt="Home icon" :icon="home" />
-            <ion-label>Home</ion-label>
-          </ion-tab-button>
+      <ion-router-outlet id="main-content"></ion-router-outlet>
+      <ion-tab-bar slot="bottom" id="bottomNav">
+        <ion-tab-button href="/home" tab="home" @click="gotoPage('Home')">
+          <ion-icon alt="Home icon" :icon="home" />
+          <ion-label>Home</ion-label>
+        </ion-tab-button>
 
-          <ion-tab-button href="/articles" tab="articles" @click="gotoPage('ArticleList')">
-            <ion-icon alt="Articles icon" :icon="reader"></ion-icon>
-            <ion-label>Articles</ion-label>
-          </ion-tab-button>
+        <ion-tab-button href="/articles" tab="articles" @click="gotoPage('ArticleList')">
+          <ion-icon alt="Articles icon" :icon="reader"></ion-icon>
+          <ion-label>Articles</ion-label>
+        </ion-tab-button>
 
-          <ion-tab-button href="/atlas" tab="atlas" @click="gotoPage('AtlasList')">
-            <ion-icon alt="Atlas icon" :icon="search"></ion-icon>
-            <ion-label>Atlas</ion-label>
-          </ion-tab-button>
+        <ion-tab-button href="/atlas" tab="atlas" @click="gotoPage('AtlasList')">
+          <ion-icon alt="Atlas icon" :icon="search"></ion-icon>
+          <ion-label>Atlas</ion-label>
+        </ion-tab-button>
 
-          <ion-tab-button href="/cases" tab="cases" @click="gotoPage('CaseList')">
-            <ion-icon alt="Cases icon" :icon="helpCircle"></ion-icon>
-            <ion-label>Cases</ion-label>
-          </ion-tab-button>
-        </ion-tab-bar>
-      </ion-tabs>
-</IonApp>
-  
+        <ion-tab-button href="/cases" tab="cases" @click="gotoPage('CaseList')">
+          <ion-icon alt="Cases icon" :icon="helpCircle"></ion-icon>
+          <ion-label>Cases</ion-label>
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>
+  </IonApp>
+
 </template>
 
 <script lang="js">
-import { IonApp, IonContent, IonIcon, IonItem, IonLabel, IonList, IonMenu, IonRouterOutlet, IonTitle, IonToolbar, IonHeader,
-        IonTabBar, IonTabButton, IonTabs } from '@ionic/vue';
+import {
+  IonApp, IonContent, IonIcon, IonItem, IonLabel, IonList, IonMenu, IonRouterOutlet, IonTitle, IonToolbar, IonHeader,
+  IonTabBar, IonTabButton, IonTabs
+} from '@ionic/vue';
 import { defineComponent } from 'vue';
 import 'viewerjs/dist/viewer.css'
 import {
@@ -122,13 +93,13 @@ import { menuController } from "@ionic/vue";
 export default defineComponent({
   name: 'App',
   components: {
-    IonApp, 
-    IonContent, 
-    IonIcon, 
-    IonItem, 
-    IonLabel, 
-    IonList, 
-    IonMenu, 
+    IonApp,
+    IonContent,
+    IonIcon,
+    IonItem,
+    IonLabel,
+    IonList,
+    IonMenu,
     IonRouterOutlet,
     IonTabBar,
     IonTabs,

@@ -18,6 +18,10 @@
               organized approach in tackling each image and clinical vignette.
             </p>
           </ion-text>
+          <ion-button id="install-this-app-button" expand="block" router-link="/pages/install-this-app">
+            <ion-icon :icon="downloadOutline" slot="start"></ion-icon>
+            Install this App
+          </ion-button>
         </ion-card-content>
       </ion-card>
 
@@ -107,8 +111,10 @@
 </template>
 
 <script lang='js'>
-import { IonCard, IonCardContent, IonPage, alertController, IonContent, IonText, IonRow, IonCol, IonGrid, IonCardHeader, IonCardTitle } from "@ionic/vue";
-
+import { IonCard, IonCardContent, IonPage, alertController, IonContent, IonText, IonRow, IonCol, IonGrid, IonCardHeader, IonCardTitle, IonButton, IonIcon } from "@ionic/vue";
+import {
+  downloadOutline,
+} from "ionicons/icons";
 import { defineComponent } from "vue";
 import PageHeader from "./PageHeader.vue";
 
@@ -125,7 +131,14 @@ export default defineComponent({
     IonGrid,
     IonCardHeader,
     IonCardTitle,
+    IonButton,
+    IonIcon, 
     PageHeader,
+  },
+  setup() {
+    return {
+      downloadOutline
+    };
   },
 
   mounted() {
@@ -319,5 +332,10 @@ ion-button {
 }
 .md-text td {
   text-align: center;
+}
+@media all and (display-mode: standalone) {
+  #install-this-app-button {
+    display: none
+  }
 }
 </style>

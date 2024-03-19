@@ -25,24 +25,14 @@
               </ion-card-title>
             </ion-card-header>
             <ion-card-content>
-              <span
-                class="md-text"
-                v-if="question.text"
-                v-html="$options.filters.markdown(question.text)"
-              >
+              <span class="md-text" v-if="question.text" v-html="$options.filters.markdown(question.text)">
               </span>
 
               <!-- answer buttons -->
               <template v-for="answer in question.answers" :key="answer">
-                <ion-button
-                  class="q-btn"
-                  expand="block"
-                  fill="outline"
-                  v-if="answer.answerText"
-                  @click="
-                    openModal(answer.correct, 'Correct!', answer.explanation)
-                  "
-                >
+                <ion-button class="q-btn" expand="block" fill="outline" v-if="answer.answerText" @click="
+              openModal(answer.correct, 'Correct!', answer.explanation)
+              ">
                   {{ answer.answerText }}
                 </ion-button>
               </template>
@@ -54,11 +44,7 @@
       <!-- Footer Card -->
       <ion-card v-if="footerText">
         <ion-card-content>
-          <span
-            class="md-text footer-text"
-            v-if="footerText"
-            v-html="footerText"
-          >
+          <span class="md-text footer-text" v-if="footerText" v-html="footerText">
           </span>
         </ion-card-content>
       </ion-card>
@@ -85,7 +71,7 @@ import { defineComponent } from "vue";
 import { marked } from "marked";
 import PageHeader from "./PageHeader.vue";
 import AnswerModal from "./AnswerModal.vue";
-import { getJSON, makeImagesZoomable } from "./helpers";
+import { makeImagesZoomable } from "./helpers";
 
 export default defineComponent({
   name: "CasePage",
@@ -124,27 +110,35 @@ export default defineComponent({
     async fetchData() {
       // Only fetch json if url includes 'articles'
       if (this.$route.path.includes('articles')) {
-      const slug = this.$route.params.slug;
-      if (slug != null) {
-        // add target="_blank" and rel="noopener" to links in markdown
-        const renderer = new marked.Renderer();
-        const linkRenderer = renderer.link;
-        renderer.link = (href, title, text) => {
+        const slug = this.$route.params.slug;
+        if (slug != null) {
+          // add target="_blank" and rel="noopener" to links in markdown
+          const renderer = new marked.Renderer();
+          const linkRenderer = renderer.link;
+          renderer.link = (href, title, text) => {
             const html = linkRenderer.call(renderer, href, title, text);
             return html.replace(/^<a /, '<a target="_blank" rel="noopener" ');
-        };
+          };
 
-        const articlePath = ["/content/articles/", slug, ".json"].join("");
-        console.log(articlePath)
-        const articleData = getJSON(articlePath);
-        this.articleTitle = articleData.title;
-        this.article = marked(articleData.article, { renderer });
-        this.questions = articleData.questions;
-        if (articleData.footer != null) {
+          const articlePath = ["/content/articles/", slug, ".json"].join("");
+          console.log(articlePath)
+          const articleData = await this.getJSON(articlePath);
+          this.articleTitle = articleData.title;
+          this.article = marked(articleData.article, { renderer });
+          this.questions = articleData.questions;
+          if (articleData.footer != null) {
             this.footerText = marked(articleData.footer, { renderer });
+          }
         }
       }
+    },
+
+    async getJSON(path) {
+      const response = await fetch(path);
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
       }
+      return await response.json();
     },
 
     async openModal(
@@ -160,8 +154,8 @@ export default defineComponent({
           const renderer = new marked.Renderer();
           const linkRenderer = renderer.link;
           renderer.link = (href, title, text) => {
-              const html = linkRenderer.call(renderer, href, title, text);
-              return html.replace(/^<a /, '<a target="_blank" rel="noopener" ');
+            const html = linkRenderer.call(renderer, href, title, text);
+            return html.replace(/^<a /, '<a target="_blank" rel="noopener" ');
           };
 
           const modal = await modalController.create({
@@ -201,5 +195,4 @@ export default defineComponent({
 });
 </script>
 
-<style>
-</style>
+<style></style>

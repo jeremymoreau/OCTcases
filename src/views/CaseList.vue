@@ -6,37 +6,37 @@
         <ion-list lines="full">
           <ion-item
             button="true"
-            @click="gotoPage('CaseListCategory', 'retina')"
+            router-link="/cases/retina"
           >
             <ion-label> Retina </ion-label>
           </ion-item>
           <ion-item
             button="true"
-            @click="gotoPage('CaseListCategory', 'neuro-ophthalmology')"
+            router-link="/cases/neuro-ophthalmology"
           >
             <ion-label> Neuro-ophthalmology </ion-label>
           </ion-item>
           <ion-item
             button="true"
-            @click="gotoPage('CaseListCategory', 'uveitis')"
+            router-link="/cases/uveitis"
           >
             <ion-label> Uveitis </ion-label>
           </ion-item>
           <ion-item
             button="true"
-            @click="gotoPage('CaseListCategory', 'glaucoma')"
+            router-link="/cases/glaucoma"
           >
             <ion-label> Glaucoma </ion-label>
           </ion-item>
           <ion-item
             button="true"
-            @click="gotoPage('CaseListCategory', 'ocular oncology')"
+            router-link="/cases/ocular%20oncology"
           >
             <ion-label> Ocular Oncology </ion-label>
           </ion-item>
           <ion-item
             button="true"
-            @click="gotoPage('CaseListCategory', 'paediatric ophthalmology')"
+            router-link="/cases/paediatric%20ophthalmology"
           >
             <ion-label> Paediatric Ophthalmology </ion-label>
           </ion-item>

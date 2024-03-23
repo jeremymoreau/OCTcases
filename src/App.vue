@@ -43,7 +43,7 @@
     </ion-menu>
     <!-- Footer -->
     <ion-tabs>
-      <ion-router-outlet id="main-content"></ion-router-outlet>
+      <ion-router-outlet id="main-content" :animated="false"></ion-router-outlet>
       <ion-tab-bar slot="bottom" id="bottomNav">
         <ion-tab-button href="/home" tab="home" @click="gotoPage('Home')">
           <ion-icon alt="Home icon" :icon="home" />

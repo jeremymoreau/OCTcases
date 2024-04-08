@@ -1,0 +1,20 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The OCT macula image OD demonstrates discontinuity of outer retinal banding (specifically the ellipsoid zone; blue arrows), as well as RPE excrescences favouring the nasal macula (red arrows). The OCT macula image OS demonstrates subretinal hyper-reflectivity in the nasal parafoveal region (green arrow), as well as these RPE excrescences in the temporal macula (yellow arrows). There is no intra- or subretinal fluid.\n\n![](/content/media/uveitis4.webp)\n\n![](/content/media/uveitis5.webp)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What are the main findings in the OCT macula images above?"
+    }
+  ],
+  "category": "uveitis",
+  "description": "43M presenting with painless blurred vision for 2 weeks",
+  "title": "Case 17",
+  "caseID": "uveitis0017",
+  "patientPresentation": "A 43-year-old man with no PMHx or POHx presented to a tertiary retina clinic with 2-weeks of painless blurred vision. The blurred vision started with his right eye 2 weeks ago, but for the last 5 days, his left eye vision has also become distorted. He denied eye pain, redness, flashes, or a visual field deficit; however, he did note new intermittent floaters OU. He denied trauma. He has never taken prescription medication.\n\nOn examination, visual acuity was 20/50 OD and 20/40 OS. IOP was within-normal-limits and there was no RAPD. Anterior segment examination revealed fine keratic precipitates OU, 1+ AC cells OU, no posterior synechiae or lens changes, and 1+ vitreous cells. Fundus photographs were taken and are shown below:\n\n![](/content/media/uveitis_17_1.webp)\n\nOCT macula images were also taken, and are shown below:\n\n![](/content/media/uveiti2.webp)\n\n![](/content/media/uveitis3.webp)"
+}

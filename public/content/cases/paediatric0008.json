@@ -1,0 +1,106 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Intraretinal fluid"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Subretinal fluid",
+          "explanation": "The OCT macula image above demonstrates a hypo-reflective cavity underneath the neurosensory retina (red arrow), over the RPE, suggestive of subretinal fluid. This can be correlated to the fundus photograph, where you can appreciate an elevation of the retina in the macula (black arrows). There was no intraretinal fluid or elevation of the RPE suggestive of pigment epithelial detachment. Bacillary detachments are separation of the myoid zone leading to intra-photoreceptor fluid to develop; one can typically discern hyper-reflective stretched photoreceptors within the fluid pocket, which you cannot appreciate in this patient’s OCT.\n\n![](/content/media/paed-4.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Bacillary detachment"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Pigment epithelial detachment"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What is the main finding in the OCT macula image above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "What is the next imaging modality you would order?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Fundus autofluorescence"
+        },
+        {
+          "correct": false,
+          "answerText": "B. OCT angiography"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Intravenous fluorescein angiography"
+        },
+        {
+          "correct": true,
+          "answerText": "D. B-Scan Ultrasound",
+          "explanation": "A B-Scan Ultrasound was conducted (shown below) which demonstrated thickening of the posterior sclera (red arrows) as well as a hypoechoic signal around the optic nerve (green arrow). There was no sign of pathology within the vitreous.\n\n![](/content/media/paed5.webp)"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Based on the patient presentation, fundus photography, OCT imaging and B-Scan ultrasonography imaging, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Posterior Scleritis",
+          "explanation": "Posterior scleritis is an ocular inflammatory disease process characterized by inflammation of the sclera posterior to the ora serrata. Contributing to 10% of all scleritis cases, posterior scleritis has a variable presentation ranging from a deeply painful, red eye to vague periorbital pain in a white eye, as seen in our patient (1). Like anterior scleritis, half of the cases of posterior scleritis are associated with a systemic disease process, which is why a uveitic work-up should be initiated for all patients including investigations for: Rheumatoid Arthritis, Sarcoidosis, Syphilis, Tuberculosis, ANCA-related vasculitis, Lupus, and HLA-B27 (2). Typical signs on OCT include subretinal fluid with a thickened choroid, and B-Scan ultrasonography demonstrates the classic “T-sign” with hypoechoic fluid accumulating in the posterior episcleral space extending around the optic nerve."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Vogt-Koyanagi-Harada Disease"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Choroidal Detachment"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Idiopathic CNVM"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What is the first-line treatment for patients with this disease process?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Oral NSAIDs"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Oral Prednisone",
+          "explanation": "The primary goal of treatment for scleritis entities is to minimize inflammation and reduce damage to involved ocular structures, as well as reducing sequalae such as subretinal fluid. Systemic corticosteroids is typically the first-line treatment for posterior scleritis as oral NSAIDs, which are first-line for mild-to-moderate non-necrotizing anterior scleritis, do not have the same efficacy in posterior cases. Typically, dosing of PO Prednisone starts with 1mg/kg/day with a slow taper weekly. If cases of posterior scleritis persist or recur, immunomodulatory agents such as methotrexate or mycophenolate can be used safely in pediatric patients. If related to a systemic disease, treatment of that underlying process should be initiated as well."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Topical NSAIDs"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Topical Prednisone"
+        }
+      ]
+    },
+    {
+      "title": "Follow Up",
+      "text": "One month following initiation of PO Prednisone treatment, the patient was seen in follow-up. His BCVA was 20/20 OD and 20/20 OS. OCT images (shown below) demonstrate resolution of his subretinal fluid and reduced choroidal thickening. His work-up was negative; therefore, he was diagnosed with idiopathic posterior scleritis and is undergoing regular monitoring by Ophthalmology.\n\n![](/content/media/paed6.webp)"
+    }
+  ],
+  "caseID": "paediatric0008",
+  "category": "paediatric ophthalmology",
+  "description": "11M referred for blurred vision OS for 2 days",
+  "title": "Case 8",
+  "patientPresentation": "An 11-year-old boy was referred to a pediatric ophthalmology clinic for two days of blurred vision OS. His mother noted that he was recently diagnosed with a sinus infection due to a few weeks of facial pressure and periorbital pain. He was treated with nasal decongestants, but his symptoms did not improve. The patient denied red eye, photophobia, flashes, floaters or a visual field deficit. He had no past medical or ocular history.\n​\nOn examination, BCVA was 20/20 OD and 20/70 OS. There was no RAPD and IOP was within normal limits. Extraocular motility was full, but he did note pain OS on abduction and elevation. There was no exophthalmos. Anterior segment examination was within normal limits.\n​\nBilateral fundus photographs were taken and are shown below:\n\n![](/content/media/paed_8_1.webp)\n\n![](/content/media/paed2.webp)\n\nOCT macula images were taken and are shown below:\n\n![](/content/media/paed3.webp)",
+  "footer": "### References:\n\n1. Lavric A, Gonzalez-Lopez JJ, Majumber PD, et al. Posterior scleritis: Analysis of epidemiology, clinical factors, and risk of recurrence in a cohort of 114 patients. Ocul Immunol Inflamm 2016;24(1):6-15.\n\n2. McCluskey PJ, Watson PG, Lightman S, Haybittle J, Restori M, Branley M. Posterior scleritis: clinical features, systemic associations, and outcome in a large series of patients. Ophthalmology 1999;106(12):2380-6. \n\n### Learning Objectives:​​\n\n1. Understand the classic OCT and multimodal imaging signs of posterior scleritis\n\n2. Learn the work-up and treatment for posterior scleritis"
+}

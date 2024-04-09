@@ -10,11 +10,62 @@
       ],
       "title": "Question 1",
       "text": "What are the main findings in the OCT macula images above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "What is the next step in your examination of this patient?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Intravenous fluorescein angiography"
+        },
+        {
+          "correct": false,
+          "answerText": "B. OCT angiography"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Fundus autofluorescence"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Review of systems",
+          "explanation": "This patient is presenting with anterior and intermediate uveitis, as demonstrated by his 1+ cells in the AC and vitreous, respectively. He also has changes in this ellipsoid zone OU on OCT. Looking closely at this fundus photographs again, you can see there is a discolouration of the macula, possibly pointing to subtle chorioretinal lesions (blue arrows). Therefore, the suspicion of a uveitic entity is raised.  Any new uveitis referral must have a comprehensive history, including a review of systems, taken.\n\n![](/content/media/uveitis6.webp)"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "On review of systems, the patient adamantly denied any neurological, cardiac, respiratory, GI or GU symptoms. He was born in Canada and denied and recent travel. However, when taking a sexual history, he finally disclosed that he was having extra-marital sexual encounters with other men. When asking him to inspect his skin, a maculopapular rash was found on his trunk, palms of his hand, and soles of his feet.\n\nNext, fundus autofluorescence imaging was taken and is shown below:\n\n![](/content/media/uveitis-7.webp)\n\nBased on the patient’s fundus photographs, OCT macula images, review of systems and FAF images, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Acute posterior multifocal placoid pigment epitheliopathy (APMPPE)"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Syphilitic placoid chorioretinitis",
+          "explanation": "Syphilis is high on the differential for the etiology of this patient’s panuveitis for multiple reasons. First, the patient’s review of systems revealed risky sexual practices. Secondly, OCT images demonstrated RPE excrescences, which is pathognomonic for syphilitic chorioretinitis, as well as subfoveal ellipsoid zone loss which is commonly seen in placoid syphilitic lesions. These lesions are highlighted well by the FAF images, which demonstrate stippled hyper-AF in the peripheral macula (red arrows) and mid-far peripheral retina (blue arrows). Finally, careful inspection of his skin found a typical maculopapular rash on the soles of his feet and palms of his hand, which can be seen in the secondary stage of syphilitic infection.\n\n![](/content/media/uveitis8.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Behcet’s disease"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Multifocal choroiditis with panuveitis"
+        }
+      ]
+    },
+    {
+      "title": "Work Up",
+      "text": "A standard uveitic panel, including CBC, ACE, syphilis serology, quantiferon-gold, HLA-B27, ANCA, and chest x-ray was completed. His syphilis serology returned as positive! He was admitted to General Medicine and referred to Infectious Diseases for urgent IV Penicillin treatment."
     }
   ],
   "category": "uveitis",
   "description": "43M presenting with painless blurred vision for 2 weeks",
   "title": "Case 17",
   "caseID": "uveitis0017",
-  "patientPresentation": "A 43-year-old man with no PMHx or POHx presented to a tertiary retina clinic with 2-weeks of painless blurred vision. The blurred vision started with his right eye 2 weeks ago, but for the last 5 days, his left eye vision has also become distorted. He denied eye pain, redness, flashes, or a visual field deficit; however, he did note new intermittent floaters OU. He denied trauma. He has never taken prescription medication.\n\nOn examination, visual acuity was 20/50 OD and 20/40 OS. IOP was within-normal-limits and there was no RAPD. Anterior segment examination revealed fine keratic precipitates OU, 1+ AC cells OU, no posterior synechiae or lens changes, and 1+ vitreous cells. Fundus photographs were taken and are shown below:\n\n![](/content/media/uveitis_17_1.webp)\n\nOCT macula images were also taken, and are shown below:\n\n![](/content/media/uveiti2.webp)\n\n![](/content/media/uveitis3.webp)"
+  "patientPresentation": "A 43-year-old man with no PMHx or POHx presented to a tertiary retina clinic with 2-weeks of painless blurred vision. The blurred vision started with his right eye 2 weeks ago, but for the last 5 days, his left eye vision has also become distorted. He denied eye pain, redness, flashes, or a visual field deficit; however, he did note new intermittent floaters OU. He denied trauma. He has never taken prescription medication.\n\nOn examination, visual acuity was 20/50 OD and 20/40 OS. IOP was within-normal-limits and there was no RAPD. Anterior segment examination revealed fine keratic precipitates OU, 1+ AC cells OU, no posterior synechiae or lens changes, and 1+ vitreous cells. Fundus photographs were taken and are shown below:\n\n![](/content/media/uveitis_17_1.webp)\n\nOCT macula images were also taken, and are shown below:\n\n![](/content/media/uveiti2.webp)\n\n![](/content/media/uveitis3.webp)",
+  "footer": "### Learning Objectives:\n\n1. Describe the typical OCT findings in syphilitic placoid chorioretinitis\n\n2. Understand the typical review of systems and work-up for uveitis entities"
 }

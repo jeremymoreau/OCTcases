@@ -1,0 +1,78 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The image above is a colour fundus photograph of the right eye posterior pole. The most striking feature is a hypo-pigmented, elevated retinal patch along the inferior arcade extending into the macula associated with hemorrhages. The nerve and fovea are grossly normal."
+        }
+      ],
+      "title": "Question 1",
+      "text": "What is the most prominent finding in the fundus photograph above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "Next, B-Scan Ultrasonography and fundus autofluorescence images were taken. The B-Scan below demonstrated a 1.36mm lesion with medium-high internal reflectivity. FAF demonstrated hypo-autofluorescence throughout the lesion seen on fundus imaging.\n\n![](/content/media/onc2.webp)\n\n![](/content/media/onc3.webp)\n\nOCT imaging over the lesion was performed and is shown below:\n\n![](/content/media/onc4.webp)\n\n![](/content/media/onc5.webp)\n\nWhat is the most striking feature of the OCT images above?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Loss of retinal layer delamination",
+          "explanation": "The main finding of the OCT images over the lesion are loss of delamination due to the lesion’s involvement of the entire neurosensory retina. The lesion has caused cleavage between the presumed inner limiting membrane and the ganglion cell layer (red arrows). There is also signs of vitreous seeding (green arrows). The hyporeflectivity on OCT demonstrates disorganization of the retinal layers, rather than intra- or subretinal fluid. There is a normal underlying choroid.\n\n![](/content/media/onc6.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Epiretinal membrane"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Intraretinal and subretinal fluid"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Choroidal detachment"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Next, an intravenous fluorescein angiography was performed (shown below) demonstrating retinal vessel telangiectasia and tortuosity with blockage in the early phase, with lake leakage.\n\n![](/content/media/onc7.webp)\n\n![](/content/media/onc8.webp)\n\nWhat is the next best step for this patient’s work-up?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Indocyanine green angiography"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Retinal biopsy",
+          "explanation": "Based on the patient’s oncologic history and concerning features on multi-modal imaging, a retinal biopsy would be indicated to expedite an accurate diagnosis. The biopsy can also be analyzed through immunohistochemistry to differentiate a primary lesion from a retinal metastasis."
+        },
+        {
+          "correct": false,
+          "answerText": "C. CT head"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Repeat imaging in 6 months"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "The pathology results of the retinal biopsy are shown below. The histological appearance was consistent with metastatic mucinous adenocarcinoma. Immunohistochemistry was similar to the lung biopsy, which therefore favours a lung primary metastasis over ovarian metastasis.\n\n![](/content/media/onc9.webp)\n\nOne month following the change in chemotherapy (from ovarian to lung metastasis), the retinal metastasis regressed, as well as regression of systemic lesions.\n\n![](/content/media/onc10.webp)\n\nWhat should be on your differential for retinal metastasis?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show Answer",
+          "explanation": "Retinal metastasis is quite rare, contributing to less than 1% of intraocular metastasis. Therefore, a clinician should keep opportunistic infections leading to retinitis, inflammatory retinitis, and retinal occlusive disorders in their differential. These entities can also present with signs of retinal ischemia, exudation, hemorrhage, and detachment. Biopsy is crucial in the ultimate diagnosis and management for retinal metastasis."
+        }
+      ]
+    }
+  ],
+  "caseID": "oncology0008",
+  "category": "ocular oncology",
+  "title": "Case 8",
+  "description": "77F presenting with floaters OD for 1 week",
+  "patientPresentation": "A 77-year-old woman presented to an emergency eye clinic with 1-week of right eye floaters. The patient denied trauma, flashes or a curtain over her vision; however, she did note her vision was not as “crisp” in her right eye during this time. She had a significant oncologic history including mucinous adenocarcinoma of the ovary, which was treated with debulking and adjuvant chemotherapy (carboplatin and taxol) 15 years prior and a mastectomy for ductal carcinoma in situ (DCIS) of the left breast 5 years prior. Three months prior to presentation, the patient was found to have metastasis to her adrenal glands, bones and lung.  A lung biopsy was performed which found adenocarcinoma with mucinous features. However, there were some differences in immunohistochemistry between ovarian and lung markers. As the origin was presumed ovarian in nature, and the success of prior chemotherapy, the patient was re-started on carboplatin and taxol. Despite multiple cycles of chemotherapy, her metastatic lesions progressed on imaging.\n\n\nOn examination, her visual acuity was 20/30 OD and 20/25 OS. IOP was within normal limits and there was no RAPD. Anterior segment examination was within normal limits. Fundus photographs of the right eye were taken and are shown below:\n\n![](/content/media/onc1.webp)",
+  "footer": "### Learning Objectives:\n\n1. Understand the presenting signs and symptoms of retinal metastasis.\n\n2. Learn the use of retinal biopsy and immunohistochemistry in the diagnosis and management of these patients.\n\n3. Understand the typical OCT features of retinal metastasis."
+}

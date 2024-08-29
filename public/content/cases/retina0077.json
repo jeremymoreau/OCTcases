@@ -1,0 +1,90 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "Fundus photographs demonstrate RPE mottling in the perifoveal region OD (green arrow), with the temporal perifoveal region of the left eye demonstrating a distinct, focal hyper-pigmented lesion (red arrow). These RPE changes correlate to stippled hypo-AF OD surrounded by a ring of hyper-AF (yellow arrow), as well as a focal hypo-AF lesion correlating to the macular lesion seen on fundus exam OS (blue arrow). \n\n![](/content/media/retina773.webp)\n\n![](/content/media/retina774.webp)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What are the most striking features of the fundus photographs and FAF images above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "OCT macula images were also taken and are shown below:\n\n![](/content/media/retina775.webp)\n\n![](/content/media/retina776.webp)\n\nWhat are the most prominent findings in the OCT macula images above?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Loss of subfoveal neurosensory retinal layers OD"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Ellipsoid zone mottling OS"
+        },
+        {
+          "correct": false,
+          "answerText": "C. ILM drape OU"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the above",
+          "explanation": "The OCT images demonstrate a clear loss of the neurosensory retinal layers OD, as well as an early cavitation of the inner retinal layers OS (green arrows). An inner limiting membrane “drape” remains over this cavitation OU (red arrows). The left eye also demonstrates mottling of the ellipsoid zone (blue arrow) and loss of the subfoveal outer nuclear layer (yellow arrow).\n\n![](/content/media/retina777.webp)"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Based on the patient presentation, fundus examination, FAF and OCT imaging, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Diabetic macular edema"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Macular telangiectasia type 2",
+          "explanation": "Macular telangiectasia type 2 (or mac tel) is a degenerative disease leading to capillary abnormalities in the foveal or perifoveal region. This atypical retinal vasculature leads to loss of outer retinal banding (notably the EZ layer) and outer nuclear layers, ultimately progressing to cavitation of the neurosensory retinal layers. First described by Gass in 1968, histopathology has recently demonstrated disruption of pericytes, RPE hyperplasia, and dilated retinal venules, which typically dive at a right angle into deeper retinal layers, are hallmarks of disease. The Mac Tel Project from Lowy Medical Research Institute found that Mac Tel has a strong association with diabetes (28%) and hypertension (52%), suggesting that vascular stress can be an etiology for this disease. Macular telangiectasia is typically classified into 3 categories: type 1 (congenital and unilateral with more exudates, possibly a Coats disease variant), type 2 (acquired, bilateral, most common), and type 3 (occlusive disease, most rare)."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Macular hole formation secondary to VMT"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Solar retinopathy"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What is the treatment for this patient?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Intravitreal anti-VEGF injection"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Photodynamic therapy"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Micropulse laser"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Observation",
+          "explanation": "This patient has no clinical signs or features on OCT of choroidal neovascularization. Therefore, as Mac Tel is a degenerative disease, there is no treatment required for this patient. However, regular monitoring with OCT and OCT angiography to ensure no choroidal neovascularization occurs is crucial. The Mac Tel Project found that 60% of type 2 patients had a visual acuity better than 20/50, with only 4% having vision of 20/200 or worse. Intravitreal anti-VEGF therapy remains the hallmark of treatment for new blood vessels, though there are currently no RCTs investigating its efficacy compared to PDT. A randomized trial also found that intravitreal ciliary neurotrophic factor slowed the progression of retinal degeneration in macular telangiectasia type 2, yet further research is needed to better understand its long-term outcomes."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0077",
+  "category": "retina",
+  "title": "Case 77",
+  "description": "58M referred for atypical retinal examination OU",
+  "patientPresentation": "A 58-year-old woman was referred to a tertiary retina clinic by her optometrist due to an atypical retinal examination. She did note her visual acuity had progressively declined over the last 2 years, but she was informed by another eye care provider that it was due to refractive error. Her past medical history was significant for type 2 diabetes mellitus and hypertension, both of which were controlled with oral medications. She had no past ocular history. BCVA was 20/40 OD and 20/50 OS. IOP was normal and there was no RAPD. Anterior segment examination demonstrated 1+ nuclear sclerotic cataracts OU. Fundus photographs and fundus autofluorescence images were taken and are shown below:\n\n![](/content/media/retina771.webp)\n\n![](/content/media/retina772.webp)",
+  "footer": "### References:\n\n1. Heeren TFC, Chew EY, Clemons T, Fruttiger M, Balaskas K, Schwartz R, Egan CA, Charbel Issa P; MacTel Study Group. Macular Telangiectasia Type 2: Visual Acuity, Disease End Stage, and the MacTel Area: MacTel Project Report Number 8. Ophthalmology. 2020 Nov;127(11):1539-1548.\n\n2. Wu L, Evans T, Arevalo JF. Idiopathic macular telangiectasia type 2 (idiopathic juxtafoveolar retinal telangiectasis type 2A, Mac Tel 2). Surv Ophthalmol. 2013 Nov-Dec;58(6):536-59\n\n3. Chew EY, Clemons TE, Jaffe GJ, Johnson CA, Farsiu S, Lad EM, Guymer R, Rosenfeld P, Hubschman JP, Constable I, Wiley H, Singerman LJ, Gillies M, Comer G, Blodi B, Eliott D, Yan J, Bird A, Friedlander M; Macular Telangiectasia Type 2-Phase 2 CNTF Research Group. Effect of Ciliary Neurotrophic Factor on Retinal Neurodegeneration in Patients with Macular Telangiectasia Type 2: A Randomized Clinical Trial. Ophthalmology. 2019 Apr;126(4):540-549.\n\n### Learning Objectives:\n\n1. Describe the typical OCT features of macular telangiectasia type 2\n\n2. Understand the risk factors and management of mac tel\n\n3. Learn the classification of macular telangiectasia"
+}

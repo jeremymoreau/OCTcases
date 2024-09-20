@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The pseudocolour fundus photographs above show bilateral pigmentary maculopathy. The fundus autofluorescence (FAF) images reveal peripapillary and macular hypo-autofluorescence with surrounding hyper-autofluorescent flecks expanding outward from the macula in a pseudopodial pattern. Macular hyper-fluorescence and peripapillary hypo-fluorescence with surrounding hyper-fluorescence can be seen on fluorescein angiography. The macular atrophy is apparent on the near infrared imaging, with the choroidal vessels readily appreciated."
+        }
+      ],
+      "title": "Question 1",
+      "text": "How would you describe the photographs above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "SD-OCT macula images of both eyes were taken and are shown below:\n\n![](/content/media/699564_9db7452fdfa14d908cfe4018c19d9d23~mv2.webp)\n\n![](/content/media/699564_3b663b4bd3fa4e0ab399bca2cd279811~mv2.webp)\n\nWhat abnormality is not seen on the OCT scans above?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Loss of foveal contour"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Loss of the outer hyperreflective layers"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Retinal atrophy"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Subretinal fluid",
+          "explanation": "Both OCT images demonstrate loss of foveal contour (red lines), and retinal atrophy (blue lines) with loss of outer hyperreflective layers (green lines). A normal OCT is provided for reference. No subretinal fluid is present on these OCT scans.\n\n![](/content/media/699564_81af4eb3977b4dd1ab1a592abc96f284~mv2.webp)\n\n![](/content/media/699564_1c2ac9e2f6fc41e9aecf02a79b926505~mv2.webp)"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "How can you tell which eye is being imaged based solely on the OCT?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "Being able to identify which eye is being imaged on an OCT is an important skill. This can be made difficult by pathology. However, the retinal nerve fiber layer (RNFL) is the key to identifying which eye is on the OCT. The RNFL is the innermost retinal layer meaning it will be the topmost layer on the OCT scan. If we look closely at the RNFL, its width is not evenly distributed across the macula; one side of the RNFL is thicker than the other (yellow lines). The RNFL contains axons of the retinal ganglion cells which enter the optic nerve. As the RNFL approaches the optic nerve, it becomes thicker. The optic nerve is located nasally compared to the macula. As such, if the RNFL is thicker on the right-hand side of the OCT, it means we are looking at the right eye and vice versa.\n\n![](/content/media/699564_129c596e2f7f4c13a173f0b7588b170d~mv2.webp)"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "Based on the patient’s history and images above, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Pentosan maculopathy",
+          "explanation": "Pentosan polysulfate sodium (PPS) is the only FDA approved medication to treat interstitial cystitis. Patients who use this medication chronically are susceptible to PPS induced maculopathy. Our patient had been on a chronic daily dose of PPS 200 mg orally for 19 years (1). Previous studies report PPS maculopathy as a dose-dependent disease. Our patient had a cumulative exposure of 1387 g of PPS (1,2). Typical findings on fundoscopy include hyperpigmented macular spots with yellowish subretinal deposits in mild disease with subsequent RPE atrophy in advanced disease. Other modalities that are useful in diagnosing and monitoring PPS maculopathy include FAF, FA, OCT, and NIR (3). \n\n​\n\n​Due to the patient’s substantial anatomical and functional losses, PPS was discontinued. This patient case illustrates the importance of regular ophthalmic examination in patients taking medications known to cause retinal toxicity (eg. PPS & hydroxychloroquine)."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Geographic atrophy"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Pachychoroid pigment epitheliopathy"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Maternally inherited diabetes and deafness syndrome (MIDD)"
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "How would you describe the patient’s choroid; what is notable about it?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "When looking at the OCT scans, there appear to be optically empty or hyporeflective spaces within the choroid (yellow circles). These choroidal hyporeflective caverns are thought to represent lipid globules that serve a role as a ‘depot’ for photoreceptor metabolism in normal chorioretinal physiology (4). Friedman, in 1966, noted that these caverns were more readily seen in eyes with pathology causing atrophy of the retinal pigment epithelium (eg. pentosan maculopathy and geographic atrophy secondary to AMD). As such, the theory is that these choroidal hyporeflective spaces are masked by the RPE in non-pathologic eyes (5). \n\n​\n\n![](/content/media/699564_68590d0e4a5b463198b2686b242d9dd5~mv2.webp)\n\n![](/content/media/699564_29eae7a015974f648e65ac8f499c0524~mv2.webp)"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0078",
+  "category": "retina",
+  "title": "Case 78",
+  "description": "65M referred for maculopathy OU",
+  "patientPresentation": "**Contributors**: Korolos Sawires MD (C) and Dr. R. Rishi Gupta MD, FRCSC, DABO, FASRS\n\nPatient presentation: A 65-year-old woman was referred to a tertiary care retina clinic for a second opinion of a bilateral maculopathy. The patient reported bilateral progressive blurred vision, flashes, floaters, and metamorphopsia. She had prior laser refractive surgery and bilateral cataract extraction with intraocular lens (IOL) implantation. Medical conditions included interstitial cystitis treated with pentosan polysulfate (Elmiron), and hypothyroidism treated with levothyroxine. Her family history was significant for paternal glaucoma and age-related macular degeneration (AMD).\n\nBest corrected visual acuity (BCVA) was 20/100 OD and 20/50-1 OS with no improvement with pinhole correction. Her IOP was 8 mmHg OD, and 7 mmHg OS. There was no RAPD. Ultrawide field fundus, fundus autofluorescence, fluorescein angiography, and near infrared imaging photographs of both eyes are found below:\n\n![](/content/media/699564_54482f79afcf4841abd46100b83a92ec~mv2.webp)\n\n![](/content/media/699564_a3366f2a8eda4933b522cdf5fdb75324~mv2.webp)\n\n![](/content/media/699564_dc22f045b01048f7be7c0b146b45405e~mv2.webp)\n\n![](/content/media/699564_2598497a8aee4973b563dc0ec68c45c0~mv2.webp)",
+  "footer": "### References:\n\n1. Pinto AM, Jain N, Gupta RR. Pentosan Polysulfate Maculopathy With 13 Years of Follow-up Imaging. J Vitreoretin Dis. May-Jun 2024;8(3):325-333. doi:10.1177/24741264241228375\n\n2. Lindeke-Myers A, Hanif AM, Jain N. Pentosan polysulfate maculopathy. Surv Ophthalmol. Jan-Feb 2022;67(1):83-96. doi:10.1016/j.survophthal.2021.05.005\n\n3. Pearce WA, Chen R, Jain N. Pigmentary Maculopathy Associated with Chronic Exposure to Pentosan Polysulfate Sodium. Ophthalmology. Nov 2018;125(11):1793-1802. doi:10.1016/j.ophtha.2018.04.026\n\n4. Dolz-Marco R, Glover JP, Gal-Or O, et al. Choroidal and Sub-Retinal Pigment Epithelium Caverns: Multimodal Imaging and Correspondence with Friedman Lipid Globules. Ophthalmology. Aug 2018;125(8):1287-1301. doi:10.1016/j.ophtha.2018.02.036\n\n5. Friedman E, Smith TR. Clinical and pathological study of choroidal lipid globules. Arch Ophthalmol. Mar 1966;75(3):334-6. doi:10.1001/archopht.1966.00970050336006\n\n​​​\n\n### Learning Objectives:\n\n1. To identify OCT features of pentosan polysulfate maculopathy.\n\n2. Review layers of the retina and how to use the RNFL to determine which eye is being scanned on OCT.\n\n3. To identify choroidal hyporeflective caverns on OCT."
+}

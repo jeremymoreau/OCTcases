@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The right optic nerve appears healthy with crisp margins and a cup-to-disc ratio of 0.2. The left optic disc demonstrates 360 disc edema with blurred margins. There are abnormal vessels on the left optic disc but no hemorrhages OU."
+        }
+      ],
+      "title": "Question 1",
+      "text": "Describe the appearance of the optic nerves."
+    },
+    {
+      "title": "Question 2",
+      "text": "OCT ONH/RNFL imaging was performed and is shown below:\n\n![](/content/media/neuro-3.webp)\n\nNext, OCT 5-line raster images over the optic nerve heads were taken and are shown below:\n\n![](/content/media/neuro4.webp)\n\nBased on the OCT, what is the most likely preliminary diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Myelin Oligodendrocyte Glycoprotein Associated Optic Neuriti"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Neuromyelitis Optic (Devic’s Disease)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Multiple Sclerosis"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Vitreopapillary Traction",
+          "explanation": "As we age, the vitreous liquefies and contracts, exerting tractional forces on the retina and optic nerve head. The vitreous is most adherent at the optic nerve, and thus vitreopapillary traction is a phenomenon where the posterior hyaloid remains adherent to the optic nerve head, elevating it to produce a swollen disc appearance.1 OCT imaging allows for visualisation of the vitreopapillary interface as a hyper-reflective band adherent to the optic nerve (yellow arrows)\n\n![](/content/media/neuro5.webp)"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "If this patient was asymptomatic and had no previous medical/ocular history, what further testing would be required?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. MRI Orbits with contrast"
+        },
+        {
+          "correct": false,
+          "answerText": "B. MOG/NMO antibodies"
+        },
+        {
+          "correct": false,
+          "answerText": "C. MRI Brain with Venography"
+        },
+        {
+          "correct": true,
+          "answerText": "D. No further testing required",
+          "explanation": "It is important to keep vitreopapillary traction on the differential of patients with asymptomatic unilateral optic disc edema. As OCT imaging is non-invasive and non-ionizing, confirmation of vitreopapillary traction may save patients from unnecessary testing. However, some patients have reported blurriness, visual field defects, and/or gaze evoked amaurosis.2 In symptomatic patients, clinical correlation is required to decide on appropriate investigation course, as presence of vitreopapillary traction does not rule out the concurrence of a second underlying disorder."
+        }
+      ]
+    }
+  ],
+  "caseID": "neuro0033",
+  "category": "neuro-ophthalmology",
+  "title": "Case 33",
+  "description": "67M referred for suspected optic neuropathy OS",
+  "patientPresentation": "A 67-year-old man was referred to a tertiary neuro-ophthalmology clinic for suspected left optic neuropathy. He reported a 3-month history of blurred and distorted vision in his left eye, and a central scotoma that fluctuated when laying flat/bending forward. He denied pain, redness/photophobia, flashes/floaters, or peripheral field defects. Ocular history was significant for non-granulomatous anterior uveitis (work-up negative) and cystoid macular edema with an associated previous episode of optic nerve head edema, which was treated with topical corticosteroid drops 5 years prior.\n​\nVisual acuity was 20/20 OD and 20/60 OS. There was a brisk left RAPD. The appearance of the nerve and visual fields are shown below:\n\n![](/content/media/neuro1.webp)\n\n![](/content/media/neuro2.webp)",
+  "footer": "### References:​\n\n1. Gabriel RS, Boisvert CJ, Mehta MC. Review of Vitreopapillary Traction Syndrome. Neuroophthalmology. 2020;44(4):213-218. Published 2020 Feb 26. doi:10.1080/01658107.2020.1725063\n\n2. Katz B, Hoyt WF. Gaze-evoked amaurosis from vitreopapillary traction. Am J Ophthalmol. 2005;139(4):631-637. doi:10.1016/j.ajo.2004.10.045\n\n​\n\n### Learning Objectives:\n\n1. To identify signs of vitreopapillary traction on OCT imaging.\n\n2. To include vitreopapillary traction on the differential diagnosis of unilateral optic nerve disc edema and recognize its potential symptoms."
+}

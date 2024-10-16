@@ -1,0 +1,117 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Vitreomacular traction in both eyes"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Parafoveal ellipsoid zone (EZ) loss in both eyes",
+          "explanation": "The ellipsoid zone has been disrupted in the parafoveal region (see red arrows), sparing the foveola. The vitreous is attached at the fovea in both eyes but there is no significant traction on the macula. There is no subretinal fluid – rather collapse of the parafoveal EZ causing this appearance. The hyper-reflective inner retinal foci are blood vessels and not due to PAMM.\n\n![](/content/media/retina763.webp)\n\n![](/content/media/retina764.webp)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Subfoveal fluid in both eyes"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Paracentral acute middle maculopathy (PAMM)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "Which option correctly matches the OCT findings in both eyes?"
+    },
+    {
+      "title": "Question 2",
+      "text": "What will typically not produce parafoveal ellipsoid zone loss?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Hydroxychloroquine toxicity"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Melanoma associated retinopathy (MAR)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Retinitis Pigmenetosa"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Autoimmune retinopathy (AIR)"
+        },
+        {
+          "correct": true,
+          "answerText": "E. Solar retinopathy",
+          "explanation": "All of the above, except solar retinopathy, can produce parafoveal ellipsoid zone loss. Solar retinopathy will typically cause foveal (not parafoveal) ellipsoid zone loss. The broad categories for parafoveal ellipsoid zone loss include: drug toxicity (hydroxychloroquine, pentosan), autoimmune/uveitic (AIR), masquerade syndrome (MAR), retinal dystrophy (cone dystrophy, rod-cone dystrophy), and others.\n\n​\n\nHere, we suspect hydroxychloroquine toxicity to be the cause of OCT findings as the patient has been taking over 5mg/kg/d (5.83mg/kg/d) for over 10 years. See the atlas on our site for great examples of these other entities!"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Fundus autofluorescence and 24-2/10-2 Visual Fields were performed and are shown below:\n\n![](/content/media/retina765.webp)\n\n![](/content/media/retina-766.webp)\n\n![](/content/media/retina767.webp)\n\n![](/content/media/retina768.webp)\n\nBased on the patient’s history and images above, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Normal FAF and HVF"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Normal FAF, paracentral ring scotoma on HVF"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Bull’s Eye Maculopathy on FAF, normal HVF"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Bull’s Eye Maculopathy on FAF, paracentral ring scotoma on HVF",
+          "explanation": "FAF imaging demonstrates a parafoveal hypo-AF signal in both eyes corresponding to the parafoveal outer retinal banding discontinuity seen on OCT imaging (blue arrows). For the HVF testing, notably in the left eye, a clear paracentral scotoma can be appreciated. The right eye has very subtle findings of some paracentral depressed points corresponding to where parafoveal outer retinal loss has occurred (red circles).\n\n![](/content/media/retina769.webp)\n\n![](/content/media/retina7610.webp)"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What other disease entities can lead to a Bull’s Eye Maculopathy?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show Answer",
+          "explanation": "In addition to hydroxychloroquine toxicity, macular holes, age-related macular degeneration, Stargardt’s disease, and cone dystrophy are disease entities that have been associated with Bull’s Eye Maculopathy. The memory cue “MAPS-C” for macular hole, AMD, Plaquenil, Stargardt’s, and cone dystrophy can be used to memorize this differential."
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "Which of the following correctly conveys incidence of hydroxychloroquine toxicity at a dose higher than recommended by AAO guidelines (>5mg/kg/day)?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. 2% in 5 years"
+        },
+        {
+          "correct": true,
+          "answerText": "B. 2% in 10 years",
+          "explanation": "According to Marmor et al, The risk of toxicity is less than 1% up to 5 years, less than 2% up to 10 years and almost 20% at 20 years.  However, factors increasing the risk of Plaquenil toxicity include those with kidney disease, prior use of Tamoxifen, drug use for longer than 5 years, and concomitant retinal disease. The updated AAO guidelines for hydroxychloroquine retinopathy screening can be found here: https://www.aao.org/education/clinical-statement/revised-recommendations-on-screening-chloroquine-h"
+        },
+        {
+          "correct": false,
+          "answerText": "C. 20% in 10 years"
+        },
+        {
+          "correct": false,
+          "answerText": "D. 10% in 20 years"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0079",
+  "category": "retina",
+  "title": "Case 79",
+  "description": "61M with a history of lupus referred for retinal examination",
+  "patientPresentation": "A 61-year-old woman of Asian descent, with a 12-year history of systemic lupus erythematosus (SLE) treated with a daily dose of 5.83mg/kg hydroxychloroquine, was referred to a comprehensive ophthalmologist for a retinal examination. She did not endorse any ocular symptoms. On examination, best-corrected distance visual acuity was 20/20 OD and 20/20 OS. IOP was 17 mmHg OD and 16 mmHg OS. Colour fundus photos and macular OCT imaging are shown below:\n\n![](/content/media/retina761.webp)\n\n![](/content/media/retina762.webp)",
+  "footer": "### References:\n\n1. Yusuf IH, Sharma S, Luqmani R, Downes SM. Hydroxychloroquine retinopathy. Eye (Lond). 2017;31(6):828-845.\n\n2. Schmitz-Valckenberg S, Holz FG, Bird AC, Spaide RF. Fundus autofluorescence imaging: review and perspectives. Retina. 2008;28(3):385-409.\n\n3. Marmor MF, Kellner U, Lai TYY, et al. Recommendations on screening for chloroquine and hydroxychloroquine retinopathy. Ophthalmology. 2016;123(6):1386-1394.\n\n### ​​​Learning Objectives:\n\n1. Hydroxychloroquine toxicity causes disruption of the outer retinal layers with ‘saucer sign’ indicating sparing of the subfoveal region with predominantly parafoveal disruption.\n\n2. Fundus autofluorescence (FAF) and automatic perimetry are necessary to screen for plaquenil toxicity and monitor progression.\n\n3. The risk of hydroxychloroquine toxicity is determined based on real weight and duration of therapy."
+}

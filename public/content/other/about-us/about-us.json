@@ -138,6 +138,12 @@
           "subtitle1": "Medical Student",
           "subtitle2": "Website Design",
           "photo": "/content/media/headshot-am.webp"
+        },
+        {
+          "name": "David Rabinovitch, MD",
+          "photo": "/content/media/david-rabinovitch-headshot.webp",
+          "subtitle1": "Medical Student  ",
+          "subtitle2": "Content Lead  ​"
         }
       ]
     },

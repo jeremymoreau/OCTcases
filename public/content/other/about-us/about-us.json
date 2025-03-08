@@ -14,18 +14,18 @@
           "subtitle2": "University of Toronto",
           "name": "Austin Pereira, MD",
           "photo": "/content/media/aboutus-austin-pereira.png"
+        },
+        {
+          "name": "Peng Yan, MD FRCSC",
+          "photo": "/content/media/aboutus-peng-yan.jpg",
+          "subtitle1": "Vitreoretinal Surgeon",
+          "subtitle2": "University of Toronto"
         }
       ]
     },
     {
       "title": "Our Staff Supervisors",
       "person": [
-        {
-          "name": "Peng Yan, MD FRCSC",
-          "subtitle1": "Vitreoretinal Surgeon",
-          "subtitle2": "University of Toronto",
-          "photo": "/content/media/aboutus-peng-yan.jpg"
-        },
         {
           "subtitle2": "University of Toronto",
           "name": "Jonathan Micieli, MD ",

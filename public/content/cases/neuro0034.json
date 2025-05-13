@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "There is bilateral mild to moderate optic disc edema in both eyes, with blurring of the disc margins (yellow arrows), obscuration of retinal vessels (black arrows), and peripapillary hemorrhages  in the right eye (red arrow).\n\n![](/content/media/neuro342.avif)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "Describe the fundus photos of this patient."
+    },
+    {
+      "title": "Question 2",
+      "text": "Her Humphrey visual field and OCT RNFL images are shown below:\n\n![](/content/media/neuro343.avif)\n\n![](/content/media/neuro344.avif)\n\nBased on the information provided, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Atypical optic neuritis"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Inflammatory optic neuropathy"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Multiple Sclerosis"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Idiopathic intracranial hypertension (IIH)",
+          "explanation": "Bilateral disc edema in an asymptomatic, healthy woman of child-bearing age with an elevated BMI and normal visual function is highly suggestive of IIH. This patient fits the typical demographic profile, has normal visual acuity and visual fields, and demonstrates significant bilateral optic disc edema as seen in her fundus photos and elevated RNFL thicknesses."
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Which of the following investigations is crucial for this patient presenting with bilateral disc edema?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. NMO/MOG antibody testing"
+        },
+        {
+          "correct": true,
+          "answerText": "B. MRI/MRV of the brain",
+          "explanation": "Papilledema (as shown in this case) is optic disc edema secondary to elevated intracranial pressure. IIH is one cause of papilledema; however, neuroimaging must be obtained to rule out potential space-occupying lesions. In the absence of intracranial masses, several indirect imaging signs such as transverse sinus stenosis, empty sella, flattening of the posterior globes, and optic nerve sheath distension may suggest intracranial hypertension with a high sensitivity and specificity (1,2). Lumbar puncture demonstrating an elevated opening pressure is required for a definitive diagnosis of IIH; however, in a well patient with normal visual function and otherwise no systemic symptoms, lumbar puncture may be deferred by some clinicians and the patient may be treated presumptively for IIH (3). Often, this requires close monitoring by a neuro-ophthalmologist familiar with following and treating IIH."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Fluorescein angiography"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Lumbar puncture"
+        }
+      ]
+    }
+  ],
+  "caseID": "neuro0034",
+  "category": "neuro-ophthalmology",
+  "title": "Case 34",
+  "description": " 29F referred for optic disc edema OU",
+  "patientPresentation": "**Contributor**: Marko Tien, MD\n\n\n​\n​Patient Presentation: A 29-year-old woman was referred from her optometrist to a tertiary neuro-ophthalmology clinic for bilateral optic disc edema noticed on routine examination. She had been experiencing headaches, which had increased in intensity over the past few months prior to presentation. Otherwise, she was asymptomatic and had no visual complaints. She was not taking any medications and had no past ocular history. Her BMI was 40, but otherwise had no medical history.\n​\nVisual acuity was 20/20 OU, and there was no RAPD. The optic nerves are shown below:\n\n![](/content/media/neuro341.avif)",
+  "footer": "\n\n### References:​\n\n1. Riggeal BD, Bruce BB, Saindane AM, et al. Clinical course of idiopathic intracranial hypertension with transverse sinus stenosis. Neurology. 2013;80(3):289-295. doi:10.1212/WNL.0b013e31827debd6\n2. Wang MTM, Prime ZJ, Xu W, et al. Diagnostic performance of neuroimaging in suspected idiopathic intracranial hypertension. Journal of Clinical Neuroscience. 2022;96:56-60. doi:10.1016/j.jocn.2021.12.024\n3. Vosoughi AR, Margolin EA, Micieli JA. Can Lumbar Puncture Be Safely Deferred in Patients With Mild Presumed Idiopathic Intracranial Hypertension? J Neuroophthalmol. 2022;42(4):505-508. doi:10.1097/WNO.0000000000001411\n\n### Learning Objectives:\n\n1. To identify funduscopic and OCT signs of IIH.\n2. To highlight the importance and reasoning behind obtaining neuroimaging in IIH.\n3. To discuss the nuance in obtaining a lumbar puncture for patients with IIH."
+}

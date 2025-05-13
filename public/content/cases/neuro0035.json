@@ -1,0 +1,90 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show Answer",
+          "explanation": "There is an enlarged blind spot OD. The visual field OS appears normal. Enlarged blind spot have a wide differential, but is typically suggestive of optic nerve head or peripapillary pathology."
+        }
+      ],
+      "title": "Question 1",
+      "text": "What is the main finding on the visual field testing above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "OCT RNFL was performed and is shown below:\n\n![](/content/media/neuro352.avif)\n\nBased on the RNFL OCT above, which interpretation most accurately reflects the pattern observed?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Superior and inferior RNFL thickening OU, with preserved nasal and temporal sectors"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Circumferential RNFL thickening OD and focal superior thickening OS",
+          "explanation": "The RNFL OCT shows diffuse thickening OD (eliminating option C), with focal superior thickening OS (eliminating option D). Furthermore, the nasal RNFL in OD is not preserved; rather, it exhibits thickening (eliminating option A). Together, these findings are suggestive of asymmetric optic disc edema."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Sectoral RNFL thickening OD and focal superior thickening OS"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Circumferential RNFL thickening OD and normal OS"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Next, a comprehensive infectious and autoimmune workup was ordered, including angiotensin-converting enzyme, antineutrophil cytoplasmic antibody, antinuclear antibody, anti-myelin oligodendrocyte glycoprotein antibody, Bartonella serology, neuromyelitis optica antibody, syphilis testing, and toxoplasmosis serology. All tests were negative.\n\nAdditionally, a contrast-enhanced MRI of the brain and orbits was performed, which showed no enhancement of the optic nerves or chiasm.\n\nWhat is the next best step in management?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Reassess and monitor, with consideration of restarting BRAF/MEK inhibitors at reduced dose if vision stabilizes"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Proceed with lumbar puncture to assess opening pressure and perform CSF cytology and inflammatory markers"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Order fluorescein angiography to evaluate for optic disc leakage"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Initiate high-dose oral prednisone for two weeks, followed by a rapid taper",
+          "explanation": "The patient’s presentation is suggestive of BRAF/MEK inhibitor-associated papillitis. Bilateral papillitis secondary to BRAF/MEK inhibitor therapy for metastatic melanoma has previously been described in a case report by Lim et al. (2016), in which the patient responded to pulsed corticosteroid therapy (1).\n\n​\n\nGiven the negative infectious workup in this case, empiric steroid therapy may be safely initiated. While the discontinuation of the BRAF/MEK inhibitors was appropriate, re-initiating these drugs has the potential to further compromise the patient’s visual prognosis. Moreover, in the absence of symptoms suggestive of raised intracranial pressure and with a normal MRI (without intracranial metastasis and optic nerve or leptomeningeal enhancement), lumbar puncture would have a low diagnostic yield. Similarly, fluorescein angiography to assess for disc leakage is unlikely to change the course of management.\n\n​\n\n​The patient was subsequently prescribed a two-week course of oral prednisone (60 mg/day), followed by a rapid taper. One month later, her visual acuity improved to 20/30 OU, with resolution of papillitis and normal visual field testing."
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "Which of the following ocular complications have been reported secondary to BRAF/MEK inhibitor therapy for metastatic melanoma?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Uveitis"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Central serous chorioretinopathy"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Vogt–Koyanagi–Harada disease"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the above",
+          "explanation": "In a recent pharmacovigilance study by Huang et al. (2023), which examined adverse events reported to the United States Food and Drug Administration Adverse Event Reporting System, combination therapy with dabrafenib and trametinib demonstrated safety signals for uveitis (117 cases reported) and Vogt–Koyanagi–Harada disease (11 cases reported), along with other ocular complications affecting the anterior and posterior segment (2). Central serous chorioretinopathy has also been reported in this setting (2,3). While the underlying pathophysiological mechanisms remain poorly understood, it is hypothesized that BRAF/MEK inhibitors may have the potential to trigger an inflammatory response, potentially leading to disruption of the blood-retinal barrier (2)."
+        }
+      ]
+    }
+  ],
+  "caseID": "neuro0035",
+  "category": "neuro-ophthalmology",
+  "title": "Case 35",
+  "description": "87F referred for optic disc edema OU",
+  "patientPresentation": "**Contributors**: Andrew Mihalache, MD(C) and Dr. Arun Sundaram, MD MSc FRCPC\n​\n\n\n​Patient Presentation: An 87-year-old female presented to a tertiary neuro-ophthalmology clinic following a referral for optic disc edema OU. The patient previously had a cutaneous melanoma excised from her left flank one year ago. Disease recurrence was identified in the left axillary lymph nodes, prompting the initiation of dabrafenib (BRAF inhibitor) and trametinib (MEK inhibitor).\n​\nFour months after starting BRAF/MEK inhibitor therapy, she experienced progressively worsening, painless vision loss OD and transient blurred vision OS. Consequently, BRAF/MEK inhibitor therapy was discontinued one week prior by the patient’s oncologist.\\\n​\nVisual acuity was 20/200 OD and 20/30 OS. There was no RAPD. There were no cells in the anterior chamber or vitreous.\n​\n24-2 Humphrey Visual Field testing was performed and shown below:\n\n![](/content/media/neuro351.avif)",
+  "footer": "### References:​\n\n1. Lim J, Lomax AJ, McNeil C, Harrisberg B. Uveitis and Papillitis in the Setting of Dabrafenib and Trametinib Therapy for Metastatic Melanoma: A Case Report. Ocul Immunol Inflamm. 2018;26(4):628-631. doi:10.1080/09273948.2016.1246666\n\n2. Huang S, Guo Z, Wang M, et al. Ocular adverse events associated with BRAF and MEK inhibitor combination therapy: a pharmacovigilance disproportionality analysis of the FDA adverse event reporting system. Expert Opin Drug Saf. 2023;22(2):175-181. doi:10.1080/14740338.2023.2189235\n\n3. Tarım B, Kılıç M. Ocular side effects of Trametinib and Dabrafenib: a case report. J Ophthalmic Inflamm Infect. 2023 Apr 12;13(1):17. doi: 10.1186/s12348-023-00339-0. PMID: 37046057; PMCID: PMC10097848.\n\n​\n\n### Learning Objectives:\n\n1. To identify and interpret signs of asymmetric optic disc edema on visual field and OCT RNFL imaging.\n\n2. To recognize papillitis as a potential ocular complication of BRAF/MEK inhibitor therapy."
+}

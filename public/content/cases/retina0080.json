@@ -1,0 +1,90 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Focal, circular, elevated lesion"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Rim of chorioretinal atrophy"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Hypoautofluorescent lesion with rim of hyperAF"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the above",
+          "explanation": "The fundus images reveal a clear media, unremarkable posterior pole, but a focal, elevated pigmented lesion in the mid-far periphery OD (A) in the superotemporal quadrant. There is a rim of chorioretinal atrophy (B), which corresponds to the ring of hyper-autofluorescence on FAF imaging.\n\n![](/content/media/retina802.avif)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What are the key findings on the fundus photograph and FAF images above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "A skillful technician was able to take an OCT 5-line raster scan over the lesion:\n\n![](/content/media/retina803.avif)\n\nWhat are the key features on the OCT imaging?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Intraretinal hyper-reflective elevated lesion",
+          "explanation": "The OCT image demonstrates an intraretinal, elevated lesion that is hyper-reflective on OCT imaging (blue arrow). There is no sign of hypo-reflective spaces suggestive of fluid, and this lesion does not have the typical features of a hamartoma.\n\n![](/content/media/retina804.avif)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Subretinal fluid"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Cystoid intraretinal fluid"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Intraretinal hamartoma"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Based on all the relevant ocular imaging, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Horseshoe tear"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Cystic retinal tuft",
+          "explanation": "Given the localized elevation, intra-retinal localization, lack of subretinal fluid, and far-peripheral location, this lesion is consistent with a retinal tuft. Cystic retinal tufts are a congenital abnormality of the peripheral retina associated with firm vitreoretinal adhesions. They can be found in approximately 5% of the population, and have been associated with retinal detachments, though the risk of RD is less than 1%."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Amelanotic congenital hypertrophy of the retinal pigment epithelium (CHRPE)"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Astrocytic hamartoma"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What is the treatment?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show Answer",
+          "explanation": "Since the patient is asymptomatic, and the likelihood of progression to a retinal tear is low, the lesion can be managed with regular ophthalmic examination. However, the patient should be adequately counselled on the symptoms of retinal tear and detachment, including increased floaters, flashing lights, or development of a visual field deficit. Primary laser barricade may be considered in high myopes, those with a history of retinal tear/detachment, or high risk activities such as contact sports (1)."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0080",
+  "category": "retina",
+  "title": "Case 80",
+  "description": "28F referred for suspicious retinal lesion OD",
+  "patientPresentation": "**Contributor**: Julia Di Ianni, COMT\n\nPatient presentation: A 28-year-old female was referred to a tertiary retina clinic by her optometrist following a routine eye examination, which found a suspicious retinal lesion OD. The patient was asymptomatic. With spectacle correction of -2.25D OD and -2.75D OS, her best-corrected visual acuity was 20/20 OU. Anterior segment examination was unremarkable. Fundus examination of the left eye was unremarkable. Widefield fundus photograph and fundus autofluorescence images of the right eye were obtained and are shown below:\n\n![](/content/media/retina801.avif)",
+  "footer": "### References:\n\n1. Patel SJ, Feldman BH, Phelps P, Miller AM, Barash A, Murchison A, Justin GA, Tsui JC, Bhagat N, Lim JI, Lai KE, Karth PA, Gullapalli V, Starr M. (2024). Retinal Detachment. EyeWiki. Retrieved from https://eyewiki.org/Retinal_Detachment\n\n​​​\n\n### Learning Objectives:\n\n2. OCT imaging of the peripheral retina offers high-resolution, cross-sectional anatomical detail of subtle lesions and can play a significant role in guiding clinical decision-making."
+}

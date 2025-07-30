@@ -1,0 +1,83 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. At the level of the retinal pigment epithelium (RPE)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Below the RPE"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Above the RPE",
+          "explanation": "The irregular hyper-reflective deposits (red arrows) can be seen ABOVE the intact/regular RPE (blue arrows).\n\n![](/content/media/retina_83_4.avif)"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Intraretinal"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What layer is the abnormal finding present in?"
+    },
+    {
+      "title": "Question 2",
+      "text": "What is the diagnosis?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Reticular pseudodrusen",
+          "explanation": "Reticular pseudodrusen are a subtype of drusen in which yellow subretinal lesions are often connected in reticular network and typically start in the supero-temporal macula due to the highest rod photoreceptor density. Compared to typical drusenoid deposits at Bruch’s membrane, reticular drusen carries a higher risk of progression to late age-related macular degeneration, especially geographic atrophy.\n\n​\n\nLarge colloidal drusen presents as subretinal material in between the RPE and Bruch’s membrane. Cuticular or basal laminar drusen involves the subretinal structures and will typically demonstrate a ‘starry sky appearance’ on fluorescein angiography. Lastly, laser marks on the retina should be considered if the lesions are distributed in a discrete region of the macula/retina when there is a history of retinal layers (especially if findings are only present in one eye)."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Large colloidal drusen"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Cuticular/Basal laminar drusen"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Laser marks on the retina"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What are some common associations with reticular pseudodrusen?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Sorsby macular dystrophy"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Early onset age-related macular degeneration"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Acquired vitelliform lesions"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Pseudoxanthoma elasticum"
+        },
+        {
+          "correct": true,
+          "answerText": "E. All of the above",
+          "explanation": "All of the listed conditions are associated with reticular pseudodrusen (1-2)!"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0083",
+  "category": "retina",
+  "title": "Case 83",
+  "description": "68M referred for blurred vision and abnormal OCT findings",
+  "patientPresentation": "Patient presentation: A 68-year-old pseudophakic man was referred to a tertiary retina clinic for blurred vision and abnormal OCT findings. BCVA was 20/25 OU. Intraocular pressure was within normal limits and there was no RAPD Fundus photograph and OCT macula OU were performed and shown below.\n\n![](/content/media/retina_83_1.avif)\n\n![](/content/media/retina_83_2.avif)\n\n![](/content/media/retina_83_3.avif)",
+  "footer": "### References:\n\n​1. Agrón E, Domalpally A, Cukras CA, Clemons TE, Chen Q, Lu Z, Chew EY, Keenan TDL; AREDS and AREDS2 Research Groups. Reticular Pseudodrusen: The Third Macular Risk Feature for Progression to Late Age-Related Macular Degeneration: Age-Related Eye Disease Study 2 Report 30. Ophthalmology. 2022 Oct;129(10):1107-1119. doi: 10.1016/j.ophtha.2022.05.021. Epub 2022 May 31. PMID: 35660417; PMCID: PMC9509418.\n\n2. Cleland SC, Domalpally A, Liu Z, Pak JW, Blodi BA, Bailey S, Gehrs K, Wallace R, Tinker L, Mares JA; Second Carotenoids in Age-Related Eye Disease Study Investigators. Reticular Pseudodrusen Characteristics and Associations in the Carotenoids in Age-Related Eye Disease Study 2 (CAREDS2), an Ancillary Study of the Women's Health Initiative. Ophthalmol Retina. 2021 Aug;5(8):721-729. doi: 10.1016/j.oret.2020.12.019. Epub 2020 Dec 30. PMID: 33387684; PMCID: PMC8243566.\n\n​\n\n### Learning Objectives:\n\n1. To diagnose and classify reticular pseudodrusen using OCT findings.\n\n2. To understand the associations of reticular pseudodrusen."
+}

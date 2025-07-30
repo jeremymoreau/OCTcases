@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "Color fundus photographs revealed RPE mottling at the macula OU (green arrows). FAF imaging demonstrated granular parafoveal hyper-AF lesions OU, corresponding to the RPE changes observed in the fundus exam (yellow arrows). Additionally, there are focal areas of hyper-AF, notably in the left parafoveal region (white arrows).\n\n![](/content/media/retina_81_3.avif)\n\n![](/content/media/retina_81_4.avif)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What are the most striking findings on the fundus photos and FAF images above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "Bilateral OCT macula images were taken and are shown below:\n\n![](/content/media/retina_81_5.avif)\n\n![](/content/media/retina_81_6.avif)\n\nWhat are the key features on the OCT imaging?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. RPE mottling OD"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Discontinuity of ellipsoid zone OU"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Thick choroidal vessels OU"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the above",
+          "explanation": "OCT macula images demonstrate increased choroidal thickness along with dilation of outer choroidal vessels found in Haller’s layer (white asterix*). Overlying these engorged vessels, RPE mottling can be appreciated OD (white arrow). In addition, focal regions of ellipsoid zone discontinuity can be seen in the subfoveal region OD and parafoveal region OS (yellow arrows). An intraretinal hyperreflective deposit is observed in the right eye as well, most likely representing RPE pigment migration.\n\n![](/content/media/retina_81_7.avif)"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Next, OCT angiography images were taken. The right eye’s image is shown below:\n\n![](/content/media/retina_81_8.avif)\n\nIs there any sign of choroidal neovascularization in the OCT-A above?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The segmentation of this OCT-A in the outer retinal - choriocapillaris demonstrates no evidence of choroidal neovascularization (CNV) in the en-face images or flow B-Scan."
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Central Serous Chorioretinopathy (CSC)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Pachychoroid Neovasculopathy (PNV)"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Pachychoroid Pigment Epitheliopathy (PPE)",
+          "explanation": "PPE, first described by Warrow et al. in 2013, is part of the pachychoroid disease spectrum (PDS) (1). PPE is typically asymptomatic and often considered a \"silent\" disease, although metamorphopsia (\"wavy lines\") can occur. PPE is characterized on multimodal imaging by increased choroidal thickness, pachyvessels, and overlying focal RPE irregularities without evidence of current or previous subretinal fluid (SRF) (1-2). While small PEDs may be present in PPE patients, the absence of SRF or serous PEDs is a key distinguishing feature from CSC (1-2). PPE is considered a \"forme fruste\" of CSC, with possible conversion to and from CSC (1-3). Recent clinical advances have demonstrated that CSC, similar to PPE, is on the spectrum of PDS (4).\n\n​\n\nPPE can be differentiated from PNV and PCV by the absence of a “double-layer sign” on OCT and the lack of CNV on OCT-A (2). Additionally, inflammatory diseases such as VKH, which can also cause choroidal thickening, should be considered in the differential but typically present with additional signs of systemic and ocular inflammation."
+        },
+        {
+          "correct": false,
+          "answerText": "E. Polypoidal Choroidal Vasculopathy (PCV)"
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "What are other disease entities in the pachychoroid disease spectrum?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The pachychoroid disease spectrum represents several macular disorders that share an underlying pathogenesis involving distinct choroidal alterations (5-7). Common clinical features include subfoveal choroidal thickness (SFCT) >300 µm and pachyvessels (5-7). The main entities within this spectrum include PPE, CSC, PNV (Aneurysmal Type 1 Neovascularization), and PCV. Additional pachychoroid variants include focal choroidal excavation (FCE), peripapillary pachychoroid syndrome (PPS), and the recently described pachy-vitelliform maculopathy (PVM).\n\n​\n\nRecent advances in multimodal imaging have offered insights into pachychoroid pathophysiology, highlighting the role of choroidal venous congestion as a driving factor and emphasizing changes beyond choroidal thickness as defining features. Impaired venous outflow at the vortex veins, observed on indocyanine green angiography (ICG-A), leads to choriocapillaris hyperpermeability and choroidal anastomosis, eventually causing dilation of Haller’s layer vessels (2, 8-9). Our understanding of the pachychoroid spectrum will likely continue to evolve as new insights emerge."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0081",
+  "category": "retina",
+  "title": "Case 81",
+  "description": "47M referred for wavy lines in central vision OU",
+  "patientPresentation": "**Contributor**: Dr. David Rabinovitch\n\nPatient presentation: A 47-year-old man was referred to a tertiary retina clinic for a two-month history of “wavy lines” in his central vision OU. He denied flashes, floaters or a visual field deficit. His past medical history was significant for hypertension and migraines, managed with ramipril and Tylenol PRN, respectively. His ocular history was unremarkable.\n\nOn examination, his visual acuity was 20/30+2 in the right eye (OD) and 20/20-1 in the left eye (OS). IOP was within normal limits and there was no RAPD. Anterior segment examination was unremarkable. Fundus photographs and fundus autofluorescence images were obtained and shown below:\n\n![](/content/media/retina_81_1.avif)\n\n![](/content/media/retina_81_2.avif)",
+  "footer": "### References:\n\n1. Warrow DJ, Hoang QV, Freund KB. Pachychoroid pigment epitheliopathy. Retina. 2013;33(8):1659–1672.\n\n2. Pereira A, Aldrees S, Pimentel MC, Yan P. Updated review: optical coherence tomography findings of the pachychoroid disease spectrum. Can J Ophthalmol. 2023 Feb;58(1):e33-e35.\n\n3. Karacorlu, M., Ersoz, M.G., Arf, S. et al. Long-term follow-up of pachychoroid pigment epitheliopathy and lesion characteristics. Graefes Arch Clin Exp Ophthalmol 256, 2319–2326 (2018). https://doi.org/10.1007/s00417-018-4144-0\n\n4. Tang J, Han X, Tang R, Li M, Wang Z, Zhao M, Qu J. Case series: pachychoroid pigment epitheliopathy transformed to polypoidal choroidal vasculopathy after long-term follow-up. BMC Ophthalmol. 2022 Jun 21;22(1):272.\n\n5. Cheung, C.M.G., Lee, W.K., Koizumi, H. et al. Pachychoroid disease. Eye 33, 14–33 (2019). https://doi.org/10.1038/s41433-018-0158-4\n\n6. Cheung, C.M.G., Dansingani, K.K., Koizumi, H. et al. Pachychoroid disease: review and update. Eye (2024). https://doi.org/10.1038/s41433-024-03253-4 \n\n7. Kkaya S. Spectrum of pachychoroid diseases. Int Ophthalmol. 2018;38(5):2239–2246.\n\n8. Kishi S, Matsumoto H. A new insight into pachychoroid diseases: Remodeling of choroidal vasculature. Graefes Arch Clin Exp Ophthalmol. 2022;260:3405–3417.\n\n9. B Brown R, Mohan S, Chhablani J. Pachychoroid Spectrum Disorders: An Updated Review. J Ophthalmic Vis Res. 2023 Apr 19;18(2):212-229.\n\n​\n\n### Learning Objectives:\n\n1. Understand the multimodal imaging features associated with pachychoroid pigment epitheliopathy. \n\n2. Understand the different disease entities in the pachychoroid disease spectrum."
+}

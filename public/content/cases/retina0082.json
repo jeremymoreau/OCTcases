@@ -1,0 +1,78 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "Fundus examination revealed blunting of the foveal reflex OD (blue arrow) but was otherwise unremarkable. FAF imaging demonstrated stippled hyper-autofluorescence (AF) in the macula OD (red arrow), and multiple areas of hypo-AF (blue arrow) with surrounding hyper-AF OS (yellow arrow).\n\n![](/content/media/retina_82_3.avif)\n\n![](/content/media/retina_82_4.avif)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "Describe the fundus photos and FAF images above."
+    },
+    {
+      "title": "Question 2",
+      "text": "OCT macula images are shown below:\n\n![](/content/media/retina_82_5.avif)\n\nWhat are the key features on the OCT imaging?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Ellipsoid zone (EZ) disruption",
+          "explanation": "The OCT images reveal a focal area of subfoveal EZ disruption OD and parafoveal EZ disruption OS. There is no sign of intraretinal fluid, choroidal hyper-transmission or intraretinal hyper-reflective foci on OCT imaging. You can also appreciate a slightly thinner than normal foveal thickness OU.\n\n![](/content/media/retina_82_6.avif)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Intraretinal fluid"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Choroidal hyper-transmission defect (HTD)"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Intraretinal hyper-reflective foci"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Pachychoroid pigment epitheliopathy"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Poppers maculopathy",
+          "explanation": "Alkyl nitrite compounds, commonly known as \"poppers,\" are inhaled recreational drugs that act as nitric oxide donors, leading to myorelaxation, euphoria, and sexual arousal (1-2). Cases of toxic retinal damage following poppers use, known as poppers maculopathy, were first reported in 2004, with fewer than 50 cases documented since.\n\nAll patients suspected with retinal drug toxicity require thorough history taking and extensive workup to rule out systemic injury or illness (3-4). In this patient, history of long-term poppers inhalation, along with the isolated EZ disruption—a hallmark imaging feature on OCT—was highly suggestive of poppers maculopathy. Electroretinography may show global reduction in response if the retinopathy extends beyond the macula. Typically, the fundus autofluorescence is normal for this condition in isolation.\n\n​The pathogenesis is thought to involve massive nitric oxide release and increased intracellular cGMP accumulation, ultimately leading to photoreceptor apoptosis (4). The severity of both vision loss and EZ disruption appear to be dose-related and more pronounced in chronic users. However, some patients have shown visual recovery after poppers cessation. It is important to counsel patients on the benefits of continued cessation and to discuss safe sex practices as part of their overall care plan."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Infectious chorioretinopathy"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Solar retinopathy"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What is in the differential for isolated subfoveal ellipsoid zone loss?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The differential diagnosis for isolated subfoveal EZ disruption on OCT includes Pattern dystrophies, Acute Zonal Occult Outer Retinopathy (AZOOR), solar maculopathy, drug-induced macular toxicity and infectious chorioretinitis (5-6).\n\n​\n\nPattern dystrophies, specifically adult onset foveomacular dystrophy (AOFMD), can present with isolated EZ irregularities but often display yellowish subfoveal material at the level of the RPE. AZOOR should also be considered, as early stages may present with subtle retinal changes. Patients typically experience visual field defects, and EZ disruption may be observed as a characteristic trizonal pattern.\n\n​\n\nSolar maculopathy or other photochemical injuries, such as laser exposure, may cause focal disruption of both the EZ and RPE, often with a history of light exposure. The early stages of drug-induced macular toxicity, such as those from hydroxychloroquine or tamoxifen, may also present with isolated EZ disruption (7-9). Hydroxychloroquine toxicity progresses to parafoveal EZ loss with distinct outer retinal atrophy (“flying saucer sign”), while tamoxifen retinopathy will typically be identified with hyper-reflective deposits or foveal cavitation on imaging.\n\n​\n\nA thorough patient history and appropriate use of multimodal imaging are essential for distinguishing between these conditions and guiding management."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0082",
+  "category": "retina",
+  "title": "Case 82",
+  "description": "30M referred for intermittent blurred vision OD for 6 months",
+  "patientPresentation": "**Contributors**: Dr. David Rabinovitch, Dr. Nupura Bakshi\n\nPatient presentation: A 30-year-old man was referred to a tertiary ophthalmology clinic with a 6-month history of intermittent blurred vision and central scotoma OD. His medical history included HIV with an undetectable viral load, T1DM, dyslipidemia, hypertension, and multiple diagnoses of primary syphilis. His medications included metformin, ramipril, rosuvastatin, and Genvoya (elvitegravir/cobicistat/emtricitabine/tenofovir). He had a history of IV drug use, but stopped 6 months prior to presentation, and recreationally used inhalant alkyl nitrites.\n\nOn examination, his visual acuity was 20/200 OD and 20/20 OS, with no improvement on pinhole testing OD. There was no RAPD, and his IOP was within normal limits. The anterior segment examination was unremarkable.\n\nAdditional investigations, including fundus photography, fundus autofluorescence (FAF), and optical coherence tomography (OCT) images were taken and are presented below:\n\n![](/content/media/retina_82_1.avif)\n\n![](/content/media/retina_82_2.avif)\n\nDescribe the fundus photos and FAF images above.",
+  "footer": "### References:\n\n1. Docherty G, Eslami M, O'Donnell H. \"Poppers Maculopathy\": a case report and literature review. Can J Ophthalmol. 2018 Aug;53(4):e154-e156. \n\n2. Vignal-Clermont C, Audo I, Sahel JA, Paques M. Poppers-associated retinal toxicity. N Engl J Med. 2010 Oct 14;363(16):1583-5.\n\n3. Bral, N. O., Marinkovic, M., Leroy, B. P., Hoornaert, K., Lint, M., & Tusscher, M. P. (2016). Do not turn a blind eye to alkyl nitrite (poppers)!. Acta Ophthalmologica (1755375X), 94(1). \n\n4. Davies, A. J., Kelly, S. P., Naylor, S. G., Bhatt, P. R., Mathews, J. P., Sahni, J., Haslett, R., & McKibbin, M. (2012). Adverse ophthalmic reaction in poppers users: case series of 'poppers maculopathy'. Eye (London, England), 26(11), 1479–1486.\n\n5. Mrejen S, Khan S, Gallego-Pinazo R, Jampol LM, Yannuzzi LA. Acute zonal occult outer retinopathy: a classification based on multimodal imaging. JAMA Ophthalmol. 2014 Sep;132(9):1089-98.\n\n6. Abdellah, M. M., Mostafa, E. M., Anber, M. A., El Saman, I. S., & Eldawla, M. E. (2019). Solar maculopathy: prognosis over one year follow up. BMC ophthalmology, 19, 1-9.\n\n7. Melles, R. B., & Marmor, M. F. (2014). The risk of toxic retinopathy in patients on long-term hydroxychloroquine therapy. JAMA ophthalmology, 132(12), 1453-1460. \n\n8. Marmor, M. F., Kellner, U., Lai, T. Y., Melles, R. B., & Mieler, W. F. (2016). Recommendations on screening for chloroquine and hydroxychloroquine retinopathy (2016 revision). Ophthalmology, 123(6), 1386-1394.\n\n9. Kim, H. A., Lee, S., Eah, K. S., & Yoon, Y. H. (2020). Prevalence and risk factors of tamoxifen retinopathy. Ophthalmology, 127(4), 555-557.\n\n​\n\n### Learning Objectives:\n\n1. To identify key OCT features of poppers maculopathy.\n\n2. To differentiate retinal pathologies with isolated EZ disruption."
+}

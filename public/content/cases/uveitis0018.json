@@ -1,0 +1,113 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Radial hyper-reflective foci in Henle’s fibre layer",
+          "explanation": "The radial hyperreflective foci on OCT centered around the fovea represent hard exudates in the outer plexiform layer (Henle’s fibre layer). This is arranged in a macular star pattern, which is described a “petaloid pattern.” Cotton wool spots (RNFL) and photoreceptor disruption (EZ) would localize differently on OCT, and subretinal hemorrhage would appear as hyper-reflective material under the neurosensory retina, not in Henle’s layer."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Hyper-reflective foci in the nerve fiber layer consistent with cotton wool spots"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Migrated RPE and outer retinal tubulations"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Photoreceptor mottling"
+        }
+      ],
+      "title": "Question 1",
+      "text": "Which of the following best explains the findings on OCT in the right eye?"
+    },
+    {
+      "title": "Question 2",
+      "text": "What is the diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Epiretinal membrane"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Neuroretinitis",
+          "explanation": "The patient has both macular star and mild optic disc edema. The left eye was normal. The macular star and mild optic disc edema is consistent with a neuroretinitis. In these cases, the macular star typically occurs 1-2 weeks after onset of disc edema and occurs due to inflammation of the optic disc vasculature."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Macular degeneration"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Choroidal neovascular membrane"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What is included in the differential diagnosis for macular star and optic disc edema?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "While neuroretinitis may be the most common, non-arteritic anterior ischemic optic neuropathy (NAION), optic disc and juxtapupillary tumours, atypical optic neuritis (ex. MOG), papilledema and hypertensive retinopathy, can all produce macular star with optic disc edema."
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "The patient underwent a standard uveitic panel. CBC, Lytes, Creatinine, angiotensin converting enzyme (ACE), syphilis serology, ANA, TB quantiferon gold, and Bartonella serology were negative. The patient was diagnosed with idiopathic neuroretinitis.\n\nHow should the patient be managed?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Course of antibiotics"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Oral steroids"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Observation"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Any of the above",
+          "explanation": "Any of the above treatment options can be done in this case. Although the serologies for Bartonella were negative, it is possible that early phase IgM had not peaked by this period – some physicians elect to place patients with neuro-retinitis on empiric antibiotics (ex. Ciprofloxacin 500mg BID x 7-10d) while awaiting serologies. If serologies and infectious work-up are negative, the presumptive diagnosis is idiopathic neuroretinitis for which oral steroids with quick taper can be used. Observation is a reasonable option as well in cases without atypical features (abnormal neuro-imaging, neurologic symptoms, slow recovery, severe presentation)."
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "What percentage of non-recurrent idiopathic neuroretinitis cases reach 20/40 or better?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. 25%"
+        },
+        {
+          "correct": false,
+          "answerText": "B. 50%"
+        },
+        {
+          "correct": false,
+          "answerText": "C. 75%"
+        },
+        {
+          "correct": true,
+          "answerText": "D. 90+%",
+          "explanation": "Amongst those with cat-scratch and idiopathic non-recurrent neuro-retinitis, systematic reviews report that over 90% of patients achieve final visual acuity of 20/40 or better (1)."
+        }
+      ]
+    }
+  ],
+  "caseID": "uveitis0018",
+  "category": "uveitis",
+  "title": "Case 18",
+  "description": "60F presenting with 4 weeks of painless blurred vision OD",
+  "patientPresentation": "Patient Presentation: A 60-year-old woman with past medical history of hypothyroidism presented with 4 weeks of painless blurred vision in her right eye. She denied eye pain, headache, URI or systemic symptoms. She had no pets and no history of TB exposure. On exam, visual acuity was 20/150 OD and 20/20 OS. There was no lymphadenopathy and her blood pressure was normal. Fundus photographs are shown below.\n\n![](/content/media/uveitis_18_1.avif)\n\nOCT macula images were taken and are shown below:\n\n![](/content/media/uveitis_18_2.avif)\n\n![](/content/media/uveitis_18_3.avif)",
+  "footer": "### References:\n\nPurvin V, Sundaram S, Kawasaki A. Neuroretinitis: review of the literature and new observations. J Neuroophthalmol. 2011 Mar;31(1):58-68. doi: 10.1097/WNO.0b013e31820cf78a. PMID: 21317731\n\n### Learning Objectives:\n\n1. Understanding the typical presentation and clinical course of neuroretinitis.\n\n2. Learn the typical features on OCT of neuroretinitis."
+}

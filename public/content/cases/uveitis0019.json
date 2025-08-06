@@ -1,0 +1,101 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "There are multiple deep creamy white/yellow chorioretinal lesions in the peripapillary region OU (red arrows) extending into the mid-peripheral retina. The optic nerve head is unremarkable and there are no clinical abnormalities in the retinal vasculature.\n\n![](/content/media/uveitis_19_4.avif)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "Describe the main findings on fundus exam."
+    },
+    {
+      "title": "Question 2",
+      "text": "OCT macula images were taken and are shown below:\n\n![](/content/media/uveitis_19_2.avif)\n\n![](/content/media/uveitis_19_3.avif)\n\nDescribe the OCT macula images.",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "There are mild ERMs OU. There is loss of the outer-retinal banding (ellipsoid zone and external limiting membrane) in the parafoveal region OU (yellow circles). There is no discernible intraretinal fluid or subretinal fluid.\n\n![](/content/media/uveitis_19_5.avif)"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Based on the history, fundus findings, and OCT findings, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Multiple Evanescent White Dot Syndrome (MEWDS)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Acute Posterior Multifocal Placoid Pigment Epitheliopathy (APMPPE)"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Birdshot Chorioretinopathy",
+          "explanation": "Birdshot chorioretinopathy is a white-dot syndrome that often presents with bilateral cream-colored oval chorioretinal lesions in the peripapillary area. The lesions are typically oriented around the optic nerve head. OCT may demonstrate disruption of the ellipsoid zone which contributes to vision loss (1). Cystoid macular edema and vitreous cells may also be present, which can impact visual acuity."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Multifocal choroiditis and panuveitis (MCP)"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "Which of the following haplotypes is most strongly associated with birdshot chorioretinitis?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. HLA-A29",
+          "explanation": "The HLA-A29 haplotype exhibits the strongest correlation between a human class I MHC molecule and any disease. Between 80% and 98% of patients with birdshot chorioretinitis are HLA-A29 positive, compared to 7% in the general population, and this positivity is associated with a 224-fold increase in the relative risk of developing the disease (2). HLA-B27 is associated with ankylosing spondylitis and anterior uveitis, while HLA-B51 is linked to Behçet’s disease. HLA-DR1 and HLA-DR4 are associated with Vogt-Koyanagi-Harada (VKH) disease."
+        },
+        {
+          "correct": false,
+          "answerText": "B. HLA-B27"
+        },
+        {
+          "correct": false,
+          "answerText": "C. HLA-B51"
+        },
+        {
+          "correct": false,
+          "answerText": "D. HLA-DR1"
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "IVFA imaging was conducted and is shown below (early OD, late OD, late OS):\n\n![](/content/media/uveitis_19_6.avif)\n\n![](/content/media/uveitis_19_7.avif)\n\n![](/content/media/uveitis_19_8.avif)\n\nWhich of the following descriptions of the IVFA photos is most accurate?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Hyperfluorescence in the areas corresponding to the lesions and peripapillary leakage, with vasculitis in zone 1 only"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Late hyperfluorescence in the areas corresponding to the lesions and peripapillary leakage, with vasculitis in zones 1-3",
+          "explanation": "Optic disc hyperfluorescence (red circle) is a common finding in birdshot chorioretinopathy but is nonspecific (3). There is extensive dye leakage in all zones of the retina, suggestive of retinal vasculitis (yellow arrows). The chorioretinal lesions in birdshot chorioretinopathy classically demonstrate early blockage with late staining on IVFA. Indocyanine green (ICG) angiography may reveal even more lesions than are visible clinically or on IVFA.\n\n![](/content/media/uveitis_19_9.avif)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Hyperfluorescence of the macula and in the areas corresponding to the lesions and peripapillary leakage, with vasculitis in zones 1-3"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Early hypofluorescence/late hyperfluorescence of the macula, with vasculitis in zones 1-3"
+        }
+      ]
+    }
+  ],
+  "caseID": "uveitis0019",
+  "category": "uveitis",
+  "title": "Case 19",
+  "description": "47F presenting with decreased vision and floaters OU",
+  "patientPresentation": "Patient Presentation: A 47-year-old European woman presented with decreased vision and floaters OU. She denied pain, red eye, photophobia, or recent trauma. She had no past medical history or ocular history. There was no family history of eye disease. Review of systems was unremarkable.\n\nVisual acuity was 20/40 OD and 20/50 OS. IOP was normal and there was no RAPD. Slit lamp examination was unremarkable.\n\nDilated fundus examination revealed 1+ vitreous cells OU and the findings on the fundus photographs below:\n\n![](/content/media/uveitis_19_1.avif)",
+  "footer": "### References:\n\n1. Teussink MM, Huis In Het Veld PI, de Vries LA, Hoyng CB, Klevering BJ, Theelen T. Multimodal imaging of the disease progression of birdshot chorioretinopathy. Acta Ophthalmol. 2016;94(8):815-823. doi:10.1111/aos.13114\n\n2. Kiss S, Anzaar F, Stephen Foster C. Birdshot retinochoroidopathy. Int Ophthalmol Clin. 2006;46(2):39-55. doi:10.1097/00004397-200604620-00006\n\n3. Bousquet E, Duraffour P, Debillon L, Somisetty S, Monnet D, Brézin AP. Birdshot Chorioretinopathy: A Review. J Clin Med. 2022;11(16):4772. Published 2022 Aug 16. doi:10.3390/jcm11164772\n\n​\n\n### Learning Objectives:\n\n1. Recognize the funduscopic appearance and OCT findings of birdshot chorioretinopathy.\n\n2. Understand the HLA haplotype associated with birdshot chorioretinopathy.\n\n3. Visualize the retinal inflammation and vessel vasculitis in birdshot chorioretinopathy."
+}

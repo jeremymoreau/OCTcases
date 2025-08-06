@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Normal OCT"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Nasal macula outer retinal atrophy",
+          "explanation": "The outer nuclear layer (red arrows) is markedly thinner in the nasal macula compared to the temporal macula. The inner retina is normal. The RPE is also normal throughout the scans.\n\n![](/content/media/uveitis_20_7.avif)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Paracentral RPE disruption"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Disorganization of inner retinal layers"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What abnormality is seen on OCT macula in the left eye?"
+    },
+    {
+      "title": "Question 2",
+      "text": "How would you describe the abnormality seen in the fundus autofluorescence image of the left eye in this patient?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "It can be described as having a trizonal defect appearance. Trizonal refers to three regions with individually distinct FAF findings: Normal autofluorescence (A) in the area outside of the delineating line (zone 1), speckled hyper-autofluorescence (B) within the lesion corresponding to active RPE disruption (zone 2), and hypo-autofluorescence (C) indicating more chronic RPE/choroidal atrophy (zone 3).\n\n![](/content/media/uveitis_20_8.avif)"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "24-2 Humphrey Visual Fields were performed and are shown below:\n\n![](/content/media/uveitis_20_9.avif)\n\nWhich of the following best describes the visual field defect seen in the left eye of this patient?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Inferior altitudinal defect"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Bitemporal hemianopia"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Central scotoma"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Enlarged blind spot",
+          "explanation": "The most frequently observed presentation of this condition is an enlarged blind spot, often accompanied by central or paracentral scotomas."
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "Given the presentation of photopsias, an enlarged blind spot on visual field testing, and a trizonal pattern on fundus autofluorescence, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Multiple Evanescent White Dot Syndrome (MEWDS)"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Acute Zonal Occult Outer Retinopathy (AZOOR)",
+          "explanation": "AZOOR is a rare retinal disorder that typically affects young to middle-aged women, presenting with sudden onset of photopsias and visual field defects, most commonly an enlarged blind spot. Early fundus exam may appear normal, but OCT and fundus autofluorescence reveal characteristic outer retinal disruption and a trizonal FAF pattern. The etiology is unclear, with autoimmune and viral mechanisms proposed, and management remains uncertain, though some cases stabilize spontaneously."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Acute Posterior Multifocal Placoid Pigment Epitheliopathy (APMPPE)"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Serpiginous Choroiditis"
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "Which of the following best describes the typical clinical course of AZOOR?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Rapidly progressive bilateral vision loss with poor recovery"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Acute, often unilateral onset, with potential for slow progression and variable visual field defect recovery",
+          "explanation": "AZOOR typically presents acutely, often in one eye, with symptoms such as photopsias and visual field defects. While some patients remain stable or improve, others may experience slow progression over time, and visual recovery can be variable. Bilateral involvement can occur, but is usually sequential."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Chronic relapsing uveitis with vitreous inflammation"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Sudden onset of painless vision loss with complete spontaneous recovery within days"
+        }
+      ]
+    },
+    {
+      "title": "Question 6",
+      "text": "What medication is most commonly used as the initial treatment for AZOOR in patients with progressive symptoms or outer retinal disruption on imaging?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "There is no high-efficacy treatment for AZOOR, but many clinicians initiate oral corticosteroids in cases with progressive symptoms or evidence of outer retinal involvement. Immunosuppressive and antiviral agents may be considered in select, refractory cases, but are not typically first-line."
+        }
+      ]
+    }
+  ],
+  "caseID": "uveitis0020",
+  "category": "uveitis",
+  "title": "Case 20",
+  "description": "30F presenting with subacute visual field loss OS for 2 weeks",
+  "patientPresentation": "Patient Presentation: A 30-year-old woman with no significant past medical history presented with subacute visual field loss in her left eye for 2 weeks. She described a paracentral scotoma OS with occasional flashes around the defect. She denied any history of autoimmune disease or recent upper respiratory tract symptoms. Visual acuity was 20/20 OU. Anterior segment exam was unremarkable.\n\nFundus photography and fundus autofluorescence were performed and are shown below:\n\n![](/content/media/uveitis_20_1.avif)\n\n![](/content/media/uveitis_20_2.avif)\n\n![](/content/media/uveitis_20_3.avif)\n\n![](/content/media/uveitis_20_4.avif)\n\nOCT macula images were performed and are shown below:\n\n![](/content/media/uveitis_20_5.avif)\n\n![](/content/media/uveitis_20_6.avif)",
+  "footer": "### Learning Objectives:\n\n1. Recognize subtle outer retinal band loss seen in AZOOR.\n\n2. Appreciate that AZOOR results in classic ‘trizonal defect’ appearance on fundus autofluorescence."
+}

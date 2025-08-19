@@ -1,0 +1,101 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The fundus photograph of the right eye is within normal limits; however, there are several important findings in the left eye.\n\nThere is sub-macular hemorrhage. The dark-brown coloration of the sub-macular hemorrhage represents sub-RPE hemorrhage (red box). The multiple extramacular associated bright-red hemorrhages (green arrows) correspond to subretinal hemorrhage. The distinction between both categories of hemorrhages can be made based on the anatomical location of the bleed and appearance on examination.\n\nSub-RPE hemorrhages are confined between the RPE and Bruch’s membrane (i.e., the innermost layer of the choroid) and are typically darker in appearance. Etiologies of sub-RPE hemorrhage include choroidal rupture secondary to trauma, choroidal tumors, and macular neovascularization (MNV) in the setting of age-related macular degeneration (AMD). Sub-retinal hemorrhages are located between the neurosensory retina and the retinal pigment epithelium (RPE). In contrast to sub-RPE hemorrhages, the color of sub-retinal hemorrhages is frequently a brighter red as these hemorrhages are located more anteriorly. There are several causes of sub-retinal hemorrhage, including AMD, polypoidal choroidal vasculopathy (PCV), trauma, high myopia, and retinal microaneurysm.\n\n![](/content/media/retina_85_2.avif)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What are the key findings in the fundus photographs shown above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "An OCT Macula was performed and is shown below:\n\n![](/content/media/retina_85_3.avif)\n\nWhat are the key findings in the OCT Macula images shown above?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The RPE has a corrugated appearance (red box), and there is separation of Bruch’s membrane (green arrow) from the RPE. There is an associated intervening hyper-reflective material closer to surface of RPE with underlying hypo-reflective space (peach inset) between the RPE and Bruch’s membrane, which corresponds to the macular sub-RPE hemorrhage that was observed on fundus examination.\n\n![](/content/media/retina_85_4.avif)"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Given this patient’s clinical history, fundus findings, and OCT findings, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Choroidal rupture OS",
+          "explanation": "This patient presented with severe vision loss OS in the context of a preceding traumatic injury involving the left globe. On examination, the patient was found to have submacular hemorrhages involving predominantly the sub-RPE space. This presentation is most in keeping with choroidal rupture.\n\nThe classic appearance of choroidal rupture on fundus imaging is a yellow-white, curvilinear/crescent-shaped lesion; however, in some cases, this lesion may not be observed in a more acute setting (as in this case) as it may be obscured by overlying hemorrhage(s).\n\nThe primary risk factor for choroidal rupture is blunt trauma to the globe. In the event of trauma, the sclera and the inner retina are both relatively elastic and able to withstand the forces associated with blunt trauma. However, Bruch’s membrane – which is located between the RPE and the choriocapillaris – is relatively inelastic. Consequently, this results in a break in Bruch’s membrane, causing the choriocapillaris to leak into the subretinal and/or sub-RPE space.\n\nAny pathology that compromises the integrity of Bruch’s membrane (e.g., angioid streaks, Ehlers-Danlos syndrome, and pseudoxanthoma elasticum) may lead to an increased risk of choroidal rupture."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Retinal detachment OS"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Exudative age-related macular degeneration OS"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Polypoidal choroidal vasculopathy OS"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "Which of the following is NOT a known complication associated with choroidal rupture?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Traumatic optic neuropathy"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Macular neovascularization"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Angle recession glaucoma"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Venous sinus thrombosis",
+          "explanation": "Traumatic optic neuropathy, macular neovascularization, and angle recession glaucoma may all be observed in the setting of blunt ocular trauma with associated choroidal rupture. Indeed, there are several other co-morbidities involving both the anterior and posterior segments (e.g., macular hole, commotio retinae, lens zonulopathy) that can arise due to trauma. Of the listed options, venous sinus thrombosis (D) would not typically present as a consequence of ocular trauma."
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "What is the most appropriate treatment at this time?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Anti-VEGF therapy"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Intravitreal dexamethasone implant"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Photodynamic therapy"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Observation",
+          "explanation": "Management for choroidal rupture primarily consists of observation. Routine follow-up examination is crucially important in patients with choroidal rupture due the increased risk of developing MNV. Anti-VEGF therapy is often used to treat MNV associated with choroidal rupture."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0085",
+  "category": "retina",
+  "title": "Case 85",
+  "description": "29M referred for acute vision loss OS following trauma",
+  "patientPresentation": "Patient presentation: A 29-year-old man was referred to a tertiary retina clinic with acute, unilateral vision loss in the left eye following traumatic injury involving the left globe and the left side of his head. The patient subsequently presented to his local emergency department where neuroimaging was performed, which did not demonstrate any acute intracranial abnormalities. He also sustained a full thickness left upper eyelid laceration, which was repaired with primary closure. He had no significant past medical or ocular history and did not take any medications.  \n\nOn initial examination, his best-corrected distance visual acuity was 20/30 OD and 20/400 OS. The intraocular pressure was 13 mmHg OD and 10mmHg OS. Anterior segment examination demonstrated a microhyphema OS; the anterior chamber was deep and quiet OU. Dilated fundus examination was performed and is shown below:\n\n![](/content/media/retina_85_1.avif)",
+  "footer": "### References:\n\n1​. Lupidi M, Muzi A, Castellucci G, et al. The choroidal rupture: current concepts and insights. Surv Ophthalmol 2021;66(5):761-770.\n\n​\n\n### Learning Objectives:\n\n​1​. To understand the history, exam findings, and management of choroidal rupture.\n\n2​. To recognize the importance of routine follow-up in patients with choroidal rupture."
+}

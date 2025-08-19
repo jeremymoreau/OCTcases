@@ -1,0 +1,105 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The most prominent finding is the large pigment epithelium detachment (PED) in the nasal macula OD in the right eye (red cross) with multiple subfoveal PEDs. We can also appreciate the double-hump sign (white arrows), where a smaller PED is directly adjacent to a larger PED with an overlying pocket of subretinal fluid. This OCT biomarker is highly specific to a certain diagnosis, which will be discussed later in this case. In the left eye, we can appreciate drusenoid PEDs with no intra- or subretinal fluid. The remaining retinal architecture is maintained in both eyes. \n\n![](/content/media/retina_84_2.avif)"
+        }
+      ],
+      "title": "Question 1",
+      "text": " Describe the main findings on OCT imaging."
+    },
+    {
+      "title": "Question 2",
+      "text": "Optical coherence tomography angiography (OCT-A) was performed and is shown below: \n\n![](/content/media/retina_84_3.avif)\n\nDescribe the OCT-A findings.",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The en-face sub-RPE slab, which isolates flow signals beneath the RPE, demonstrates a suspicious vascular network between the RPE and Bruch’s membrane OD (orange circle), underneath the smaller sub-foveal PED. The left eye en-face image is unremarkable.\n\n![](/content/media/retina_84_4.avif)"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Neovascular age-related macular degeneration (AMD)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Central serous chorioretinopathy (CSCR)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Choroidal tumour"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Polypoidal choroidal vasculopathy (PCV)",
+          "explanation": "PCV is a disease of the choroidal vasculature resulting in macular neovascularization and hemorrhage. PCV involves the formation of a network of branching choroidal vessels with terminal, polyp-like aneurysmal dilations that leak. It primarily affects Asians and African Americans, and typically presents in the 6th to 7th decade of life (1). The hallmark of PCV is the polypoidal lesion, an orange-red nodule found in the macula. OCT typically shows serosanguinous PEDs and the double-hump sign as described above (2)."
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What is the best mode of differentiating PCV from other forms of neovascularization?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Intravenous fluorescence angiography (IVFA)"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Indocyanine green angiography (ICGA)",
+          "explanation": "The best imaging modality for differentiating PCV from other types of neovascularization is indocyanine green angiography (ICGA) (1). The indocyanine green (ICG) molecule is excited by the absorption of infrared light (790-805 nm), compared to fluorescein angiography, which uses a shorter wavelength of light (490 nm). In addition, ICG is more protein-bound than fluorescein dye. Therefore, ICG more effectively highlights choroidal circulation pathology. These dilations appear as distinct, nodular \"polypoidal lesions\" and are best seen in the first six minutes of the ICGA (4)."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Optical coherence tomography angiography (OCT-A)"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Fundus autofluorescence (FAF)"
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "What is the management of PCV?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Intravitreal anti-VEGF injections"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Observation"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Intravitreal steroids"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Photodynamic therapy (PDT)"
+        },
+        {
+          "correct": true,
+          "answerText": "E. A and/or D",
+          "explanation": "There are various treatment options for PCV, including PDT monotherapy with verteporfin, anti-VEGF monotherapy, combination therapy with anti-VEGF and PDT, and thermal laser photocoagulation for extra-foveal lesions (4). The first-line treatment for PCV is usually anti-VEGF monotherapy. Anti-VEGF monotherapy is especially useful when significant hemorrhage or exudation precludes the visualization of polyps of ICGA, and when PDT cannot be undertaken. PDT uses laser energy (689 nm) to activate verteporfin, a photosensitizing agent (5,6). This promotes vaso-occlusion of pathologic blood vessels. It is recommended that PDT treatment be performed for the entire PCV lesion and not just the actively leaking polyps."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0084",
+  "category": "retina",
+  "title": "Case 84",
+  "description": "71F referred for paracentral scotoma OD for 2 weeks",
+  "patientPresentation": "Patient presentation: A 71-year-old East-Asian female was referred to a tertiary retina service for a 2-week history of reduced vision and a paracentral scotoma in her right eye. She had a past ocular history of cataract surgery in both eyes. She had a past medical history of hypertension and dyslipidemia. She denied eye pain, GCA symptoms, flashes, floaters or a history of trauma. Visual acuity on presentation is 20/50 right eye and 20/25 left eye. IOP is within normal limits. There is no RAPD. OCT macula imaging was taken and is shown below:\n\n![](/content/media/retina_84_1.avif)",
+  "footer": "### References:\n\n​1. Honda S, Matsumiya W, Negi A. Polypoidal choroidal vasculopathy: clinical features and genetic predisposition. Ophthalmologica. 2014;231(2):59-74. doi:10.1159/000355488\n\n2. Imamura Y, Engelbert M, Iida T, Freund KB, Yannuzzi LA. Polypoidal choroidal vasculopathy: a review. Surv Ophthalmol. 2010;55(6):501-515. doi:10.1016/j.survophthal.2010.03.004\n\n3. Spaide RF, Yannuzzi LA, Slakter JS, Sorenson J, Orlach DA. Indocyanine green videoangiography of idiopathic polypoidal choroidal vasculopathy. Retina. 1995;15(2):100-110. doi:10.1097/00006982-199515020-00003\n\n4. Koh AH; Expert PCV Panel, Chen LJ, et al. Polypoidal choroidal vasculopathy: evidence-based guidelines for clinical diagnosis and treatment. Retina. 2013;33(4):686-716. doi:10.1097/IAE.0b013e3182852446\n\n5. Newman DK. Photodynamic therapy: current role in the treatment of chorioretinal conditions. Eye (Lond). 2016;30(2):202-210. doi:10.1038/eye.2015.251\n\n​6. Koh A, Lee WK, Chen LJ, et al. EVEREST study: efficacy and safety of verteporfin photodynamic therapy in combination with ranibizumab or alone versus ranibizumab monotherapy in patients with symptomatic macular polypoidal choroidal vasculopathy. Retina. 2012;32(8):1453-1464. doi:10.1097/IAE.0b013e31824f91e8\n\n​\n\n### Learning Objectives:\n\n1. To identify OCT and OCT-A features of polypoidal choroidal vasculopathy.\n\n2. To understand the management of polypoidal choroidal vasculopathy."
+}

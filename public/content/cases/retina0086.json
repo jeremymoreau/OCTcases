@@ -1,0 +1,71 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The en-face OCT on the left shows a well-circumscribed area of elevation corresponding to the pre-macular hemorrhage seen on clinical examination. The OCT raster on the right shows a sub-ILM hemorrhage. On OCT, the hyper-reflective surface (yellow arrow) and hypo-reflective area underneath (red star, secondary to shadowing) is suggestive of a hemorrhage. The vitreous appears clear. \n\n![](/content/media/retina_2.avif)\n\nSee Retina Case 11 for another (less drastic) presentation of a sub-ILM hemorrhage, similarly with a hyperreflective area suggestive of a hemorrhage (yellow star) and posterior shadowing (red star):\n\n![](/content/media/retina_3.avif)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "Describe the OCT."
+    },
+    {
+      "title": "Question 2",
+      "text": "What is the diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Terson’s syndrome"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Valsalva retinopathy",
+          "explanation": "Valsalva retinopathy is caused by a sudden increase in intra-thoracic or intra-abdominal pressure that results in a preretinal hemorrhage, usually involving the macula. It was first described by Dr. Thomas Duane in 1972 (1). Valsalva retinopathy can occur after coughing, vomiting, lifting, straining for a bowel movement, sexual intercourse, or labour. This patient was recovering from a URTI and likely developed Valsalva retinopathy secondary to frequent coughing. Increased intra-thoracic or intra-abdominal pressure can cause spontaneous rupture of superficial retinal capillaries that hemorrhage under the ILM and/or hyaloid. On fundus examination, one can distinguish the two hemorrhagic pockets by demarcation lines, where the inner ring represents the sub-ILM bleed (white arrows), and the outer ring represents the sub-hyaloid bleed (black arrows) (2). \n\n![](/content/media/retina_4.avif)\n\nAdapted from Mathew & Sarma (2016)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Ruptured macroaneurysm"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Diabetic retinopathy"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What is the initial treatment for this patient?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Pars plana vitrectomy with internal limiting membrane peel"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Intravitreal anti-VEGF injection"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Intravitreal steroids"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Nd:YAG laser membranotomy"
+        },
+        {
+          "correct": true,
+          "answerText": "E. Observation",
+          "explanation": "The initial management involves observation. In the vast majority of cases, the hemorrhage spontaneously resolves within 3 months. Patient should be observed in follow-up in 4-6 weeks to see if the hemorrhage is improving. Patients should also be counseled to avoid strenuous activity and blood thinners. In cases of larger hemorrhages, a Nd:YAG laser membranotomy or PPV with ILM peel can be considered within the first three weeks (3). A membranotomy disrupts the ILM or posterior hyaloid leading to drainage of the blood into the vitreous thereby allowing for faster resolution (3). Complications associated with laser membranotomy include epiretinal membrane, macular hole or retinal detachment (3)."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0086",
+  "category": "retina",
+  "title": "Case 86",
+  "description": "40M presenting with acute onsent large central scotoma OS",
+  "patientPresentation": "Patient presentation: A 40-year-old male presented to a tertiary retina service with a 4-day history of sudden-onset large central scotoma in the left eye. He had no prior ocular or family history of eye disease, no history of coagulopathies, and no head or neck trauma. His past medical history was otherwise unremarkable. He was taking semaglutide (Ozempic) for weight loss and was recovering from an upper respiratory tract infection.\n\nOn examination, his visual acuity was 20/20 in the right eye and CF in the left eye. IOP was 13 mmHg OU. There was no RAPD. Anterior segment examination was normal in both eyes. Posterior segment examination of the right eye was normal. Posterior segment examination of the left eye revealed a large pre-macular hemorrhage. OCT macula of the left eye is shown below:\n\n![](/content/media/retina_1.avif)",
+  "footer": "### References:\n\n1​. Duane TD. Valsalva hemorrhagic retinopathy. Trans Am Ophthalmol Soc. 1972;70:298-313.\n\n2. Mathew DJ, Sarma SK. Valsalva retinopathy with double ring sign: Laser membranotomy for twin bleeds. Saudi J Ophthalmol. 2016;30(1):68-70. doi:10.1016/j.sjopt.2015.10.003\n\n3. Durukan AH, Kerimoglu H, Erdurman C, Demirel A, Karagul S. Long-term results of Nd:YAG laser treatment for premacular subhyaloid haemorrhage owing to Valsalva retinopathy. Eye (Lond). 2008;22(2):214-218. doi:10.1038/sj.eye.6702574\n\n### ​Learning Objectives:\n\n​1​. Recognize the clinical and OCT features of Valsalva retinopathy.\n\n2. Understand the management and treatment of Valsalva retinopathy."
+}

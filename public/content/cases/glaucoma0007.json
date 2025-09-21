@@ -1,0 +1,83 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Stable MD, RNFL, and GCL+IPL thickness"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Decreased superior RNFL value at the most recent visit",
+          "explanation": "The superior RNFL thickness value is lower at the most recent visit. ­Although glaucoma primarily affects the superotemporal and inferotemporal (macular vulnerability zone) RNFL, it is important to look at all testing holistically prior to determining whether there is progression of disease or not."
+        },
+        {
+          "correct": false,
+          "answerText": "C. There is glaucomatous progression in the left eye"
+        },
+        {
+          "correct": false,
+          "answerText": "D. B and C are correct"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What is the best way to describe the metrics in the rate of change analysis?"
+    },
+    {
+      "title": "Question 2",
+      "text": "What aspects of the rate of change analysis would go against glaucoma progression?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Stable inferior MD of visual field"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Increased standard deviation of superior RNFL rate of change"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Stable GCL+IPL thickness"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the above",
+          "explanation": "Although structural damage may predate visual field loss, if there were real glaucomatous damage, the superior RNFL thinning observed on testing would correspond to inferior visual field loss. GCL+IPL thickness was normal as well. While these quantitative values are useful in evaluating stability versus progression in glaucoma, we must also evaluate the spatial information from the tests themselves. This includes an analysis of visual field loss on the pattern deviation plot and a review of the TSNIT, RNFL thickness, and deviation maps. Reliability indices, signal strength, and segmentation must also be adequate to draw valid conclusions from testing."
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "The full ONH/RNFL OCT printout was analyzed and is shown below:\n\n![](/content/media/glaucoma_3.avif)\n\nHow would you describe the quality of the OCT RNFL?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Good quality analysis"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Segmentation error"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Acquisition defect"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Motion artefact",
+          "explanation": "The patient moved her eye downward during the OCT capture, shifting the region superior to the nerve into the more proximal peripapillary region (red rectangle). Because of the motion artefact, there is a perceived decrease in the superior RNFL thickness that may not be real (red circles on the RNFL thickness map and TSNIT plot). This corresponds to a subtle decrease in RNFL thickness on the RNFL circular tomogram (red arrows). While RNFL thickness appears reduced due to motion, the retinal circular tomogram demonstrates good segmentation of the retinal layers, and there is no media opacity causing significant acquisition error. It is important to perform a ‘radiologic’ evaluation of the RNFL analysis, specifically assessing the RNFL tomogram and thickness/deviation map for irregularities, which can impact ‘stockbroker’ metrics such as average RNFL thickness and guided progression analysis trends.\n\n![](/content/media/glaucoma_4.avif)"
+        }
+      ]
+    },
+    {
+      "title": "Further Testing",
+      "text": "Repeat OCT ONH/RNFL was performed and is shown below:\n\n![](/content/media/glaucoma_5.avif)\n\nA comparison of the OCT ONH/RNFL analysis with the motion artefact and a repeat test performed on the same patient is shown below. The uninterrupted path of the superior arcuate vessels exiting the disc, as well as normal superior RNFL thickness and deviation map, are visible in the reliable analysis. The RNFL circular tomogram in the repeated scan also shows increased RNFL thickness in the region affected by the motion artefact.\n\n![](/content/media/glaucoma_6.avif)\n\nMovement of the eye during OCT can result in motion artefacts. This case is a good example of red disease, in which the superior RNFL is incorrectly interpreted as thin due to motion artefact. It also highlights the important components of OCT ONH/RNFL interpretation, which include both a ‘radiologic’ assessment of the circular tomogram, thickness map, and deviation map, as well as a ‘stockbroker’ assessment of RNFL thickness values, the TSNIT plot, and guided progression analysis trends. Radiologic assessment provides important context for stockbroker RNFL metrics, allowing for holistic OCT analysis."
+    }
+  ],
+  "caseID": "glaucoma0007",
+  "description": "82F presents with mild primary open angle glaucoma",
+  "title": "Case 7",
+  "category": "glaucoma",
+  "patientPresentation": "Patient Presentation: An 82-year-old female with mild primary open angle glaucoma presents to her ophthalmologist for follow-up. Her visual acuity was 20/30 OU. IOP was 16 OD and 18 OS. Visual field and OCT were stable in the right eye. Analyses of the rates of change in RNFL thickness, ganglion cell complex (GCC) thickness, and Humphrey visual field mean deviation (MD) in the left eye are shown below:\n\n![](/content/media/glaucoma_1.avif)\n\n![](/content/media/glaucoma_2.avif)",
+  "footer": "### Learning Objectives:\n\n1. Appreciate the importance of both numerical and spatial assessment of visual field and OCT testing. \n2. Know the different types of artefacts on OCT RNFL.\n3. Understand how motion artefact can result in red disease."
+}

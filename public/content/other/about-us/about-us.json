@@ -104,9 +104,9 @@
           "photo": "/content/media/aboutus-fahmeeda-murtaza.jpg"
         },
         {
-          "name": "Marko Tien, MD(C)",
+          "name": "Marko Tien, MD",
           "photo": "/content/media/marko-tien.webp",
-          "subtitle1": "Medical Student",
+          "subtitle1": "Ophthalmology Resident",
           "subtitle2": "Content Lead"
         },
         {
@@ -122,8 +122,8 @@
           "subtitle2": "App Design Lead"
         },
         {
-          "name": "Bhadra Pandya, MD(C)",
-          "subtitle1": "Medical Student",
+          "name": "Bhadra Pandya, MD",
+          "subtitle1": "Ophthalmology Resident",
           "subtitle2": "Website Design",
           "photo": "/content/media/headshot_bp.webp"
         },

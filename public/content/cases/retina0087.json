@@ -33,11 +33,46 @@
           "answerText": "D. Pooling of dye in a localized PED"
         }
       ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Based on the OCT and IVFA images, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Central serous chorioretinopathy"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Choroidal neovascular membrane",
+          "explanation": "This intra-retinal lesion leading to intra-retinal fluid and visual distortion, as well as leakage on IVFA imaging, in an older patient is most consistent with a choroidal neovascular membrane."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Macular hole"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Diabetic macular edema"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What is unique about this lesion compared to other lesions in its class?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "This lesion represents a retinal angiomatous proliferation (RAP) lesion, also known as a type 3 choroidal neovascular membrane (CNVM). RAP is a distinct subtype of CNVM that originates within the retina and extends downward toward the choroid, in contrast to type 1 and type 2 CNVMs, which arise from the choroid and grow upward. Type 3 lesions typically present with higher baseline visual acuity and achieve lesion inactivation more rapidly. Current literature indicates that type 3 CNVMs respond very well to standard intravitreal anti-VEGF therapy."
+        }
+      ]
     }
   ],
   "caseID": "retina0087",
   "category": "retina",
   "title": "Case 87",
   "description": "83M referred for visual distortion OD for 2 weeks",
-  "patientPresentation": "Patient presentation: An 83-year-old male was referred to a tertiary retina clinic for a 2-week history of visual distortion in his right eye. He reported noticing an oval shape in his central visual field OD. He denied pain, GCA symptoms, flashes, floaters, or trauma. His past ocular history included cataract surgery OU. He was a non-smoker. \n\nHis best-corrected distance visual acuity was 20/25 OD and 20/20 OS. There was no RAPD. Anterior segment examination was within normal limits. Fundus examination revealed a blunted foveal reflex OD, but was otherwise unremarkable OU. \n\nOCT macula images were taken and are shown below:\n\n![](/content/media/retina871.avif)"
+  "patientPresentation": "Patient presentation: An 83-year-old male was referred to a tertiary retina clinic for a 2-week history of visual distortion in his right eye. He reported noticing an oval shape in his central visual field OD. He denied pain, GCA symptoms, flashes, floaters, or trauma. His past ocular history included cataract surgery OU. He was a non-smoker. \n\nHis best-corrected distance visual acuity was 20/25 OD and 20/20 OS. There was no RAPD. Anterior segment examination was within normal limits. Fundus examination revealed a blunted foveal reflex OD, but was otherwise unremarkable OU. \n\nOCT macula images were taken and are shown below:\n\n![](/content/media/retina871.avif)",
+  "footer": "### Learning Objectives:\n\n​Recognize the clinical, OCT, and IVFA features of a RAP lesion (type 3 CNVM)."
 }

@@ -1,0 +1,78 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The OCT macula image of the left eye demonstrates normal foveal and peripheral macular lamination. The OCT macula image of the right eye demonstrates a distorted foveal contour with intra-retinal cystic spaces adjacent to a parafoveal outer-retinal hyper-reflective foci. There is no subretinal fluid or PED present."
+        }
+      ],
+      "title": "Question 1",
+      "text": "What are the most striking features on the OCT images above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "IVFA images of the right eye, early (left) and late (right), were taken and are shown below:\n\n![](/content/media/retina872.avif)\n\nWhat finding is present in the IVFA images above?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Early blockage with late staining of a parafoveal lesion"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Early hyperfluorescence with late leakage of a parafoveal lesion",
+          "explanation": "The early-phase IVFA demonstrates a focal area of hyperfluorescence in the parafoveal region, corresponding to the hyper-reflective lesion seen on OCT. In the late-phase image, this area shows progressive leakage of dye, characterized by an increase in size and intensity of the lesion with “fuzzy borders.”"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Blockage due to hemorrhage of a parafoveal lesion"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Pooling of dye in a localized PED"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Based on the OCT and IVFA images, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Central serous chorioretinopathy"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Choroidal neovascular membrane",
+          "explanation": "This intra-retinal lesion leading to intra-retinal fluid and visual distortion, as well as leakage on IVFA imaging, in an older patient is most consistent with a choroidal neovascular membrane."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Macular hole"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Diabetic macular edema"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What is unique about this lesion compared to other lesions in its class?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "This lesion represents a retinal angiomatous proliferation (RAP) lesion, also known as a type 3 choroidal neovascular membrane (CNVM). RAP is a distinct subtype of CNVM that originates within the retina and extends downward toward the choroid, in contrast to type 1 and type 2 CNVMs, which arise from the choroid and grow upward. Type 3 lesions typically present with higher baseline visual acuity and achieve lesion inactivation more rapidly. Current literature indicates that type 3 CNVMs respond very well to standard intravitreal anti-VEGF therapy."
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0087",
+  "category": "retina",
+  "title": "Case 87",
+  "description": "83M referred for visual distortion OD for 2 weeks",
+  "patientPresentation": "Patient presentation: An 83-year-old male was referred to a tertiary retina clinic for a 2-week history of visual distortion in his right eye. He reported noticing an oval shape in his central visual field OD. He denied pain, GCA symptoms, flashes, floaters, or trauma. His past ocular history included cataract surgery OU. He was a non-smoker. \n\nHis best-corrected distance visual acuity was 20/25 OD and 20/20 OS. There was no RAPD. Anterior segment examination was within normal limits. Fundus examination revealed a blunted foveal reflex OD, but was otherwise unremarkable OU. \n\nOCT macula images were taken and are shown below:\n\n![](/content/media/retina871.avif)",
+  "footer": "### Learning Objectives:\n\n​Recognize the clinical, OCT, and IVFA features of a RAP lesion (type 3 CNVM)."
+}

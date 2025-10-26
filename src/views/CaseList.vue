@@ -40,6 +40,12 @@
           >
             <ion-label> Paediatric Ophthalmology </ion-label>
           </ion-item>
+          <ion-item
+            button="true"
+            router-link="/cases/cornea"
+          >
+            <ion-label> Cornea </ion-label>
+          </ion-item>
         </ion-list>
       </ion-content>
 

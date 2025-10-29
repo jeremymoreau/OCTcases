@@ -73,6 +73,18 @@
           "photo": "/content/media/r_-rishi-gupta-headshot-colour.webp",
           "subtitle1": "Vitreoretinal Surgeon",
           "subtitle2": "Dalhousie University"
+        },
+        {
+          "name": "Saama Sabeti, MD MPH FRCSC FWCRS",
+          "subtitle1": "Corneal Specialist",
+          "subtitle2": "University of Ottawa",
+          "photo": "/content/media/sabeti.avif"
+        },
+        {
+          "name": "Kashif Baig, MD MBA FRCSC FWCRS",
+          "subtitle1": "Corneal Specialist",
+          "subtitle2": "University of Ottawa",
+          "photo": "/content/media/baig.avif"
         }
       ]
     },
@@ -138,6 +150,12 @@
           "photo": "/content/media/david-rabinovitch-headshot.webp",
           "subtitle1": "Medical Student  ",
           "subtitle2": "Content Lead  ​"
+        },
+        {
+          "name": "Abbie Lai, MD MEng",
+          "subtitle1": "Clinical Research Fellow",
+          "subtitle2": "Content Lead",
+          "photo": "/content/media/lai.avif"
         }
       ]
     },

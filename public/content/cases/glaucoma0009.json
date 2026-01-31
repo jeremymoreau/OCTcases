@@ -1,0 +1,83 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Normal RNFL, glaucomatous loss on GCA"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Glaucomatous RNFL loss, normal GCA"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Glaucomatous changes on RNFL and GCA"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Normal RNFL and GCA",
+          "explanation": "In this patient, there is no glaucomatous RNFL loss in the inferotemporal or supertemporal peripapillary regions. RNFL thickness appears normal. While the deviation map on the GCA is globally relatively thin compared to the normative database, there is no focal defect that would be see in glaucoma. This patient is myopic and these are likely myopic non-glaucomatous changes.\n\n​\n\n​24-2 Visual Fields were performed and shown below:\n\n![](/content/media/699564_9b60d198427f44dd8e11179274bd331b~mv2.avif)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What is the MOST accurate interpretation of the RNFL and GCA OCT findings?"
+    },
+    {
+      "title": "Question 2",
+      "text": "How would you best classify this patient’s left eye based on the provided OCT and visual field findings?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Established primary open-angle glaucoma"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Normal eye with no risk of progression"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Ocular hypertension (OHT)",
+          "explanation": "This patient demonstrates normal RNFL/GCA OCT and 24-2 visual fields. There is no structural or functional glaucomatous damage. The intraocular pressure is elevated in the left eye, therefore this patient has ocular hypertension and not glaucoma."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Normal tension glaucoma"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "How could you best manage this patient’s left eye?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Selective laser trabeculoplasty (SLT)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Phaco-MIGS"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Topical glaucoma drop"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Follow up in 1-2 years"
+        },
+        {
+          "correct": true,
+          "answerText": "E. A and C",
+          "explanation": "The Ocular Hypertension Treatment Study was a randomized control trial which showed that treatment of OHT reduced incidence of POAG by 50% over 5 years (1). In our patient, IOP was > 26 which places them in the highest OHTS risk tier, associated untreated glaucoma risk of approximately 13% OD and 36% OS based of their corneal thickness, compared with 1% OD and 15% OS in patients with IOP <24 mm Hg (2). While it may be reasonable to observe this patient closely (repeat IOP in several months, not 1-2 years), the family history of POAG may present a case for IOP-lowering management. SLT would be a good option for this patient if they are not keen on using drops, otherwise starting a class of topical glaucoma medication would be reasonable. Unilateral prostaglandin analogues are not recommended. It is not best to subject the patient to the surgical risks of phaco-MIGS especially in the absence of true cataract (VA is 20/20)."
+        }
+      ]
+    }
+  ],
+  "caseID": "glaucoma0009",
+  "category": "glaucoma",
+  "title": "Case 9",
+  "description": "49F presents with a family history of open angle glaucoma",
+  "patientPresentation": "Patient Presentation: A 49-year-old myopic female with family history of primary open angle glaucoma (POAG) was referred by her optometrist with concern for glaucoma. Visual acuity was 20/20-1 OD and 20/20 OS. IOP was 20 mmHg OD and 26 mmHg OS. CCT was 560 μm OD and 545 μm OS. Scleral spur was visualized 360 degrees bilaterally on gonioscopy.\n\nOCT ONH/RNFL and ganglion cell analysis (GCA) were performed and are shown below:\n\n![](/content/media/glaucoma_9_1.avif)\n\n![](/content/media/glaucoma_9_2.avif)",
+  "footer": "### References:​\n\n1. Kass MA, Heuer DK, Higginbotham EJ, et al. The Ocular Hypertension Treatment Study: a randomized trial determines that topical ocular hypotensive medication delays or prevents the onset of primary open-angle glaucoma. Arch Ophthalmol. 2002;120(6):701-830. doi:10.1001/archopht.120.6.701\n\n2. Gordon MO, Beiser JA, Brandt JD, et al. The Ocular Hypertension Treatment Study: Baseline Factors That Predict the Onset of Primary Open-Angle Glaucoma. Arch Ophthalmol. 2002;120(6):714–720. doi:10.1001/archopht.120.6.71\n\n### ​​Learning Objectives:​\n\n1. Differentiate ocular hypertension from established glaucoma by integrating intraocular pressure, OCT structural findings, and visual field testing.\n\n2. Apply risk-based clinical reasoning to determine when close observation versus intervention is appropriate in patients with ocular hypertension.\n\n3. Apply findings of the Ocular Hypertension Treatment Study into clinical practice."
+}

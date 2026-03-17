@@ -1,0 +1,82 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "In the right eye, there are several small, yellow lesions throughout the posterior pole, along with adjacent well-defined pigmented scars that have a “punched out” appearance (red arrow). Prior laser retinopexy scars can be visualized in the inferotemporal quadrants OU.  \n\n![](/content/media/uveitis_22_2.avif)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "Please describe the main findings seen in the fundus photos above."
+    },
+    {
+      "title": "Question 2",
+      "text": "Fundus autofluorescence photos were taken and demonstrated hypo-autofluorescence in the areas corresponding to the pigmented scars, with some scars demonstrating a surrounding ring of hyper-autofluorescence (yellow arrows).\n\n![](/content/media/uveitis_22_3.avif)\n\nAn OCT scan of the macula OD was taken and is shown below:\n\n![](/content/media/uveitis_22_4.avif)\n\nPlease describe the main findings seen in the OCT scan.",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "In the OCT image of the right macula, there is a choroidal hyper-reflective lesion (yellow arrow) extending into the neurosensory retina leading to a discontinuity in the overlying RPE and ellipsoid zone.\n\n![](/content/media/699564_3bdc2478d4d840a2b94c5befa92a33e7~mv2.avif)"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "Based on the multimodal imaging findings, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Multiple evanescent white dot syndrome (MEWDS)"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Punctate inner choroidopathy (PIC)",
+          "explanation": "Punctate inner choroidopathy (PIC) is an inflammatory condition typically classified under the “white dot syndromes” umbrella. PIC typically occurs in young myopic women and presents as bilateral small yellow-grey lesions in the outer retinal layers and inner choroid without signs of inflammation elsewhere in the eye (i.e., iridocyclitis, vitritis). Over time, the lesions become atrophic and pigmented, demonstrating a “punched out” appearance (1). PIC lesions appear hypo-autofluorescent on autofluorescence imaging; however, active lesions may demonstrate a hyper-autofluorescent margin around the lesion. OCT demonstrates focal hyper-reflectivity and elevation of the RPE (2). Patients may have a history of peripheral retinal laser therapy due to their myopia."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Acute posterior multifocal placoid pigment epitheliopathy (APMPPE)"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Birdshot chorioretinopathy"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "What is the preferred initial management of active PIC near the fovea?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Close monitoring; these lesions resolve spontaneously"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Sub-Tenon's block or oral corticosteroids",
+          "explanation": "Once a diagnosis of PIC is confirmed, management is guided based on the lesion activity and area (1). New active lesions, especially near the fovea, warrant initiation of local or systemic corticosteroids, as these lesions may grow to involve the fovea and dramatically reduce visual acuity. Steroid-sparing immunomodulatory therapies may be considered for long-term management of recurrent flares. Anti-VEGF agents may be initiated when choroidal neovascularization is present (20% of cases)."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Intraocular anti-VEGF agents"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Immunomodulatory therapies"
+        }
+      ]
+    },
+    {
+      "title": "Follow Up",
+      "text": "The patient was started on oral corticosteroids and seen for follow-up in 3 months, with reduction in lesion activity as demonstrated by a reduction in RPE elevation on OCT and no increase in hyper-autofluorescent signal on fundus autofluorescence. Immunomodulatory therapies were offered to the patient based on the fovea-threatening lesions. The patient’s multimodal imaging at her 2-year follow-up is below.\n\n![](/content/media/fu1.avif)\n\n![](/content/media/fu2.avif)"
+    }
+  ],
+  "caseID": "uveitis0022",
+  "title": "Case 22",
+  "description": "Case 22: 30F presenting with blurry vision and floaters OD for 2 weeks",
+  "category": "uveitis",
+  "patientPresentation": "Patient Presentation: A 30-year-old Asian woman presented with blurred vision and floaters in the right eye for 2 weeks following a recent upper respiratory tract infection. She had no past medical history. Her past ocular history was significant for laser retinopexy OU for lattice degeneration with atrophic holes. There was no family history of eye disease. A uveitic review of systems was unremarkable.\n\nHer best-corrected distance visual acuity was 20/20 OD and 20/20 OS. IOP was normal and there was no RAPD. Slit lamp examination was unremarkable.\n\nColor fundus photographs were taken and are shown below:\n\n![](/content/media/uveitis_22_1.avif)",
+  "footer": "### References:\n\n​​1. Kalogeropoulos D, Rahman N, Afshar F, Hall N, Lotery AJ. Punctate inner choroidopathy: A review of the current diagnostic and therapeutic approaches. Prog Retin Eye Res. 2024;99:101235. doi:10.1016/j.preteyeres.2023.101235.\n\n2. Jo Y, Gomi F, Ikuno Y. Spectral-domain optical coherence tomographic findings in punctate inner choroidopathy. Retin Cases Brief Rep. 2012 Spring;6(2):189-92. doi: 10.1097/ICB.0b013e31822476ea. PMID: 25390960.\n\n​\n\n### ​Learning Objectives:\n\n​1. Recognize the funduscopic appearance and OCT findings of punctate inner choroidopathy (PIC).\n\n2. Distinguish PIC from other white dot syndromes.\n\n3. Understand the treatment options of patients with PIC."
+}

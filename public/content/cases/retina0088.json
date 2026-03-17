@@ -1,0 +1,101 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The fundus of the right eye is normal. In the left eye, there is tortuosity and dilatation of the retinal veins and dot/blot hemorrhages in all four quadrants (yellow arrows), as well as flame-shaped hemorrhages (green arrow). There is an area of retinal whitening in the nasal parafoveal region (red circle).\n\n![](/content/media/retina_88_2.avif)"
+        }
+      ],
+      "title": "Question 1",
+      "text": "Describe the funduscopic findings in the photograph."
+    },
+    {
+      "title": "Question 2",
+      "text": "Based on the presentation and fundus photos, what is the main diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Proliferative diabetic retinopathy"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Ischemic central retinal vein occlusion (CRVO)"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Non-ischemic CRVO",
+          "explanation": "Non-ischemic CRVO presents as sudden, unilateral vision loss that is typically 20/200 or better. Funduscopic findings can include dilated, tortuous retinal veins, dot/blot and flame hemorrhages, and optic disc or macular edema. This is in contrast to ischemic CRVO, which typically presents with vision worse than 20/200, severe disc edema and hyperemia, and significant dot/blot and flame hemorrhages resulting in a “blood and thunder” appearance. The lack of findings in the anterior segment points away from ocular ischemic syndrome. This patient also has no history of diabetes."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Ocular ischemic syndrome"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "OCT images of the macula were taken and shown below:\n\n![](/content/media/retina_88_3.avif)\n\nDescribe the OCT images of the macula.",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "Show answer",
+          "explanation": "The OCT of the right eye is normal. In the left eye macula, there is a band of hyper-reflectivity in the inner nuclear layer (red box). A prominent middle limiting membrane (P-MLM) sign can also be seen as a hyper-reflective line in the inner synaptic portion of the outer plexiform layer (green box), representing acute ischemia. There are also hyper-reflective areas in the outer nuclear layer/external limiting membrane with corresponding disruptions to the ellipsoid zone (yellow arrows).\n\n![](/content/media/retina_88_4.avif)"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "Based on the OCT macula, what is the secondary diagnosis in addition to CRVO?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Multiple evanescent white dot syndrome (MEWDS)"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Paracentral acute middle maculopathy (PAMM)",
+          "explanation": "This patient has paracentral acute middle maculopathy (PAMM). It presents as a hyper-reflective band within the inner nuclear layer and is thought to represent ischemia of the deep capillary plexus of the retina (1). In this patient, the fundus photos shown earlier demonstrated retinal whitening parafoveally nasal to the macula, representing edema secondary to ischemia corresponding to the hyper-reflective band seen in this OCT."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Acute macular neuroretinopathy (AMN)"
+        },
+        {
+          "correct": false,
+          "answerText": "DD. Acute poterior multifocal placoid pigment epitheliopathy (APMPPE)"
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "text": "Which of the following statements is true regarding PAMM?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Fluorescein angiography can be performed to rule out a retinal artery occlusion",
+          "explanation": "This patient is believed to have PAMM secondary to ischemia of the cilioretinal arteries, in addition to her CRVO. Late phase intravenous fluorescein angiography (IVFA) shows hypofluorescence corresponding to the cilioretinal arteries. There is no specific medical treatment for PAMM (treatment is targeted towards the underlying cause if identified) and a negative scotoma may be present on formal visual field testing.\n\n![](/content/media/retina_88_5.avif)"
+        },
+        {
+          "correct": false,
+          "answerText": "B. No further investigations are required"
+        },
+        {
+          "correct": false,
+          "answerText": "C. All patients with PAMM should be initiated on high dose corticosteroids"
+        },
+        {
+          "correct": false,
+          "answerText": "D. PAMM does not present with visual field defects"
+        }
+      ]
+    }
+  ],
+  "caseID": "retina0088",
+  "category": "retina",
+  "title": "Case 88",
+  "description": "37F presenting with decreased vision and pain OD",
+  "patientPresentation": "Patient Presentation: A 37-year-old woman presented to a tertiary retina clinic with decreased vision in the right eye, as well as right eye pain with photophobia and nausea. She denied flashes, floaters or recent trauma. She has a history of alpha thalassemia and pulmonary tuberculosis, which was appropriately treated 3 years prior.\n\nOn examination, her best-corrected distance visual acuity was 20/70 OD and 20/20 OS (pin-holed to 20/50). IOP was 14 mmHg OD and 15 mmHg OS. There was no RAPD. Slit lamp examination was unremarkable. Optos fundus photographs were taken and are shown below:\n\n![](/content/media/retina_88_1.avif)",
+  "footer": "### References:​\n\n1. Fumi D, Ruggeri F, Fasciolo D, Antonello E, Burtini G, Abdolrahimzadeh S. Paracentral Acute Middle Maculopathy (PAMM) in Ocular Vascular Diseases-What We Know and Future Perspectives. Vision (Basel). 2025;9(1):19. Published 2025 Mar 3. doi:10.3390/vision9010019\n\n​\n\n### ​Learning Objectives:​\n\n1. To recognize the funduscopic appearance of non-ischemic CRVO.\n\n2. To recognize the OCT findings of PAMM.\n\n3. To understand the role of further investigations in patients with PAMM."
+}

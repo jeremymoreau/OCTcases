@@ -97,7 +97,7 @@
         </div>
       </section>
 
-      <article v-if="footerHtml" class="glass-card content-card">
+      <article v-if="footerHtml" class="glass-card content-card case-footer-card">
         <div class="content-card__header">
           <p class="eyebrow">Footer Notes</p>
           <h2>References and learning objectives</h2>

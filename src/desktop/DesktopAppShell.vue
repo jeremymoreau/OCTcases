@@ -43,22 +43,22 @@
     <footer class="desktop-footer">
       <div class="desktop-footer__inner">
         <div class="desktop-footer__brand">
-          <img
-            class="desktop-footer__logo desktop-footer__logo--light"
-            src="/assets/img/header-logo-light.svg"
-            alt="OCTcases logo"
-          />
-          <img
-            class="desktop-footer__logo desktop-footer__logo--dark"
-            src="/assets/img/header-logo-dark.svg"
-            alt="OCTcases logo"
-          />
-          <div>
+          <div class="desktop-footer__brand-mark">
+            <img
+              class="desktop-footer__logo desktop-footer__logo--light"
+              src="/assets/img/header-logo-light.svg"
+              alt="OCTcases logo"
+            />
+            <img
+              class="desktop-footer__logo desktop-footer__logo--dark"
+              src="/assets/img/header-logo-dark.svg"
+              alt="OCTcases logo"
+            />
             <p class="desktop-footer__title">OCTcases</p>
-            <p class="desktop-footer__copy">
-              Free OCT education for medical students, residents, and eye care professionals.
-            </p>
           </div>
+          <p class="desktop-footer__copy">
+            Free OCT education for medical students, residents, and eye care professionals.
+          </p>
         </div>
 
         <div class="desktop-footer__links">
@@ -90,7 +90,7 @@
             Facebook
           </a>
           <p class="desktop-footer__copyright">
-            ©2024 by Medical Education (Ophthalmology and Vision Sciences)
+            ©2026 by Medical Education (Ophthalmology and Vision Sciences)
           </p>
         </div>
       </div>

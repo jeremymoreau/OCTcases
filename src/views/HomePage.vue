@@ -101,7 +101,7 @@
         </ion-card-content>
       </ion-card>
       <ion-text class="copyright" color="dark"
-        >©2024 by Medical Education<br>(Ophthalmology and Vision
+        >©2026 by Medical Education<br>(Ophthalmology and Vision
         Sciences)</ion-text
       >
     </ion-content>

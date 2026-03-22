@@ -91,6 +91,23 @@ ion-card-title {
   text-align: center;
 }
 
+.md-text img.sample-submission__image {
+  width: 100%;
+  max-width: 100%;
+}
+
+.md-text img.sample-submission__image--small {
+  max-width: 240px;
+}
+
+.md-text img.sample-submission__image--medium {
+  max-width: 360px;
+}
+
+.md-text img.sample-submission__image--large {
+  max-width: 420px;
+}
+
 .atlas-header-img {
   width: 100%;
 }

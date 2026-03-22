@@ -620,6 +620,24 @@ html[data-theme='dark'] .desktop-footer__logo--dark {
   border: 1px solid var(--border-color);
 }
 
+.desktop-prose img.sample-submission__image {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.desktop-prose img.sample-submission__image--small {
+  max-width: 240px;
+}
+
+.desktop-prose img.sample-submission__image--medium {
+  max-width: 380px;
+}
+
+.desktop-prose img.sample-submission__image--large {
+  max-width: 520px;
+}
+
 .desktop-prose table {
   width: 100%;
   border-collapse: collapse;

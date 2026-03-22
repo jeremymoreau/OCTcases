@@ -11,7 +11,7 @@
           <ion-text class="md-text">
             <p>
               OCTcases is a high-yield, free resource created for medical
-              students, optometry students, residents, and eye care
+              students, optometry students, ophthalmology residents, and eye care
               professionals to hone their skills in interpreting optical
               coherence tomography (OCT) scans. A case-based format is used to
               highlight different pathology and to outline a systematic and

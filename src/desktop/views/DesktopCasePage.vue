@@ -88,7 +88,7 @@
             </div>
             <p
               v-if="feedbackByQuestion[questionIndex]"
-              class="status-message"
+              class="status-message status-message--feedback"
               :class="`status-message--${feedbackByQuestion[questionIndex].tone}`"
             >
               {{ feedbackByQuestion[questionIndex].message }}

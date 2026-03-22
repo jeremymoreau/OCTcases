@@ -1,23 +1,29 @@
 <template>
   <teleport to="body">
-    <div v-if="open" class="answer-dialog" @click.self="$emit('close')">
-      <div class="answer-dialog__panel">
-        <button
-          class="answer-dialog__close"
-          type="button"
-          aria-label="Close answer explanation"
-          @click="$emit('close')"
-        >
-          ✕
-        </button>
-        <p class="eyebrow">Answer Review</p>
-        <h2 class="answer-dialog__title">{{ title }}</h2>
-        <DesktopContentProse :html="html" class="answer-dialog__content" />
-        <button class="button-primary answer-dialog__button" type="button" @click="$emit('close')">
-          Close
-        </button>
+    <transition name="answer-dialog-fade" appear>
+      <div v-if="open" class="answer-dialog" @click.self="$emit('close')">
+        <div class="answer-dialog__panel">
+          <button
+            class="answer-dialog__close"
+            type="button"
+            aria-label="Close answer explanation"
+            @click="$emit('close')"
+          >
+            ✕
+          </button>
+          <p class="eyebrow">Answer Review</p>
+          <h2 class="answer-dialog__title">{{ title }}</h2>
+          <DesktopContentProse :html="html" class="answer-dialog__content" />
+          <button
+            class="button-primary answer-dialog__button"
+            type="button"
+            @click="$emit('close')"
+          >
+            Close
+          </button>
+        </div>
       </div>
-    </div>
+    </transition>
   </teleport>
 </template>
 

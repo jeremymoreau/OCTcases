@@ -677,9 +677,48 @@ html[data-theme='dark'] .desktop-footer__logo--dark {
   text-align: center;
 }
 
+.status-message--feedback {
+  position: relative;
+  justify-content: flex-start;
+  gap: 10px;
+  min-height: 2.5rem;
+  padding: 0 16px 0 10px;
+  border: 1px solid transparent;
+  box-shadow: 0 14px 32px rgba(10, 17, 24, 0.12);
+  backdrop-filter: blur(18px);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  animation: feedback-toast-in 260ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  transform-origin: left center;
+}
+
+.status-message--feedback::before {
+  content: '';
+  display: grid;
+  place-items: center;
+  width: 1.55rem;
+  height: 1.55rem;
+  border-radius: 999px;
+  flex: 0 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 0.82rem 0.82rem;
+}
+
 .status-message--success {
   background: var(--success-soft);
   color: var(--accent-strong);
+}
+
+.status-message--feedback.status-message--success {
+  background: linear-gradient(135deg, rgba(62, 199, 148, 0.18), rgba(70, 199, 188, 0.1));
+  border-color: rgba(62, 199, 148, 0.2);
+}
+
+.status-message--feedback.status-message--success::before {
+  background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='2.2' d='M3.5 8.5 6.5 11.5 12.5 4.5'/%3E%3C/svg%3E");
+  box-shadow: 0 10px 20px rgba(14, 139, 131, 0.2);
 }
 
 .status-message--danger {
@@ -687,8 +726,27 @@ html[data-theme='dark'] .desktop-footer__logo--dark {
   color: #b55454;
 }
 
+.status-message--feedback.status-message--danger {
+  background: linear-gradient(135deg, rgba(177, 61, 68, 0.14), rgba(177, 61, 68, 0.08));
+  border-color: rgba(177, 61, 68, 0.2);
+}
+
+.status-message--feedback.status-message--danger::before {
+  background: linear-gradient(135deg, #d16b70, #b55454);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='white' d='M7 3h2v6H7zm0 7h2v2H7z'/%3E%3C/svg%3E");
+  box-shadow: 0 10px 20px rgba(177, 61, 68, 0.2);
+}
+
 html[data-theme='dark'] .status-message--danger {
   color: #ffaaa7;
+}
+
+html[data-theme='dark'] .status-message--feedback {
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.22);
+}
+
+html[data-theme='dark'] .status-message--feedback.status-message--danger {
+  border-color: rgba(255, 170, 167, 0.14);
 }
 
 .image-frame {
@@ -744,6 +802,16 @@ html[data-theme='dark'] .status-message--danger {
   box-shadow: var(--shadow-soft);
 }
 
+.answer-dialog__panel::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto;
+  height: 120px;
+  border-radius: inherit;
+  background: linear-gradient(180deg, rgba(70, 199, 188, 0.08), transparent 82%);
+  pointer-events: none;
+}
+
 .answer-dialog__close {
   position: absolute;
   top: 16px;
@@ -765,6 +833,54 @@ html[data-theme='dark'] .status-message--danger {
 
 .answer-dialog__button {
   margin-top: 18px;
+}
+
+.answer-dialog-fade-enter-active,
+.answer-dialog-fade-leave-active {
+  transition: opacity 220ms ease;
+}
+
+.answer-dialog-fade-enter-active .answer-dialog__panel,
+.answer-dialog-fade-leave-active .answer-dialog__panel {
+  transition: transform 260ms cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 220ms ease, box-shadow 260ms ease;
+}
+
+.answer-dialog-fade-enter-from,
+.answer-dialog-fade-leave-to {
+  opacity: 0;
+}
+
+.answer-dialog-fade-enter-from .answer-dialog__panel,
+.answer-dialog-fade-leave-to .answer-dialog__panel {
+  opacity: 0;
+  transform: translateY(14px) scale(0.985);
+  box-shadow: 0 12px 34px rgba(10, 17, 24, 0.12);
+}
+
+@keyframes feedback-toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px) scale(0.985);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .status-message--feedback {
+    animation: none;
+  }
+
+  .answer-dialog-fade-enter-active,
+  .answer-dialog-fade-leave-active,
+  .answer-dialog-fade-enter-active .answer-dialog__panel,
+  .answer-dialog-fade-leave-active .answer-dialog__panel {
+    transition: none;
+  }
 }
 
 .pill-row,

@@ -272,9 +272,6 @@ export default defineComponent({
           name: "CasePage",
           params: { caseID: nextCase.caseID },
         });
-        // scroll to top of page after push
-        const pageContent = this.$el.querySelector("#content");
-        pageContent.scrollToTop();
       } else {
         let toastMessage;
         let toastColour;

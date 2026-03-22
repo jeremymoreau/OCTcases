@@ -1,6 +1,30 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
 import { createAdaptiveView } from '../utils/createAdaptiveView';
 
+const ACTIVE_ION_CONTENT_SELECTOR =
+  'ion-router-outlet .ion-page:not(.ion-page-hidden):not(.ion-page-invisible) ion-content';
+
+function syncActiveIonContentScroll(position) {
+  if (typeof window === 'undefined' || typeof document === 'undefined') {
+    return;
+  }
+
+  const top = position?.top ?? 0;
+  const left = position?.left ?? 0;
+
+  window.requestAnimationFrame(() => {
+    window.requestAnimationFrame(() => {
+      const activeContent = document.querySelector(ACTIVE_ION_CONTENT_SELECTOR);
+
+      if (!activeContent || typeof activeContent.scrollToPoint !== 'function') {
+        return;
+      }
+
+      activeContent.scrollToPoint(left, top, 0);
+    });
+  });
+}
+
 const AdaptiveHomePage = createAdaptiveView(
   'AdaptiveHomePage',
   () => import('../views/HomePage.vue'),
@@ -112,6 +136,15 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
+  scrollBehavior(to, from, savedPosition) {
+    if (to.hash) {
+      return { el: to.hash, top: 0 };
+    }
+
+    const position = savedPosition ?? { left: 0, top: 0 };
+    syncActiveIonContentScroll(position);
+    return position;
+  },
 });
 
 export default router;

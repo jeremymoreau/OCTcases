@@ -253,7 +253,6 @@ export default defineComponent({
           caseID: targetCase.caseID,
         },
       });
-      window.scrollTo({ top: 0, behavior: 'smooth' });
     },
     async loadCase() {
       this.loading = true;

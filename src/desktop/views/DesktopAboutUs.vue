@@ -15,7 +15,6 @@
     <template v-else>
       <section v-for="group in aboutData.groups" :key="group.title" class="about-group">
         <div class="content-card__header">
-          <p class="eyebrow">Team Group</p>
           <h2>{{ group.title }}</h2>
         </div>
         <div class="card-grid about-group__grid">
@@ -99,7 +98,7 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.about-group {
+.about-group + .about-group {
   margin-top: 40px;
 }
 

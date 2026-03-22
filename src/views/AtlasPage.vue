@@ -10,11 +10,10 @@
           <ion-card-title class="case-title">
             {{ atlasTitle }}
           </ion-card-title>
+          <p v-if="description" class="atlas-description">
+            {{ description }}
+          </p>
         </ion-card-header>
-
-        <ion-card-content>
-          <!-- <span class="md-text"> {{ description }} </span> -->
-        </ion-card-content>
       </ion-card>
 
       <!-- Question links -->
@@ -94,6 +93,9 @@ export default defineComponent({
     return {
       atlasTitle: null,
       atlas: "",
+      article: "",
+      description: "",
+      mainImage: "",
       linkedCases: null,
       footerText: ""
     };
@@ -116,6 +118,13 @@ export default defineComponent({
       if (this.$route.path.includes('atlas')) {
       const slug = this.$route.params.slug;
       if (slug != null) {
+        this.atlasTitle = null;
+        this.article = "";
+        this.description = "";
+        this.mainImage = "";
+        this.linkedCases = null;
+        this.footerText = "";
+
         // add target="_blank" and rel="noopener" to links in markdown
         const renderer = new marked.Renderer();
         const linkRenderer = renderer.link;
@@ -162,5 +171,12 @@ export default defineComponent({
 .atlas-link-btn {
   text-transform: capitalize;
   margin-bottom: 10px;
+}
+
+.atlas-description {
+  margin: 0.5rem 0 0;
+  font-size: 0.98rem;
+  line-height: 1.45;
+  color: rgba(var(--ion-text-color-rgb), 0.82);
 }
 </style>

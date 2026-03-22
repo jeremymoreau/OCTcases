@@ -14,7 +14,7 @@
         </ion-button>
       </ion-buttons>
 
-      <ion-title class="app-title"><div class="header-box" @click="gotoPage('Home')"><img alt="OCTcases logo" class="header-logo"/> <span class="header-text">OCTcases</span></div></ion-title>
+      <ion-title class="app-title"><div class="header-box" @click="gotoPage('Home')"><img :src="headerLogoSrc" alt="OCTcases logo" class="header-logo"/> <span class="header-text">OCTcases</span></div></ion-title>
     </ion-toolbar>
   </ion-header>
 </template>
@@ -22,8 +22,9 @@
 <script lang='js'>
 import { IonIcon, IonToolbar, IonTitle, menuController, IonButtons, IonButton, IonMenuButton, IonHeader } from "@ionic/vue";
 
-import { helpCircle, moon, moonOutline } from "ionicons/icons";
-import { defineComponent } from "vue";
+import { moon, moonOutline } from "ionicons/icons";
+import { computed, defineComponent } from "vue";
+import { useTheme } from "../composables/useTheme";
 
 export default defineComponent({
   name: "PageHeader",
@@ -37,51 +38,17 @@ export default defineComponent({
     IonHeader
   },
   setup() {
+    const { isDark, toggleTheme } = useTheme();
+
     return {
-      helpCircle,
-      moon,
-      moonOutline,
+      darkModeIcon: computed(() => (isDark.value ? moon : moonOutline)),
+      headerLogoSrc: computed(() =>
+        isDark.value
+          ? "/assets/img/header-logo-dark.svg"
+          : "/assets/img/header-logo-light.svg"
+      ),
+      toggleTheme,
     };
-  },
-   data() {
-    return {
-      darkModeIcon: moonOutline
-    };
-  },
-  watch: {
-    '$route': function() {
-      // console.log(this.$route)
-      // Set 'dark' class and darkModeIcon = true if darkMode === 'on'
-      const darkMode = localStorage.getItem("darkMode");
-      // console.log(darkMode);
-      // let darkModeIcon = false
-      if (darkMode === "on") {
-        // console.log('dark mode')
-        // document.body.classList.add('dark');
-        this.darkModeIcon = moon;
-        // console.log(this.darkModeIcon);
-      } else {
-        // console.log('light mode')
-        this.darkModeIcon = moonOutline;
-        // document.body.classList.remove('dark');
-      }
-    },
-  },
-  mounted() {
-    // Set 'dark' class and darkModeIcon = true if darkMode === 'on'
-      const darkMode = localStorage.getItem("darkMode");
-      // console.log(darkMode);
-      // let darkModeIcon = false
-      if (darkMode === "on") {
-        // console.log('dark mode')
-        document.body.classList.add('dark');
-        this.darkModeIcon = moon;
-        // console.log(this.darkModeIcon);
-      } else {
-        // console.log('light mode')
-        this.darkModeIcon = moonOutline;
-        document.body.classList.remove('dark');
-      }
   },
   methods: {
     gotoPage(pageName) {
@@ -93,16 +60,8 @@ export default defineComponent({
       menuController.enable(true, "side-menu");
       menuController.open("side-menu");
     },
-    // toggle dark class and set darkMode = 'on' or 'off' in localstorage
     toggleDarkMode() {
-      document.body.classList.toggle("dark");
-      if (localStorage.getItem("darkMode") === "on") {
-        localStorage.setItem("darkMode", "off");
-        this.darkModeIcon = moonOutline;
-      } else {
-        localStorage.setItem("darkMode", "on");
-        this.darkModeIcon = moon;
-      }
+      this.toggleTheme();
     },
   },
 });
@@ -114,14 +73,10 @@ export default defineComponent({
   align-items: center;
 }
 .header-logo {
-  content: url("https://app.octcases.com/assets/img/header-logo-light.svg");
   display: block;
   height: 25px;
   padding-right: 3px;
   margin-left: auto;
-}
-.dark .header-logo {
-  content: url("https://app.octcases.com/assets/img/header-logo-dark.svg");
 }
 .header-text {
   margin-right: auto;

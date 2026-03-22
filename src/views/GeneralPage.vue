@@ -74,7 +74,6 @@ export default defineComponent({
         };
 
         const pagePath = ["/content/pages/", slug, ".json"].join("");
-        console.log(pagePath)
         const pageData = getJSON(pagePath);
         this.pageTitle = pageData.title;
         this.pageContent = marked(pageData.pageContent, { renderer });

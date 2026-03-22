@@ -90,7 +90,6 @@ export default defineComponent({
       // Only fetch json if url includes 'pages'
       if (this.$route.path.includes('about-us')) {
         const pagePath = "/content/other/about-us/about-us.json";
-        console.log(pagePath)
         const pageData = getJSON(pagePath);
         this.pageTitle = pageData.title;
         this.pageHeader = marked(pageData.pageHeader);

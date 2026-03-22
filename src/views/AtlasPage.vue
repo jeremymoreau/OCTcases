@@ -125,7 +125,6 @@ export default defineComponent({
         };
 
         const atlasPath = ["/content/atlas/", slug, ".json"].join("");
-        console.log(atlasPath)
         const atlasData = getJSON(atlasPath);
         this.description = atlasData.description;
         this.atlasTitle = atlasData.title;

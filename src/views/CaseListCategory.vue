@@ -76,29 +76,22 @@ export default defineComponent({
       // Access property using a variable
       const storageKey = 'completedCasesLog'
       let completedCasesLog = {}
-      if (typeof localStorage !== 'undefined') {
-        // check if storageKey exists, create if not
-        if (localStorage.getItem(storageKey) === null) {
-          console.log('no saved data')
-          completedCasesLog[caseID] = false
-          const newJsonString = JSON.stringify(completedCasesLog)
-          localStorage.setItem(storageKey, newJsonString)
-          this.completedCasesLog = completedCasesLog
-          
-        } else {
-          const storedJsonString = localStorage.getItem(storageKey)
-          completedCasesLog = JSON.parse(storedJsonString)
-        }
-
-        // toggle value of key
-        return completedCasesLog[caseID]
-        
-        
-      } else {
-          console.log('localStorage is not supported in this browser.');
+      if (typeof localStorage === 'undefined') {
+        return false;
       }
 
-      return caseID
+      // check if storageKey exists, create if not
+      if (localStorage.getItem(storageKey) === null) {
+        completedCasesLog[caseID] = false
+        const newJsonString = JSON.stringify(completedCasesLog)
+        localStorage.setItem(storageKey, newJsonString)
+        this.completedCasesLog = completedCasesLog
+      } else {
+        const storedJsonString = localStorage.getItem(storageKey)
+        completedCasesLog = JSON.parse(storedJsonString)
+      }
+
+      return completedCasesLog[caseID]
     },
     toggleCaseDone(caseID) {
       const storageKey = 'completedCasesLog'
@@ -127,7 +120,7 @@ export default defineComponent({
         
         
       } else {
-          console.log('localStorage is not supported in this browser.');
+          return;
       }
 
     },

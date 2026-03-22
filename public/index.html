@@ -5,16 +5,43 @@
     <title>OCTcases</title>
 
     <base href="/" />
-    <base target="_blank">
 
     <meta name="description" content="OCTcases is a high-yield, free resource created for medical students, optometry students, residents, and eye care professionals to hone their skills in interpreting optical coherence tomography (OCT) scans.">
     <meta name="color-scheme" content="light dark" />
     <meta
       name="viewport"
-      content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+      content="viewport-fit=cover, width=device-width, initial-scale=1.0"
     />
     <meta name="format-detection" content="telephone=no" />
     <meta name="msapplication-tap-highlight" content="no" />
+    <script>
+      (function () {
+        var themeKey = 'octcases-theme';
+        var legacyThemeKey = 'darkMode';
+        var storedTheme = localStorage.getItem(themeKey);
+        if (storedTheme !== 'light' && storedTheme !== 'dark') {
+          var legacyTheme = localStorage.getItem(legacyThemeKey);
+          storedTheme = legacyTheme === 'on' ? 'dark' : legacyTheme === 'off' ? 'light' : null;
+        }
+
+        var resolvedTheme = storedTheme;
+        if (resolvedTheme !== 'light' && resolvedTheme !== 'dark') {
+          resolvedTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+
+        var useDesktopUi =
+          window.matchMedia('(min-width: 1100px)').matches &&
+          (window.matchMedia('(hover: hover)').matches ||
+            window.matchMedia('(pointer: fine)').matches);
+
+        document.documentElement.dataset.theme = resolvedTheme;
+        document.documentElement.dataset.ui = useDesktopUi ? 'desktop' : 'mobile';
+        document.documentElement.classList.toggle('dark', resolvedTheme === 'dark');
+        document.documentElement.style.colorScheme = resolvedTheme;
+        window.__OCTCASES_THEME__ = resolvedTheme;
+        window.__OCTCASES_UI__ = useDesktopUi ? 'desktop' : 'mobile';
+      })();
+    </script>
   </head>
 
   <body>
@@ -23,4 +50,3 @@
   </body>
 
 </html>
-

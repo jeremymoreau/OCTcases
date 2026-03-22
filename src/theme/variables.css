@@ -13,20 +13,9 @@ ion-text {
 ion-card-title {
   font-size: 1.2rem;
 }
-ion-button {
+ ion-button {
   text-transform: none;
  }
- #octcases-logo {
-  content: url("https://app.octcases.com/assets/img/octcases-logo-light.svg");
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  padding-bottom: 1rem;
- }
- .dark #octcases-logo {
-  content: url("https://app.octcases.com/assets/img/octcases-logo-dark.svg");
-}
 
  /* Markdown text style */
  .md-text {

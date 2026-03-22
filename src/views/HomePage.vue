@@ -6,7 +6,7 @@
       <ion-card>
         <ion-card-content>
           <ion-row>
-            <img alt="OCTcases logo" id="octcases-logo" />
+            <img :src="logoSrc" alt="OCTcases logo" id="octcases-logo" />
           </ion-row>
           <ion-text class="md-text">
             <p>
@@ -111,12 +111,13 @@
 </template>
 
 <script lang='js'>
-import { IonCard, IonCardContent, IonPage, alertController, IonContent, IonText, IonRow, IonCol, IonGrid, IonCardHeader, IonCardTitle, IonButton, IonIcon } from "@ionic/vue";
+import { IonCard, IonCardContent, IonPage, IonContent, IonText, IonRow, IonCol, IonGrid, IonCardHeader, IonCardTitle, IonButton, IonIcon } from "@ionic/vue";
 import {
   downloadOutline,
 } from "ionicons/icons";
-import { defineComponent } from "vue";
+import { computed, defineComponent } from "vue";
 import PageHeader from "./PageHeader.vue";
+import { useTheme } from "../composables/useTheme";
 
 export default defineComponent({
   name: "HomePage",
@@ -136,43 +137,16 @@ export default defineComponent({
     PageHeader,
   },
   setup() {
+    const { isDark } = useTheme();
+
     return {
-      downloadOutline
+      downloadOutline,
+      logoSrc: computed(() =>
+        isDark.value
+          ? "/assets/img/octcases-logo-dark.svg"
+          : "/assets/img/octcases-logo-light.svg"
+      ),
     };
-  },
-
-  mounted() {
-    // Notify large screens
-    if (window.matchMedia("(min-width: 1000px)").matches) {
-      this.presentAlertConfirm()
-    }
-  },
-
-  methods: {
-    // alert for large screens
-    async presentAlertConfirm() {
-      const alert = await alertController
-        .create({
-          header: 'This app is optimised for smartphones',
-          message: 'Would you like to be redirected to our desktop website instead?',
-          buttons: [
-            {
-              text: 'No',
-              cssClass: 'secondary',
-              handler: () => {
-                console.log("no")
-              },
-            },
-            {
-              text: 'Yes',
-              handler: () => {
-                window.location.replace("https://www.octcases.com/")
-              },
-            },
-          ],
-        });
-      return alert.present();
-    }
   },
 });
 </script>
@@ -249,16 +223,12 @@ ion-button {
   text-transform: none;
  }
  #octcases-logo {
-  content: url("https://app.octcases.com/assets/img/octcases-logo-light.svg");
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 90%;
   padding-bottom: 1rem;
  }
- .dark #octcases-logo {
-  content: url("https://app.octcases.com/assets/img/octcases-logo-dark.svg");
-}
 
  /* Markdown text style */
  .md-text {

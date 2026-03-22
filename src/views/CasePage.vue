@@ -257,7 +257,7 @@ export default defineComponent({
         
         
       } else {
-          console.log('localStorage is not supported in this browser.');
+          return;
       }
 
       let nextCase;
@@ -267,9 +267,7 @@ export default defineComponent({
         nextCase = categCases[currentCaseIndex - 1];
       }
 
-      // console.log(nextCase);
       if (typeof nextCase !== "undefined") {
-        // console.log(nextCase.caseID);
         this.$router.push({
           name: "CasePage",
           params: { caseID: nextCase.caseID },
@@ -278,8 +276,6 @@ export default defineComponent({
         const pageContent = this.$el.querySelector("#content");
         pageContent.scrollToTop();
       } else {
-        // console.log("no next case");
-
         let toastMessage;
         let toastColour;
         if (previousOrNext === "next") {
@@ -297,8 +293,6 @@ export default defineComponent({
         });
         return toast.present();
       }
-      // console.log(currentCaseIndex)
-      // console.log(categCases[currentCaseIndex + 2]);
     },
   },
   filters: {

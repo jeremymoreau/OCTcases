@@ -121,7 +121,6 @@ export default defineComponent({
           };
 
           const articlePath = ["/content/articles/", slug, ".json"].join("");
-          console.log(articlePath)
           const articleData = await this.getJSON(articlePath);
           this.articleTitle = articleData.title;
           this.article = marked(articleData.article, { renderer });

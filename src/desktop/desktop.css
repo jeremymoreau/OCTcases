@@ -82,8 +82,8 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-body::before,
-body::after {
+html[data-ui='desktop'] body::before,
+html[data-ui='desktop'] body::after {
   content: '';
   position: fixed;
   inset: auto;
@@ -93,7 +93,7 @@ body::after {
   z-index: 0;
 }
 
-body::before {
+html[data-ui='desktop'] body::before {
   top: -140px;
   left: -60px;
   width: 420px;
@@ -101,7 +101,7 @@ body::before {
   background: rgba(14, 139, 131, 0.16);
 }
 
-body::after {
+html[data-ui='desktop'] body::after {
   right: -90px;
   bottom: 10%;
   width: 360px;

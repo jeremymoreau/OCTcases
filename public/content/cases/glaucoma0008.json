@@ -1,0 +1,97 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Superotemporal RNFL defects"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Superonasal RNFL defects"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Inferonasal RNFL defects"
+        },
+        {
+          "correct": true,
+          "answerText": "D. Inferotemporal RNFL defects",
+          "explanation": "There is RNFL loss intertemporally in both eyes. This region is known as the ‘macular vulnerability zone’ (MVZ). The MVZ carries a dense bundle of fibers from the inferior macula, which are crucial for central and paracentral vision (1). The inferotemporal RNFL loss corresponds to inferior/inferotemporal GCC loss and horizontal raphe signs on the GCC (1). The MVZ carries a concentrated bundle of central retinal ganglion cell axons and is particularly susceptible to early glaucomatous injury (see photo below).\n\nIn glaucoma, asymmetry between eyes on RNFL and GCC analysis is common and often used diagnostically. Symmetry is less typical and should prompt consideration of alternative explanations, such as congenital small nerves, high myopia, nutritional/toxic or hereditary optic neuropathies, or compressive lesions. Nevertheless, as this case demonstrates, symmetric RNFL/GCC loss can occur in glaucoma, particularly when disease affects the macular vulnerability zone in both eyes.\n\n![](/content/media/glaucoma_8_3.avif)\n\nPhoto credit: Donald Hood, Improving our understanding, and detection, of glaucomatous damage: An approach based upon optical coherence tomography (OCT)."
+        }
+      ],
+      "title": "Question 1",
+      "text": "What are the most striking abnormalities on OCT ONH/RNFL?"
+    },
+    {
+      "title": "Question 2",
+      "text": "What visual field defect would you expect to see in this patient?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Inferior visual field defect"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Superior arcuate defect",
+          "explanation": "The patient has inferotemporal RNFL loss. Visual field defects follow an inverted retinal projection, so a superior arcuate defect would likely correspond to damage in the macular vulnerability zone. Because this area is critical for central vision, damage here can rapidly advance the disease stage to \"advanced\" according to functional grading systems like Hodapp-Parrish, where defects within 10 degrees of fixation are concerned advanced in terms of staging.\n\n​\n\n24-2c shows superior arcuate defects with some early paracentral depressed points.\n\n![](/content/media/glaucoma_8_4.avif)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Binasal visual field loss"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Nasal step defect"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What would be your next steps if the patient had the OCT RNFL/GCC findings described above and a normal, reliable 24-2 Humphrey visual field tes?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "​A. Repeat testing including 24-2 HVF in 6 months"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Order 10-2 HVF testing",
+          "explanation": "Macular damage can be missed on a 24-2 visual field test due to the relatively sparse sampling of the central field. The 24-2 test uses points spaced 6° apart, beginning approximately ±3° from fixation, which results in only 4 test points falling within the central ±8° macular region. In contrast, the 10-2 visual field test uses denser 2° spacing starting at ±1°, providing 68 central points and offering far greater sensitivity for detecting early macular involvement. Since the macula encompasses the region most impacted by the Macular Vulnerability Zone (MVZ), a borderline-normal 24-2 should prompt further evaluation with a 10-2 test if OCT shows inferior temporal RNFL or GCC thinning (see photo; 2).\n\n![](/content/media/glaucoma_8_5.avif)\n\nScreenshot from Module 1: Background Information and the Circumpapillary cpRNFL Report. Hood Visual Science Lab (https://hoodvisualscience.psychology.columbia.edu/content/module-1-background-information-and-circumpapillary-cprnfl-report)\n\nIn fact, the original visual field in our patient above is an HVF 24-2C, which adds 10 extra test points in the central 10 degrees compared to the HVF 24-2. If we erase those points as shown in the figure below and only include the ones that are tested by the regular 24-2, it would be more difficult to identify whether there is a real defect, especially in the right eye.\n\n![](/content/media/glaucoma_8_6.avif)\n\nClinical Pearl: If 24-2 HVF is borderline-normal but structural OCT shows MVZ damage, perform a 10-2 field."
+        },
+        {
+          "correct": false,
+          "answerText": "​C. No further testing at this time"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "Why is it important to use multiple testing modalities (RNFL OCT, GCC OCT, and visual field testing) when assessing glaucoma?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Correlating structural and functional findings increases diagnostic confidence"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Each modality evaluates different anatomical layers and aspects of glaucomatous damage"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Combining modalities helps detect and rule out artifacts or false positives"
+        },
+        {
+          "correct": true,
+          "answerText": "D. All of the above"
+        }
+      ]
+    }
+  ],
+  "caseID": "glaucoma0008",
+  "category": "glaucoma",
+  "title": "Case 8",
+  "description": "68M referred for glaucoma screening",
+  "patientPresentation": "Patient Presentation: A 68-year-old male was referred by his optometrist with concern for glaucoma. Visual acuity was 20/20 OU. IOP measured 15 mmHg OD and 16 mmHg OS, with one glaucoma medication class in each eye. His angles were open bilaterally on gonioscopy.\n\nOCT ONH/RNFL and ganglion cell complex (GCC) were performed and are shown below:\n\n![](/content/media/glaucoma_8_1.avif)\n\n![](/content/media/glaucoma_8_2.avif)",
+  "footer": "### References:​\n\n1. Hood DC. Improving our understanding, and detection, of glaucomatous damage: An approach based upon optical coherence tomography (OCT). Prog Retin Eye Res. 2017;57:46-75. doi:10.1016/j.preteyeres.2016.12.002\n\n2. Hood Visual Science Lab. “Module 1: Background Information and the Circumpapillary (cpRNFL) Report.” Jul 21, 2021. Accessed December 5 2025 from: https://hoodvisualscience.psychology.columbia.edu/content/module-1-background-information-and-circumpapillary-cprnfl-report\n\n### ​Learning Objectives:​\n\n1. Macular Vulnerability Zone (MVZ): This inferior-temporal zone is highly susceptible in glaucoma; damage here produces paracentral/central field loss and early GCC loss.\n\n2. Multimodal concordance: True glaucoma evaluations require structural-functional correlation (RNFL thinning + ganglion cell loss + matching visual field defect). This is essential for accurate diagnosis and confirmation.\n\n3. Central visual field defects automatically place patients into advanced glaucoma per the Hodapp–Parrish-Anderson classification.\n\n4. HVF 10-2 and 24-2c modules can detect macular damage through additionally tested central points which may be missed on standard 24-2 testing."
+}

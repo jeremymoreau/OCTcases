@@ -37,6 +37,14 @@ export default defineComponent({
         this.viewer = null;
       }
     },
+    applyInitialZoom() {
+      if (!this.viewer?.viewerData?.width || !this.viewer?.imageData?.naturalWidth) {
+        return;
+      }
+
+      const targetRatio = (this.viewer.viewerData.width * 0.5) / this.viewer.imageData.naturalWidth;
+      this.viewer.zoomTo(targetRatio);
+    },
     async refreshEnhancements() {
       await nextTick();
       this.destroyViewer();
@@ -55,9 +63,7 @@ export default defineComponent({
         tooltip: false,
         rotatable: false,
         viewed: () => {
-          if (this.viewer) {
-            this.viewer.zoomTo(1);
-          }
+          this.applyInitialZoom();
         },
       });
     },

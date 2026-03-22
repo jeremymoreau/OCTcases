@@ -14,26 +14,9 @@
     <div v-if="loading" class="glass-card loading-card">Loading article...</div>
     <div v-else-if="errorMessage" class="glass-card loading-card">{{ errorMessage }}</div>
     <template v-else>
-      <div class="stack-grid">
-        <article class="glass-card content-card">
-          <DesktopContentProse :html="articleHtml" />
-        </article>
-
-        <aside class="glass-card sidebar-card">
-          <div class="sidebar-card__header">
-            <p class="eyebrow">Study Note</p>
-            <h2>Use the questions to check recall</h2>
-          </div>
-          <p>
-            The desktop experience keeps the original quiz mechanics, but presents them in a more
-            spacious reading layout for longer study sessions.
-          </p>
-          <div class="pill-row">
-            <span class="meta-pill">{{ questionCount }} questions</span>
-            <span class="meta-pill">Static CMS content</span>
-          </div>
-        </aside>
-      </div>
+      <article class="glass-card content-card">
+        <DesktopContentProse :html="articleHtml" />
+      </article>
 
       <section v-if="questionCount" class="question-section">
         <div class="content-card__header">

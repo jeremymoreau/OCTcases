@@ -310,6 +310,7 @@ html[data-theme='dark'] .desktop-footer__logo--dark {
 .page-shell__actions {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 12px;
 }
 
@@ -466,15 +467,22 @@ html[data-theme='dark'] .desktop-footer__logo--dark {
 }
 
 .card-link__badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: fit-content;
-  padding: 7px 10px;
+  min-height: 2.25rem;
+  padding: 0 12px;
   border-radius: 999px;
   color: var(--accent);
   background: var(--accent-soft);
-  font-size: 0.78rem;
+  font-size: 0.76rem;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  text-align: center;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .card-link h2,
@@ -623,9 +631,15 @@ html[data-theme='dark'] .desktop-footer__logo--dark {
 }
 
 .status-message {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: fit-content;
-  padding: 8px 10px;
+  min-height: 2.125rem;
+  padding: 0 12px;
   border-radius: 999px;
+  line-height: 1.1;
+  text-align: center;
 }
 
 .status-message--success {
@@ -715,16 +729,25 @@ html[data-theme='dark'] .status-message--danger {
 .inline-actions {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 10px;
 }
 
 .meta-pill {
-  padding: 8px 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.35rem;
+  padding: 0 14px;
   border-radius: 999px;
   background: var(--surface-strong);
   border: 1px solid var(--border-color);
   color: var(--text-secondary);
   font-size: 0.88rem;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
 }
 
 @keyframes rise-in {

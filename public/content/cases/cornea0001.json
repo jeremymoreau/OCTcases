@@ -1,0 +1,172 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Focal corneal thinning"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Microcystic edema"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Hyper-reflective stromal crystals",
+          "explanation": "The AS-OCT scan of the cornea demonstrates hyper-reflective punctate/linear deposits throughout the corneal stroma (yellow arrows), suggestive of crystal deposition.\n\n![](/content/media/699564_6af9faccf52b4815a94f322b4f492cd5~mv2.avif)"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Descemet membrane detachment"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What abnormal finding is demonstrated in the AS-OCT image above?"
+    },
+    {
+      "title": "Question 2",
+      "text": "Based on the slit lamp photograph and AS-OCT imaging, what is the most likely diagnosis?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Bietti's crystalline dystrophy"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Cystinosis",
+          "explanation": "Cystinosis is a rare lysosomal storage disease in which cystine accumulates in organs and tissues throughout the body. AS-OCT in cystinosis shows innumerable hyper-reflective, rod- and needle-like deposits distributed throughout the corneal stroma, corresponding to microscopic cystine crystals (1). This matches the clinical findings seen on slit lamp examination and helps confirm the diagnosis of ocular cystinosis. The crystals accumulate predominantly in the anterior stroma and can cause dysphotopsia (artifacts of light) from scattering of incoming light."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Corneal foreign body"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Epithelial basement membrane dystrophy"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "In addition to corneal findings, how else can ocular cystinosis present in the eye?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Choroidal neovascularization"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Pigmentary retinopathy and crystals in other ocular tissues",
+          "explanation": "Ocular cystinosis may involve the conjunctiva, iris, ciliary body, lens, retina and optic nerve, each potentially showing crystal deposits (2). Pigmentary retinopathy and optic atrophy may occur in advanced cases of ocular cystinosis."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Retinal artery macroaneurysm"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Uveitis"
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "text": "Which of the following is NOT typically considered in the differential diagnosis for corneal stromal crystals?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Schnyder corneal dystrophy"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Band keratopathy",
+          "explanation": "Band keratopathy is due to calcium deposition in Bowman’s and superficial stroma, not crystals; the others are classic crystalline keratopathies (3)."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Bietti crystalline dystrophy"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Paraproteinemic keratopathy"
+        }
+      ]
+    },
+    {
+      "text": "Ocular findings of cystinosis are noted in a 30-year-old woman with no history of renal disease and normal renal function. Which form of cystinosis does she most likely have?",
+      "title": "Question 5",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Infantile nephropathic cytinosis"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Juvenile (intermediate) cystinosis"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Adult/ocular cystinosis",
+          "explanation": "The clinical presentation described is most consistent with adult/ocular cystinosis. This form of the disorder is characterized by isolated ocular involvement, without the systemic renal impairment that defines the nephropathic forms (infantile and juvenile). With Fanconi syndrome, there are no corneal crystals. The patient's age (30 years old) and the absence of renal disease or Fanconi syndrome are classic for this benign, non-nephropathic variant (4)."
+        },
+        {
+          "correct": false,
+          "explanation": "",
+          "answerText": "D. Late-onset Fanconi syndrome"
+        }
+      ]
+    },
+    {
+      "title": "Question 6",
+      "text": "Compared with older adults, where does crystal deposition occur in children?",
+      "answers": [
+        {
+          "correct": true,
+          "answerText": "A. Anterior corneal stroma",
+          "explanation": "In children with cystinosis, crystal deposition is most prominent in the anterior corneal stroma (5). This pattern contrasts with older adults, where crystals tend to accumulate more in the posterior stroma due to progressive deposition over time. The anterior localization in children is observable both on slit-lamp examination and anterior segment OCT, where hyperreflective deposits are typically seen closer to the corneal surface in younger patients. Over the years, as new corneal lamellae form and existing ones move posteriorly, crystals are redistributed toward the posterior stroma."
+        },
+        {
+          "correct": false,
+          "answerText": "B. Central corneal stroma"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Posterior corneal stroma"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Corneal endothelium"
+        }
+      ]
+    },
+    {
+      "title": "Question 7",
+      "text": "What is the most appropriate topical therapy for this patient?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Hypertonic saline"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Topical corticosteroids"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Cysteamine drops",
+          "explanation": "Topical cysteamine is the most effective and specific therapy to dissolve and prevent cystine crystal buildup in the cornea; oral cysteamine helps systemic/retinal control (6)."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Artificial tears"
+        }
+      ]
+    }
+  ],
+  "category": "cornea",
+  "caseID": "cornea0001",
+  "title": "Case 1",
+  "description": "23M referred for photophobia and mild visual disturbances",
+  "patientPresentation": "A 23-year-old male was referred for evaluation of photophobia and mild visual disturbances. He has no significant medical or ocular history. On examination, his best-corrected visual acuity was 20/20 OD and 20/20 OS.\n\nOn slit-lamp examination was conducted, with photos shown below:\n\n![](/content/media/699564_b61ba5f317a14d86bb10027b6441cd49~mv2.avif)\n\n![](/content/media/699564_06370f8b80f245b7bb944b2ef33cfc1b~mv2.avif)\n\nAnterior segment OCT (AS-OCT) of the cornea was performed and is shown below:\n\n![](/content/media/699564_a50a7c39211d47ac8b0ec2f7d0861654~mv2.avif)",
+  "footer": "**References**\n\n1. Keidel L, Elhardt C, Hohenfellner K, et al. Establishing an objective biomarker for corneal cystinosis using a threshold-based Spectral domain optical coherence tomography imaging algorithm. Acta Ophthalmol. 2021;99(2):e189-e195. doi:10.1111/aos.14569\n2. ​Biswas S, Gaviria M, Malheiro L, Marques JP, Giordano V, Liang H. Latest Clinical Approaches in the Ocular Management of Cystinosis: A Review of Current Practice and Opinion from the Ophthalmology Cystinosis Forum. Ophthalmol Ther. 2018;7(2):307-322. doi:10.1007/s40123-018-0146-6\n3. ​Üzüm S, Oflaz AB, Guluzade S et al. Ocular Involvement in Patients with Infantile Nephropathic Cystinosis. Turk J Ophthalmol. 2024;54(4):235-239. doi:10.4274/tjo.galenos.2024.89957\n4. Sharma L, Rout P. Cystinosis \\[Updated 2024 Sep 8]. In: StatPearls \\[Internet]. Treasure Island (FL): StatPearls Publishing; 2025 Jan. \\[cited 2025 Jan 15]. Available from: <https://www.ncbi.nlm.nih.gov/books/NBK608010/>\n5. ​Csorba A, Maka E, Maneschg OA, et al. Examination of corneal deposits in nephropathic cystinosis using in vivo confocal microscopy and anterior segment optical coherence tomography: an age-dependent cross sectional study. BMC Ophthalmol. 2020;20(1):73. doi:10.1186/s12886-020-013\n6. Shams F, Livingstone I, Oladiwura D, Ramaesh K. Treatment of corneal cystine crystal accumulation in patients with cystinosis. Clin Ophthalmol. 2014;8:2077-2084. Published 2014 Oct 10. doi:10.2147/OPTH.S36626\n\n**​Learning Objectives:**\n\n1. Recognize the clinical and imaging features of ocular cystinosis include multicolored refractile stromal deposits on slit-lamp exam and hyperreflective punctate lesions on AS-OCT.\n2. Recognize that topical cysteamine is the treatment for reducing corneal crystal burden, whereas systemic cysteamine is useful for systemic symptoms."
+}

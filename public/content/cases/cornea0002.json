@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Focal corneal thinning"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Microcystic edema",
+          "explanation": "AS-OCT in microcystic edema shows hypo-reflective subepithelial spaces representing intraepithelial bullae. The white arrow highlights a hypo-reflective subepithelial fluid pocket beneath the epithelium. \n\nMicrocystic bullae are a recognized complication of eye surgeries such as cataract surgery or laser-assisted in situ keratoplasty (LASIK). Persistent microcystic changes may suggest underlying corneal decompensation or retained surgical material (1).\n\n![](/content/media/cornea2-2.avif)"
+        },
+        {
+          "correct": false,
+          "answerText": "C. Hyper-reflective stromal crystals"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Descemet membrane detachment"
+        }
+      ],
+      "title": "Question 1",
+      "text": "What abnormal finding is demonstrated in this AS-OCT image?"
+    },
+    {
+      "title": "Question 2",
+      "text": "Which of the following is the most likely cause of microcystic edema in this patient?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Epithelium-basement membrane dystrophy"
+        },
+        {
+          "correct": true,
+          "answerText": "B. Endothelial pump dysfunction",
+          "explanation": "Corneal microcystic edema after eye surgeries such as DMEK or cataract surgery is typically linked to endothelial cell trauma, leading to stromal and epithelial fluid accumulation (2). The most accepted mechanism is that surgical trauma impairs endothelial barrier function, which typically keeps the cornea dehydrated for a clear view. This results in excessive corneal edema, which manifests as microcystic changes or bullae in the epithelial layer."
+        },
+        {
+          "correct": false,
+          "answerText": "C. Meibomian gland dysfunction"
+        },
+        {
+          "correct": false,
+          "answerText": "D. Neurotrophic keratopathy"
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "text": "What is the first-line treatment for symptomatic microcystic corneal edema?",
+      "answers": [
+        {
+          "correct": false,
+          "answerText": "A. Topical corticosteroids"
+        },
+        {
+          "correct": false,
+          "answerText": "B. Topical cyclosporine"
+        },
+        {
+          "correct": true,
+          "answerText": "C. Hypertonic saline drops and/or bandage contact lens",
+          "explanation": "Hypertonic saline is the first-line therapy for mild or transient symptomatic corneal edema. It creates a hypertonic tear film to draw fluid out of the cornea when used for at least 3 months (3)."
+        },
+        {
+          "correct": false,
+          "answerText": "D. Endothelial keratoplasty"
+        }
+      ]
+    }
+  ],
+  "caseID": "cornea0002",
+  "category": "cornea",
+  "title": "Case 2",
+  "description": "58M with Fuchs' dystrophy referred for worsening vision",
+  "patientPresentation": "Patient presentation: A 58-year-old male patient with Fuchs' endothelial dystrophy was referred for evaluation of worsening vision. He underwent Descemet membrane endothelial keratoplasty (DMEK) in the right eye. At post-operative week 1, the patient reported foreign body sensation and “foggy” vision.\n\nAnterior segment OCT (AS-OCT) was performed to evaluate the cornea and is shown below:\n\n![](/content/media/cornea2_1.avif)",
+  "footer": "### References\n\n1. Moshirfar M, Santos JM, Wang Q, et al. A Literature Review of the Incidence, Management, and Prognosis of Corneal Epithelial-Related Complications After Laser-Assisted In Situ Keratomileusis (LASIK), Photorefractive Keratectomy (PRK), and Small Incision Lenticule Extraction (SMILE). Cureus. 2023;15(8):e43926. Published 2023 Aug 22. doi:10.7759/cureus.43926 \n\n2. Yi DH, Dana MR. Corneal edema after cataract surgery: incidence and etiology. Semin Ophthalmol. 2002;17(3-4):110-114. doi:10.1076/soph.17.3.110.14783\n\n3. Sharma N, Singhal D, Nair SP, Sahay P, Sreeshankar SS, Maharana PK. Corneal edema after phacoemulsification. Indian J Ophthalmol. 2017;65(12):1381-1389. doi:10.4103/ijo.IJO_871_17​​\n\n### ​Learning Objectives\n\n1. Understand the imaging features of microcystic corneal edema, which include hypo-reflective subepithelial cysts on AS-OCT.\n\n2. Recognize that transient microcystic corneal edema may occur with surgical trauma.\n\n3. Recognize that topical hypertonic saline drops are used for reducing transient microcystic corneal edema."
+}

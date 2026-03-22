@@ -34,37 +34,15 @@
         </div>
       </article>
 
-      <div class="hero-visual">
-        <div class="glass-card hero-visual__panel hero-visual__panel--primary">
-          <div class="image-frame hero-visual__image">
-            <img
-              src="/assets/img/home-sample-image.png"
-              alt="OCTcases interface preview"
-              decoding="async"
-            />
-          </div>
+      <aside class="glass-card hero-image-card">
+        <div class="image-frame hero-image-card__frame">
+          <img
+            src="/assets/img/home-features2.png"
+            alt="Annotated OCT learning image"
+            decoding="async"
+          />
         </div>
-        <div class="glass-card hero-visual__panel hero-visual__panel--secondary">
-          <div class="image-frame hero-visual__image hero-visual__image--secondary">
-            <img
-              src="/assets/img/home-features2.png"
-              alt="Labelled OCT learning visual"
-              loading="lazy"
-              decoding="async"
-            />
-          </div>
-        </div>
-        <div class="glass-card hero-visual__panel hero-visual__panel--tertiary">
-          <div class="image-frame hero-visual__image hero-visual__image--tertiary">
-            <img
-              src="/assets/img/home-features1.png"
-              alt="Fundus imaging example"
-              loading="lazy"
-              decoding="async"
-            />
-          </div>
-        </div>
-      </div>
+      </aside>
     </section>
 
     <section class="home-section">
@@ -105,31 +83,7 @@
       </div>
     </section>
 
-    <section class="home-section">
-      <div class="content-card__header">
-        <p class="eyebrow">Collaborators</p>
-        <h2>OCTcases is proud to collaborate with</h2>
-      </div>
-      <div class="glass-card collaborator-strip">
-        <a
-          v-for="collaborator in collaborators"
-          :key="collaborator.name"
-          class="collaborator-strip__item"
-          :href="collaborator.href"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            :src="collaborator.logo"
-            :alt="collaborator.name"
-            loading="lazy"
-            decoding="async"
-          />
-        </a>
-      </div>
-    </section>
-
-    <section class="split-grid">
+    <section class="home-section split-grid home-section--paired">
       <article class="glass-card content-card spotlight-card">
         <div class="content-card__header">
           <p class="eyebrow">Case of the Month</p>
@@ -160,7 +114,7 @@
         </div>
       </article>
 
-      <article class="glass-card content-card spotlight-card spotlight-card--warm">
+      <article class="glass-card content-card spotlight-card spotlight-card--warm spotlight-card--full">
         <div class="content-card__header">
           <p class="eyebrow">Submit a Case</p>
           <h2>Contribute a high-yield OCT case</h2>
@@ -187,6 +141,30 @@
           </div>
         </div>
       </article>
+    </section>
+
+    <section class="home-section">
+      <div class="content-card__header">
+        <p class="eyebrow">Collaborators</p>
+        <h2>OCTcases is proud to collaborate with</h2>
+      </div>
+      <div class="glass-card collaborator-strip">
+        <a
+          v-for="collaborator in collaborators"
+          :key="collaborator.name"
+          class="collaborator-strip__item"
+          :href="collaborator.href"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            :src="collaborator.logo"
+            :alt="collaborator.name"
+            loading="lazy"
+            decoding="async"
+          />
+        </a>
+      </div>
     </section>
   </DesktopPageContainer>
 </template>
@@ -231,13 +209,6 @@ export default defineComponent({
           description: 'Test yourself using multiple-choice questions, explanations, and labelled diagrams.',
           cta: 'Open the case library',
           to: '/cases',
-        },
-        {
-          badge: 'Atlas',
-          title: 'OCT Atlas',
-          description: 'Scan a gallery of hallmark appearances for quick study and comparison.',
-          cta: 'Browse the atlas',
-          to: '/atlas',
         },
       ],
       features: [
@@ -327,14 +298,15 @@ export default defineComponent({
 .home-hero {
   display: grid;
   grid-template-columns: 1.08fr 0.92fr;
-  gap: 22px;
-  align-items: start;
+  gap: 24px;
+  align-items: stretch;
 }
 
 .hero-copy {
   display: grid;
   gap: 24px;
-  padding: 28px;
+  min-height: 100%;
+  padding: 30px;
 }
 
 .hero-copy__headline {
@@ -345,45 +317,32 @@ export default defineComponent({
   color: var(--text-secondary);
 }
 
-.hero-visual {
-  display: grid;
-  grid-template-columns: 1.18fr 0.82fr;
-  gap: 18px;
-  align-items: stretch;
-}
-
-.hero-visual__panel {
+.hero-image-card {
   display: flex;
-  overflow: hidden;
-  padding: 14px;
+  min-height: 100%;
+  padding: 18px;
 }
 
-.hero-visual__panel--primary {
-  grid-row: 1 / span 2;
-}
-
-.hero-visual__panel--secondary {
-  min-height: 0;
-}
-
-.hero-visual__panel--tertiary {
-  min-height: 0;
-}
-
-.hero-visual__image {
-  width: 100%;
-  aspect-ratio: 1.04;
-}
-
-.hero-visual__image--secondary,
-.hero-visual__image--tertiary,
+.hero-image-card__frame,
 .feature-card__image,
 .spotlight-card__image {
   aspect-ratio: 1.25;
 }
 
+.hero-image-card__frame {
+  width: 100%;
+  height: 100%;
+  min-height: 360px;
+  aspect-ratio: auto;
+}
+
 .home-section {
-  margin-top: 34px;
+  margin-top: 40px;
+}
+
+.home-section--paired {
+  gap: 24px;
+  align-items: stretch;
 }
 
 .feature-card {
@@ -409,7 +368,7 @@ export default defineComponent({
 .collaborator-strip {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 18px;
+  gap: 20px;
   align-items: center;
   padding: 24px;
 }
@@ -429,6 +388,8 @@ export default defineComponent({
 }
 
 .spotlight-card {
+  display: grid;
+  gap: 24px;
   padding: 24px;
 }
 
@@ -436,31 +397,26 @@ export default defineComponent({
   background: linear-gradient(180deg, var(--surface), var(--warm-soft));
 }
 
+.spotlight-card--full {
+  padding: 30px;
+}
+
 .spotlight-card__grid {
   display: grid;
   grid-template-columns: 0.95fr 1.05fr;
-  gap: 20px;
+  gap: 28px;
   align-items: center;
 }
 
 .spotlight-card__body {
   display: grid;
-  gap: 18px;
+  gap: 20px;
 }
 
 @media (max-width: 1200px) {
   .home-hero,
   .spotlight-card__grid {
     grid-template-columns: 1fr;
-  }
-
-  .hero-visual {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .hero-visual__panel--primary {
-    grid-column: 1 / -1;
-    grid-row: auto;
   }
 
   .collaborator-strip {

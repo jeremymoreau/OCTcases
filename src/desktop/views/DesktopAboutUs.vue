@@ -2,11 +2,10 @@
   <DesktopPageContainer
     eyebrow="About Us"
     :title="aboutData ? aboutData.title : 'Meet the OCTcases team.'"
-    lede="The educators, designers, and contributors behind OCTcases."
+    :lede="pageLede"
   >
     <template #actions>
       <div class="pill-row">
-        <span class="meta-pill">{{ groupCount }} groups</span>
         <span class="meta-pill">{{ memberCount }} listed team members</span>
       </div>
     </template>
@@ -14,22 +13,6 @@
     <div v-if="loading" class="glass-card loading-card">Loading the team page...</div>
     <div v-else-if="errorMessage" class="glass-card loading-card">{{ errorMessage }}</div>
     <template v-else>
-      <div class="stack-grid">
-        <article class="glass-card content-card">
-          <DesktopContentProse :html="headerHtml" />
-        </article>
-        <aside class="glass-card sidebar-card">
-          <div class="sidebar-card__header">
-            <p class="eyebrow">Team</p>
-            <h2>Collaborative by design</h2>
-          </div>
-          <p>
-            OCTcases combines ophthalmology educators, trainees, and design contributors across
-            retina, glaucoma, neuro-ophthalmology, uveitis, paediatrics, and oncology.
-          </p>
-        </aside>
-      </div>
-
       <section v-for="group in aboutData.groups" :key="group.title" class="about-group">
         <div class="content-card__header">
           <p class="eyebrow">Team Group</p>
@@ -66,6 +49,7 @@ import DesktopPageContainer from '../components/DesktopPageContainer.vue';
 import DesktopContentProse from '../components/DesktopContentProse.vue';
 import { getAboutPage } from '../../lib/contentApi';
 import { renderMarkdown } from '../../lib/markdown';
+import { stripMarkdown } from '../../lib/text';
 
 export default defineComponent({
   name: 'DesktopAboutUs',
@@ -81,16 +65,18 @@ export default defineComponent({
     };
   },
   computed: {
-    headerHtml() {
-      return this.aboutData ? renderMarkdown(this.aboutData.pageHeader) : '';
-    },
     footerHtml() {
       return this.aboutData && this.aboutData.pageFooter
         ? renderMarkdown(this.aboutData.pageFooter)
         : '';
     },
-    groupCount() {
-      return this.aboutData ? this.aboutData.groups.length : 0;
+    pageLede() {
+      const intro = 'The educators, designers, and contributors behind OCTcases.';
+      const headerText = this.aboutData?.pageHeader
+        ? stripMarkdown(this.aboutData.pageHeader)
+        : '';
+
+      return headerText ? `${intro} ${headerText}` : intro;
     },
     memberCount() {
       if (!this.aboutData) {
@@ -114,7 +100,7 @@ export default defineComponent({
 
 <style scoped>
 .about-group {
-  margin-top: 32px;
+  margin-top: 40px;
 }
 
 .about-group__grid {

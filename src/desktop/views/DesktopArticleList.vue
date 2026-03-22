@@ -4,10 +4,6 @@
     title="Structured OCT articles for systematic review."
     lede="Work through anatomy, macula interpretation, angiography, RNFL and GCC, and anterior segment OCT using the same CMS-backed content that powers the mobile app."
   >
-    <template #actions>
-      <RouterLink class="button-secondary" to="/home">Back Home</RouterLink>
-    </template>
-
     <div v-if="loading" class="glass-card loading-card">Loading articles...</div>
     <div v-else-if="errorMessage" class="glass-card loading-card">{{ errorMessage }}</div>
     <div v-else class="card-grid card-grid--two">

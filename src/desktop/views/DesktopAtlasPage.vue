@@ -2,7 +2,7 @@
   <DesktopPageContainer
     eyebrow="OCT Atlas"
     :title="atlasData ? atlasData.title : 'Atlas Entry'"
-    :lede="atlasData ? atlasData.description : 'Loading atlas entry.'"
+    lede=""
   >
     <template #actions>
       <div class="inline-actions">
@@ -29,16 +29,8 @@
         <aside class="glass-card sidebar-card">
           <div class="sidebar-card__header">
             <p class="eyebrow">Atlas Entry</p>
-            <h2>Use this as a visual reference anchor</h2>
           </div>
-          <p>
-            Atlas entries are intended for rapid recognition. Open related practice cases when you
-            want to test the same pattern in a clinical vignette.
-          </p>
-          <div class="pill-row">
-            <span class="meta-pill">CMS-backed content</span>
-            <span class="meta-pill">Static image delivery</span>
-          </div>
+          <p>{{ atlasData && atlasData.description ? atlasData.description : 'Loading entry description.' }}</p>
         </aside>
       </div>
 

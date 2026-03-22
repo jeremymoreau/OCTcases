@@ -19,7 +19,6 @@
     <template v-else>
       <div class="pill-row">
         <span class="meta-pill">{{ filteredAtlas.length }} entries</span>
-        <span class="meta-pill">Instant client-side filtering</span>
       </div>
 
       <div v-if="filteredAtlas.length" class="card-grid atlas-grid">

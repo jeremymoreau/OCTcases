@@ -5,7 +5,6 @@
     lede="Every category is still backed by the same case index JSON and case files used in the mobile Ionic app. The desktop version simply gives those collections more structure and room."
   >
     <template #actions>
-      <RouterLink class="button-secondary" to="/home">Back Home</RouterLink>
       <div class="meta-pill" v-if="totalCases">{{ totalCases }} total cases</div>
     </template>
 

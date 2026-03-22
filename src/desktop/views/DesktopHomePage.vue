@@ -93,7 +93,7 @@
         <div class="spotlight-card__grid">
           <div class="image-frame spotlight-card__image">
             <img
-              src="/content/media/retina-54-3.webp"
+              :src="featuredCaseImage"
               alt="Featured OCT case of the month"
               loading="lazy"
               decoding="async"
@@ -106,7 +106,7 @@
             <RouterLink
               v-if="featuredCase"
               class="button-primary"
-              :to="`/cases/${featuredCase.category}/${FEATURED_CASE_ID}`"
+              :to="featuredCaseRoute"
             >
               Open the featured case
             </RouterLink>
@@ -172,10 +172,8 @@
 <script lang="js">
 import { defineComponent } from 'vue';
 import DesktopPageContainer from '../components/DesktopPageContainer.vue';
-import { getArticleIndex, getAtlasIndex, getCase, getCaseIndex } from '../../lib/contentApi';
-import { stripMarkdown, truncateText } from '../../lib/text';
-
-const FEATURED_CASE_ID = 'retina0054';
+import { getArticleIndex, getAtlasIndex, getCaseIndex, getFeaturedCase } from '../../lib/contentApi';
+import { extractMarkdownImageSources, stripMarkdown, truncateText } from '../../lib/text';
 
 export default defineComponent({
   name: 'DesktopHomePage',
@@ -268,8 +266,38 @@ export default defineComponent({
 
       return truncateText(stripMarkdown(this.featuredCase.patientPresentation), 280);
     },
-    FEATURED_CASE_ID() {
-      return FEATURED_CASE_ID;
+    featuredCaseImage() {
+      if (!this.featuredCase) {
+        return '/assets/img/home-features2.png';
+      }
+
+      const patientImages = extractMarkdownImageSources(this.featuredCase.patientPresentation);
+      if (patientImages.length > 0) {
+        return patientImages[patientImages.length - 1];
+      }
+
+      for (const question of this.featuredCase.questions || []) {
+        const questionImages = extractMarkdownImageSources(question.text);
+        if (questionImages.length > 0) {
+          return questionImages[0];
+        }
+
+        for (const answer of question.answers || []) {
+          const answerImages = extractMarkdownImageSources(answer.explanation);
+          if (answerImages.length > 0) {
+            return answerImages[0];
+          }
+        }
+      }
+
+      return '/assets/img/home-features2.png';
+    },
+    featuredCaseRoute() {
+      if (!this.featuredCase) {
+        return '/cases';
+      }
+
+      return `/cases/${this.featuredCase.category}/${this.featuredCase.caseID}`;
     },
   },
   async created() {
@@ -277,7 +305,7 @@ export default defineComponent({
       getArticleIndex(),
       getAtlasIndex(),
       getCaseIndex(),
-      getCase(FEATURED_CASE_ID),
+      getFeaturedCase(),
     ]);
 
     this.articleCount = String(articles.length);

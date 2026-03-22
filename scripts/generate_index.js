@@ -9,6 +9,7 @@ const orderBy = require('natural-orderby')
 module.exports = function generateIndex(ctx) {
     // Generate and Index JSON file of all the cases in /public/content/cases
     const caseIndex = []
+    const featuredCases = []
     fs.readdirSync("./public/content/cases").forEach((file) => {
         if (file.endsWith('json')) {
             const filePath = path.join('./public/content/cases/', file)
@@ -20,6 +21,12 @@ module.exports = function generateIndex(ctx) {
                 "title": jsonData.title,
                 "description": jsonData.description
             }
+
+            if (jsonData.featuredCaseOfMonth) {
+                currentCase.featuredCaseOfMonth = true
+                featuredCases.push(jsonData.caseID)
+            }
+
             caseIndex.push(currentCase)
         }
     })
@@ -32,6 +39,10 @@ module.exports = function generateIndex(ctx) {
 
     const indexFilePath = './public/assets/index/case_index.json'
     fs.writeFileSync(indexFilePath, JSON.stringify(sortedCaseIndex));
+
+    if (featuredCases.length > 1) {
+        console.warn(`[generate_index] Multiple cases are marked as featuredCaseOfMonth: ${featuredCases.join(', ')}. The app will use the first featured case it finds in the index.`)
+    }
 
     // Generate and Index JSON file of all the articles in /public/content/articles
     const articleIndex = []

@@ -22,6 +22,12 @@ export function toTitleCase(value = '') {
   return value.replace(/\b\w/g, (character) => character.toUpperCase());
 }
 
+export function extractMarkdownImageSources(markdown = '') {
+  return [...markdown.matchAll(/!\[[^\]]*]\(([^)\s]+)(?:\s+"[^"]*")?\)/g)].map(
+    (match) => match[1]
+  );
+}
+
 export function formatCaseLabel(caseID = '') {
   const prefix = caseID.replace(/[0-9]/g, '');
   const number = Number(caseID.match(/\d+/)?.[0] || 0);

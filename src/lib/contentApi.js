@@ -1,4 +1,5 @@
 const jsonCache = new Map();
+const DEFAULT_FEATURED_CASE_ID = 'retina0054';
 
 async function fetchJson(path) {
   if (!jsonCache.has(path)) {
@@ -31,6 +32,15 @@ export function getAtlasIndex() {
 
 export function getCase(caseID) {
   return fetchJson(`/content/cases/${caseID}.json`);
+}
+
+export async function getFeaturedCase() {
+  const caseIndex = await getCaseIndex();
+  const featuredEntry =
+    caseIndex.find((entry) => entry.featuredCaseOfMonth) ||
+    caseIndex.find((entry) => entry.caseID === DEFAULT_FEATURED_CASE_ID);
+
+  return featuredEntry ? getCase(featuredEntry.caseID) : null;
 }
 
 export function getArticle(slug) {

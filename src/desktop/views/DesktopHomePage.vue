@@ -2,7 +2,7 @@
   <DesktopPageContainer
     eyebrow="Optical Coherence Tomography Cases"
     title="A modern platform for learning OCT interpretation"
-    lede="OCTcases is a high-yield, free resource created for medical students, optometry students, residents, and eye care professionals to hone their skills in interpreting optical coherence tomography scans."
+    lede="OCTcases is a high-yield, free resource created for medical students, optometry students, ophthalmology residents, and eye care professionals to hone their skills in interpreting optical coherence tomography scans."
   >
     <template #actions>
       <div class="hero-actions">

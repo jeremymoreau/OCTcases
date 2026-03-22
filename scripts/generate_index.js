@@ -96,3 +96,7 @@ module.exports = function generateIndex(ctx) {
     const atlasIndexFilePath = './public/assets/index/atlas_index.json'
     fs.writeFileSync(atlasIndexFilePath, JSON.stringify(sortedAtlasIndex));
 }
+
+if (require.main === module) {
+    module.exports()
+}

@@ -4,7 +4,10 @@
   "private": true,
   "description": "OCTcases app",
   "scripts": {
+    "generate:index": "node scripts/generate_index.js",
+    "preserve": "npm run generate:index",
     "serve": "vue-cli-service serve",
+    "prebuild": "npm run generate:index",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",

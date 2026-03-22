@@ -2,7 +2,7 @@
   <DesktopPageContainer
     eyebrow="Practice Cases"
     title="Choose a case and start working through real presentations"
-    lede="Every category is still backed by the same case index JSON and case files used in the mobile Ionic app. The desktop version simply gives those collections more structure and room."
+    lede="Search and browse through hundreds of real patient cases across a range of subspecialties and pathologies, with new cases added regularly."
   >
     <template #actions>
       <div class="meta-pill" v-if="totalCases">{{ totalCases }} total cases</div>

@@ -2,7 +2,7 @@
   <DesktopPageContainer
     eyebrow="OCT Atlas"
     title="A browseable image atlas for fast pattern recognition"
-    lede="Search across OCT findings and pathologies using the same atlas JSON served to the mobile app, now arranged in a denser desktop gallery."
+    lede="Search and browse through hundreds of annotated OCT images covering a wide range of pathology, with links to relevant cases and articles for further review."
   >
     <template #actions>
       <input

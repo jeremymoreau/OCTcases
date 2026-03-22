@@ -1,7 +1,7 @@
 <template>
   <DesktopPageContainer
     eyebrow="OCT Atlas"
-    title="A browseable image atlas for fast pattern recognition."
+    title="A browseable image atlas for fast pattern recognition"
     lede="Search across OCT findings and pathologies using the same atlas JSON served to the mobile app, now arranged in a denser desktop gallery."
   >
     <template #actions>

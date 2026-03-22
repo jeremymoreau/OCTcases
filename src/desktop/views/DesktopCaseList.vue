@@ -1,7 +1,7 @@
 <template>
   <DesktopPageContainer
     eyebrow="Practice Cases"
-    title="Choose a case library and start working through real presentations."
+    title="Choose a case and start working through real presentations"
     lede="Every category is still backed by the same case index JSON and case files used in the mobile Ionic app. The desktop version simply gives those collections more structure and room."
   >
     <template #actions>

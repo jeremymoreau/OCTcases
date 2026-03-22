@@ -1,7 +1,7 @@
 <template>
   <DesktopPageContainer
     eyebrow="Optical Coherence Tomography Cases"
-    title="A modern reading room for OCT learning."
+    title="A modern platform for learning OCT interpretation"
     lede="OCTcases is a high-yield, free resource created for medical students, optometry students, residents, and eye care professionals to hone their skills in interpreting optical coherence tomography scans."
   >
     <template #actions>
@@ -405,12 +405,17 @@ export default defineComponent({
   display: grid;
   grid-template-columns: 0.95fr 1.05fr;
   gap: 28px;
-  align-items: center;
+  align-items: start;
 }
 
 .spotlight-card__body {
   display: grid;
   gap: 20px;
+  align-content: start;
+}
+
+.spotlight-card__image {
+  align-self: start;
 }
 
 @media (max-width: 1200px) {

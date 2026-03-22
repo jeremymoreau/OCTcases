@@ -1,7 +1,7 @@
 <template>
   <DesktopPageContainer
     eyebrow="Foundational Guides"
-    title="Structured OCT articles for systematic review."
+    title="Articles to build your OCT interpretation skills"
     lede="Work through anatomy, macula interpretation, angiography, RNFL and GCC, and anterior segment OCT using the same CMS-backed content that powers the mobile app."
   >
     <div v-if="loading" class="glass-card loading-card">Loading articles...</div>

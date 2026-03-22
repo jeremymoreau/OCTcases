@@ -2,7 +2,7 @@
   <DesktopPageContainer
     eyebrow="Foundational Guides"
     title="Articles to build your OCT interpretation skills"
-    lede="Work through anatomy, macula interpretation, angiography, RNFL and GCC, and anterior segment OCT using the same CMS-backed content that powers the mobile app."
+    lede="Work through our growing library of in-depth articles. Each article is richly illustrated with annotated images and diagrams, and includes links to relevant cases and atlas entries for further review."
   >
     <div v-if="loading" class="glass-card loading-card">Loading articles...</div>
     <div v-else-if="errorMessage" class="glass-card loading-card">{{ errorMessage }}</div>

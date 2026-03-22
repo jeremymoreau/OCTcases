@@ -4,7 +4,7 @@
     :title="pageData ? pageData.title : 'Information'"
     :lede="pageLede"
   >
-    <template #actions>
+    <template v-if="showBackHomeAction" #actions>
       <RouterLink class="button-secondary" to="/home">Back Home</RouterLink>
     </template>
 
@@ -53,6 +53,9 @@ export default defineComponent({
     },
     pageLede() {
       return PAGE_LEDES[this.$route.params.slug] || 'Additional OCTcases information.';
+    },
+    showBackHomeAction() {
+      return this.$route.params.slug !== 'case-submission';
     },
   },
   watch: {

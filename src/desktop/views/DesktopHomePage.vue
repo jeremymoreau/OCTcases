@@ -158,6 +158,7 @@
           rel="noopener noreferrer"
         >
           <img
+            class="collaborator-strip__logo"
             :src="collaborator.logo"
             :alt="collaborator.name"
             loading="lazy"
@@ -402,17 +403,28 @@ export default defineComponent({
 }
 
 .collaborator-strip__item {
+  position: relative;
+  overflow: hidden;
   display: grid;
   place-items: center;
-  min-height: 80px;
-  padding: 14px;
+  min-height: 88px;
+  padding: 16px 18px;
   border-radius: var(--radius-md);
+  border: 1px solid transparent;
   background: var(--surface-strong);
+  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
 }
 
-.collaborator-strip__item img {
+.collaborator-strip__item:hover {
+  transform: translateY(-2px);
+  border-color: var(--border-color);
+}
+
+.collaborator-strip__logo {
   max-height: 60px;
   width: auto;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .spotlight-card {
@@ -455,5 +467,22 @@ export default defineComponent({
   .collaborator-strip {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
+}
+
+html[data-theme='dark'] .collaborator-strip__item {
+  background:
+    radial-gradient(circle at top, rgba(255, 255, 255, 0.28), transparent 62%),
+    linear-gradient(180deg, rgba(250, 245, 235, 0.96), rgba(221, 228, 235, 0.9));
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.48), 0 16px 30px rgba(0, 0, 0, 0.18);
+}
+
+html[data-theme='dark'] .collaborator-strip__item:hover {
+  border-color: rgba(70, 199, 188, 0.24);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.52), 0 20px 34px rgba(0, 0, 0, 0.22);
+}
+
+html[data-theme='dark'] .collaborator-strip__logo {
+  filter: saturate(1.05) contrast(1.08);
 }
 </style>

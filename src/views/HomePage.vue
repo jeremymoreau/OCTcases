@@ -77,24 +77,24 @@
           <ion-grid>
             <ion-row class="logo-row">
             <ion-col text-center>
-              <a href="https://www.bayer.com/en/" target="_blank" rel="noopener">
+              <a class="logo-card" href="https://www.bayer.com/en/" target="_blank" rel="noopener">
                 <img id="logo-bayer" alt="Bayer logo" src="/assets/img/home-logo-bayer.png" /></a>
             </ion-col>
             <ion-col>
-              <a href="https://www.zeiss.ca/corporate/en/home.html" target="_blank" rel="noopener">
+              <a class="logo-card" href="https://www.zeiss.ca/corporate/en/home.html" target="_blank" rel="noopener">
                 <img id="logo-zeiss" alt="Zeiss logo" src="/assets/img/home-logo-zeiss.svg"/></a>
             </ion-col>
           </ion-row>
           <ion-row class="logo-row">
-            <a href="http://www.eyeguru.org/" target="_blank" rel="noopener">
+            <a class="logo-card" href="http://www.eyeguru.org/" target="_blank" rel="noopener">
             <img class="logos" alt="eyeguru.org logo" src="/assets/img/home-logo-eyeguru.png" /></a>
           </ion-row>
           <ion-row class="logo-row">
-            <a href="https://www.cosprc.ca/optical-coherence-tomography-oct-learning-website/" target="_blank" rel="noopener">
+            <a class="logo-card" href="https://www.cosprc.ca/optical-coherence-tomography-oct-learning-website/" target="_blank" rel="noopener">
             <img class="logos" id="logo-cos-prc" alt="Canadian Ophthalmological Society Practice Resource Centre logo" src="/assets/img/home-logo-cos-prc.svg" /></a>
           </ion-row>
           <ion-row class="logo-row">
-            <a href="https://ophthalmology.utoronto.ca/" target="_blank" rel="noopener">
+            <a class="logo-card" href="https://ophthalmology.utoronto.ca/" target="_blank" rel="noopener">
             <img class="logos" alt="University of Toronto logo" src="/assets/img/home-logo-uoft.png" /></a>
           </ion-row>
           </ion-grid>
@@ -183,6 +183,30 @@ h1 {
 .logo-row {
   text-align: center;
   justify-content: center;
+  gap: 12px;
+}
+.logo-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 96px;
+  padding: 14px 18px;
+  margin: 8px 0;
+  border-radius: 22px;
+  border: 1px solid rgba(15, 31, 43, 0.06);
+  background: rgba(15, 31, 43, 0.035);
+  overflow: hidden;
+}
+.dark .logo-card {
+  background:
+    radial-gradient(circle at top, rgba(255, 255, 255, 0.28), transparent 62%),
+    linear-gradient(180deg, rgba(250, 245, 235, 0.96), rgba(221, 228, 235, 0.9));
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.48), 0 16px 28px rgba(0, 0, 0, 0.18);
+}
+.dark .logo-card img {
+  filter: saturate(1.05) contrast(1.08);
 }
 .logos {
   display: block;
